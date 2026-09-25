@@ -1,7 +1,7 @@
 {
 "id": "L1-02",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Maladie de Horton révélée par une neuropathie optique ischémique antérieure aiguë",
 "chapitres": ["fiches_complementaires/10_horton", "cours/10_vascularites", "cours/13_traitements", "referentiel_transversal"],
 "liens_transversaux": ["Urgence ophtalmologique du sujet âgé", "Interpréter l'hémogramme et le bilan inflammatoire", "Horton ou athérosclérose", "Bolus de méthylprednisolone", "Complications de la corticothérapie prolongée et épargne cortisonique"],

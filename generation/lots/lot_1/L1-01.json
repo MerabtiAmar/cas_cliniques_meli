@@ -1,7 +1,7 @@
 {
 "id": "L1-01",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Pseudo-polyarthrite rhizomélique compliquée d'une maladie de Horton",
 "chapitres": ["fiches_complementaires/10_ppr", "fiches_complementaires/10_horton", "cours/10_vascularites", "cours/13_traitements", "referentiel_transversal", "cours/08_myopathies"],
 "liens_transversaux": ["Atteinte articulaire", "Bilan inflammatoire", "Association PPR–Horton", "Corticothérapie"],

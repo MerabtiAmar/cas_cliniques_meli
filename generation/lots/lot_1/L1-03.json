@@ -1,7 +1,7 @@
 {
 "id": "L1-03",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Maladie de Horton à forme extra-céphalique (aortite)",
 "chapitres": ["fiches_complementaires/10_horton", "cours/10_vascularites", "cours/13_traitements", "referentiel_transversal", "fiches_complementaires/10_ppr"],
 "liens_transversaux": ["Démarche devant une fièvre prolongée du sujet âgé", "Interpréter l'hémogramme et le bilan inflammatoire", "Aortite : diagnostics différentiels (infections, Takayasu, athérosclérose)", "Asymétrie tensionnelle", "Corticothérapie prolongée : précautions"],

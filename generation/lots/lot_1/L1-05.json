@@ -1,7 +1,7 @@
 {
 "id": "L1-05",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Maladie de Still de l'adulte à forme viscérale (myopéricardite, hépatite)",
 "chapitres": ["fiches_complementaires/07_still", "cours/07_still_auto_inflammatoires", "cours/01_lupus", "cours/13_traitements", "referentiel_transversal", "cours/09_amyloses"],
 "liens_transversaux": ["Péricardite fébrile", "Bilan inflammatoire", "Anti-IL-1", "Amylose AA"],

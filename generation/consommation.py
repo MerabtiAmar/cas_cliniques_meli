@@ -11,7 +11,9 @@ import os
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
-PROJET = os.path.expanduser(r"~/.claude/projects/c--Users-dell-OneDrive-Bureau-acad-cas-cliniques-meli")
+# Claude Code range les journaux d'un projet sous ~/.claude/projects/<chemin du projet, séparateurs remplacés par « - »>
+RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PROJET = os.path.expanduser("~/.claude/projects/" + "".join(c if c.isalnum() else "-" for c in RACINE))
 # $/MTok : entrée, écriture cache 5 min, écriture cache 1 h, lecture cache, sortie
 PRIX = {"opus-5-5": (4, 5, 8, 0.20, 20), "sonnet-5": (2, 2.5, 4, 0.20, 10), "haiku-4-5": (1, 1.25, 2, 0.10, 5),
         "opus-5": (5, 6.25, 10, 0.50, 25), "fable-5-1": (10, 12.5, 20, 0.25, 50)}

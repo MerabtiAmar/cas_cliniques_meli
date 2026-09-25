@@ -1,7 +1,7 @@
 {
 "id": "L1-09",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Lupus érythémateux systémique à expression hématologique, associé à un syndrome de Gougerot-Sjögren",
 "chapitres": ["cours/01_lupus", "cours/06_gougerot_sjogren", "cours/13_traitements", "referentiel_transversal", "cours/02_sapl"],
 "liens_transversaux": ["Purpura : thrombopénique ou vasculaire", "Interpréter l'hémogramme : thrombopénie et lymphopénie", "Thrombopénie : lupus, SAPL, microangiopathie thrombotique", "Gougerot-Sjögren secondaire", "Troubles visuels sous hydroxychloroquine et corticoïdes"],
