@@ -1,7 +1,7 @@
 {
 "id": "L1-07",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Fièvre méditerranéenne familiale compliquée d'une amylose AA rénale",
 "chapitres": ["cours/07_still_auto_inflammatoires", "cours/09_amyloses", "cours/11_maladies_rares", "fiches_complementaires/07_still", "referentiel_transversal", "cours/01_lupus", "cours/06_gougerot_sjogren"],
 "liens_transversaux": ["Maladies auto-inflammatoires et maladies rares", "Type d'atteinte rénale : syndrome néphrotique pur", "Amylose AA ou AL, lupus : diagnostics différentiels", "Sites de biopsie et rouge Congo", "Complications de l'insuffisance rénale chronique"],

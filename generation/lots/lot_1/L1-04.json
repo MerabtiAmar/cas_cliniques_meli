@@ -1,7 +1,7 @@
 {
 "id": "L1-04",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Pseudo-polyarthrite rhizomélique isolée",
 "chapitres": ["fiches_complementaires/10_ppr", "cours/08_myopathies", "cours/13_traitements", "fiches_complementaires/10_horton", "referentiel_transversal"],
 "liens_transversaux": ["Caractériser une atteinte articulaire", "Syndrome myogène ou impotence douloureuse", "Diagnostics différentiels de la PPR et examens qui les écartent", "Critères ACR/EULAR 2012", "Corticodépendance et épargne cortisonique"],
@@ -71,7 +71,7 @@
 "signes_negatifs": [], "piege": "", "a_verifier": false},
 {"n": 6, "enonce": "Quel traitement débutez-vous ? Quelle évolution attendez-vous ?", "competence": "traitement", "points": 2.5,
 "elements_attendus": [
-{"texte": "Prednisone à faible dose : 0,2 à 0,3 mg/kg/j, soit environ 15 à 20 mg/j, en une prise le matin", "points": 1, "justification": "PPR isolée, sans atteinte viscérale, patient de 78 kg", "sources": ["fiches_complementaires/10_ppr.md|Traitement (Corticothérapie)", "cours/13_traitements.md|p.2 (prise le matin)"]},
+{"texte": "Prednisone à faible dose : 0,2 à 0,3 mg/kg/j, soit environ 15 à 23 mg/j, en une prise le matin", "points": 1, "justification": "PPR isolée, sans atteinte viscérale, patient de 78 kg", "sources": ["fiches_complementaires/10_ppr.md|Traitement (Corticothérapie)", "cours/13_traitements.md|p.2 (prise le matin)"]},
 {"texte": "Réponse franche et rapide attendue, qui conforte le diagnostic ; en cas d'échec, revoir la dose, l'observance puis le diagnostic", "points": 0.5, "justification": "La corticosensibilité est classiquement une confirmation", "sources": ["fiches_complementaires/10_ppr.md|Diagnostic positif (critères)", "fiches_complementaires/10_ppr.md|Traitement (Échec)"]},
 {"texte": "Décroissance : 10 mg/j entre la 4e et la 8e semaine, puis 1 mg par mois ; durée d'environ 12 mois", "points": 0.5, "justification": "Schéma de décroissance de la SFR", "sources": ["fiches_complementaires/10_ppr.md|Traitement (Décroissance)"]},
 {"texte": "Mesures associées du cours et densitométrie osseuse dès le diagnostic", "points": 0.5, "justification": "Corticothérapie prévue sur environ un an", "sources": ["cours/13_traitements.md|p.2 (modalités de prescription)", "fiches_complementaires/10_ppr.md|Traitement (Ajouts de la SFR)"]}],

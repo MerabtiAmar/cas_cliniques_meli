@@ -1,7 +1,7 @@
 {
 "id": "L1-08",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Lupus érythémateux systémique révélé par une néphropathie lupique",
 "chapitres": ["cours/01_lupus", "cours/13_traitements", "cours/02_sapl", "referentiel_transversal", "cours/09_amyloses"],
 "liens_transversaux": ["Type d'atteinte rénale : syndrome néphrotique impur", "Interpréter l'hémogramme", "Néphropathie thrombotique du SAPL", "Cyclophosphamide : modalités, précautions, effets indésirables", "Infection sous immunosuppresseurs ou poussée lupique"],

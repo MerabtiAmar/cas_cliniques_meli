@@ -1,7 +1,7 @@
 {
 "id": "L1-10",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Neurolupus : crise convulsive révélant un AVC ischémique associé aux antiphospholipides",
 "chapitres": ["cours/01_lupus", "cours/02_sapl", "cours/13_traitements", "referentiel_transversal"],
 "liens_transversaux": ["Convulsions chez une lupique immunodéprimée : démarche", "Interpréter l'hémostase : TCA allongé, VDRL dissocié", "SAPL secondaire : critères et confirmation à 12 semaines", "Anticoagulation et hydroxychloroquine", "Syndrome catastrophique des antiphospholipides"],

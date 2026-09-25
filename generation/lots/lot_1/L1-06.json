@@ -1,7 +1,7 @@
 {
 "id": "L1-06",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Maladie de Still de l'adulte à forme articulaire chronique",
 "chapitres": ["fiches_complementaires/07_still", "cours/01_lupus", "cours/13_traitements", "referentiel_transversal", "cours/07_still_auto_inflammatoires", "cours/09_amyloses"],
 "liens_transversaux": ["Caractériser une atteinte articulaire", "Polyarthrite rhumatoïde et lupus : diagnostics différentiels", "Complications de la corticothérapie, corticodépendance", "Toxicité du méthotrexate ou SAM", "Amylose AA"],
