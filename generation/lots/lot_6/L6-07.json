@@ -18,13 +18,13 @@
 {"groupe": "Ionogramme", "parametre": "Kaliémie", "cle": "kaliemie", "valeur": 3.2, "unite": "mmol/L"},
 {"groupe": "Hémogramme", "parametre": "Leucocytes", "cle": "leucocytes", "valeur": 9200, "unite": "/mm³"},
 {"groupe": "Bilan inflammatoire", "parametre": "CRP", "cle": "crp", "valeur": 3, "unite": "mg/L"},
-{"groupe": "Bilan inflammatoire", "parametre": "Ferritinémie", "cle": "ferritine", "valeur": 210, "unite": "µg/L"}],
+{"groupe": "Bilan inflammatoire", "parametre": "Ferritinémie", "cle": "ferritine", "valeur": 160, "unite": "µg/L"}],
 "questions": [
 {"n": 1, "enonce": "Caractérisez la douleur de hanche. À quoi la rattachez-vous ? Justifiez votre réponse.", "competence": "caracteriser_articulaire", "points": 2,
 "elements_attendus": [
 {"texte": "Douleur de rythme mécanique", "points": 0.5, "justification": "Déclenchée par la marche et la station debout, calmée par le repos, sans réveil nocturne ni dérouillage", "sources": ["referentiel_transversal.md|§4 Caractériser une atteinte articulaire (rythme mécanique)"]},
 {"texte": "Monoarticulaire, d'une grosse articulation (hanche droite)", "points": 0.25, "justification": "Aucune autre articulation touchée", "sources": ["referentiel_transversal.md|§4 Caractériser une atteinte articulaire (nombre ; topographie)"]},
-{"texte": "Différente de l'atteinte articulaire de la maladie : pas d'arthrite inflammatoire, pas de poussée", "points": 0.5, "justification": "Ni fièvre ni rash ; CRP 3 mg/L, ferritine 210 µg/L, leucocytes 9 200/mm³ normaux", "sources": ["fiches_complementaires/07_still.md|Clinique (articulations : arthrites majorées pendant les pics)", "fiches_complementaires/07_still.md|Traitement (objectifs : CRP, NFS, ferritine normales)"]},
+{"texte": "Différente de l'atteinte articulaire de la maladie : pas d'arthrite inflammatoire, pas de poussée", "points": 0.5, "justification": "Ni fièvre ni rash ; CRP 3 mg/L, ferritine 160 µg/L, leucocytes 9 200/mm³ normaux", "sources": ["fiches_complementaires/07_still.md|Clinique (articulations : arthrites majorées pendant les pics)", "fiches_complementaires/07_still.md|Traitement (objectifs : CRP, NFS, ferritine normales)"]},
 {"texte": "Ostéonécrose aseptique de la tête fémorale, complication de la corticothérapie prolongée", "points": 0.75, "justification": "20 mg/j depuis 2 ans ; IRM", "sources": ["cours/13_traitements.md|p.1 (ostéonécrose aseptique : tête fémorale)"]}],
 "signes_negatifs": ["Pas de fièvre ni de rash", "Pas de synovite", "CRP et ferritine normales"], "piege": "", "a_verifier": false},
 {"n": 2, "enonce": "Quels autres effets indésirables de la corticothérapie présente-t-il ? Justifiez votre réponse.", "competence": "complication", "points": 2,
