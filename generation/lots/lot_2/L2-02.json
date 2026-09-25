@@ -83,8 +83,7 @@
 {"texte": "Immunosuppresseur associé : cyclophosphamide 0,5 à 0,8 g/m²/mois pendant 6 mois (ou azathioprine)", "points": 0.75, "justification": "Atteinte majeure du SNC ; 0,9 à 1,4 g par cure pour 1,8 m²", "sources": ["cours/03_behcet.md|p.5 (atteintes majeures)", "cours/13_traitements.md|p.2 (cyclophosphamide : posologie)"]},
 {"texte": "Anti-TNF-α (infliximab) en cas de forme sévère ou réfractaire", "points": 0.25, "justification": "Infliximab utilisé dans l'atteinte du SNC", "sources": ["cours/03_behcet.md|p.5 (anti-TNF-α ; médicaments approuvés)"]},
 {"texte": "Objectifs : régression des lésions à l'IRM et handicap minime (Rankin ≤ 1)", "points": 0.25, "justification": "Critères d'efficacité spécifiques de l'atteinte neurologique", "sources": ["cours/03_behcet.md|p.5 (objectifs thérapeutiques)"]}],
-"signes_negatifs": [],
-"piege": "La ciclosporine figure parmi les traitements des atteintes majeures du cours, mais elle est classiquement évitée dans le neuro-Behçet en raison de sa neurotoxicité (hors corpus, à vérifier).", "a_verifier": false}]},
+"signes_negatifs": [], "piege": "La ciclosporine figure parmi les traitements des atteintes majeures du cours, mais elle est classiquement évitée dans le neuro-Behçet en raison de sa neurotoxicité (hors corpus, à vérifier).", "a_verifier": false}]},
 {"texte": "Il reçoit des cures mensuelles de cyclophosphamide et 30 mg/j de prednisone. Dix jours après la 3e cure, il consulte pour une fièvre à 39 °C avec frissons, des brûlures mictionnelles et des urines rouges contenant des caillots. TA 110/70 mmHg, FC 110/min.",
 "examens": [
 {"groupe": "Hémogramme", "parametre": "Hémoglobine", "cle": "hemoglobine", "valeur": 14.6, "unite": "g/dL"},
