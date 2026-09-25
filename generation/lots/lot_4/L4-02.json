@@ -1,7 +1,7 @@
 {
 "id": "L4-02",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Maladie de Horton révélée par un AVC vertébro-basilaire chez un patient athéromateux",
 "chapitres": ["fiches_complementaires/10_horton", "cours/10_vascularites", "cours/13_traitements", "referentiel_transversal"],
 "liens_transversaux": ["Horton ou athérosclérose", "Interpréter le bilan inflammatoire et métabolique", "Corticothérapie chez un diabétique", "Épargne cortisonique d'emblée", "Ischémie tardive chez un patient traité"],
@@ -77,10 +77,10 @@
 {"texte": "Contrôle du diabète : renforcer le traitement, contrôler les apports glucidiques, surveiller la glycémie", "points": 0.5, "justification": "HbA1c 8,4 % ; hyperglycémie cortico-induite attendue", "sources": ["examens/cas_cliniques.md|Cas N°03 Q10", "cours/13_traitements.md|p.1 (hyperglycémie)"]},
 {"texte": "Régime hyposodé et riche en protides ; potassium, calcium et vitamine D ; activité physique adaptée", "points": 0.5, "justification": "Corticothérapie prolongée chez un sujet âgé", "sources": ["cours/13_traitements.md|p.2 (modalités de prescription)", "examens/cas_cliniques.md|Cas N°03 Q10"]},
 {"texte": "Par exception à la corticothérapie seule, épargne cortisonique précoce : méthotrexate 7,5 mg/semaine, augmenté jusqu'à 0,3 mg/kg/semaine, soit environ 22 mg (21,6 mg), avec acide folique", "points": 0.75, "justification": "Poussée grave (AVC) et diabète déséquilibré qu'aggraveront les corticoïdes : terrain à haut risque", "sources": ["cours/13_traitements.md|p.2 (indications des immunosuppresseurs ; méthotrexate)", "fiches_complementaires/10_horton.md|Traitement (épargne d'emblée si haut risque)"]},
-{"texte": "Contrôle des autres facteurs de risque : arrêt du tabac, dyslipidémie, HTA", "points": 0.5, "justification": "Tabac 50 PA, cholestérol 2,4 g/L, HDL 0,35 g/L, TA 152/84 mmHg", "sources": ["examens/cas_cliniques.md|Cas N°03 Q7", "fiches_complementaires/10_horton.md|Pronostic (décès surtout cardiovasculaires)"]},
+{"texte": "Contrôle des autres facteurs de risque : arrêt du tabac, dyslipidémie, HTA", "points": 0.5, "justification": "Tabac 50 PA, cholestérol 2,4 g/L, HDL 0,35 g/L, TA 152/84 mmHg", "sources": ["examens/cas_cliniques.md|Cas N°03 Q7", "hors_sources|L'arrêt du tabac comme mesure de réduction du risque cardiovasculaire n'est mentionné nulle part dans le corpus pour le Horton ou l'athérosclérose (le corpus ne relie le tabac qu'au lupus, au Behçet, au Gougerot-Sjögren et au Raynaud sclérodermique)"]},
 {"texte": "Durée habituelle : 18 à 24 mois, avec dégression progressive", "points": 0.25, "justification": "Dose d'attaque puis décroissance lente", "sources": ["examens/cas_cliniques.md|Cas N°03 Q9"]}],
 "signes_negatifs": [],
-"piege": "Divergences : le PNDS 2024 propose le tocilizumab en 1re intention pour l'épargne d'emblée des patients à haut risque et vise un sevrage vers 12 mois ; le cours place le méthotrexate avant les biothérapies et le corrigé du cas N°03 retient 18 à 24 mois. Pour l'examen, suivez le cours et le corrigé. [fiches_complementaires/10_horton.md|Traitement (⚠️ Divergences)]", "a_verifier": false},
+"piege": "Divergences : le PNDS 2024 propose le tocilizumab en 1re intention pour l'épargne d'emblée des patients à haut risque et vise un sevrage vers 12 mois ; le cours place le méthotrexate avant les biothérapies et le corrigé du cas N°03 retient 18 à 24 mois. Pour l'examen, suivez le cours et le corrigé. [fiches_complementaires/10_horton.md|Traitement (⚠️ Divergences)]", "a_verifier": true},
 {"n": 7, "enonce": "Quelles complications redoutez-vous dans les semaines qui suivent ?", "competence": "complication", "points": 1.5,
 "elements_attendus": [
 {"texte": "Récidive d'AVC, surtout dans les 3 semaines suivant le début du traitement, le plus souvent en fosse postérieure", "points": 0.5, "justification": "Premier AVC vertébro-basilaire", "sources": ["fiches_complementaires/10_horton.md|Complications (AVC)"]},

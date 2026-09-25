@@ -1,7 +1,7 @@
 {
 "id": "L4-08",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Angio-Behçet artériel et veineux : anévrysme poplité et thrombose veineuse profonde",
 "chapitres": ["cours/03_behcet", "cours/10_vascularites", "cours/02_sapl", "cours/13_traitements", "referentiel_transversal"],
 "liens_transversaux": ["Critères de classification du Behçet", "Anévrysme artériel du sujet jeune : diagnostic différentiel", "Thrombose du sujet jeune : SAPL", "Interpréter le bilan inflammatoire", "Cyclophosphamide : précautions et surveillance"],

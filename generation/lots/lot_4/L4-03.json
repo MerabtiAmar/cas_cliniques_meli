@@ -1,7 +1,7 @@
 {
 "id": "L4-03",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Maladie de Horton corticodépendante : rechutes, épargne cortisonique et complication aortique tardive",
 "chapitres": ["fiches_complementaires/10_horton", "cours/13_traitements", "cours/10_vascularites", "fiches_complementaires/10_ppr", "referentiel_transversal"],
 "liens_transversaux": ["Rechute ou infection sous corticoïdes", "Cataracte cortisonique", "Corticodépendance et épargne cortisonique", "CRP sous tocilizumab", "Anévrysme de l'aorte thoracique"],
@@ -47,7 +47,7 @@
 "piege": "Toute baisse visuelle chez un patient atteint de Horton impose un examen ophtalmologique urgent : ici, l'installation progressive, l'absence de signes transitoires et des papilles normales orientent vers la cataracte, mais seul cet examen permet de l'affirmer. [fiches_complementaires/10_horton.md|Clinique (signes ophtalmologiques)]", "a_verifier": false},
 {"n": 4, "enonce": "Comment qualifiez-vous l'évolution sous corticoïdes ? Quelles conséquences en tirez-vous ?", "competence": "traitement", "points": 2,
 "elements_attendus": [
-{"texte": "Corticodépendance : rechutes répétées lors de la décroissance, empêchant d'atteindre les paliers prévus (pour la PPR, la SFR retient plus d'une poussée empêchant de passer sous 5 mg/j)", "points": 0.75, "justification": "Deux rechutes lors de la décroissance, à 15 puis 12,5 mg/j", "sources": ["cours/13_traitements.md|p.2 (corticodépendance)", "fiches_complementaires/10_ppr.md|Traitement (corticodépendance)"]},
+{"texte": "Corticodépendance : rechutes répétées lors de la décroissance, empêchant d'atteindre les paliers prévus ; survenant sous 20 à 30 mg/j, elle ne remet pas en cause le diagnostic de Horton (au-delà, il faudrait le reconsidérer)", "points": 0.75, "justification": "Deux rechutes lors de la décroissance, à 15 puis 12,5 mg/j", "sources": ["cours/13_traitements.md|p.2 (immunosuppresseurs : corticodépendance / corticorésistance)", "fiches_complementaires/10_horton.md|Traitement (corticorésistance ou corticodépendance > 20-30 mg/j)"]},
 {"texte": "Indication d'un traitement d'épargne cortisonique", "points": 0.75, "justification": "Corticodépendance et mauvaise tolérance (cataracte, syndrome cushingoïde)", "sources": ["cours/13_traitements.md|p.2 (indications des immunosuppresseurs)", "fiches_complementaires/10_horton.md|Traitement (épargne cortisonique)"]},
 {"texte": "Pas de remise en cause du diagnostic", "points": 0.5, "justification": "Biopsie positive ; dépendance à dose modérée, en dessous de 20-30 mg/j", "sources": ["fiches_complementaires/10_horton.md|Traitement (corticodépendance > 20-30 mg/j : remettre en cause le diagnostic)"]}],
 "signes_negatifs": [], "piege": "", "a_verifier": false},

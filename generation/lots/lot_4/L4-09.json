@@ -1,7 +1,7 @@
 {
 "id": "L4-09",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Maladie de Behçet cutanéo-muqueuse et articulaire, poussée oculaire après l'arrêt de la colchicine",
 "chapitres": ["cours/03_behcet", "fiches_complementaires/05_sarcoidose", "cours/13_traitements", "referentiel_transversal"],
 "liens_transversaux": ["Caractéristiques de l'aphtose buccale", "Caractériser une atteinte articulaire", "Érythème noueux : Behçet ou sarcoïdose", "Spondyloarthrite et maladie de Crohn en diagnostic différentiel", "Risque de l'arrêt de la colchicine"],

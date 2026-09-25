@@ -1,7 +1,7 @@
 {
 "id": "L4-04",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Dermatomyosite paranéoplasique (anti-TIF1γ) d'un carcinome bronchique",
 "chapitres": ["cours/08_myopathies", "cours/04_sclerodermie", "cours/13_traitements", "referentiel_transversal"],
 "liens_transversaux": ["Syndrome myogène", "Lésions cutanées de la dermatomyosite ou du lupus", "Dysphagie : dermatomyosite ou sclérodermie", "Recherche d'un cancer", "Pneumopathie d'inhalation"],

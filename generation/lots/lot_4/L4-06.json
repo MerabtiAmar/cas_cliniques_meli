@@ -1,7 +1,7 @@
 {
 "id": "L4-06",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Sarcoïdose cardiaque révélée par un bloc auriculo-ventriculaire complet",
 "chapitres": ["fiches_complementaires/05_sarcoidose", "cours/05_granulomatoses", "cours/09_amyloses", "cours/11_maladies_rares", "cours/10_vascularites", "cours/13_traitements", "referentiel_transversal"],
 "liens_transversaux": ["Syncope et trouble conductif", "Amylose cardiaque et maladies de surcharge en diagnostic différentiel", "Interpréter le bilan d'une sarcoïdose", "Tuberculose latente avant un anti-TNF-α", "Surveillance des immunosuppresseurs et biothérapies"],
@@ -74,7 +74,7 @@
 {"texte": "Avant : dépistage d'une tuberculose latente (IGRA) et d'une anguillulose ; mesures associées du cours en contrôlant la calcémie", "points": 0.75, "justification": "Corticothérapie prolongée ; risque d'hypercalcémie de la sarcoïdose", "sources": ["fiches_complementaires/05_sarcoidose.md|Traitement : corticothérapie (avant traitement ; vitamine D)", "cours/13_traitements.md|p.2 (modalités de prescription)"]},
 {"texte": "Surveillance cardiaque : ECG régulier", "points": 0.5, "justification": "Troubles de conduction et du rythme", "sources": ["fiches_complementaires/05_sarcoidose.md|Atteinte cardiaque (ECG au bilan puis chaque année)"]}],
 "signes_negatifs": [],
-"piege": "Divergences : le cours donne 0,5 à 1 mg/kg/j (le PNDS, 0,3 à 0,5 mg/kg/j pour l'atteinte pulmonaire seule) et un méthotrexate débuté à 7,5 mg/semaine (PNDS : 10 à 15 mg, 20 au plus) ; le cours prescrit calcium et vitamine D sous corticoïdes, le PNDS les encadre. Pour l'examen, suivez le cours en vérifiant la calcémie. [fiches_complementaires/05_sarcoidose.md|Traitement : corticothérapie ; autres molécules]", "a_verifier": false}]},
+"piege": "Divergences : le cours donne 0,5 à 1 mg/kg/j (le PNDS, 0,3 à 0,5 mg/kg/j pour l'atteinte pulmonaire seule) et un méthotrexate débuté à 7,5 mg/semaine (PNDS : 10 à 15 mg, 20 au plus) ; le cours prescrit calcium et vitamine D sous corticoïdes, le PNDS les encadre. Pour l'examen, suivez le cours en vérifiant la calcémie. [fiches_complementaires/05_sarcoidose.md|Traitement : corticothérapie ; autres molécules] Associer le méthotrexate dès l'instauration des corticoïdes, plutôt qu'après l'échec de la corticothérapie seule (schéma habituel), est ici une exception justifiée par la gravité de l'atteinte (BAV complet, dysfonction ventriculaire) : c'est l'indication « poussée grave avec un pronostic vital mis en jeu » des immunosuppresseurs du cours de thérapeutique.", "a_verifier": false}]},
 {"texte": "Un défibrillateur implantable avec fonction de stimulation est posé. Six mois plus tard, sous prednisone 15 mg/j et méthotrexate 20 mg/semaine, le défibrillateur a délivré deux chocs pour des accès de tachycardie ventriculaire. La TEP montre un hypermétabolisme myocardique persistant. Il ne tousse pas, n'a ni fièvre ni amaigrissement ; la radiographie thoracique est inchangée. Son frère, avec qui il vit, est traité depuis 3 mois pour une tuberculose pulmonaire. Le Quantiféron, négatif avant la corticothérapie, est répété : il est positif.",
 "examens": [],
 "questions": [

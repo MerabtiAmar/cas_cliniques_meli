@@ -1,7 +1,7 @@
 {
 "id": "L4-05",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Myosite à inclusions prise à tort pour une polymyosite corticorésistante",
 "chapitres": ["cours/08_myopathies", "cours/13_traitements", "cours/11_maladies_rares", "referentiel_transversal"],
 "liens_transversaux": ["Syndrome myogène atypique", "Corticorésistance : reconsidérer le diagnostic", "Myopathie cortisonique", "Myopathies métaboliques (maladie de Pompe) en diagnostic différentiel", "Effets indésirables et arrêt de la corticothérapie"],

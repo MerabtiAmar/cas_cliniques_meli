@@ -1,7 +1,7 @@
 {
 "id": "L4-07",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Tuberculose ganglionnaire et pulmonaire prise à tort pour une sarcoïdose",
 "chapitres": ["cours/05_granulomatoses", "fiches_complementaires/05_sarcoidose", "cours/13_traitements", "cours/12_deficits_immunitaires", "referentiel_transversal"],
 "liens_transversaux": ["Démarche devant un granulome", "Tuberculose ou sarcoïdose", "Interpréter l'hémogramme et le bilan inflammatoire", "Corticothérapie et infection", "Déficits immunitaires favorisant la tuberculose"],
@@ -63,11 +63,11 @@
 {"texte": "Décision prématurée : le granulome n'est pas spécifique ; les cellules de Langhans se voient dans la tuberculose comme dans la sarcoïdose", "points": 0.5, "justification": "Granulome épithélio-giganto-cellulaire à cellules de Langhans", "sources": ["cours/05_granulomatoses.md|p.7 (cellules géantes)", "fiches_complementaires/05_sarcoidose.md|Histologie : le granulome"]},
 {"texte": "La sarcoïdose est un diagnostic d'exclusion : tableau compatible, granulome sans nécrose caséeuse, exclusion des autres granulomatoses", "points": 0.75, "justification": "Tableau atypique, nécrose non évaluée, tuberculose non exclue", "sources": ["fiches_complementaires/05_sarcoidose.md|Diagnostic positif (3 critères)"]},
 {"texte": "Rechercher la nécrose, qui oriente vers une infection", "points": 0.5, "justification": "Nécrose non évaluable sur un prélèvement fragmenté", "sources": ["cours/05_granulomatoses.md|p.8 (nécrose : infection ++)"]},
-{"texte": "Un examen direct (Ziehl) négatif ne suffit pas à éliminer une tuberculose : attendre la culture, systématique (une PCR négative n'élimine pas non plus)", "points": 0.5, "justification": "Ziehl négatif, culture en cours", "sources": ["fiches_complementaires/05_sarcoidose.md|Diagnostics différentiels (tuberculose)"]},
+{"texte": "Un examen direct (Ziehl) négatif ne suffit pas à éliminer une tuberculose : attendre la culture, systématique (une PCR négative n'élimine pas non plus)", "points": 0.5, "justification": "Ziehl négatif, culture en cours", "sources": ["fiches_complementaires/05_sarcoidose.md|Diagnostics différentiels (tuberculose : culture systématique ; une PCR négative n'élimine pas)", "hors_sources|La coloration de Ziehl-Neelsen (examen direct des mycobactéries) n'est mentionnée nulle part dans le corpus, qui ne détaille que l'IDR, le Quantiféron, la culture et la PCR"]},
 {"texte": "Une ECA élevée n'est pas un argument décisif", "points": 0.25, "justification": "78 UI/L, à peine au-dessus de 70", "sources": ["fiches_complementaires/05_sarcoidose.md|Biologie (ECA)"]},
 {"texte": "Enquête étiologique devant un granulome : infections, néoplasies (lymphome), toxiques, déficits immunitaires, puis seulement idiopathique", "points": 0.5, "justification": "Granulomatose de cause non établie", "sources": ["cours/05_granulomatoses.md|p.20 (étiologies)", "cours/05_granulomatoses.md|p.26 (idiopathique : diagnostic d'attente)"]}],
 "signes_negatifs": [],
-"piege": "Ne débutez jamais une corticothérapie pour « sarcoïdose » avant d'avoir écarté la tuberculose. Divergence : le corrigé du cas N°04 écarte la tuberculose sur une IDR anergique et un Quantiféron négatif, le PNDS impose la culture ; ici, l'IDR est positive : rien n'autorisait à écarter la tuberculose. [fiches_complementaires/05_sarcoidose.md|Diagnostic positif (⚠️ Divergence)]", "a_verifier": false}]},
+"piege": "Ne débutez jamais une corticothérapie pour « sarcoïdose » avant d'avoir écarté la tuberculose. Divergence : le corrigé du cas N°04 écarte la tuberculose sur une IDR anergique et un Quantiféron négatif, le PNDS impose la culture ; ici, l'IDR est positive : rien n'autorisait à écarter la tuberculose. [fiches_complementaires/05_sarcoidose.md|Diagnostic positif (⚠️ Divergence)]", "a_verifier": true}]},
 {"texte": "Trois semaines plus tard, la fièvre atteint 39,5 °C, la patiente s'essouffle et l'adénopathie cervicale, devenue fluctuante, se fistulise à la peau en laissant sourdre un matériel blanchâtre et grumeleux. Le scanner montre une extension des micronodules aux deux lobes supérieurs.",
 "examens": [
 {"groupe": "Microbiologie", "parametre": "Culture du prélèvement ganglionnaire", "cle": null, "valeur": "Mycobacterium tuberculosis", "unite": ""},

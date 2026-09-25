@@ -1,7 +1,7 @@
 {
 "id": "L4-01",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Artérite de Takayasu (phase inflammatoire puis phase ischémique avec HTA rénovasculaire)",
 "chapitres": ["cours/10_vascularites", "fiches_complementaires/10_horton", "cours/05_granulomatoses", "cours/13_traitements", "referentiel_transversal"],
 "liens_transversaux": ["Asymétrie tensionnelle et abolition d'un pouls", "Caractériser une atteinte articulaire", "Interpréter l'hémogramme et le bilan inflammatoire", "Takayasu ou Horton", "Aortite tuberculeuse en contexte algérien", "Corticothérapie et azathioprine chez la femme jeune"],
