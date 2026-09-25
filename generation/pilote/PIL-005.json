@@ -1,0 +1,928 @@
+{
+  "id": "PIL-005",
+  "version": 1,
+  "statut": "valide_etudiant",
+  "maladie_principale": "Maladie de Behçet",
+  "chapitres": [
+    "cours/03_behcet",
+    "cours/09_amyloses",
+    "cours/13_traitements",
+    "referentiel_transversal",
+    "cours/02_sapl"
+  ],
+  "liens_transversaux": [
+    "Diagnostics différentiels de l'aphtose buccale",
+    "Thrombose veineuse de siège inhabituel : SAPL à éliminer",
+    "Interpréter le bilan inflammatoire",
+    "Syndrome d'hypertension intracrânienne et thrombose veineuse cérébrale",
+    "Syndrome néphrotique pur et amylose AA : sites de biopsie",
+    "Corticoïdes, azathioprine, biothérapies : effets secondaires"
+  ],
+  "difficulte": 2,
+  "duree_minutes": 30,
+  "points_total": 20,
+  "patient": {
+    "sexe": "M",
+    "age": 27
+  },
+  "etapes": [
+    {
+      "texte": "Mr A.T âgé de 27 ans, commerçant, non fumeur, sans antécédents, consulte pour un gonflement des deux membres inférieurs apparu progressivement depuis 10 jours, avec une sensation de lourdeur. L'interrogatoire retrouve des aphtes buccaux récidivants depuis 3 ans, à raison de 5 à 6 poussées par an, douloureux, multiples, gênant l'alimentation, déclenchés par la consommation de noix et d'amandes ; des ulcérations douloureuses du scrotum il y a 2 mois, qui ont laissé une cicatrice ; des « boutons » du dos et des fesses ; et, depuis un mois, une baisse de l'acuité visuelle de l'œil droit avec une vision trouble. Il ne rapporte ni douleurs abdominales, ni diarrhée, ni rectorragies, ni céphalées, ni douleurs articulaires. Il ne prend aucun médicament. Il n'a pas été opéré, n'a pas été alité et n'a pas voyagé récemment.\nL'examen clinique retrouve : TA 125/80 mmHg, FC 88/min, FR 18 cycles/min, T° 37,8 °C, poids 72 kg. On note trois aphtes de la face interne des joues et du bord de la langue, à bords nets, à fond jaunâtre « beurre frais », entourés d'un halo inflammatoire ; une cicatrice dépigmentée du scrotum ; des lésions papulo-pustuleuses du dos et des fesses (pseudo-folliculite). Les deux membres inférieurs sont œdématiés jusqu'à la racine des cuisses, avec une circulation veineuse collatérale abdominale. Il n'y a ni érythème noueux, ni adénopathie, ni hépatosplénomégalie. Les pouls périphériques sont présents et symétriques, l'auscultation cardio-pulmonaire est normale, l'examen neurologique est normal. La bandelette urinaire est négative.",
+      "examens": [
+        {
+          "groupe": "Explorations",
+          "parametre": "Écho-Doppler veineux des membres inférieurs et de l'abdomen",
+          "cle": null,
+          "valeur": "thrombose de la veine cave inférieure sous-rénale, étendue aux deux veines iliaques",
+          "unite": ""
+        },
+        {
+          "groupe": "Explorations",
+          "parametre": "Examen ophtalmologique",
+          "cle": null,
+          "valeur": "œil droit : uvéite postérieure avec hyalite et vascularite rétinienne ; œil gauche normal",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 1,
+          "enonce": "Citez cinq caractéristiques de l'aphtose buccale de ce patient qui orientent vers une maladie de Behçet.",
+          "competence": "semiologie",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Récidivante et fréquente : plus de 3 poussées par an",
+              "points": 0.25,
+              "justification": "5 à 6 poussées par an depuis 3 ans",
+              "sources": [
+                "examens/qroc_par_cours.md|Behçet Q1 (P2 2026)",
+                "cours/03_behcet.md|p.4 (critères ICBD : au moins 3 épisodes en 12 mois)"
+              ]
+            },
+            {
+              "texte": "Multiple, de siège variable dans la cavité buccale",
+              "points": 0.25,
+              "justification": "Trois aphtes, face interne des joues et bord de la langue",
+              "sources": [
+                "examens/qroc_par_cours.md|Behçet Q1 (P2 2026)",
+                "cours/03_behcet.md|p.1 (aphtes buccaux)"
+              ]
+            },
+            {
+              "texte": "Douloureuse et invalidante",
+              "points": 0.25,
+              "justification": "Aphtes douloureux qui gênent l'alimentation",
+              "sources": [
+                "cours/03_behcet.md|p.1-2 (aphtes buccaux ; ce qui doit inquiéter : l'invalidité)"
+              ]
+            },
+            {
+              "texte": "Aspect typique : bords nets, fond « beurre frais », pourtour inflammatoire",
+              "points": 0.25,
+              "justification": "Aphtes à bords nets, à fond jaunâtre, entourés d'un halo inflammatoire",
+              "sources": [
+                "cours/03_behcet.md|p.1 (aphtes buccaux)"
+              ]
+            },
+            {
+              "texte": "Favorisée par l'alimentation",
+              "points": 0.25,
+              "justification": "Poussées déclenchées par les noix et les amandes",
+              "sources": [
+                "cours/03_behcet.md|p.1 (facteurs favorisants)"
+              ]
+            },
+            {
+              "texte": "Non isolée : aphtose bipolaire et autres manifestations extra-buccales",
+              "points": 0.25,
+              "justification": "Ulcérations scrotales cicatricielles, pseudo-folliculite, uvéite, thrombose",
+              "sources": [
+                "examens/qroc_par_cours.md|Behçet Q1 (P2 2026)",
+                "cours/03_behcet.md|p.2 (existence d'autres manifestations cutanéo-muqueuses et viscérales)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "L'aphtose buccale est présente dans 98 % des cas mais n'est pas spécifique : c'est son association aux autres manifestations qui oriente. Autre caractéristique classique aux annales : elle est favorisée par l'arrêt du tabac (QROC Behçet Q1).",
+          "a_verifier": false
+        },
+        {
+          "n": 2,
+          "enonce": "Citez les diagnostics différentiels de l'aphtose buccale de la maladie de Behçet. Quels éléments de l'observation vont contre une maladie inflammatoire chronique de l'intestin ?",
+          "competence": "diagnostic_differentiel",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Aphtose buccale banale récurrente",
+              "points": 0.25,
+              "justification": "Premier diagnostic différentiel",
+              "sources": [
+                "cours/03_behcet.md|p.1 (diagnostics différentiels)",
+                "examens/qroc_par_cours.md|Behçet Q23 (P2 2024)"
+              ]
+            },
+            {
+              "texte": "Maladies inflammatoires chroniques de l'intestin : maladie de Crohn, rectocolite hémorragique",
+              "points": 0.25,
+              "justification": "Aphtoses buccales d'autres causes",
+              "sources": [
+                "cours/03_behcet.md|p.1-2 (diagnostics différentiels)",
+                "examens/qroc_par_cours.md|Behçet Q2 (P2 2026)"
+              ]
+            },
+            {
+              "texte": "Maladie cœliaque",
+              "points": 0.25,
+              "justification": "Aphtoses buccales d'autres causes",
+              "sources": [
+                "cours/03_behcet.md|p.2 (diagnostics différentiels)",
+                "examens/qroc_par_cours.md|Behçet Q2 (P2 2026)"
+              ]
+            },
+            {
+              "texte": "Carences en fer, en folates, en vitamine B12",
+              "points": 0.25,
+              "justification": "Aphtoses buccales d'autres causes",
+              "sources": [
+                "cours/03_behcet.md|p.2 (diagnostics différentiels)",
+                "examens/qroc_par_cours.md|Behçet Q23 (P2 2024)"
+              ]
+            },
+            {
+              "texte": "Hémopathies, déficit immunitaire acquis, médicaments (nicorandil, captopril), infections virales ou mycosiques",
+              "points": 0.25,
+              "justification": "Aphtoses buccales d'autres causes ; le patient ne prend aucun médicament",
+              "sources": [
+                "cours/03_behcet.md|p.2 (diagnostics différentiels)",
+                "examens/qroc_par_cours.md|Behçet Q23 (P2 2024)"
+              ]
+            },
+            {
+              "texte": "Contre une maladie inflammatoire de l'intestin : aucun signe digestif",
+              "points": 0.25,
+              "justification": "Ni douleurs abdominales, ni diarrhée, ni rectorragies",
+              "sources": [
+                "cours/03_behcet.md|p.3 (atteinte digestive, proche de la RCH et du Crohn)",
+                "cours/03_behcet.md|p.5 (diagnostics différentiels : maladie de Crohn)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas de douleurs abdominales",
+            "Pas de diarrhée",
+            "Pas de rectorragies",
+            "Aucun médicament"
+          ],
+          "piege": "L'atteinte digestive du Behçet ressemble à celle de la maladie de Crohn et de la RCH, au point de poser des problèmes nosologiques : l'absence de signe digestif est un argument, pas une preuve.",
+          "a_verifier": false
+        },
+        {
+          "n": 3,
+          "enonce": "Quelles sont les caractéristiques de l'atteinte vasculaire au cours de la maladie de Behçet ? Précisez celles que présente ce patient.",
+          "competence": "semiologie",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Homme jeune sans facteur de risque vasculaire",
+              "points": 0.25,
+              "justification": "27 ans, non fumeur, ni chirurgie, ni alitement, ni voyage récent",
+              "sources": [
+                "cours/03_behcet.md|p.3 (atteinte vasculaire)",
+                "examens/qroc_par_cours.md|Behçet Q11 (P2 2026)"
+              ]
+            },
+            {
+              "texte": "Atteinte des vaisseaux de tous calibres, surtout des veines",
+              "points": 0.25,
+              "justification": "Thrombose veineuse profonde",
+              "sources": [
+                "cours/03_behcet.md|p.3 (atteinte vasculaire)",
+                "examens/qroc_par_cours.md|Behçet Q11 (P2 2026)"
+              ]
+            },
+            {
+              "texte": "Siège inhabituel (ou banal)",
+              "points": 0.25,
+              "justification": "Thrombose de la veine cave inférieure, avec circulation veineuse collatérale abdominale",
+              "sources": [
+                "cours/03_behcet.md|p.3 (thrombose de la veine cave inférieure)",
+                "examens/cas_cliniques.md|Cas N°09 Q3"
+              ]
+            },
+            {
+              "texte": "Caractère bilatéral",
+              "points": 0.25,
+              "justification": "Extension aux deux veines iliaques, œdème des deux membres inférieurs",
+              "sources": [
+                "cours/03_behcet.md|p.3 (caractère récidivant, bilatéral)",
+                "examens/cas_cliniques.md|Cas N°09 Q3"
+              ]
+            },
+            {
+              "texte": "Caractère récidivant",
+              "points": 0.25,
+              "justification": "Risque de récidive à surveiller",
+              "sources": [
+                "cours/03_behcet.md|p.3 (caractère récidivant, bilatéral)",
+                "examens/qroc_par_cours.md|Behçet Q11 (P2 2026)"
+              ]
+            },
+            {
+              "texte": "Syndrome fébrile et inflammatoire associé",
+              "points": 0.25,
+              "justification": "Fébricule à 37,8 °C",
+              "sources": [
+                "cours/03_behcet.md|p.3 (syndrome fébrile et biologique inflammatoire)",
+                "examens/qroc_par_cours.md|Behçet Q11 (P2 2026)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Non fumeur",
+            "Pas de chirurgie, d'alitement ni de voyage récent",
+            "Pouls périphériques présents et symétriques"
+          ],
+          "piege": "Une thrombose veineuse de siège inhabituel doit aussi faire rechercher un syndrome des anti-phospholipides (QROC SAPL Q4) : il sera éliminé par le bilan.",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Le bilan réalisé est le suivant.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Hémoglobine",
+          "cle": "hemoglobine",
+          "valeur": 14.6,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Leucocytes",
+          "cle": "leucocytes",
+          "valeur": 11800,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Polynucléaires neutrophiles",
+          "cle": "pnn",
+          "valeur": 8900,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 390000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "VS 1re heure",
+          "cle": "vs",
+          "valeur": 58,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 46,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "Fibrinogène",
+          "cle": "fibrinogene",
+          "valeur": 5.4,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Créatininémie",
+          "cle": "creatinine",
+          "valeur": 9,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Protéinurie des 24 h",
+          "cle": "proteinurie_24h",
+          "valeur": 0.1,
+          "unite": "g/24h"
+        },
+        {
+          "groupe": "Hémostase",
+          "parametre": "Taux de prothrombine",
+          "cle": "tp",
+          "valeur": 95,
+          "unite": "%"
+        },
+        {
+          "groupe": "Hémostase",
+          "parametre": "TCA (ratio malade/témoin)",
+          "cle": "tca_ratio",
+          "valeur": 1.0,
+          "unite": "ratio"
+        },
+        {
+          "groupe": "Hémostase",
+          "parametre": "Anticoagulant circulant de type lupique",
+          "cle": null,
+          "valeur": "négatif",
+          "unite": ""
+        },
+        {
+          "groupe": "Hémostase",
+          "parametre": "Anticorps anti-cardiolipine et anti-β2-glycoprotéine 1",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Tests et imagerie",
+          "parametre": "Test pathergique (lecture à 48 h)",
+          "cle": null,
+          "valeur": "papule érythémateuse de 4 mm au point de piqûre",
+          "unite": ""
+        },
+        {
+          "groupe": "Tests et imagerie",
+          "parametre": "Échocardiographie",
+          "cle": null,
+          "valeur": "pas de thrombose intracavitaire",
+          "unite": ""
+        },
+        {
+          "groupe": "Tests et imagerie",
+          "parametre": "Angioscanner thoracique",
+          "cle": null,
+          "valeur": "pas d'embolie pulmonaire, pas d'anévrysme de l'artère pulmonaire",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 4,
+          "enonce": "Interprétez le bilan biologique. Dans quelles situations le bilan inflammatoire est-il positif au cours de la maladie de Behçet ?",
+          "competence": "interpreter_bilan_inflammatoire",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Syndrome inflammatoire biologique",
+              "points": 0.5,
+              "justification": "VS 58 mm (> âge/2 = 13,5), CRP 46 mg/L (> 5), fibrinogène 5,4 g/L (> 4)",
+              "sources": [
+                "referentiel_transversal.md|§3 Syndrome inflammatoire biologique",
+                "examens/cas_cliniques.md|Cas N°09 Q4"
+              ]
+            },
+            {
+              "texte": "Hyperleucocytose modérée à polynucléaires neutrophiles",
+              "points": 0.25,
+              "justification": "Leucocytes 11 800/mm³ (> 10 000), PNN 8 900/mm³ (> 7 000)",
+              "sources": [
+                "referentiel_transversal.md|§2 Interpréter un hémogramme (Leucocytes)",
+                "examens/cas_cliniques.md|Cas N°09 Q4"
+              ]
+            },
+            {
+              "texte": "Pas d'anémie, plaquettes normales",
+              "points": 0.25,
+              "justification": "Hb 14,6 g/dL, plaquettes 390 000/mm³ (entre 150 000 et 400 000)",
+              "sources": [
+                "referentiel_transversal.md|§2 Interpréter un hémogramme",
+                "examens/cas_cliniques.md|Cas N°09 Q4"
+              ]
+            },
+            {
+              "texte": "Situations avec syndrome inflammatoire : angio-Behçet (ici la thrombose cave), neuro-Behçet, entéro-Behçet, érythème noueux, atteinte articulaire",
+              "points": 0.5,
+              "justification": "Le syndrome inflammatoire s'explique ici par l'atteinte vasculaire",
+              "sources": [
+                "examens/qroc_par_cours.md|Behçet Q12 (P2 2026)",
+                "examens/cas_cliniques.md|Cas N°09 Q4",
+                "cours/03_behcet.md|p.3 (atteinte vasculaire et syndrome inflammatoire)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas d'anémie",
+            "Plaquettes normales"
+          ],
+          "piege": "La pseudo-folliculite et l'aphtose ne s'accompagnent pas de syndrome inflammatoire (QROC Behçet Q9) : ne pas leur attribuer cette biologie.",
+          "a_verifier": false
+        },
+        {
+          "n": 5,
+          "enonce": "Quel diagnostic retenez-vous ? Justifiez votre réponse en appliquant les critères de classification.",
+          "competence": "diagnostic_positif",
+          "points": 3,
+          "elements_attendus": [
+            {
+              "texte": "Maladie de Behçet",
+              "points": 0.5,
+              "justification": "Aphtose bipolaire avec atteintes cutanée, oculaire et vasculaire",
+              "sources": [
+                "cours/03_behcet.md|p.1 (introduction)",
+                "examens/cas_cliniques.md|Cas N°09 Q1"
+              ]
+            },
+            {
+              "texte": "Terrain : homme jeune",
+              "points": 0.25,
+              "justification": "27 ans ; maladie de l'adulte jeune (20-50 ans) à prédominance masculine",
+              "sources": [
+                "cours/03_behcet.md|p.1 (épidémiologie)"
+              ]
+            },
+            {
+              "texte": "Critères ICBD remplis : 9 points (≥ 4)",
+              "points": 1,
+              "justification": "Aphtose buccale récidivante (2), aphtose génitale avec cicatrice (2), uvéite postérieure avec vascularite rétinienne (2), pseudo-folliculite chez un adulte ne recevant pas de corticoïdes (1), test pathergique positif avec papule de 4 mm à 48 h (1), thrombose veineuse (1)",
+              "sources": [
+                "cours/03_behcet.md|p.4 (critères ICBD, transcription des images)"
+              ]
+            },
+            {
+              "texte": "Critères de l'ISG 1990 remplis : aphtose buccale et au moins 2 items facultatifs",
+              "points": 0.25,
+              "justification": "Aphtose buccale obligatoire, plus aphtose génitale, atteinte oculaire, atteinte cutanée et test pathergique",
+              "sources": [
+                "cours/03_behcet.md|p.4 (critères ISG 1990)"
+              ]
+            },
+            {
+              "texte": "Diagnostic clinique : aucun test biologique spécifique ; le typage HLA-B51 n'a pas d'intérêt pratique",
+              "points": 0.25,
+              "justification": "Diagnostic retenu sur des critères de classification, après élimination des autres hypothèses",
+              "sources": [
+                "cours/03_behcet.md|p.4 (biologie et diagnostic positif)"
+              ]
+            },
+            {
+              "texte": "Diagnostics différentiels écartés : pas de SAPL, pas d'argument pour une maladie de Crohn",
+              "points": 0.5,
+              "justification": "Anticoagulant circulant, anti-cardiolipine et anti-β2GP1 négatifs, TCA normal ; aucun signe digestif",
+              "sources": [
+                "cours/02_sapl.md|p.2 (critères biologiques du SAPL)",
+                "cours/03_behcet.md|p.5 (diagnostics différentiels)"
+              ]
+            },
+            {
+              "texte": "Forme grave : homme, atteinte oculaire postérieure (pronostic fonctionnel) et atteinte vasculaire (pronostic vital)",
+              "points": 0.25,
+              "justification": "Uvéite postérieure droite, thrombose de la veine cave inférieure",
+              "sources": [
+                "cours/03_behcet.md|p.2-3 (atteinte ophtalmologique plus grave chez l'homme ; atteinte vasculaire cause de mortalité)",
+                "examens/qroc_par_cours.md|Behçet Q17 (P3 2025)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Anticorps antiphospholipides négatifs",
+            "TCA normal",
+            "Aucun signe digestif",
+            "Pas d'embolie pulmonaire ni d'anévrysme de l'artère pulmonaire"
+          ],
+          "piege": "La pseudo-folliculite ne compte comme critère que chez un patient sorti de l'adolescence et ne recevant pas de corticoïdes (les corticoïdes donnent une acné).",
+          "a_verifier": false
+        },
+        {
+          "n": 6,
+          "enonce": "Quel traitement proposez-vous ? Quels effets secondaires devez-vous surveiller ?",
+          "competence": "traitement",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Corticothérapie systémique (bolus de méthylprednisolone si besoin, puis prednisone 0,5 à 1 mg/kg/j) associée à un immunosuppresseur, l'azathioprine",
+              "points": 0.75,
+              "justification": "Uvéite postérieure et atteinte vasculaire : atteintes majeures",
+              "sources": [
+                "cours/03_behcet.md|p.5 (stratégie thérapeutique graduée)",
+                "cours/13_traitements.md|p.1 (corticothérapie : posologie)"
+              ]
+            },
+            {
+              "texte": "Anti-TNF-α (infliximab) en cas de forme sévère ou réfractaire ; interféron α en alternative pour l'uvéite",
+              "points": 0.25,
+              "justification": "Formes sévères ou réfractaires",
+              "sources": [
+                "cours/03_behcet.md|p.5 (stratégie thérapeutique graduée)"
+              ]
+            },
+            {
+              "texte": "Colchicine pour l'atteinte cutanéo-muqueuse",
+              "points": 0.25,
+              "justification": "Aphtose bipolaire et pseudo-folliculite",
+              "sources": [
+                "cours/03_behcet.md|p.5 (stratégie thérapeutique graduée)",
+                "examens/qroc_par_cours.md|Behçet Q4 (P2 2026)"
+              ]
+            },
+            {
+              "texte": "Corticoïdes : glaucome et cataracte (surveillance ophtalmologique), HTA, hyperglycémie, hypokaliémie ; mesures associées (régime hyposodé, pauvre en sucres, supplémentation en potassium, calcium et vitamine D)",
+              "points": 0.5,
+              "justification": "Le glaucome, favorisé par les corticoïdes, s'ajoute au risque propre de l'uvéite",
+              "sources": [
+                "cours/03_behcet.md|p.2 (glaucome lié à la prescription de corticoïdes)",
+                "cours/13_traitements.md|p.1-2 (effets indésirables et modalités de prescription)"
+              ]
+            },
+            {
+              "texte": "Azathioprine : cytopénies, hépatite, pancréatite ; surveillance de l'hémogramme et du bilan hépatique",
+              "points": 0.5,
+              "justification": "Effets indésirables de l'immunosuppresseur prescrit",
+              "sources": [
+                "cours/13_traitements.md|p.2 (azathioprine)"
+              ]
+            },
+            {
+              "texte": "Ne pas interrompre le traitement sans avis : risque de flambée, surtout neurologique et oculaire",
+              "points": 0.25,
+              "justification": "Risque connu à l'arrêt de la colchicine",
+              "sources": [
+                "examens/qroc_par_cours.md|Behçet Q16 (P2 2025)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "Le cours ne traite pas de l'anticoagulation : le traitement de la thrombose veineuse du Behçet repose d'abord sur l'immunosuppression (corticoïdes et immunosuppresseurs). La place d'un anticoagulant, discutée au cas par cas, est hors corpus (à vérifier).",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Le patient est traité et l'évolution est favorable. Deux ans plus tard, il a arrêté de lui-même l'ensemble de son traitement depuis 4 mois. Il consulte pour des céphalées intenses évoluant depuis une semaine, diffuses, plus marquées le matin, rebelles au paracétamol, accompagnées de vomissements en jet et d'éclipses visuelles. L'examen retrouve un patient conscient et orienté : TA 130/80 mmHg, FC 90/min, T° 37,9 °C, sans raideur méningée, sans déficit moteur ni sensitif ; les réflexes sont symétriques. On note deux aphtes buccaux. Le fond d'œil montre un œdème papillaire bilatéral.",
+      "examens": [
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "VS 1re heure",
+          "cle": "vs",
+          "valeur": 64,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 38,
+          "unite": "mg/L"
+        }
+      ],
+      "questions": [
+        {
+          "n": 7,
+          "enonce": "Cette présentation évoque quel syndrome ? Justifiez votre réponse.",
+          "competence": "semiologie",
+          "points": 1,
+          "elements_attendus": [
+            {
+              "texte": "Syndrome d'hypertension intracrânienne",
+              "points": 0.5,
+              "justification": "Céphalées, vomissements et œdème papillaire bilatéral",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q7"
+              ]
+            },
+            {
+              "texte": "Arguments : céphalées intenses rebelles aux antalgiques, à prédominance matinale, vomissements en jet, éclipses visuelles, œdème papillaire bilatéral",
+              "points": 0.25,
+              "justification": "Céphalées depuis une semaine, rebelles au paracétamol ; fond d'œil : œdème papillaire bilatéral",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 énoncé",
+                "examens/cas_cliniques.md|Cas N°09 Q7"
+              ]
+            },
+            {
+              "texte": "Signes négatifs : pas de syndrome méningé, pas de déficit neurologique focal, conscience normale",
+              "points": 0.25,
+              "justification": "Patient conscient et orienté, sans raideur méningée, sans déficit moteur ni sensitif",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 énoncé",
+                "referentiel_transversal.md|§11 Règles de rédaction des corrigés (signes négatifs)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas de raideur méningée",
+            "Pas de déficit moteur ni sensitif",
+            "Conscience normale"
+          ],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 8,
+          "enonce": "Quel diagnostic évoquez-vous en premier dans ce contexte ? Quel examen demandez-vous en première intention, et quel résultat attendez-vous ? Quel facteur a favorisé cette complication ?",
+          "competence": "complication",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Thrombose veineuse cérébrale (angio-Behçet ; atteinte neurologique extra-parenchymateuse)",
+              "points": 0.5,
+              "justification": "Hypertension intracrânienne isolée, sans déficit focal, chez un patient atteint d'angio-Behçet",
+              "sources": [
+                "cours/03_behcet.md|p.3 (thrombose veineuse cérébrale)",
+                "cours/03_behcet.md|p.4 (atteinte neurologique)",
+                "examens/cas_cliniques.md|Cas N°09 Q8"
+              ]
+            },
+            {
+              "texte": "Angio-IRM cérébrale",
+              "points": 0.5,
+              "justification": "Examen de première intention devant une suspicion de thrombose veineuse cérébrale",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q9",
+                "examens/qroc_par_cours.md|Behçet Q10 (P1 2026)"
+              ]
+            },
+            {
+              "texte": "Résultat attendu : thrombose d'un sinus veineux cérébral",
+              "points": 0.25,
+              "justification": "Localisation cérébrale de la thrombose veineuse du Behçet",
+              "sources": [
+                "cours/03_behcet.md|p.3 (thrombose veineuse cérébrale)"
+              ]
+            },
+            {
+              "texte": "Diagnostics à discuter : neuro-Behçet parenchymateux (encéphalite, méningo-encéphalite), rupture d'anévrysme cérébral",
+              "points": 0.25,
+              "justification": "Les atteintes parenchymateuses sont les plus fréquentes du neuro-Behçet",
+              "sources": [
+                "cours/03_behcet.md|p.4 (atteintes parenchymateuses)",
+                "examens/cas_cliniques.md|Cas N°09 Q8"
+              ]
+            },
+            {
+              "texte": "Syndrome inflammatoire attendu",
+              "points": 0.25,
+              "justification": "VS 64 mm (> âge/2, soit 14,5 à 29 ans), CRP 38 mg/L (> 5)",
+              "sources": [
+                "examens/qroc_par_cours.md|Behçet Q7 (P1 2026)",
+                "examens/qroc_par_cours.md|Behçet Q12 (P2 2026)"
+              ]
+            },
+            {
+              "texte": "Facteur favorisant : arrêt du traitement",
+              "points": 0.25,
+              "justification": "Arrêt de la colchicine et des immunosuppresseurs depuis 4 mois : risque de flambée neurologique et oculaire",
+              "sources": [
+                "examens/qroc_par_cours.md|Behçet Q16 (P2 2025)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas de déficit focal",
+            "Pas de syndrome méningé"
+          ],
+          "piege": "L'œdème papillaire menace aussi le pronostic visuel : une surveillance ophtalmologique s'impose (Cas N°09 Q10). Dans les critères ICBD, la thrombose cérébrale compte pour l'atteinte du système nerveux central (1 point).",
+          "a_verifier": false
+        }
+      ],
+      "age": 29
+    },
+    {
+      "texte": "Le patient est traité et reprend son suivi, mais l'observance reste médiocre et les poussées cutanéo-muqueuses et articulaires se répètent. Cinq ans plus tard, il consulte pour des œdèmes des membres inférieurs et une bouffissure du visage apparus depuis un mois. TA 118/72 mmHg. Les œdèmes sont blancs, mous, indolores, prenant le godet. Il n'y a ni macroglossie, ni purpura périorbitaire, ni hépatomégalie, ni signe de neuropathie. Bandelette urinaire : protéines ++++, sang négatif.",
+      "examens": [
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Protéinurie des 24 h",
+          "cle": "proteinurie_24h",
+          "valeur": 6.8,
+          "unite": "g/24h"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Albumine",
+          "cle": "albumine",
+          "valeur": 19,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Protides totaux",
+          "cle": "protides",
+          "valeur": 48,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Créatininémie",
+          "cle": "creatinine",
+          "valeur": 10,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Urée",
+          "cle": "uree",
+          "valeur": 0.38,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Sédiment urinaire",
+          "cle": null,
+          "valeur": "pas d'hématurie",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "VS 1re heure",
+          "cle": "vs",
+          "valeur": 70,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 32,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Protéines",
+          "parametre": "Électrophorèse et immunofixation des protéines sériques",
+          "cle": null,
+          "valeur": "pas de composant monoclonal",
+          "unite": ""
+        },
+        {
+          "groupe": "Imagerie",
+          "parametre": "Échographie-Doppler rénale",
+          "cle": null,
+          "valeur": "reins de taille normale, veines rénales perméables",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 9,
+          "enonce": "Quel est le type de l'atteinte rénale ? Justifiez votre réponse.",
+          "competence": "interpreter_bilan",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Atteinte glomérulaire : syndrome néphrotique",
+              "points": 0.75,
+              "justification": "Protéinurie 6,8 g/24 h (> 3), albuminémie 19 g/L (< 30), protidémie 48 g/L (< 60) ; œdèmes blancs, mous, prenant le godet",
+              "sources": [
+                "referentiel_transversal.md|§7 Atteinte rénale (syndrome néphrotique pur ou impur)",
+                "examens/cas_cliniques.md|Cas N°07 Q7"
+              ]
+            },
+            {
+              "texte": "Pur",
+              "points": 0.5,
+              "justification": "Pas d'HTA (118/72 mmHg), pas d'hématurie (bandelette et sédiment), fonction rénale normale (créatinine 10 mg/L, urée 0,38 g/L)",
+              "sources": [
+                "examens/qroc_par_cours.md|Lupus Q4 (P1 2025)",
+                "referentiel_transversal.md|§7 Atteinte rénale (syndrome néphrotique pur ou impur)"
+              ]
+            },
+            {
+              "texte": "Syndrome inflammatoire persistant : maladie mal contrôlée",
+              "points": 0.25,
+              "justification": "VS 70 mm, CRP 32 mg/L",
+              "sources": [
+                "referentiel_transversal.md|§3 Syndrome inflammatoire biologique"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas d'HTA",
+            "Pas d'hématurie",
+            "Créatinine normale"
+          ],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 10,
+          "enonce": "Quelle étiologie suspectez-vous ? Comment la confirmez-vous (sites de biopsie, coloration) ? Justifiez votre réponse.",
+          "competence": "diagnostic_etiologique",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Amylose AA",
+              "points": 0.5,
+              "justification": "Syndrome néphrotique pur au cours d'une maladie inflammatoire chronique mal contrôlée",
+              "sources": [
+                "cours/09_amyloses.md|p.2 (amylose AA)"
+              ]
+            },
+            {
+              "texte": "Terrain : inflammation chronique prolongée",
+              "points": 0.5,
+              "justification": "Maladie de Behçet active depuis des années, poussées répétées, observance médiocre, VS et CRP élevées ; la protéine SAA est produite en excès par le foie lors des processus inflammatoires",
+              "sources": [
+                "cours/09_amyloses.md|p.1 (substance amyloïde A)",
+                "cours/09_amyloses.md|p.2 (amylose AA secondaire aux affections inflammatoires chroniques)"
+              ]
+            },
+            {
+              "texte": "Atteinte rénale typique : syndrome néphrotique pur, sans HTA ni hématurie, reins de taille normale",
+              "points": 0.5,
+              "justification": "Atteinte rénale la plus constante de l'amylose AA, qui en conditionne le pronostic",
+              "sources": [
+                "cours/09_amyloses.md|p.1-2 (atteinte rénale)",
+                "examens/qroc_par_cours.md|Amyloses Q2 (P2 2026)"
+              ]
+            },
+            {
+              "texte": "Sites de biopsie : glandes salivaires accessoires, graisse abdominale péri-ombilicale, muqueuse rectale",
+              "points": 0.5,
+              "justification": "Sites de première intention, peu invasifs",
+              "sources": [
+                "examens/qroc_par_cours.md|Amyloses Q3 (P1 2026)"
+              ]
+            },
+            {
+              "texte": "Coloration au rouge Congo : biréfringence jaune-vert en lumière polarisée",
+              "points": 0.25,
+              "justification": "Coloration la plus sensible et la plus spécifique de la substance amyloïde",
+              "sources": [
+                "cours/09_amyloses.md|p.1 (caractéristiques de la substance amyloïde)"
+              ]
+            },
+            {
+              "texte": "Contre une amylose AL : pas de composant monoclonal, pas de macroglossie, pas de purpura périorbitaire, pas de neuropathie",
+              "points": 0.25,
+              "justification": "Électrophorèse et immunofixation sans composant monoclonal ; examen clinique sans signe d'amylose AL",
+              "sources": [
+                "cours/09_amyloses.md|p.1-2 (amylose AL)",
+                "examens/qroc_par_cours.md|Amyloses Q8 (P1 2024)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas de composant monoclonal",
+            "Pas de macroglossie",
+            "Pas de purpura périorbitaire",
+            "Pas de neuropathie",
+            "Veines rénales perméables"
+          ],
+          "piege": "Chez un patient aux antécédents de thrombose cave, une thrombose des veines rénales fait aussi partie des causes de syndrome néphrotique à discuter ; elle est éliminée ici par l'échographie-Doppler (point hors corpus, à vérifier).",
+          "a_verifier": false
+        },
+        {
+          "n": 11,
+          "enonce": "Quels sont les principes du traitement de cette complication et de son suivi ?",
+          "competence": "traitement",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Traitement étiologique : contrôle rapide et complet de l'inflammation de la maladie de Behçet (corticoïdes, immunosuppresseurs, biothérapie anti-TNF-α)",
+              "points": 0.5,
+              "justification": "Seul le traitement efficace de la maladie inflammatoire en cause fait régresser ou stabilise l'amylose AA",
+              "sources": [
+                "cours/09_amyloses.md|p.2 (traitement étiologique de l'amylose AA)",
+                "cours/03_behcet.md|p.5 (anti-TNF-α dans les formes sévères)"
+              ]
+            },
+            {
+              "texte": "La colchicine, efficace contre l'amylose AA de la fièvre méditerranéenne familiale, ne suffit pas dans les autres causes",
+              "points": 0.25,
+              "justification": "Amylose AA d'une cause autre que la FMF",
+              "sources": [
+                "cours/09_amyloses.md|p.2 (colchicine et amylose AA)"
+              ]
+            },
+            {
+              "texte": "Traitement symptomatique du syndrome néphrotique : néphroprotection par IEC, diurétiques, dialyse en cas d'insuffisance rénale terminale",
+              "points": 0.5,
+              "justification": "Syndrome néphrotique avec œdèmes, risque d'insuffisance rénale terminale",
+              "sources": [
+                "cours/09_amyloses.md|p.2 (traitement symptomatique)"
+              ]
+            },
+            {
+              "texte": "Suivi : maladie rénale chronique et ses complications ; effets secondaires des biothérapies (infections opportunistes, cytopénies, hépatite)",
+              "points": 0.25,
+              "justification": "Évolution vers l'insuffisance rénale chronique ; traitement par anti-TNF-α",
+              "sources": [
+                "cours/09_amyloses.md|p.3 (principes du suivi)",
+                "cours/13_traitements.md|p.2 (biothérapies : effets secondaires)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ],
+      "age": 34
+    }
+  ],
+  "synthese": [
+    "Aphtose du Behçet : récidivante (> 3/an), multiple, douloureuse, à fond « beurre frais », non isolée ; diagnostics différentiels : aphtose banale, MICI, maladie cœliaque, carences, hémopathies, médicaments.",
+    "Atteinte vasculaire : homme jeune sans facteur de risque, veines surtout, siège inhabituel (veine cave), bilatérale, récidivante, avec syndrome inflammatoire ; éliminer un SAPL.",
+    "Critères ICBD : diagnostic si ≥ 4 points (aphtose buccale 2, génitale 2, œil 2, peau 1, pathergie 1, vaisseaux 1, système nerveux 1) ; aucun test biologique, HLA-B51 sans intérêt pratique.",
+    "Céphalées avec œdème papillaire chez un Behçet, surtout après l'arrêt du traitement : thrombose veineuse cérébrale ; angio-IRM en première intention.",
+    "Syndrome néphrotique pur après des années d'inflammation : amylose AA ; biopsie des glandes salivaires accessoires, de la graisse abdominale ou du rectum, rouge Congo ; traiter la maladie causale."
+  ]
+}

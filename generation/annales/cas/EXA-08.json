@@ -1,0 +1,516 @@
+{
+  "id": "EXA-08",
+  "version": 1,
+  "statut": "annales",
+  "maladie_principale": "Artérite à cellules géantes (maladie de Horton)",
+  "chapitres": [
+    "cours/10_vascularites",
+    "referentiel_transversal",
+    "cours/13_traitements"
+  ],
+  "liens_transversaux": [
+    "Pseudopolyarthrite rhizomélique évoluant vers une maladie de Horton",
+    "Complications ischémiques de l'artérite à cellules géantes"
+  ],
+  "difficulte": 2,
+  "duree_minutes": 25,
+  "points_total": 20,
+  "bareme_origine": "reparti",
+  "patient": {
+    "sexe": "M",
+    "age": 72
+  },
+  "etapes": [
+    {
+      "texte": "Un homme de 72 ans, sans antécédent hormis une HTA révélée par des céphalées occipitales et un diabète de type 2 bien équilibré, consulte pour une fatigue inhabituelle, une sensation fébrile et une anorexie évoluant depuis 3 mois. Il rapporte des douleurs des épaules et des hanches, le réveillant très tôt le matin, comme si ses articulations étaient « soudées ». Examen sans particularité hormis une limitation des mouvements des articulations douloureuses. TA 138/62 mmHg au bras droit, 135/60 au bras gauche, T° 38,2 °C.",
+      "examens": [],
+      "questions": [
+        {
+          "n": 1,
+          "enonce": "Caractérisez les manifestations articulaires. Justifiez votre réponse.",
+          "competence": "caracteriser_articulaire",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Rhumatisme inflammatoire chronique",
+              "points": 0.5,
+              "justification": "Réveil très tôt le matin, dérouillage matinal",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q1"
+              ]
+            },
+            {
+              "texte": "Atteinte des ceintures scapulaire et pelvienne",
+              "points": 0.5,
+              "justification": "Douleurs des épaules et des hanches",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q1"
+              ]
+            },
+            {
+              "texte": "Sans atteinte axiale",
+              "points": 0.5,
+              "justification": "Atteinte limitée aux ceintures",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q1"
+              ]
+            },
+            {
+              "texte": "Bilatérale et symétrique",
+              "points": 0.5,
+              "justification": "Atteinte symétrique décrite",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q1"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Examen clinique sans autre particularité"
+          ],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 2,
+          "enonce": "Quel diagnostic rhumatologique évoquez-vous en premier ? Justifiez.",
+          "competence": "diagnostic_positif",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Pseudopolyarthrite rhizomélique",
+              "points": 0.67,
+              "justification": "Diagnostic évoqué en première intention",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q2"
+              ]
+            },
+            {
+              "texte": "Terrain : sujet âgé (72 ans)",
+              "points": 0.67,
+              "justification": "Âge du patient",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q2"
+              ]
+            },
+            {
+              "texte": "Douleurs inflammatoires des ceintures et signes généraux (fièvre, anorexie, asthénie)",
+              "points": 0.66,
+              "justification": "T° 38,2 °C, anorexie et asthénie rapportées",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q2"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Le patient revient six mois plus tard pour la réapparition des mêmes symptômes, associée à des céphalées temporo-pariétales depuis une semaine, ne cédant pas au paracétamol.",
+      "examens": [],
+      "questions": [
+        {
+          "n": 3,
+          "enonce": "Compte tenu du contexte, quel diagnostic suspectez-vous ? Justifiez votre réponse.",
+          "competence": "diagnostic_positif",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Maladie de Horton",
+              "points": 0.5,
+              "justification": "Diagnostic évoqué devant les nouveaux symptômes",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q3"
+              ]
+            },
+            {
+              "texte": "Terrain : sujet âgé",
+              "points": 0.5,
+              "justification": "72 ans",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q3"
+              ]
+            },
+            {
+              "texte": "Céphalées temporo-pariétales récentes, résistantes au paracétamol",
+              "points": 0.5,
+              "justification": "Céphalées depuis une semaine, rebelles aux antalgiques",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q3"
+              ]
+            },
+            {
+              "texte": "Altération de l'état général et rhumatisme inflammatoire persistant",
+              "points": 0.5,
+              "justification": "PPR connue, asthénie, anorexie",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q3"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 4,
+          "enonce": "Citez au moins trois anomalies cliniques anamnestiques que vous recherchez pour étayer votre diagnostic.",
+          "competence": "semiologie",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Baisse brutale de l'acuité visuelle ou flou visuel",
+              "points": 0.5,
+              "justification": "Symptôme à rechercher activement (Horton)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q4"
+              ]
+            },
+            {
+              "texte": "Claudication intermittente de la mâchoire",
+              "points": 0.5,
+              "justification": "Symptôme à rechercher activement (Horton)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q4"
+              ]
+            },
+            {
+              "texte": "Hyperesthésie du cuir chevelu (signe du peigne)",
+              "points": 0.5,
+              "justification": "Symptôme à rechercher activement (Horton)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q4"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 5,
+          "enonce": "Citez au moins trois anomalies recherchées à l'examen physique pour étayer votre diagnostic.",
+          "competence": "semiologie",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Anomalie de la palpation de l'artère temporale (indurée, sensible, pouls diminué ou aboli)",
+              "points": 0.5,
+              "justification": "Signe physique cardinal de la maladie de Horton",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q5"
+              ]
+            },
+            {
+              "texte": "Asymétrie tensionnelle entre les deux bras",
+              "points": 0.5,
+              "justification": "Signe d'atteinte des gros troncs artériels",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q5"
+              ]
+            },
+            {
+              "texte": "Nécrose du cuir chevelu",
+              "points": 0.5,
+              "justification": "Complication ischémique cutanée possible",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q5"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Bilan biologique apporté par le patient : hémoglobine 9,7 g/dL, VGM 76 fL, leucocytes 8 900/mm³, plaquettes 460 000/mm³, réticulocytes 46 000/mm³, test de Coombs négatif, VS 126 mm, CRP 132 mg/L, fibrinogène 6,1 g/L, gammaglobulines 17,2 g/L, ferritinémie 1 270 µg/L (N<280), facteur rhumatoïde négatif.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Hémoglobine",
+          "cle": "hemoglobine",
+          "valeur": 9.7,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "VGM",
+          "cle": "vgm",
+          "valeur": 76,
+          "unite": "fL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Leucocytes",
+          "cle": "leucocytes",
+          "valeur": 8900,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 460000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Réticulocytes",
+          "cle": "reticulocytes",
+          "valeur": 46000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Test de Coombs",
+          "cle": null,
+          "valeur": "négatif",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "VS",
+          "cle": "vs",
+          "valeur": 126,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 132,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "Fibrinogène",
+          "cle": "fibrinogene",
+          "valeur": 6.1,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Électrophorèse des protides",
+          "parametre": "Gammaglobulines",
+          "cle": "gammaglobulines",
+          "valeur": 17.2,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan martial",
+          "parametre": "Ferritinémie",
+          "cle": "ferritine",
+          "valeur": 1270,
+          "unite": "µg/L"
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Facteur rhumatoïde",
+          "cle": null,
+          "valeur": "négatif",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 6,
+          "enonce": "Interprétez le bilan inflammatoire. Justifiez votre réponse.",
+          "competence": "interpreter_bilan_inflammatoire",
+          "points": 3,
+          "elements_attendus": [
+            {
+              "texte": "Augmentation de la VS et de la CRP",
+              "points": 1,
+              "justification": "VS 126 mm (> âge/2 = 36), CRP 132 mg/L (>5)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q6"
+              ]
+            },
+            {
+              "texte": "Élévation du fibrinogène",
+              "points": 1,
+              "justification": "Fibrinogène 6,1 g/L (>4)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q6"
+              ]
+            },
+            {
+              "texte": "Hypergammaglobulinémie",
+              "points": 1,
+              "justification": "Gammaglobulines 17,2 g/L (>15)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q6"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 7,
+          "enonce": "Que préconisez-vous en attendant les résultats des autres examens ? Justifiez.",
+          "competence": "traitement",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Instaurer une corticothérapie sans délai (0,7 mg/kg/j)",
+              "points": 0.75,
+              "justification": "Suspicion de Horton, urgence thérapeutique pour prévenir la cécité",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q7"
+              ]
+            },
+            {
+              "texte": "Suivi clinique et biologique régulier",
+              "points": 0.75,
+              "justification": "Surveillance de l'efficacité et de la tolérance",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q7"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Le patient, perdu de vue, est amené aux urgences deux semaines plus tard pour une baisse brutale de l'acuité visuelle des deux yeux.",
+      "examens": [],
+      "questions": [
+        {
+          "n": 8,
+          "enonce": "Quelles sont les trois atteintes ophtalmologiques possibles dans ce contexte ?",
+          "competence": "complication",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Diplopie",
+              "points": 0.5,
+              "justification": "Atteinte oculomotrice ischémique possible",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q8"
+              ]
+            },
+            {
+              "texte": "Neuropathie optique ischémique antérieure (NOIA)",
+              "points": 0.5,
+              "justification": "Complication ophtalmologique majeure de la maladie de Horton",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q8"
+              ]
+            },
+            {
+              "texte": "Cécité",
+              "points": 0.5,
+              "justification": "Complication la plus redoutée, souvent irréversible",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q8"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Le patient est hospitalisé et un traitement est débuté en urgence. L'examen retrouve une abolition du pouls huméral droit, PA 92/43 mmHg au bras droit et 148/67 au bras gauche.",
+      "examens": [],
+      "questions": [
+        {
+          "n": 9,
+          "enonce": "Interprétez les résultats de la prise de pression artérielle. Justifiez votre réponse.",
+          "competence": "semiologie",
+          "points": 1,
+          "elements_attendus": [
+            {
+              "texte": "Asymétrie tensionnelle entre les deux bras, supérieure à 20 mmHg",
+              "points": 1,
+              "justification": "PA 92/43 à droite contre 148/67 à gauche",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q9"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 10,
+          "enonce": "À quoi sont dues les anomalies vasculaires observées chez le patient ?",
+          "competence": "physiopathologie",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Sténose voire occlusion de l'artère sous-clavière droite",
+              "points": 1.5,
+              "justification": "Abolition du pouls huméral droit, asymétrie tensionnelle",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q10"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 11,
+          "enonce": "Le traitement prescrit expose le patient à des effets secondaires. Citez-en au moins quatre.",
+          "competence": "surveillance",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Hyperglycémie",
+              "points": 0.625,
+              "justification": "Effet métabolique de la corticothérapie, à surveiller chez ce patient diabétique",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q11"
+              ]
+            },
+            {
+              "texte": "Ostéonécrose aseptique",
+              "points": 0.625,
+              "justification": "Complication osseuse de la corticothérapie",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q11"
+              ]
+            },
+            {
+              "texte": "Hypokaliémie",
+              "points": 0.625,
+              "justification": "Effet électrolytique de la corticothérapie",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q11"
+              ]
+            },
+            {
+              "texte": "Freinage de l'axe corticotrope",
+              "points": 0.625,
+              "justification": "Risque d'insuffisance surrénalienne à l'arrêt",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°08 Q11"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    }
+  ],
+  "synthese": [
+    "La pseudopolyarthrite rhizomélique et la maladie de Horton appartiennent au même spectre chez le sujet âgé.",
+    "Toute suspicion de Horton impose une corticothérapie immédiate, sans attendre la biopsie, pour prévenir la cécité.",
+    "L'atteinte des gros troncs artériels (sous-clavière) est une complication ischémique de l'artérite à cellules géantes."
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "id": "EXA-09",
+  "version": 1,
+  "statut": "annales",
+  "maladie_principale": "Maladie de Behçet",
+  "chapitres": [
+    "cours/03_behcet",
+    "referentiel_transversal",
+    "cours/13_traitements"
+  ],
+  "liens_transversaux": [
+    "Syndrome de Hughes-Stovin (anévrisme artère pulmonaire + thrombose)",
+    "Hypertension intracrânienne au cours du neuro-Behçet"
+  ],
+  "difficulte": 3,
+  "duree_minutes": 25,
+  "points_total": 20,
+  "bareme_origine": "reparti",
+  "patient": {
+    "sexe": "M",
+    "age": 24
+  },
+  "etapes": [
+    {
+      "texte": "Mr H.A, 24 ans, consulte pour une grosse jambe douloureuse gauche. Antécédents : psoriasis chez la sœur, frère suivi pour une panuvéite bilatérale. Examen : diminution du ballottement du mollet gauche, œil rouge avec baisse de l'acuité visuelle révélant une vascularite rétinienne au fond d'œil. PA 124/82 mmHg, FC 90/min, FR 18/min, T° 37,8 °C.",
+      "examens": [],
+      "questions": [
+        {
+          "n": 1,
+          "enonce": "Vous évoquez un diagnostic, lequel ? Justifiez.",
+          "competence": "diagnostic_positif",
+          "points": 3,
+          "elements_attendus": [
+            {
+              "texte": "Maladie de Behçet",
+              "points": 0.75,
+              "justification": "Diagnostic évoqué devant ce tableau",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q1"
+              ]
+            },
+            {
+              "texte": "Terrain : homme jeune",
+              "points": 0.75,
+              "justification": "24 ans",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q1"
+              ]
+            },
+            {
+              "texte": "Antécédents familiaux auto-immuns (sœur psoriasis, frère panuvéite)",
+              "points": 0.75,
+              "justification": "Contexte familial évocateur",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q1"
+              ]
+            },
+            {
+              "texte": "Atteinte oculaire (vascularite rétinienne) et vasculaire (TVP du mollet gauche)",
+              "points": 0.75,
+              "justification": "Vascularite rétinienne au FO, diminution du ballottement du mollet",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q1"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 2,
+          "enonce": "Citez cinq manifestations cutanéo-muqueuses à rechercher chez ce patient.",
+          "competence": "semiologie",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Aphtose buccale",
+              "points": 0.3,
+              "justification": "Manifestation cardinale de la maladie de Behçet",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q2"
+              ]
+            },
+            {
+              "texte": "Aphtose génitale",
+              "points": 0.3,
+              "justification": "Manifestation cardinale de la maladie de Behçet",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q2"
+              ]
+            },
+            {
+              "texte": "Érythème noueux",
+              "points": 0.3,
+              "justification": "Manifestation cutanée classique",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q2"
+              ]
+            },
+            {
+              "texte": "Pseudofolliculite",
+              "points": 0.3,
+              "justification": "Manifestation cutanée classique",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q2"
+              ]
+            },
+            {
+              "texte": "Ulcérations cutanées",
+              "points": 0.3,
+              "justification": "Manifestation cutanée classique",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q2"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 3,
+          "enonce": "Quelles sont les caractéristiques de l'atteinte vasculaire au cours de cette maladie ?",
+          "competence": "semiologie",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Siège banal ou inhabituel",
+              "points": 0.3,
+              "justification": "Caractéristique de l'angio-Behçet",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q3"
+              ]
+            },
+            {
+              "texte": "Atteinte de vaisseaux de tous calibres",
+              "points": 0.3,
+              "justification": "Caractéristique de l'angio-Behçet",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q3"
+              ]
+            },
+            {
+              "texte": "Bilatérale",
+              "points": 0.3,
+              "justification": "Caractéristique de l'angio-Behçet",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q3"
+              ]
+            },
+            {
+              "texte": "Récidivante",
+              "points": 0.3,
+              "justification": "Caractéristique de l'angio-Behçet",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q3"
+              ]
+            },
+            {
+              "texte": "Absence de facteurs de risque vasculaire",
+              "points": 0.3,
+              "justification": "Caractéristique de l'angio-Behçet",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q3"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Bilan biologique : GB 12 000/mm³, Hb 14 g/dL, plaquettes 200 000/mm³, PNN 8 000/mm³, CRP 64 mg/L, VS 80 mm, fibrinogène 5 g/L.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Leucocytes",
+          "cle": "leucocytes",
+          "valeur": 12000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Hémoglobine",
+          "cle": "hemoglobine",
+          "valeur": 14,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 200000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Polynucléaires neutrophiles",
+          "cle": "pnn",
+          "valeur": 8000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 64,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "VS",
+          "cle": "vs",
+          "valeur": 80,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "Fibrinogène",
+          "cle": "fibrinogene",
+          "valeur": 5,
+          "unite": "g/L"
+        }
+      ],
+      "questions": [
+        {
+          "n": 4,
+          "enonce": "Interprétez le bilan, donnez le diagnostic biologique et les situations cliniques associées au cours de cette pathologie.",
+          "competence": "interpreter_bilan_inflammatoire",
+          "points": 3,
+          "elements_attendus": [
+            {
+              "texte": "Hémoglobine et plaquettes sans anomalie",
+              "points": 1,
+              "justification": "Hb 14 g/dL, plaquettes 200 000/mm³ dans les limites normales",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q4"
+              ]
+            },
+            {
+              "texte": "Légère hyperleucocytose à neutrophiles avec syndrome inflammatoire (VS, CRP, fibrinogène augmentés)",
+              "points": 1,
+              "justification": "GB 12 000, PNN 8 000, VS 80, CRP 64, fibrinogène 5",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q4"
+              ]
+            },
+            {
+              "texte": "Situations cliniques associées à un syndrome inflammatoire au cours du Behçet : angio-Behçet, neuro-Behçet, entéro-Behçet, érythème noueux, atteinte articulaire",
+              "points": 1,
+              "justification": "Situations classiquement associées à un bilan inflammatoire positif",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q4"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Au cours de son hospitalisation, le patient rapporte une toux avec de rares hémoptysies.",
+      "examens": [],
+      "questions": [
+        {
+          "n": 5,
+          "enonce": "Vous évoquez deux diagnostics, lesquels ?",
+          "competence": "diagnostic_differentiel",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Anévrisme de l'artère pulmonaire",
+              "points": 1,
+              "justification": "Toux avec hémoptysies rares, contexte thrombotique (syndrome de Hughes-Stovin)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q5"
+              ]
+            },
+            {
+              "texte": "Embolie pulmonaire",
+              "points": 1,
+              "justification": "Toux, hémoptysies, contexte de TVP du mollet",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q5"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 6,
+          "enonce": "Vous décidez de mettre un traitement. Citez les armes thérapeutiques.",
+          "competence": "traitement",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Anti-inflammatoires : colchicine",
+              "points": 0.5,
+              "justification": "Traitement de fond de la maladie de Behçet",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q6"
+              ]
+            },
+            {
+              "texte": "Corticoïdes",
+              "points": 0.5,
+              "justification": "Traitement des poussées et des atteintes sévères",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q6"
+              ]
+            },
+            {
+              "texte": "Immunosuppresseurs",
+              "points": 0.5,
+              "justification": "Formes sévères ou cortico-dépendantes",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q6"
+              ]
+            },
+            {
+              "texte": "Biothérapie",
+              "points": 0.5,
+              "justification": "Formes réfractaires",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q6"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Après une bonne évolution, le patient reconsulte deux ans plus tard pour des céphalées intenses évoluant depuis 5 jours, rebelles aux antalgiques habituels, avec nausées, vomissements et une vision double depuis 3 jours. Il est apyrétique, confus, sans syndrome méningé ; on note une aphtose buccale et un œdème papillaire bilatéral à l'examen ophtalmologique.",
+      "examens": [],
+      "questions": [
+        {
+          "n": 7,
+          "enonce": "Cette présentation évoque un syndrome, lequel ?",
+          "competence": "semiologie",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Syndrome d'hypertension intracrânienne",
+              "points": 1.5,
+              "justification": "Céphalées, nausées/vomissements, diplopie, œdème papillaire bilatéral",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q7"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Apyrétique",
+            "Absence de syndrome méningé"
+          ],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 8,
+          "enonce": "Vous évoquez deux diagnostics, lesquels ?",
+          "competence": "diagnostic_differentiel",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Rupture d'anévrisme cérébral",
+              "points": 1,
+              "justification": "Hypothèse à évoquer devant ce tableau chez un patient avec atteinte vasculaire connue",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q8"
+              ]
+            },
+            {
+              "texte": "Thrombose veineuse cérébrale",
+              "points": 1,
+              "justification": "Contexte de Behçet avec atteinte vasculaire, aphtose active",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q8"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 9,
+          "enonce": "Quel examen demandez-vous en première intention pour étayer le diagnostic ?",
+          "competence": "examen_complementaire",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Angio-IRM cérébrale",
+              "points": 1.5,
+              "justification": "Examen de première intention pour une thrombose veineuse cérébrale ou un anévrisme",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q9"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 10,
+          "enonce": "Citez trois complications pouvant engager le pronostic visuel.",
+          "competence": "complication",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Uvéite postérieure",
+              "points": 0.67,
+              "justification": "Atteinte du pôle postérieur de l'œil",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q10"
+              ]
+            },
+            {
+              "texte": "Œdème papillaire",
+              "points": 0.67,
+              "justification": "Retrouvé à l'examen ophtalmologique",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q10"
+              ]
+            },
+            {
+              "texte": "Vascularite rétinienne",
+              "points": 0.66,
+              "justification": "Déjà présente lors du premier épisode",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°09 Q10"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    }
+  ],
+  "synthese": [
+    "Une thrombose veineuse associée à une atteinte oculaire et des antécédents familiaux auto-immuns doit faire évoquer une maladie de Behçet.",
+    "L'atteinte vasculaire (angio-Behçet) peut toucher tous les calibres et tous les territoires, y compris l'artère pulmonaire (syndrome de Hughes-Stovin).",
+    "Le neuro-Behçet peut se manifester par un syndrome d'hypertension intracrânienne, notamment par thrombose veineuse cérébrale."
+  ]
+}

@@ -1,0 +1,887 @@
+{
+  "id": "PIL-003",
+  "version": 1,
+  "statut": "valide_etudiant",
+  "maladie_principale": "Sclérodermie systémique",
+  "chapitres": [
+    "cours/04_sclerodermie",
+    "cours/08_myopathies",
+    "cours/13_traitements",
+    "referentiel_transversal"
+  ],
+  "liens_transversaux": [
+    "Phénomène de Raynaud secondaire",
+    "Dyspnée : pneumopathie interstitielle diffuse ou HTAP",
+    "Syndrome myogène et myosite de chevauchement",
+    "Corticothérapie à forte dose et crise rénale sclérodermique",
+    "Microangiopathie thrombotique : anémie hémolytique mécanique"
+  ],
+  "difficulte": 3,
+  "duree_minutes": 30,
+  "points_total": 20,
+  "patient": {
+    "sexe": "F",
+    "age": 46
+  },
+  "etapes": [
+    {
+      "texte": "Mme F.B âgée de 46 ans, couturière, sans antécédents, non fumeuse, consulte pour un changement de coloration des doigts évoluant depuis un an. Au début, les doigts devenaient blancs puis bleus au contact de l'eau froide en hiver ; depuis quelques mois, les crises surviennent même en été, touchent tous les doigts y compris les pouces et sont très douloureuses. Elle signale une plaie de la pulpe de l'index droit qui cicatrise mal. Depuis 8 mois, la peau de ses doigts s'est épaissie et elle a du mal à fermer complètement les mains ; l'épaississement s'est étendu aux avant-bras, aux bras et à la partie haute du thorax. Elle se plaint de brûlures rétrosternales et de régurgitations acides après les repas, aggravées en position couchée, avec une sensation de blocage des aliments solides derrière le sternum. Depuis 4 mois, elle rapporte une dyspnée d'effort stade 2 et une toux sèche. Elle ne prend aucun traitement.\nL'examen clinique retrouve : TA 125/75 mmHg, FC 88/min, FR 22 cycles/min, T° 37 °C, SpO2 94 % à l'air ambiant, poids 60 kg. La peau des doigts, des mains, des avant-bras et des bras est épaissie, indurée, impossible à plisser entre le pouce et l'index ; les doigts sont rétractés en flexion. Il existe une ulcération pulpaire de l'index droit, des télangiectasies du visage, un amincissement des lèvres et des plis radiés péribuccaux. L'auscultation retrouve des râles crépitants secs aux deux bases. Il n'y a pas de turgescence jugulaire, pas d'hépatomégalie, pas d'œdème des membres inférieurs. Les articulations sont douloureuses, sans gonflement. La force musculaire est normale. Il n'y a pas de calcinose sous-cutanée. La bandelette urinaire est négative.",
+      "examens": [],
+      "questions": [
+        {
+          "n": 1,
+          "enonce": "Les changements de coloration des doigts font évoquer quel diagnostic ? Quels éléments plaident pour son origine secondaire ? Quel examen simple permet de l'étayer, et quelles anomalies attendez-vous ?",
+          "competence": "semiologie",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Phénomène de Raynaud",
+              "points": 0.25,
+              "justification": "Doigts qui deviennent blancs puis bleus au froid",
+              "sources": [
+                "referentiel_transversal.md|§6 Phénomène de Raynaud",
+                "examens/cas_cliniques.md|Cas N°02 Q2"
+              ]
+            },
+            {
+              "texte": "Perte du caractère saisonnier",
+              "points": 0.25,
+              "justification": "Crises survenant même en été",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°02 Q3",
+                "examens/qroc_par_cours.md|Sclérodermie Q9 (P3 2025)"
+              ]
+            },
+            {
+              "texte": "Atteinte de tous les doigts, pouces compris",
+              "points": 0.25,
+              "justification": "Le Raynaud n'épargne pas les pouces",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°02 Q3",
+                "examens/qroc_par_cours.md|Sclérodermie Q9 (P3 2025)"
+              ]
+            },
+            {
+              "texte": "Troubles trophiques",
+              "points": 0.25,
+              "justification": "Ulcération pulpaire de l'index droit qui cicatrise mal",
+              "sources": [
+                "examens/qroc_par_cours.md|Sclérodermie Q9 (P3 2025)",
+                "cours/04_sclerodermie.md|p.1 (Raynaud sévère avec ischémie et ulcérations)"
+              ]
+            },
+            {
+              "texte": "Caractère douloureux et manifestations systémiques associées",
+              "points": 0.5,
+              "justification": "Crises très douloureuses ; sclérose cutanée, reflux gastro-œsophagien, dyspnée et crépitants",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°02 Q3",
+                "examens/qroc_par_cours.md|Sclérodermie Q9 (P3 2025)"
+              ]
+            },
+            {
+              "texte": "Capillaroscopie : mégacapillaires, raréfaction des capillaires, hémorragies sous-unguéales",
+              "points": 0.5,
+              "justification": "Anomalies attendues au cours de la sclérodermie",
+              "sources": [
+                "cours/04_sclerodermie.md|p.1 (capillaroscopie)",
+                "examens/qroc_par_cours.md|Sclérodermie Q1 (P2 2026)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "Les anomalies capillaroscopiques reviennent cinq fois aux annales (QROC Sclérodermie Q1, Q6, Q8, Q13, Q17) : retenir le trio mégacapillaires, raréfaction capillaire, hémorragies sous-unguéales.",
+          "a_verifier": false
+        },
+        {
+          "n": 2,
+          "enonce": "À quoi rattachez-vous les brûlures rétrosternales ? Quelles complications faut-il redouter, et par quel examen les rechercher ?",
+          "competence": "complication",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Reflux gastro-œsophagien lié à l'atteinte œsophagienne sclérodermique : hypomotilité œsophagienne et hypotonie du sphincter inférieur de l'œsophage",
+              "points": 0.5,
+              "justification": "Brûlures rétrosternales et régurgitations acides post-prandiales aggravées en décubitus, dysphagie basse aux solides ; l'hypomotilité est objectivée par la manométrie œsophagienne",
+              "sources": [
+                "cours/04_sclerodermie.md|p.2 (manifestations digestives : œsophage)"
+              ]
+            },
+            {
+              "texte": "Complications : œsophagite peptique, endobrachyœsophage, adénocarcinome de l'œsophage",
+              "points": 0.5,
+              "justification": "Reflux chronique sur un sphincter hypotonique",
+              "sources": [
+                "cours/04_sclerodermie.md|p.2 (complications du RGO)",
+                "examens/qroc_par_cours.md|Sclérodermie Q3 (P1 2026)"
+              ]
+            },
+            {
+              "texte": "Fibroscopie œso-gastro-duodénale (FOGD)",
+              "points": 0.5,
+              "justification": "Examen qui recherche l'œsophagite, l'endobrachyœsophage et le cancer",
+              "sources": [
+                "cours/04_sclerodermie.md|p.2 (complications : FOGD)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "La dysphagie basse rétrosternale de la sclérodermie (hypomotilité œsophagienne) diffère de la dysphagie haute des myosites (atteinte des muscles pharyngo-laryngés).",
+          "a_verifier": false
+        },
+        {
+          "n": 3,
+          "enonce": "Quelles sont les deux principales étiologies de la dyspnée dans ce contexte ? Pour chacune, quels examens demandez-vous et quels résultats attendez-vous ?",
+          "competence": "examen_complementaire",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Pneumopathie interstitielle diffuse (PID)",
+              "points": 0.25,
+              "justification": "Dyspnée d'effort progressive, toux sèche, crépitants secs aux deux bases, SpO2 94 %",
+              "sources": [
+                "examens/qroc_par_cours.md|Sclérodermie Q15 (P2 2024)",
+                "cours/04_sclerodermie.md|p.2 (PID : clinique)"
+              ]
+            },
+            {
+              "texte": "TDM thoracique haute résolution : verre dépoli (inflammation) ou rayon de miel (fibrose) ; radiographie normale ou opacités réticulaires",
+              "points": 0.5,
+              "justification": "Lésions scanographiques de la PID sclérodermique",
+              "sources": [
+                "cours/04_sclerodermie.md|p.2 (PID : imagerie)",
+                "examens/qroc_par_cours.md|Sclérodermie Q5 (P1 2026)"
+              ]
+            },
+            {
+              "texte": "EFR : syndrome restrictif",
+              "points": 0.25,
+              "justification": "Retentissement fonctionnel de la PID",
+              "sources": [
+                "cours/04_sclerodermie.md|p.2 (PID : EFR)"
+              ]
+            },
+            {
+              "texte": "Hypertension artérielle pulmonaire (HTAP)",
+              "points": 0.25,
+              "justification": "Dyspnée d'effort d'aggravation progressive ; souvent asymptomatique au début",
+              "sources": [
+                "examens/qroc_par_cours.md|Sclérodermie Q15 (P2 2024)",
+                "cours/04_sclerodermie.md|p.2 (HTAP)"
+              ]
+            },
+            {
+              "texte": "Écho-Doppler cardiaque : élévation de la pression artérielle pulmonaire systolique (PAPS)",
+              "points": 0.75,
+              "justification": "Examen de dépistage de l'HTAP, à faire en cas de dyspnée puis chaque année",
+              "sources": [
+                "cours/04_sclerodermie.md|p.2 (HTAP : échodoppler cardiaque)",
+                "examens/qroc_par_cours.md|Sclérodermie Q2 (P2 2026)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas de turgescence jugulaire",
+            "Pas d'hépatomégalie",
+            "Pas d'œdème des membres inférieurs"
+          ],
+          "piege": "Les crépitants orientent vers la PID, mais l'HTAP peut être asymptomatique : l'écho-Doppler cardiaque reste indispensable même si la PID est confirmée.",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Les examens réalisés sont les suivants.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Hémoglobine",
+          "cle": "hemoglobine",
+          "valeur": 14.3,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Leucocytes",
+          "cle": "leucocytes",
+          "valeur": 7400,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 268000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "VS 1re heure",
+          "cle": "vs",
+          "valeur": 18,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 3,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Biochimie",
+          "parametre": "Créatininémie",
+          "cle": "creatinine",
+          "valeur": 7,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Biochimie",
+          "parametre": "Kaliémie",
+          "cle": "kaliemie",
+          "valeur": 4.1,
+          "unite": "mmol/L"
+        },
+        {
+          "groupe": "Biochimie",
+          "parametre": "Protéinurie des 24 h",
+          "cle": "proteinurie_24h",
+          "valeur": 0.08,
+          "unite": "g/24h"
+        },
+        {
+          "groupe": "Biochimie",
+          "parametre": "CPK",
+          "cle": "cpk",
+          "valeur": 110,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps antinucléaires",
+          "cle": null,
+          "valeur": "positifs à 1/1280, aspect moucheté",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-topo-isomérase I (anti-Scl70)",
+          "cle": null,
+          "valeur": "positifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-centromère",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-ARN polymérase III",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-ADN natif et anti-Sm",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Explorations",
+          "parametre": "Capillaroscopie",
+          "cle": null,
+          "valeur": "mégacapillaires, raréfaction capillaire, hémorragies",
+          "unite": ""
+        },
+        {
+          "groupe": "Explorations",
+          "parametre": "TDM thoracique haute résolution",
+          "cle": null,
+          "valeur": "opacités en verre dépoli et réticulations sous-pleurales des deux bases, sans rayon de miel",
+          "unite": ""
+        },
+        {
+          "groupe": "Explorations",
+          "parametre": "EFR",
+          "cle": null,
+          "valeur": "syndrome restrictif (CPT à 68 % de la valeur théorique)",
+          "unite": ""
+        },
+        {
+          "groupe": "Explorations",
+          "parametre": "Écho-Doppler cardiaque",
+          "cle": null,
+          "valeur": "PAPS estimée à 28 mmHg (normale), cavités droites non dilatées, fonction ventriculaire gauche normale, pas d'épanchement péricardique",
+          "unite": ""
+        },
+        {
+          "groupe": "Explorations",
+          "parametre": "FOGD",
+          "cle": null,
+          "valeur": "œsophagite peptique, sans endobrachyœsophage",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 4,
+          "enonce": "Quel diagnostic retenez-vous ? Précisez la forme clinique. Justifiez votre réponse.",
+          "competence": "diagnostic_positif",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Sclérodermie systémique",
+              "points": 0.5,
+              "justification": "Sclérose cutanée avec phénomène de Raynaud et atteintes viscérales",
+              "sources": [
+                "cours/04_sclerodermie.md|p.1 (définition)"
+              ]
+            },
+            {
+              "texte": "Forme cutanée diffuse",
+              "points": 0.5,
+              "justification": "Sclérose remontant au-delà des coudes (bras, haut du thorax), d'extension rapide, avec atteinte viscérale (PID)",
+              "sources": [
+                "cours/04_sclerodermie.md|p.2 (formes cliniques : forme diffuse, forme limitée)"
+              ]
+            },
+            {
+              "texte": "Terrain : femme de 46 ans",
+              "points": 0.25,
+              "justification": "Prédominance féminine (3 femmes pour 1 homme), début le plus souvent entre 40 et 50 ans",
+              "sources": [
+                "cours/04_sclerodermie.md|p.1 (introduction)"
+              ]
+            },
+            {
+              "texte": "Phénomène de Raynaud secondaire sévère, capillaroscopie sclérodermique",
+              "points": 0.25,
+              "justification": "Ulcération pulpaire ; mégacapillaires, raréfaction capillaire, hémorragies",
+              "sources": [
+                "cours/04_sclerodermie.md|p.1 (Raynaud, capillaroscopie)"
+              ]
+            },
+            {
+              "texte": "Sclérose cutanée bilatérale et symétrique débutant aux extrémités ; faciès sclérodermique",
+              "points": 0.25,
+              "justification": "Peau impossible à plisser, doigts rétractés en flexion ; télangiectasies du visage, lèvres amincies, plis radiés péribuccaux",
+              "sources": [
+                "cours/04_sclerodermie.md|p.1 (manifestations cutanées)"
+              ]
+            },
+            {
+              "texte": "Atteintes viscérales : œsophagienne (RGO, œsophagite peptique) et pulmonaire (PID)",
+              "points": 0.25,
+              "justification": "Œsophagite à la FOGD ; verre dépoli et réticulations basales, syndrome restrictif",
+              "sources": [
+                "cours/04_sclerodermie.md|p.2 (manifestations digestives, PID)"
+              ]
+            },
+            {
+              "texte": "Immunologie : FAN positifs, anti-Scl70 positifs (formes diffuses), anti-centromère négatifs",
+              "points": 0.5,
+              "justification": "FAN 1/1280, anti-topo-isomérase I positifs",
+              "sources": [
+                "cours/04_sclerodermie.md|p.2 (auto-anticorps)",
+                "examens/qroc_par_cours.md|Sclérodermie Q20 (P3 2024)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "PAPS normale (pas d'HTAP)",
+            "Créatinine et protéinurie normales, bandelette négative (pas d'atteinte rénale)",
+            "Anti-ADN et anti-Sm négatifs",
+            "Pas de syndrome inflammatoire (VS et CRP normales)"
+          ],
+          "piege": "La forme limitée (sclérose ne dépassant pas les coudes ni les genoux, anti-centromère) a un meilleur pronostic ; ici l'extension aux bras et au thorax et les anti-Scl70 signent une forme diffuse, à risque viscéral.",
+          "a_verifier": false
+        },
+        {
+          "n": 5,
+          "enonce": "Quelles mesures thérapeutiques proposez-vous pour le phénomène de Raynaud et pour le reflux ? Quelle surveillance instaurez-vous ?",
+          "competence": "traitement",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Raynaud, mesures générales : protection contre le froid, éviction des produits corrosifs, du tabac, des bêtabloquants et des vasoconstricteurs",
+              "points": 0.5,
+              "justification": "Raynaud sévère compliqué d'ulcération",
+              "sources": [
+                "cours/04_sclerodermie.md|p.3 (prise en charge du Raynaud)",
+                "examens/cas_cliniques.md|Cas N°02 Q11"
+              ]
+            },
+            {
+              "texte": "Raynaud, médicaments : inhibiteurs calciques ; antagonistes des récepteurs de l'endothéline",
+              "points": 0.5,
+              "justification": "Raynaud secondaire compliqué de troubles trophiques",
+              "sources": [
+                "cours/04_sclerodermie.md|p.3 (prise en charge du Raynaud)",
+                "examens/qroc_par_cours.md|Traitements Q6 (P2 2025)"
+              ]
+            },
+            {
+              "texte": "RGO : règles hygiéno-diététiques, inhibiteurs de la pompe à protons, prokinétiques",
+              "points": 0.5,
+              "justification": "Œsophagite peptique à la FOGD",
+              "sources": [
+                "cours/04_sclerodermie.md|p.3 (RGO)"
+              ]
+            },
+            {
+              "texte": "Surveillance : écho-Doppler cardiaque annuelle, EFR et TDM pour la PID (immunosuppresseurs si elle est évolutive), TA et créatininémie régulières",
+              "points": 0.5,
+              "justification": "Dépistage de l'HTAP asymptomatique, de l'évolution de la PID et de la crise rénale sclérodermique",
+              "sources": [
+                "examens/qroc_par_cours.md|Sclérodermie Q4 (P1 2026)",
+                "cours/04_sclerodermie.md|p.2 (crise rénale : surveillance de la TA et de la créatininémie)",
+                "cours/04_sclerodermie.md|p.3 (PID évolutive : immunosuppresseurs)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "Ne jamais prescrire de bêtabloquant (pour une tachycardie ou une HTA) chez une patiente atteinte d'un phénomène de Raynaud.",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Six mois plus tard, la patiente consulte pour une faiblesse musculaire d'installation progressive depuis 6 semaines : elle a du mal à monter les escaliers, à se lever d'une chaise sans appui et à se coiffer. Elle se plaint de douleurs des bras et des cuisses. Elle ne reçoit ni corticoïde ni immunosuppresseur. Elle ne rapporte ni fausse route, ni voix nasonnée, ni aggravation de sa dyspnée.\nL'examen retrouve un déficit moteur proximal, bilatéral et symétrique, des deux ceintures, coté à 3/5, avec une douleur à la pression des masses musculaires. Il n'y a pas de fatigabilité à l'effort répété. Les réflexes ostéotendineux sont présents et symétriques, le réflexe cutané-plantaire est en flexion, la sensibilité est normale ; il n'y a ni fasciculation ni amyotrophie. Il n'existe pas de papules de Gottron, pas d'érythème périunguéal ni d'érythème lilacé des paupières. TA 128/78 mmHg.",
+      "examens": [
+        {
+          "groupe": "Enzymes musculaires",
+          "parametre": "CPK",
+          "cle": "cpk",
+          "valeur": 2650,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Enzymes musculaires",
+          "parametre": "LDH",
+          "cle": "ldh",
+          "valeur": 540,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Enzymes musculaires",
+          "parametre": "ASAT",
+          "cle": "asat",
+          "valeur": 96,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Enzymes musculaires",
+          "parametre": "ALAT",
+          "cle": "alat",
+          "valeur": 74,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Enzymes musculaires",
+          "parametre": "Aldolase",
+          "cle": null,
+          "valeur": "augmentée",
+          "unite": ""
+        },
+        {
+          "groupe": "Biochimie",
+          "parametre": "Créatininémie",
+          "cle": "creatinine",
+          "valeur": 6,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Explorations",
+          "parametre": "Électromyogramme",
+          "cle": null,
+          "valeur": "tracé de type myogène, sans anomalie nerveuse",
+          "unite": ""
+        },
+        {
+          "groupe": "Explorations",
+          "parametre": "Biopsie musculaire (deltoïde)",
+          "cle": null,
+          "valeur": "infiltrat inflammatoire mononucléé, fibres nécrotiques et fibres en régénération",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 6,
+          "enonce": "Dans quel cadre syndromique s'inscrit la faiblesse musculaire ? Justifiez votre réponse.",
+          "competence": "semiologie",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Syndrome myogène",
+              "points": 0.5,
+              "justification": "Déficit proximal des ceintures avec myalgies, enzymes musculaires élevées et EMG myogène",
+              "sources": [
+                "referentiel_transversal.md|§5 Syndrome myogène",
+                "examens/cas_cliniques.md|Cas N°02 Q4"
+              ]
+            },
+            {
+              "texte": "Déficit d'installation progressive, bilatéral et symétrique, proximal (ceintures scapulaire et pelvienne)",
+              "points": 0.5,
+              "justification": "Difficultés à monter les escaliers, à se lever d'une chaise sans appui (signe du tabouret) et à se coiffer ; déficit coté à 3/5 aux deux ceintures",
+              "sources": [
+                "cours/08_myopathies.md|p.1 (caractères communs du déficit)",
+                "examens/cas_cliniques.md|Cas N°02 Q4"
+              ]
+            },
+            {
+              "texte": "Myalgies spontanées et provoquées",
+              "points": 0.25,
+              "justification": "Douleurs des bras et des cuisses, douleur à la pression des masses musculaires",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°02 Q4",
+                "examens/qroc_par_cours.md|Myopathies Q6 (P1 2026)"
+              ]
+            },
+            {
+              "texte": "Signes négatifs : pas de signe neurologique",
+              "points": 0.5,
+              "justification": "ROT présents et symétriques, réflexe cutané-plantaire en flexion, sensibilité normale, ni fasciculation ni amyotrophie, pas de fatigabilité à l'effort répété",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°02 Q4 (note sur les signes négatifs)",
+                "referentiel_transversal.md|§5 Syndrome myogène"
+              ]
+            },
+            {
+              "texte": "Confirmation biologique et électrique",
+              "points": 0.25,
+              "justification": "CPK 2 650 UI/L (environ 14 fois la normale), LDH 540 UI/L (> 280), ASAT et ALAT élevées d'origine musculaire, aldolase augmentée ; EMG myogène sans anomalie nerveuse",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°02 Q5",
+                "cours/08_myopathies.md|p.2 (EMG)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "ROT présents",
+            "Réflexe cutané-plantaire en flexion",
+            "Sensibilité normale",
+            "Pas de fasciculation ni d'amyotrophie",
+            "Pas de fatigabilité à l'effort répété"
+          ],
+          "piege": "Des ASAT et ALAT élevées avec des CPK très élevées sont ici d'origine musculaire : ne pas conclure à une cytolyse hépatique.",
+          "a_verifier": false
+        },
+        {
+          "n": 7,
+          "enonce": "Quel diagnostic retenez-vous pour cette atteinte musculaire ? Quels signes de gravité devez-vous rechercher ?",
+          "competence": "diagnostic_etiologique",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Myosite inflammatoire associée à la sclérodermie diffuse (chevauchement)",
+              "points": 0.5,
+              "justification": "Véritable myosite, plus fréquente dans les formes diffuses ; pas de corticothérapie en cours (pas de myopathie cortisonique), pas de signe cutané de dermatomyosite",
+              "sources": [
+                "cours/04_sclerodermie.md|p.2 (manifestations musculaires)",
+                "cours/08_myopathies.md|p.3 (diagnostics différentiels : sclérodermies)"
+              ]
+            },
+            {
+              "texte": "Preuve histologique : infiltrat inflammatoire mononucléé avec nécrose et régénération à la biopsie musculaire",
+              "points": 0.5,
+              "justification": "Biopsie du deltoïde : infiltrat mononucléé, fibres nécrotiques et en régénération",
+              "sources": [
+                "cours/08_myopathies.md|p.1-2 (infiltrat inflammatoire ; biopsie musculaire)"
+              ]
+            },
+            {
+              "texte": "Signes de gravité : atteinte pharyngo-laryngée (dysphagie haute, fausses routes), respiratoire et cardiaque",
+              "points": 0.5,
+              "justification": "À rechercher systématiquement ; absents pour l'instant (pas de fausse route, dyspnée stable)",
+              "sources": [
+                "cours/08_myopathies.md|p.3 (diagnostic de gravité)",
+                "examens/qroc_par_cours.md|Myopathies Q3 (P2 2026)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Aucune corticothérapie en cours",
+            "Pas de papules de Gottron ni d'érythème lilacé",
+            "Pas de fausse route ni de voix nasonnée",
+            "Dyspnée non aggravée"
+          ],
+          "piege": "Chez une patiente sous corticoïdes, une faiblesse proximale doit aussi faire discuter une myopathie cortisonique ; ici, elle ne reçoit aucun corticoïde.",
+          "a_verifier": false
+        },
+        {
+          "n": 8,
+          "enonce": "Quel traitement proposez-vous pour cette myosite ? Quelle précaution particulière impose le terrain sclérodermique ? Justifiez votre réponse.",
+          "competence": "traitement",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Corticothérapie : prednisone 1 mg/kg/j (60 mg/j) pendant 4 à 6 semaines, puis décroissance progressive",
+              "points": 0.5,
+              "justification": "Pierre angulaire du traitement des myosites",
+              "sources": [
+                "cours/08_myopathies.md|p.3 (corticothérapie)"
+              ]
+            },
+            {
+              "texte": "Immunosuppresseur d'épargne cortisonique : azathioprine, ou mycophénolate mofétil (efficace sur le muscle et le poumon) ; le méthotrexate expose à une pneumopathie interstitielle chez une patiente qui a déjà une PID",
+              "points": 0.5,
+              "justification": "Myosite associée à une PID",
+              "sources": [
+                "cours/08_myopathies.md|p.3 (immunosuppresseurs ; Cellcept efficace sur le muscle et le poumon)",
+                "cours/13_traitements.md|p.2 (méthotrexate : pneumopathie interstitielle)",
+                "examens/qroc_par_cours.md|Myopathies Q1 (P2 2026)"
+              ]
+            },
+            {
+              "texte": "Précaution : risque de crise rénale sclérodermique favorisée par la corticothérapie à forte dose ; dose minimale efficace et surveillance rapprochée de la TA et de la créatininémie",
+              "points": 0.75,
+              "justification": "Sclérodermie diffuse récente",
+              "sources": [
+                "examens/qroc_par_cours.md|Sclérodermie Q14 (P1 2024)",
+                "cours/04_sclerodermie.md|p.2 (crise rénale)",
+                "cours/13_traitements.md|p.2 (dose minimale efficace)"
+              ]
+            },
+            {
+              "texte": "Mesures associées : régime hyposodé, pauvre en sucres, riche en protides ; supplémentation en potassium, calcium et vitamine D",
+              "points": 0.25,
+              "justification": "Prévention des effets secondaires d'une corticothérapie prolongée",
+              "sources": [
+                "cours/13_traitements.md|p.2 (modalités de prescription)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "La corticothérapie à forte dose est à éviter dans la sclérodermie ; si la myosite l'impose, l'épargne cortisonique doit être précoce et la surveillance de la TA et de la créatininémie rapprochée.",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "La patiente reçoit de la prednisone à 60 mg/j associée à l'azathioprine. Trois semaines plus tard, elle est amenée aux urgences pour des céphalées intenses, une vision floue et une diminution de la diurèse (environ 400 mL/24 h). TA 210/120 mmHg aux deux bras, FC 104/min, T° 37,2 °C. Elle est consciente, sans déficit neurologique. Il n'y a pas de purpura, pas de signe de surcharge pulmonaire. Le bilan est le suivant.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Hémoglobine",
+          "cle": "hemoglobine",
+          "valeur": 8.6,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Réticulocytes",
+          "cle": "reticulocytes",
+          "valeur": 185000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Leucocytes",
+          "cle": "leucocytes",
+          "valeur": 9400,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 72000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Frottis sanguin",
+          "cle": null,
+          "valeur": "schizocytes à 5 %",
+          "unite": ""
+        },
+        {
+          "groupe": "Hémolyse",
+          "parametre": "Test de Coombs direct",
+          "cle": null,
+          "valeur": "négatif",
+          "unite": ""
+        },
+        {
+          "groupe": "Hémolyse",
+          "parametre": "Haptoglobine",
+          "cle": "haptoglobine",
+          "valeur": 0.05,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Hémolyse",
+          "parametre": "LDH",
+          "cle": "ldh",
+          "valeur": 1180,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Hémolyse",
+          "parametre": "Bilirubine totale",
+          "cle": "bilirubine_totale",
+          "valeur": 19,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Créatininémie",
+          "cle": "creatinine",
+          "valeur": 36,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Urée",
+          "cle": "uree",
+          "valeur": 1.35,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Kaliémie",
+          "cle": "kaliemie",
+          "valeur": 4.9,
+          "unite": "mmol/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Protéinurie des 24 h",
+          "cle": "proteinurie_24h",
+          "valeur": 0.9,
+          "unite": "g/24h"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Sédiment urinaire",
+          "cle": null,
+          "valeur": "hématurie microscopique",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 9,
+          "enonce": "Quelle complication présente la patiente ? Justifiez votre réponse. Quel en est le facteur favorisant ?",
+          "competence": "complication",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Crise rénale sclérodermique",
+              "points": 0.5,
+              "justification": "HTA sévère, insuffisance rénale rapidement progressive oligurique et microangiopathie thrombotique chez une sclérodermie diffuse",
+              "sources": [
+                "cours/04_sclerodermie.md|p.2 (crise rénale sclérodermique)",
+                "examens/qroc_par_cours.md|Sclérodermie Q10 (P2 2025)"
+              ]
+            },
+            {
+              "texte": "HTA sévère d'installation brutale",
+              "points": 0.5,
+              "justification": "TA 210/120 mmHg avec céphalées et vision floue, alors que la TA était à 128/78 mmHg trois semaines plus tôt",
+              "sources": [
+                "cours/04_sclerodermie.md|p.2 (HTA sévère)",
+                "examens/qroc_par_cours.md|Sclérodermie Q10 (P2 2025)"
+              ]
+            },
+            {
+              "texte": "Insuffisance rénale rapidement progressive, oligurique",
+              "points": 0.5,
+              "justification": "Créatinine passée de 6 à 36 mg/L en 3 semaines, urée 1,35 g/L, diurèse d'environ 400 mL/24 h ; protéinurie modérée (0,9 g/24 h) et hématurie microscopique",
+              "sources": [
+                "cours/04_sclerodermie.md|p.2 (insuffisance rénale rapidement progressive oligo-anurique)",
+                "examens/qroc_par_cours.md|Sclérodermie Q7 (P3 2025)"
+              ]
+            },
+            {
+              "texte": "Microangiopathie thrombotique : anémie hémolytique mécanique et thrombopénie de consommation",
+              "points": 0.5,
+              "justification": "Hb 8,6 g/dL régénérative (réticulocytes 185 000/mm³), schizocytes 5 %, haptoglobine effondrée (0,05 g/L), LDH 1 180 UI/L, bilirubine 19 mg/L, Coombs négatif ; plaquettes 72 000/mm³",
+              "sources": [
+                "examens/qroc_par_cours.md|Sclérodermie Q7 (P3 2025)",
+                "referentiel_transversal.md|§7 Atteinte rénale (Microangiopathie thrombotique)",
+                "examens/qroc_par_cours.md|SAPL Q8 (P1 2025)"
+              ]
+            },
+            {
+              "texte": "Facteur favorisant : corticothérapie à forte dose",
+              "points": 0.5,
+              "justification": "Prednisone 60 mg/j (1 mg/kg/j) depuis 3 semaines, sur une sclérodermie diffuse",
+              "sources": [
+                "examens/qroc_par_cours.md|Sclérodermie Q14 (P1 2024)",
+                "cours/04_sclerodermie.md|p.2 (crise rénale favorisée par la corticothérapie)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Test de Coombs négatif",
+            "Pas de purpura",
+            "Pas de fièvre",
+            "Pas de déficit neurologique"
+          ],
+          "piege": "Ne pas se contenter d'une HTA cortico-induite par rétention hydrosodée : l'insuffisance rénale rapidement progressive et les schizocytes signent la crise rénale. L'absence d'anti-ARN polymérase III (associés aux formes avec atteinte rénale) n'écartait pas ce risque.",
+          "a_verifier": false
+        },
+        {
+          "n": 10,
+          "enonce": "Quel traitement urgent instaurez-vous ? Quelle surveillance ?",
+          "competence": "traitement",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Inhibiteurs de l'enzyme de conversion (IEC) en urgence",
+              "points": 0.75,
+              "justification": "Traitement de la crise rénale sclérodermique",
+              "sources": [
+                "cours/04_sclerodermie.md|p.3 (crise rénale : IEC)",
+                "referentiel_transversal.md|§7 Atteinte rénale (Microangiopathie thrombotique)"
+              ]
+            },
+            {
+              "texte": "Hémodialyse si nécessaire",
+              "points": 0.5,
+              "justification": "Oligurie et insuffisance rénale sévère (créatinine 36 mg/L)",
+              "sources": [
+                "cours/04_sclerodermie.md|p.3 (crise rénale : voire hémodialyse)"
+              ]
+            },
+            {
+              "texte": "Réduire la corticothérapie à la dose minimale efficace, sans la majorer",
+              "points": 0.25,
+              "justification": "La corticothérapie à forte dose a favorisé la crise",
+              "sources": [
+                "examens/qroc_par_cours.md|Sclérodermie Q14 (P1 2024)",
+                "cours/13_traitements.md|p.2 (dose minimale efficace)"
+              ]
+            },
+            {
+              "texte": "Surveillance : TA, diurèse, créatininémie, hémogramme (plaquettes, schizocytes)",
+              "points": 0.5,
+              "justification": "Suivi de la réponse tensionnelle, rénale et de la microangiopathie ; mortalité élevée (jusqu'à 50 % à 5 ans)",
+              "sources": [
+                "cours/04_sclerodermie.md|p.2 (surveillance de la TA et de la créatininémie ; mortalité)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "Ne pas traiter cette poussée par un bolus de corticoïdes : ce n'est pas le traitement de la crise rénale, et les fortes doses de corticoïdes la favorisent.",
+          "a_verifier": false
+        }
+      ]
+    }
+  ],
+  "synthese": [
+    "Raynaud secondaire : perte du caractère saisonnier, pouces atteints, troubles trophiques, douleur, signes systémiques ; capillaroscopie : mégacapillaires, raréfaction, hémorragies.",
+    "Dyspnée sclérodermique : PID (TDM : verre dépoli ou rayon de miel ; EFR restrictive) ou HTAP (écho-Doppler cardiaque, dépistage annuel).",
+    "Sclérose au-delà des coudes et anti-Scl70 : forme diffuse, à risque viscéral ; anti-centromère : forme limitée.",
+    "Syndrome myogène : déficit proximal, bilatéral et symétrique, myalgies, CPK élevées, EMG myogène, sans signe neurologique ; la myosite est plus fréquente dans les formes diffuses.",
+    "Corticothérapie à forte dose dans la sclérodermie : risque de crise rénale (HTA sévère, insuffisance rénale rapidement progressive, schizocytes) ; traitement par IEC, voire dialyse."
+  ]
+}

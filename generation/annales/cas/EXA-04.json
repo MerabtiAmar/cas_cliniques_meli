@@ -1,0 +1,771 @@
+{
+  "id": "EXA-04",
+  "version": 1,
+  "statut": "annales",
+  "maladie_principale": "Sarcoïdose systémique",
+  "chapitres": [
+    "cours/05_granulomatoses",
+    "referentiel_transversal",
+    "cours/13_traitements"
+  ],
+  "liens_transversaux": [
+    "Type d'atteinte rénale au cours d'une granulomatose",
+    "Effets secondaires de la corticothérapie"
+  ],
+  "difficulte": 2,
+  "duree_minutes": 25,
+  "points_total": 20,
+  "bareme_origine": "reparti",
+  "patient": {
+    "sexe": "F",
+    "age": 47
+  },
+  "etapes": [
+    {
+      "texte": "Une femme de 47 ans, aux antécédents d'appendicectomie à 16 ans, cuisinière nouvellement recrutée dans une entreprise de pétrochimie, est adressée par la médecine du travail après une radiographie thoracique systématique retrouvant un infiltrat interstitiel bilatéral et un élargissement du médiastin (adénopathies hilaires). Elle rapporte une toux sèche traînante et une dyspnée stade 2, sans fatigue exagérée, sans perte de poids, avec un appétit conservé. Examen : nodules cutanés de 1 à 4 mm sur le visage et le bras droit, fermes, indolores, violacés ; cicatrice d'appendicectomie chéloïde et rougeâtre depuis quelques mois ; pas de râles crépitants, pas d'hépatosplénomégalie, aires ganglionnaires libres, examen ophtalmologique normal, bandelette urinaire négative.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Leucocytes",
+          "cle": "leucocytes",
+          "valeur": 5200,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Hémoglobine",
+          "cle": "hemoglobine",
+          "valeur": 13.9,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "VGM",
+          "cle": "vgm",
+          "valeur": 87.6,
+          "unite": "fL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "CCMH",
+          "cle": "ccmh",
+          "valeur": 32,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 172000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Polynucléaires neutrophiles",
+          "cle": "pnn",
+          "valeur": 3200,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Lymphocytes",
+          "cle": "lymphocytes",
+          "valeur": 800,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Polynucléaires éosinophiles",
+          "cle": "eosinophiles",
+          "valeur": 0,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Bilan métabolique",
+          "parametre": "Glycémie",
+          "cle": "glycemie",
+          "valeur": 0.82,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Urée",
+          "cle": "uree",
+          "valeur": 0.34,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Créatininémie",
+          "cle": "creatinine",
+          "valeur": 8.7,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan hépatique",
+          "parametre": "ASAT",
+          "cle": "asat",
+          "valeur": 15,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan hépatique",
+          "parametre": "ALAT",
+          "cle": "alat",
+          "valeur": 17,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan hépatique",
+          "parametre": "Phosphatases alcalines",
+          "cle": "pal",
+          "valeur": 42,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan hépatique",
+          "parametre": "Gamma-GT",
+          "cle": "ggt",
+          "valeur": 37,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "VS",
+          "cle": "vs",
+          "valeur": 21,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 5,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "Fibrinogène",
+          "cle": "fibrinogene",
+          "valeur": 3.4,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan phosphocalcique",
+          "parametre": "Calcémie",
+          "cle": "calcemie",
+          "valeur": 103,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Électrophorèse des protides",
+          "parametre": "Albumine",
+          "cle": "albumine",
+          "valeur": 42,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Électrophorèse des protides",
+          "parametre": "Alpha-1 globulines",
+          "cle": "alpha1_globulines",
+          "valeur": 3.22,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Électrophorèse des protides",
+          "parametre": "Alpha-2 globulines",
+          "cle": "alpha2_globulines",
+          "valeur": 5.1,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Électrophorèse des protides",
+          "parametre": "Bêta-globulines",
+          "cle": "beta_globulines",
+          "valeur": 9.7,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Électrophorèse des protides",
+          "parametre": "Gammaglobulines",
+          "cle": "gammaglobulines",
+          "valeur": 19.89,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "FAN, anti-CCP, facteur rhumatoïde, ANCA",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Sérologies",
+          "parametre": "VIH, VHB, VHC, syphilis, toxoplasmose",
+          "cle": null,
+          "valeur": "négatives",
+          "unite": ""
+        },
+        {
+          "groupe": "Tuberculose",
+          "parametre": "IDR à la tuberculine",
+          "cle": null,
+          "valeur": "anergique",
+          "unite": ""
+        },
+        {
+          "groupe": "Tuberculose",
+          "parametre": "Quantiféron",
+          "cle": null,
+          "valeur": "négatif",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Enzyme de conversion de l'angiotensine",
+          "cle": "eca",
+          "valeur": 87,
+          "unite": "UI/L"
+        }
+      ],
+      "questions": [
+        {
+          "n": 1,
+          "enonce": "Quelles sont les anomalies retrouvées à la biologie ?",
+          "competence": "interpreter_bilan",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Lymphopénie",
+              "points": 0.75,
+              "justification": "Lymphocytes 800/mm³ (<1000)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q1"
+              ]
+            },
+            {
+              "texte": "Hypergammaglobulinémie",
+              "points": 0.75,
+              "justification": "Gammaglobulines 19,89 g/L (>15)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q1"
+              ]
+            },
+            {
+              "texte": "Élévation de l'enzyme de conversion de l'angiotensine",
+              "points": 0.5,
+              "justification": "ECA 87 UI/L (>70)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q1"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 2,
+          "enonce": "Une biopsie cutanée conclut à des cellules épithélioïdes et géantes entourées de lymphocytes et de fibroblastes sans nécrose caséeuse. À quoi correspond cette description ?",
+          "competence": "semiologie",
+          "points": 1,
+          "elements_attendus": [
+            {
+              "texte": "Granulome épithélio-giganto-cellulaire sans nécrose caséeuse",
+              "points": 1,
+              "justification": "Description histologique typique",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q2"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 3,
+          "enonce": "Quel diagnostic évoquez-vous ? Justifiez votre réponse.",
+          "competence": "diagnostic_positif",
+          "points": 4,
+          "elements_attendus": [
+            {
+              "texte": "Sarcoïdose systémique",
+              "points": 0.5,
+              "justification": "Atteinte multi-systémique caractéristique",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q3"
+              ]
+            },
+            {
+              "texte": "Atteinte médiastino-pulmonaire : toux sèche, dyspnée stade 2, absence de râles crépitants, infiltrat interstitiel bilatéral avec ADP hilaires",
+              "points": 0.5,
+              "justification": "Radiographie thoracique systématique",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q3"
+              ]
+            },
+            {
+              "texte": "Atteinte cutanée : nodules fermes indolores violacés, lésions sur la cicatrice d'appendicectomie",
+              "points": 0.5,
+              "justification": "Sarcoïdes sur cicatrice, signe évocateur",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q3"
+              ]
+            },
+            {
+              "texte": "Signes biologiques en faveur : lymphopénie, élévation de l'ECA",
+              "points": 0.5,
+              "justification": "Lymphocytes 800/mm³, ECA 87 UI/L",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q3"
+              ]
+            },
+            {
+              "texte": "Preuve histologique : granulome épithélio-giganto-cellulaire sans nécrose caséeuse à la biopsie cutanée",
+              "points": 0.5,
+              "justification": "Résultat de la biopsie cutanée",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q3"
+              ]
+            },
+            {
+              "texte": "Diagnostic d'élimination : sérologies négatives, absence d'argument pour une tuberculose (IDR anergique, Quantiféron négatif)",
+              "points": 1.5,
+              "justification": "Bilan infectieux négatif",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q3"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Absence de râles crépitants",
+            "Pas d'hépatomégalie ni de splénomégalie au diagnostic initial",
+            "Examen ophtalmologique normal"
+          ],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 4,
+          "enonce": "Quelles sont les manifestations sévères de cette maladie à rechercher systématiquement ?",
+          "competence": "complication",
+          "points": 1,
+          "elements_attendus": [
+            {
+              "texte": "Atteinte du système nerveux central",
+              "points": 0.5,
+              "justification": "Manifestation sévère classique de la sarcoïdose",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q4"
+              ]
+            },
+            {
+              "texte": "Atteinte cardiaque",
+              "points": 0.5,
+              "justification": "Manifestation sévère classique de la sarcoïdose",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q4"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 5,
+          "enonce": "Quels examens complémentaires réalisez-vous pour caractériser l'atteinte respiratoire ? Quels résultats attendez-vous ?",
+          "competence": "examen_complementaire",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "EFR : syndrome restrictif",
+              "points": 0.75,
+              "justification": "Atteinte interstitielle pulmonaire",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q5"
+              ]
+            },
+            {
+              "texte": "Bronchoscopie avec lavage broncho-alvéolaire : lymphocytose alvéolaire à prédominance de LT4",
+              "points": 0.75,
+              "justification": "Signature immunologique de la sarcoïdose",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q5"
+              ]
+            },
+            {
+              "texte": "Test de marche de 6 minutes : désaturation",
+              "points": 0.5,
+              "justification": "Retentissement fonctionnel de l'atteinte interstitielle",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q5"
+              ]
+            },
+            {
+              "texte": "TDM thoracique : adénopathies hilaires bilatérales, symétriques, polycycliques, non compressives",
+              "points": 0.5,
+              "justification": "Caractérisation radiologique des ADP",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q5"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 6,
+          "enonce": "Quelle est votre attitude thérapeutique ? Justifiez.",
+          "competence": "traitement",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Hydroxychloroquine (Plaquenil)",
+              "points": 1.5,
+              "justification": "Forme bénigne, atteinte cutanée sarcoïdosique, pas d'atteinte viscérale sévère",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q6"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Un an plus tard, la patiente signale une asthénie et une persistance de la dyspnée. L'examen retrouve une splénomégalie de type 2 et des adénopathies axillaires.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Leucocytes",
+          "cle": "leucocytes",
+          "valeur": 4200,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Hémoglobine",
+          "cle": "hemoglobine",
+          "valeur": 12.8,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "VGM",
+          "cle": "vgm",
+          "valeur": 88.6,
+          "unite": "fL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "CCMH",
+          "cle": "ccmh",
+          "valeur": 33.2,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 172000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Polynucléaires neutrophiles",
+          "cle": "pnn",
+          "valeur": 3200,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Lymphocytes",
+          "cle": "lymphocytes",
+          "valeur": 650,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Bilan métabolique",
+          "parametre": "Glycémie",
+          "cle": "glycemie",
+          "valeur": 0.82,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Urée",
+          "cle": "uree",
+          "valeur": 0.34,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Créatininémie",
+          "cle": "creatinine",
+          "valeur": 11.7,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "VS",
+          "cle": "vs",
+          "valeur": 21,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 5,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "Fibrinogène",
+          "cle": "fibrinogene",
+          "valeur": 3.4,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan phosphocalcique",
+          "parametre": "Calcémie",
+          "cle": "calcemie",
+          "valeur": 113,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Protéinurie des 24h",
+          "cle": "proteinurie_24h",
+          "valeur": 0.95,
+          "unite": "g/24h"
+        },
+        {
+          "groupe": "Électrophorèse des protides",
+          "parametre": "Albuminémie",
+          "cle": "albumine",
+          "valeur": 32,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Électrophorèse des protides",
+          "parametre": "Gammaglobulinémie",
+          "cle": "gammaglobulines",
+          "valeur": 32,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Hémostase",
+          "parametre": "Taux de prothrombine",
+          "cle": "tp",
+          "valeur": 89,
+          "unite": "%"
+        },
+        {
+          "groupe": "Bilan hépatique",
+          "parametre": "ASAT",
+          "cle": "asat",
+          "valeur": 119,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan hépatique",
+          "parametre": "ALAT",
+          "cle": "alat",
+          "valeur": 127,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan hépatique",
+          "parametre": "Phosphatases alcalines",
+          "cle": "pal",
+          "valeur": 289,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan hépatique",
+          "parametre": "Gamma-GT",
+          "cle": "ggt",
+          "valeur": 289,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan hépatique",
+          "parametre": "Bilirubine totale",
+          "cle": "bilirubine_totale",
+          "valeur": 9,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan hépatique",
+          "parametre": "Bilirubine directe",
+          "cle": null,
+          "valeur": 2,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Enzyme de conversion de l'angiotensine",
+          "cle": "eca",
+          "valeur": 87,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan urinaire",
+          "parametre": "Sédiment urinaire",
+          "cle": null,
+          "valeur": "leucocyturie +++",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan urinaire",
+          "parametre": "ECBU",
+          "cle": null,
+          "valeur": "négatif",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 7,
+          "enonce": "Interprétez ces résultats. Justifiez votre réponse.",
+          "competence": "interpreter_bilan",
+          "points": 3,
+          "elements_attendus": [
+            {
+              "texte": "Lymphopénie persistante",
+              "points": 0.6,
+              "justification": "Lymphocytes 650/mm³ (<1000)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q7"
+              ]
+            },
+            {
+              "texte": "Hypercalcémie modérée",
+              "points": 0.6,
+              "justification": "Calcémie 113 mg/L (>105)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q7"
+              ]
+            },
+            {
+              "texte": "Hypergammaglobulinémie",
+              "points": 0.6,
+              "justification": "Gammaglobulines 32 g/L (>15)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q7"
+              ]
+            },
+            {
+              "texte": "Cytolyse hépatique avec cholestase (élévation ASAT/ALAT, PAL, GGT)",
+              "points": 0.6,
+              "justification": "ASAT 119, ALAT 127, PAL 289, GGT 289 UI/L",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q7"
+              ]
+            },
+            {
+              "texte": "Atteinte rénale tubulo-interstitielle probable",
+              "points": 0.6,
+              "justification": "Protéinurie 950 mg/24h, leucocyturie +++, ECBU négatif",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q7"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 8,
+          "enonce": "Vous pensez que ces perturbations biologiques sont en rapport avec sa pathologie. Quel traitement proposez-vous ? Justifiez.",
+          "competence": "traitement",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Corticothérapie en 1ère intention",
+              "points": 1.25,
+              "justification": "Persistance des signes pulmonaires avec atteinte viscérale hépatique et rénale",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q8"
+              ]
+            },
+            {
+              "texte": "Correction de l'hypercalcémie : réhydratation ± corticothérapie, avec surveillance rénale/calcique/clinique",
+              "points": 1.25,
+              "justification": "Hypercalcémie modérée (113 mg/L)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q8"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 9,
+          "enonce": "Citez au moins cinq effets secondaires du traitement prescrit.",
+          "competence": "surveillance",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Hyperglycémie",
+              "points": 0.5,
+              "justification": "Effet métabolique classique de la corticothérapie",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q9"
+              ]
+            },
+            {
+              "texte": "Ostéonécrose aseptique",
+              "points": 0.5,
+              "justification": "Complication osseuse de la corticothérapie",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q9"
+              ]
+            },
+            {
+              "texte": "Hypokaliémie",
+              "points": 0.5,
+              "justification": "Effet électrolytique de la corticothérapie",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q9"
+              ]
+            },
+            {
+              "texte": "Freinage de l'axe corticotrope",
+              "points": 0.5,
+              "justification": "Risque d'insuffisance surrénalienne à l'arrêt",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q9"
+              ]
+            },
+            {
+              "texte": "Lipolyse avec hypertriglycéridémie et hypercholestérolémie",
+              "points": 0.5,
+              "justification": "Effet métabolique de la corticothérapie prolongée",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°04 Q9"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    }
+  ],
+  "synthese": [
+    "La sarcoïdose associe atteinte médiastino-pulmonaire, cutanée et biologique (lymphopénie, hypergammaglobulinémie, ECA élevée).",
+    "Le diagnostic repose sur la preuve histologique (granulome sans nécrose caséeuse) et l'élimination des diagnostics différentiels, notamment infectieux.",
+    "L'apparition d'une atteinte viscérale (hépatique, rénale) impose une corticothérapie et une surveillance de ses effets secondaires."
+  ]
+}

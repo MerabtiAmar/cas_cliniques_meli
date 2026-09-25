@@ -1,0 +1,3259 @@
+[
+  {
+    "id": "Q01-001",
+    "chapitre": "cours/01_lupus",
+    "session": "P2 2026",
+    "page": 6,
+    "enonce": "Quel anticorps expose au risque de lupus néonatal ? Que fait-il craindre chez le fœtus ?",
+    "reponse": [
+      "AC anti-SSA.",
+      "Complication à craindre : bloc auriculo-ventriculaire (BAV)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.6"
+    ]
+  },
+  {
+    "id": "Q01-002",
+    "chapitre": "cours/01_lupus",
+    "session": "P1 2025",
+    "page": 6,
+    "enonce": "Décrire l'atteinte cutanée du lupus aigu.",
+    "reponse": [
+      "Érythème papulo-maculeux touchant les pommettes et le nez de façon symétrique et bilatérale, en aile de papillon (vespertilio)",
+      "Peut toucher tout le visage et les zones photo-exposées",
+      "Aspect pouvant être érythémateux, maculeux, maculo-papuleux, finement squameux",
+      "Disparaît sans laisser de cicatrices",
+      "Au niveau des mains : épargne les articulations",
+      "Au niveau de la bouche : ulcérations très douloureuses sans enduit blanchâtre (contrairement aux aphtes)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.6"
+    ]
+  },
+  {
+    "id": "Q01-003",
+    "chapitre": "cours/01_lupus",
+    "session": "P1 2025",
+    "page": 6,
+    "enonce": "Quel anticorps est responsable du lupus néonatal et quelle est la complication à craindre ?",
+    "reponse": [
+      "AC anti-SSA.",
+      "Complication à craindre : bloc auriculo-ventriculaire (BAV)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": "Q01-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.6"
+    ]
+  },
+  {
+    "id": "Q01-004",
+    "chapitre": "cours/01_lupus",
+    "session": "P1 2025",
+    "page": 7,
+    "enonce": "Quelles sont les atteintes rénales du lupus et comment s'expriment-elles ?",
+    "reponse": [
+      "Il s'agit le plus souvent d'une atteinte glomérulaire",
+      "Se manifeste par un syndrome néphrotique (protéinurie des 24h > 3 g/L, hypoalbuminémie < 30 g/L, hypoprotidémie < 60 g/L), pur ou impur (associé à une hématurie, une insuffisance rénale, une HTA)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.7"
+    ]
+  },
+  {
+    "id": "Q01-005",
+    "chapitre": "cours/01_lupus",
+    "session": "P2 2025",
+    "page": 7,
+    "enonce": "Décrire les caractéristiques cliniques et évolutives de la lésion dermatologique du lupus cutané aigu.",
+    "reponse": [
+      "Érythème papulo-maculeux touchant les pommettes et le nez de façon symétrique et bilatérale, en aile de papillon (vespertilio)",
+      "Peut toucher tout le visage et les zones photo-exposées",
+      "Aspect pouvant être érythémateux, maculeux, maculo-papuleux, finement squameux",
+      "Disparaît sans laisser de cicatrices",
+      "Au niveau des mains : épargne les articulations",
+      "Au niveau de la bouche : ulcérations très douloureuses sans enduit blanchâtre (contrairement aux aphtes)"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q01-002",
+    "sources": [
+      "examens/qroc_par_cours.md|p.6"
+    ]
+  },
+  {
+    "id": "Q01-006",
+    "chapitre": "cours/01_lupus",
+    "session": "P2 2025",
+    "page": 7,
+    "enonce": "Quelle est l'atteinte rénale principale au cours du lupus ? Comment s'exprime-t-elle ?",
+    "reponse": [
+      "Il s'agit le plus souvent d'une atteinte glomérulaire",
+      "Se manifeste par un syndrome néphrotique (protéinurie des 24h > 3 g/L, hypoalbuminémie < 30 g/L, hypoprotidémie < 60 g/L), pur ou impur (associé à une hématurie, une insuffisance rénale, une HTA)"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q01-004",
+    "sources": [
+      "examens/qroc_par_cours.md|p.7"
+    ]
+  },
+  {
+    "id": "Q01-007",
+    "chapitre": "cours/01_lupus",
+    "session": "P2 2025",
+    "page": 7,
+    "enonce": "En dehors des médicaments, citer au moins deux mesures importantes à instaurer chez une patiente lupique en âge de procréer.",
+    "reponse": [
+      "Photoprotection",
+      "Contraception adaptée à évoquer dès la première consultation ; privilégier une contraception progestative, les œstrogènes étant contre-indiqués (peuvent induire des poussées de lupus)",
+      "En cas de désir de grossesse, planifier celle-ci",
+      "Éviction du tabac"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.7"
+    ]
+  },
+  {
+    "id": "Q01-008",
+    "chapitre": "cours/01_lupus",
+    "session": "P3 2025",
+    "page": 7,
+    "enonce": "Décrire les caractéristiques cliniques et évolutives du lupus cutané chronique.",
+    "reponse": [
+      "Aspect habituel : le lupus discoïde, des plaques limitées associant érythème télangiectasique, squames épaisses annulaires et polycycliques, atrophie cicatricielle",
+      "Touche le visage et les extrémités, voire l'ensemble des téguments",
+      "Peut aboutir à une alopécie définitive (atrophie cicatricielle) si elle touche le cuir chevelu",
+      "Résiste au traitement"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.7"
+    ]
+  },
+  {
+    "id": "Q01-009",
+    "chapitre": "cours/01_lupus",
+    "session": "P3 2025",
+    "page": 8,
+    "enonce": "Décrire l'atteinte articulaire habituellement observée au cours du lupus érythémateux systémique.",
+    "reponse": [
+      "Oligo-arthrite ou polyarthrite inflammatoire, bilatérale et symétrique, non destructrice et non déformative (déformation possible par hyperlaxité capsulo-ligamentaire : « main de Jaccoud »)",
+      "Touche les petites et moyennes articulations, plus souvent distales : MCP, IPP, genou, cheville, carpe",
+      "Épargne le rachis",
+      "Aiguë, rarement subaiguë ou chronique"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.8"
+    ]
+  },
+  {
+    "id": "Q01-010",
+    "chapitre": "cours/01_lupus",
+    "session": "P3 2025",
+    "page": 8,
+    "enonce": "Quelles séreuses sont habituellement touchées au cours du lupus érythémateux systémique ?",
+    "reponse": [
+      "Péricarde (péricardite)",
+      "Plèvre (pleurésie)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.8"
+    ]
+  },
+  {
+    "id": "Q01-011",
+    "chapitre": "cours/01_lupus",
+    "session": "P3 2025",
+    "page": 8,
+    "enonce": "Quels sont les résultats de l'analyse du liquide de l'épanchement dans ce cas (biochimie et cytologie) ?",
+    "reponse": [
+      "Liquide exsudatif (riche en protéines), à prédominance lymphocytaire"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.8"
+    ]
+  },
+  {
+    "id": "Q01-012",
+    "chapitre": "cours/01_lupus",
+    "session": "P3 2025",
+    "page": 9,
+    "enonce": "Citez au moins trois atteintes neurologiques observées au cours du lupus érythémateux systémique.",
+    "reponse": [
+      "AVC, plus souvent ischémique",
+      "Épilepsie",
+      "Myélite"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.9"
+    ]
+  },
+  {
+    "id": "Q01-013",
+    "chapitre": "cours/01_lupus",
+    "session": "P2 2024",
+    "page": 9,
+    "enonce": "Décrire les lésions du lupus aigu au niveau de la main.",
+    "reponse": [
+      "Lésion érythémateuse, maculeuse, maculo-papuleuse, intéressant les zones inter-articulaires des doigts",
+      "Épargne les surfaces articulaires",
+      "Disparaît sans laisser de cicatrices"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.9"
+    ]
+  },
+  {
+    "id": "Q01-014",
+    "chapitre": "cours/01_lupus",
+    "session": "P2 2024",
+    "page": 9,
+    "enonce": "Quelle est l'atteinte cardiaque la plus fréquente au cours du lupus et quel est son pronostic ?",
+    "reponse": [
+      "Péricardite",
+      "De bon pronostic, très corticosensible, elle n'évolue pas vers la constriction"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.9"
+    ]
+  },
+  {
+    "id": "Q01-015",
+    "chapitre": "cours/01_lupus",
+    "session": "P2 2024",
+    "page": 9,
+    "enonce": "Quel anticorps est responsable du lupus néonatal et quelle est la complication qu'on redoute le plus ?",
+    "reponse": [
+      "AC anti-SSA.",
+      "Complication à craindre : bloc auriculo-ventriculaire (BAV)"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q01-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.6"
+    ]
+  },
+  {
+    "id": "Q01-016",
+    "chapitre": "cours/01_lupus",
+    "session": "P2 2024",
+    "page": 9,
+    "enonce": "Quelle est l'atteinte rénale caractéristique du LED et comment s'exprime-t-elle ?",
+    "reponse": [
+      "Il s'agit le plus souvent d'une atteinte glomérulaire",
+      "Se manifeste par un syndrome néphrotique (protéinurie des 24h > 3 g/L, hypoalbuminémie < 30 g/L, hypoprotidémie < 60 g/L), pur ou impur (associé à une hématurie, une insuffisance rénale, une HTA)"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q01-004",
+    "sources": [
+      "examens/qroc_par_cours.md|p.7"
+    ]
+  },
+  {
+    "id": "Q01-017",
+    "chapitre": "cours/01_lupus",
+    "session": "P3 2024",
+    "page": 10,
+    "enonce": "Citer deux anticorps pourvoyeurs d'atteinte nerveuse au cours du lupus, mis à part les anti-phospholipides.",
+    "reponse": [
+      "AC anti-neurone",
+      "AC anti-ribosome P"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.10"
+    ]
+  },
+  {
+    "id": "Q02-001",
+    "chapitre": "cours/02_sapl",
+    "session": "P2 2026",
+    "page": 11,
+    "enonce": "Citer au moins trois manifestations cutanées du syndrome des anti-phospholipides.",
+    "reponse": [
+      "Anétodermie",
+      "Livedo racemosa",
+      "Purpura nécrotique des extrémités"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.11"
+    ]
+  },
+  {
+    "id": "Q02-002",
+    "chapitre": "cours/02_sapl",
+    "session": "P2 2026",
+    "page": 11,
+    "enonce": "Citer trois manifestations biologiques qui évoquent un syndrome des anti-phospholipides, en dehors du bilan immunologique.",
+    "reponse": [
+      "Thrombopénie modérée",
+      "Anémie hémolytique mécanique",
+      "TCA allongé non corrigé par le plasma témoin"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.11"
+    ]
+  },
+  {
+    "id": "Q02-003",
+    "chapitre": "cours/02_sapl",
+    "session": "P2 2026",
+    "page": 11,
+    "enonce": "Préciser trois manifestations obstétricales du syndrome des anti-phospholipides.",
+    "reponse": [
+      "Fausses couches précoces (< 10 SA), spontanées, consécutives, sans cause identifiée",
+      "Mort fœtale in utero (> 10 SA), non expliquée",
+      "Prématurité inexpliquée"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.11"
+    ]
+  },
+  {
+    "id": "Q02-004",
+    "chapitre": "cours/02_sapl",
+    "session": "P1 2026",
+    "page": 11,
+    "enonce": "Citer au moins cinq situations cliniques qui doivent faire rechercher un syndrome des anti-phospholipides.",
+    "reponse": [
+      "AVC chez un sujet jeune",
+      "Thrombose veineuse de siège inhabituel (comme la veine cave supérieure)",
+      "Embolie pulmonaire sans facteur favorisant évident",
+      "Thrombose veineuse spontanée des membres inférieurs ou de siège inhabituel (les thromboses superficielles ne font pas partie des critères diagnostiques)",
+      "Fausses couches précoces (< 10 SA), spontanées, consécutives, sans cause identifiée",
+      "Mort fœtale in utero (> 10 SA), non expliquée",
+      "Prématurité inexpliquée"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.11"
+    ]
+  },
+  {
+    "id": "Q02-005",
+    "chapitre": "cours/02_sapl",
+    "session": "P1 2026",
+    "page": 12,
+    "enonce": "Citer au moins cinq anomalies biologiques qui évoquent un syndrome des anti-phospholipides.",
+    "reponse": [
+      "Microangiopathie thrombotique : thrombopénie modérée, anémie hémolytique mécanique, schizocytes au frottis",
+      "TCA allongé (temps de céphaline activée non corrigé par le plasma témoin)",
+      "Anticorps anti-cardiolipine",
+      "Anticorps anti-bêta2-glycoprotéine 1",
+      "Anticoagulant circulant lupique"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.12"
+    ]
+  },
+  {
+    "id": "Q02-006",
+    "chapitre": "cours/02_sapl",
+    "session": "P1 2025",
+    "page": 12,
+    "enonce": "Citer deux manifestations biologiques du SAPL (en dehors de l'immunologie).",
+    "reponse": [
+      "Allongement du TCA, isolé (taux de prothrombine normal), non corrigé par mélange avec du plasma témoin (élimine un déficit en facteur de la coagulation), corrigé par un excès de phospholipides (neutralisation : adsorption des anticorps anti-phospholipides)",
+      "Anémie hémolytique mécanique"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.12"
+    ]
+  },
+  {
+    "id": "Q02-007",
+    "chapitre": "cours/02_sapl",
+    "session": "P1 2025",
+    "page": 12,
+    "enonce": "Citer trois manifestations cutanées du SAPL.",
+    "reponse": [
+      "Anétodermie",
+      "Livedo racemosa",
+      "Purpura nécrotique des extrémités",
+      "Nécrose cutanée",
+      "Hémorragies en flammèches sous-unguéales",
+      "NB : il faut citer 03 manifestations seulement"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": "Q02-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.12"
+    ]
+  },
+  {
+    "id": "Q02-008",
+    "chapitre": "cours/02_sapl",
+    "session": "P1 2025",
+    "page": 13,
+    "enonce": "Citer trois anomalies de retentissement à l'hémogramme d'une microangiopathie thrombotique.",
+    "reponse": [
+      "Thrombopénie modérée de consommation",
+      "Anémie hémolytique mécanique",
+      "Schizocytes au frottis"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.13"
+    ]
+  },
+  {
+    "id": "Q02-009",
+    "chapitre": "cours/02_sapl",
+    "session": "P3 2025",
+    "page": 13,
+    "enonce": "Citez au moins quatre situations cliniques devant faire rechercher un syndrome des anti-phospholipides.",
+    "reponse": [
+      "AVC chez un sujet jeune",
+      "Thrombose veineuse de siège inhabituel (comme la veine cave supérieure)",
+      "Embolie pulmonaire sans facteur favorisant évident",
+      "Thrombose veineuse spontanée des membres inférieurs ou de siège inhabituel (les thromboses superficielles ne font pas partie des critères diagnostiques)",
+      "Fausses couches précoces (< 10 SA), spontanées, consécutives, sans cause identifiée",
+      "Mort fœtale in utero (> 10 SA), non expliquée",
+      "Prématurité inexpliquée"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q02-004",
+    "sources": [
+      "examens/qroc_par_cours.md|p.11"
+    ]
+  },
+  {
+    "id": "Q02-010",
+    "chapitre": "cours/02_sapl",
+    "session": "P3 2025",
+    "page": 13,
+    "enonce": "Que doit comprendre le bilan immunologique demandé dans le cadre de la recherche d'un syndrome des anti-phospholipides ?",
+    "reponse": [
+      "AC anticoagulant circulant de type lupique",
+      "Anticorps anti-cardiolipine",
+      "AC anti-β2-GP1"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.13"
+    ]
+  },
+  {
+    "id": "Q02-011",
+    "chapitre": "cours/02_sapl",
+    "session": "P1 2024",
+    "page": 13,
+    "enonce": "Citer au moins cinq situations cliniques qui doivent faire rechercher un syndrome des anti-phospholipides.",
+    "reponse": [
+      "AVC chez un sujet jeune",
+      "Thrombose veineuse de siège inhabituel (comme la veine cave supérieure)",
+      "Embolie pulmonaire sans facteur favorisant évident",
+      "Thrombose veineuse spontanée des membres inférieurs ou de siège inhabituel (les thromboses superficielles ne font pas partie des critères diagnostiques)",
+      "Fausses couches précoces (< 10 SA), spontanées, consécutives, sans cause identifiée",
+      "Mort fœtale in utero (> 10 SA), non expliquée",
+      "Prématurité inexpliquée"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q02-004",
+    "sources": [
+      "examens/qroc_par_cours.md|p.11"
+    ]
+  },
+  {
+    "id": "Q02-012",
+    "chapitre": "cours/02_sapl",
+    "session": "P1 2024",
+    "page": 13,
+    "enonce": "Citer au moins deux situations biologiques qui évoquent un syndrome des anti-phospholipides, en dehors du bilan immunologique.",
+    "reponse": [
+      "Thrombopénie modérée",
+      "Anémie hémolytique mécanique",
+      "TCA allongé non corrigé par le plasma témoin"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q02-002",
+    "sources": [
+      "examens/qroc_par_cours.md|p.11"
+    ]
+  },
+  {
+    "id": "Q02-013",
+    "chapitre": "cours/02_sapl",
+    "session": "P1 2024",
+    "page": 14,
+    "enonce": "Citer au moins trois manifestations cutanées du syndrome des anti-phospholipides.",
+    "reponse": [
+      "Anétodermie",
+      "Livedo racemosa",
+      "Purpura nécrotique des extrémités"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q02-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.11"
+    ]
+  },
+  {
+    "id": "Q02-014",
+    "chapitre": "cours/02_sapl",
+    "session": "P2 2024",
+    "page": 14,
+    "enonce": "Citer trois anomalies de retentissement à l'hémogramme de microangiopathie thrombotique.",
+    "reponse": [
+      "Thrombopénie modérée",
+      "Anémie hémolytique mécanique",
+      "Schizocytes au frottis"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": "Q02-008",
+    "sources": [
+      "examens/qroc_par_cours.md|p.14"
+    ]
+  },
+  {
+    "id": "Q02-015",
+    "chapitre": "cours/02_sapl",
+    "session": "P3 2024",
+    "page": 14,
+    "enonce": "Citez les deux principales classes thérapeutiques utilisées au cours du SAPL.",
+    "reponse": [
+      "Antiagrégants plaquettaires",
+      "Anticoagulants : HBPM, AVK"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.14"
+    ]
+  },
+  {
+    "id": "Q03-001",
+    "chapitre": "cours/03_behcet",
+    "session": "P2 2026",
+    "page": 15,
+    "enonce": "Donner cinq caractéristiques de l'aphtose buccale au cours de la maladie de Behçet.",
+    "reponse": [
+      "Fréquente",
+      "Récidivante (> 3/an)",
+      "Multiple voire confluente, pouvant siéger dans n'importe quelle région de la cavité buccale",
+      "Douloureuse",
+      "De taille variable",
+      "Favorisée par l'arrêt du tabac",
+      "Associée à des manifestations extra-buccales (non isolée)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.15"
+    ]
+  },
+  {
+    "id": "Q03-002",
+    "chapitre": "cours/03_behcet",
+    "session": "P2 2026",
+    "page": 15,
+    "enonce": "Donner trois diagnostics différentiels de l'aphtose buccale de la maladie de Behçet.",
+    "reponse": [
+      "Aphtose buccale banale",
+      "Aphtose buccale de la maladie de Crohn",
+      "Aphtose buccale de la maladie cœliaque"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.15"
+    ]
+  },
+  {
+    "id": "Q03-003",
+    "chapitre": "cours/03_behcet",
+    "session": "P2 2026",
+    "page": 15,
+    "enonce": "Donner les atteintes engageant le pronostic vital au cours de la maladie de Behçet.",
+    "reponse": [
+      "Atteinte vasculaire",
+      "Atteinte neurologique",
+      "Atteinte digestive"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.15"
+    ]
+  },
+  {
+    "id": "Q03-004",
+    "chapitre": "cours/03_behcet",
+    "session": "P2 2026",
+    "page": 16,
+    "enonce": "Citer les armes thérapeutiques de la maladie de Behçet.",
+    "reponse": [
+      "Anti-inflammatoires : colchicine",
+      "Corticoïdes",
+      "Immunosuppresseurs",
+      "Biothérapie",
+      "Immunomodulateurs"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.16"
+    ]
+  },
+  {
+    "id": "Q03-005",
+    "chapitre": "cours/03_behcet",
+    "session": "P2 2026",
+    "page": 16,
+    "enonce": "Quelle est l'anomalie biologique attendue au cours d'une thrombose intraventriculaire au cours de la maladie de Behçet ?",
+    "reponse": [
+      "Syndrome inflammatoire (élévation de la VS, de la CRP)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.16"
+    ]
+  },
+  {
+    "id": "Q03-006",
+    "chapitre": "cours/03_behcet",
+    "session": "P2 2026",
+    "page": 16,
+    "enonce": "Citer trois manifestations de l'ophtalmo-Behçet touchant le pôle postérieur de l'œil.",
+    "reponse": [
+      "Vascularite rétinienne",
+      "Œdème maculaire",
+      "Uvéite postérieure"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.16"
+    ]
+  },
+  {
+    "id": "Q03-007",
+    "chapitre": "cours/03_behcet",
+    "session": "P1 2026",
+    "page": 16,
+    "enonce": "Quelle est l'anomalie biologique attendue au cours du neuro-Behçet ?",
+    "reponse": [
+      "Un syndrome inflammatoire (augmentation de la VS et de la CRP)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.16"
+    ]
+  },
+  {
+    "id": "Q03-008",
+    "chapitre": "cours/03_behcet",
+    "session": "P1 2026",
+    "page": 16,
+    "enonce": "Le syndrome de Hughes-Stovin associe :",
+    "reponse": [
+      "Un phénomène thrombotique : thrombose de siège inhabituel, souvent de la veine cave",
+      "Un phénomène anévrismal : anévrisme de l'artère pulmonaire"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.16"
+    ]
+  },
+  {
+    "id": "Q03-009",
+    "chapitre": "cours/03_behcet",
+    "session": "P1 2026",
+    "page": 16,
+    "enonce": "Citer trois manifestations dermatologiques de la maladie de Behçet, en dehors de l'aphtose buccale et génitale, ne s'accompagnant pas d'un syndrome inflammatoire.",
+    "reponse": [
+      "Pseudo-folliculite",
+      "Ulcération cutanée",
+      "Papule ou pustule",
+      "Vésicules",
+      "Hyperréactivité cutanée aspécifique aux agressions"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.16"
+    ]
+  },
+  {
+    "id": "Q03-010",
+    "chapitre": "cours/03_behcet",
+    "session": "P1 2026",
+    "page": 16,
+    "enonce": "Une papillite bilatérale chez un patient connu pour maladie de Behçet impose la recherche de trois manifestations de sa maladie, lesquelles, en précisant les examens complémentaires à demander ?",
+    "reponse": [
+      "Ophtalmo-Behçet : FO, OCT papillaire",
+      "Neuro-Behçet : atteinte parenchymateuse ⇒ IRM cérébrale, PL en l'absence de contre-indication",
+      "Angio-Behçet : thrombose veineuse cérébrale ⇒ angio-IRM",
+      "En plus : VS, CRP"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.16"
+    ]
+  },
+  {
+    "id": "Q03-011",
+    "chapitre": "cours/03_behcet",
+    "session": "P1 2026",
+    "page": 17,
+    "enonce": "Citer cinq caractéristiques de l'atteinte vasculaire de la maladie de Behçet.",
+    "reponse": [
+      "Absence de facteurs de risque vasculaire",
+      "Touche les vaisseaux de tous calibres",
+      "Caractère bilatéral",
+      "Caractère récidivant",
+      "Thrombose veineuse de siège inhabituel ou de localisation banale",
+      "Bilan inflammatoire positif"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.17"
+    ]
+  },
+  {
+    "id": "Q03-012",
+    "chapitre": "cours/03_behcet",
+    "session": "P1 2026",
+    "page": 18,
+    "enonce": "Donner les situations cliniques au cours de la maladie de Behçet pouvant s'accompagner d'un bilan inflammatoire positif.",
+    "reponse": [
+      "Angio-Behçet",
+      "Neuro-Behçet",
+      "Entéro-Behçet",
+      "Atteinte articulaire",
+      "Érythème noueux"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.18"
+    ]
+  },
+  {
+    "id": "Q03-013",
+    "chapitre": "cours/03_behcet",
+    "session": "P1 2025",
+    "page": 18,
+    "enonce": "Citer cinq caractéristiques de l'atteinte vasculaire de la maladie de Behçet.",
+    "reponse": [
+      "Absence de facteurs de risque vasculaire",
+      "Touche les vaisseaux de tous calibres",
+      "Caractère bilatéral",
+      "Caractère récidivant",
+      "Thrombose veineuse de siège inhabituel ou de localisation banale",
+      "Bilan inflammatoire positif"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q03-011",
+    "sources": [
+      "examens/qroc_par_cours.md|p.17"
+    ]
+  },
+  {
+    "id": "Q03-014",
+    "chapitre": "cours/03_behcet",
+    "session": "P1 2025",
+    "page": 18,
+    "enonce": "Donner cinq caractéristiques de l'aphtose buccale de la maladie de Behçet.",
+    "reponse": [
+      "Fréquente",
+      "Récidivante (> 3/an)",
+      "Multiple voire confluente, pouvant siéger dans n'importe quelle région de la cavité buccale",
+      "Douloureuse",
+      "De taille variable",
+      "Favorisée par l'arrêt du tabac",
+      "Associée à des manifestations extra-buccales (non isolée)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": "Q03-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.18"
+    ]
+  },
+  {
+    "id": "Q03-015",
+    "chapitre": "cours/03_behcet",
+    "session": "P2 2025",
+    "page": 18,
+    "enonce": "Quelles sont les manifestations de la maladie de Behçet qui s'accompagnent de fièvre ?",
+    "reponse": [
+      "Angio-Behçet",
+      "Neuro-Behçet",
+      "Entéro-Behçet",
+      "Atteinte articulaire",
+      "Érythème noueux"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.18"
+    ]
+  },
+  {
+    "id": "Q03-016",
+    "chapitre": "cours/03_behcet",
+    "session": "P2 2025",
+    "page": 19,
+    "enonce": "Quel est le risque d'arrêt de la colchicine au cours de la maladie de Behçet ?",
+    "reponse": [
+      "Flambée, surtout des manifestations neurologiques et oculaires"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.19"
+    ]
+  },
+  {
+    "id": "Q03-017",
+    "chapitre": "cours/03_behcet",
+    "session": "P3 2025",
+    "page": 19,
+    "enonce": "Citez au moins quatre manifestations pronostiques de la maladie de Behçet.",
+    "reponse": [
+      "Oculaire : pronostic fonctionnel",
+      "Vasculaire : pronostic vital",
+      "Neurologique : pronostic vital et fonctionnel",
+      "Digestive : pronostic vital"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.19"
+    ]
+  },
+  {
+    "id": "Q03-018",
+    "chapitre": "cours/03_behcet",
+    "session": "P1 2024",
+    "page": 19,
+    "enonce": "Quelles sont les caractéristiques de l'aphtose de la maladie de Behçet ?",
+    "reponse": [
+      "Fréquente",
+      "Récidivante (> 3/an)",
+      "Multiple voire confluente, pouvant siéger dans n'importe quelle région de la cavité buccale",
+      "Douloureuse",
+      "De taille variable",
+      "Favorisée par l'arrêt du tabac",
+      "Associée à des manifestations extra-buccales (non isolée)"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q03-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.15"
+    ]
+  },
+  {
+    "id": "Q03-019",
+    "chapitre": "cours/03_behcet",
+    "session": "P1 2024",
+    "page": 19,
+    "enonce": "Citer cinq caractéristiques de l'aphtose buccale au cours de la maladie de Behçet.",
+    "reponse": [
+      "Fréquente",
+      "Récidivante (> 3/an)",
+      "Multiple voire confluente, pouvant siéger dans n'importe quelle région de la cavité buccale",
+      "Douloureuse",
+      "De taille variable",
+      "Favorisée par l'arrêt du tabac",
+      "Associée à des manifestations extra-buccales (non isolée)"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q03-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.15"
+    ]
+  },
+  {
+    "id": "Q03-020",
+    "chapitre": "cours/03_behcet",
+    "session": "P1 2024",
+    "page": 19,
+    "enonce": "Citer au moins quatre manifestations extra-dermatologiques de la maladie de Behçet.",
+    "reponse": [
+      "Uvéite postérieure",
+      "Thrombose de siège inhabituel (comme la veine cave)",
+      "Arthralgie des articulations porteuses",
+      "Encéphalite"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.19"
+    ]
+  },
+  {
+    "id": "Q03-021",
+    "chapitre": "cours/03_behcet",
+    "session": "P1 2024",
+    "page": 20,
+    "enonce": "Citer les atteintes pouvant engager le pronostic vital au cours de la maladie de Behçet.",
+    "reponse": [
+      "Atteinte vasculaire",
+      "Atteinte neurologique",
+      "Atteinte digestive"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q03-003",
+    "sources": [
+      "examens/qroc_par_cours.md|p.15"
+    ]
+  },
+  {
+    "id": "Q03-022",
+    "chapitre": "cours/03_behcet",
+    "session": "P1 2024",
+    "page": 20,
+    "enonce": "Citer au moins trois manifestations dermatologiques de la maladie de Behçet en dehors de l'aphtose.",
+    "reponse": [
+      "Pseudo-folliculite",
+      "Ulcération cutanée",
+      "Papule ou pustule",
+      "Vésicules",
+      "Hyperréactivité cutanée aspécifique aux agressions"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q03-009",
+    "sources": [
+      "examens/qroc_par_cours.md|p.16"
+    ]
+  },
+  {
+    "id": "Q03-023",
+    "chapitre": "cours/03_behcet",
+    "session": "P2 2024",
+    "page": 20,
+    "enonce": "Quels sont les diagnostics différentiels de l'aphtose buccale de la maladie de Behçet ?",
+    "reponse": [
+      "Aphtose buccale banale récurrente",
+      "Maladie de Crohn",
+      "RCUH",
+      "Maladie cœliaque",
+      "Hémopathies",
+      "Carence en fer et en vitamines B9 et B12",
+      "Infections mycosiques ou virales",
+      "Chimiothérapie, médicaments"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": "Q03-002",
+    "sources": [
+      "examens/qroc_par_cours.md|p.20"
+    ]
+  },
+  {
+    "id": "Q03-024",
+    "chapitre": "cours/03_behcet",
+    "session": "P2 2024",
+    "page": 20,
+    "enonce": "Dans quelles situations le bilan inflammatoire est-il positif au cours de la maladie de Behçet ?",
+    "reponse": [
+      "Angio-Behçet",
+      "Neuro-Behçet",
+      "Entéro-Behçet",
+      "Atteinte articulaire",
+      "Érythème noueux"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q03-012",
+    "sources": [
+      "examens/qroc_par_cours.md|p.18"
+    ]
+  },
+  {
+    "id": "Q03-025",
+    "chapitre": "cours/03_behcet",
+    "session": "P3 2024",
+    "page": 20,
+    "enonce": "Décrivez le test d'hypersensibilité au cours de la maladie de Behçet.",
+    "reponse": [
+      "Test pathergique",
+      "Il consiste en une injection intradermique de sérum physiologique (placebo)",
+      "Le site d'injection est ensuite observé après 24 à 48 heures",
+      "Un test positif correspond à l'apparition d'une papule, d'une pseudo-pustule ou d'une vésicule au site de la piqûre, traduisant une hyperréactivité cutanée"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.20"
+    ]
+  },
+  {
+    "id": "Q04-001",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P2 2026",
+    "page": 21,
+    "enonce": "Citer trois anomalies retrouvées à la capillaroscopie au cours de la sclérodermie.",
+    "reponse": [
+      "Présence de mégacapillaires",
+      "Raréfaction des capillaires",
+      "Hémorragies sous-unguéales (spontanées)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.21"
+    ]
+  },
+  {
+    "id": "Q04-002",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P2 2026",
+    "page": 21,
+    "enonce": "Quand demander une échographie doppler cardiaque chez un patient suivi pour sclérodermie systémique, en précisant pourquoi ?",
+    "reponse": [
+      "Écho-doppler cardiaque annuelle, pour dépister une hypertension artérielle pulmonaire asymptomatique",
+      "Si le patient présente des symptômes lors des consultations, on la réalise immédiatement"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.21"
+    ]
+  },
+  {
+    "id": "Q04-003",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P1 2026",
+    "page": 21,
+    "enonce": "Quelles sont les complications à craindre du reflux gastro-œsophagien au cours de la sclérodermie systémique ?",
+    "reponse": [
+      "Œsophagite peptique",
+      "Endobrachyœsophage",
+      "Adénocarcinome de l'œsophage"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.21"
+    ]
+  },
+  {
+    "id": "Q04-004",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P1 2026",
+    "page": 21,
+    "enonce": "Au cours de la sclérodermie, l'hypertension artérielle pulmonaire asymptomatique est à dépister par quel examen paraclinique, et à quel rythme ?",
+    "reponse": [
+      "Dépistage par écho-doppler cardiaque annuelle"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": "Q04-002",
+    "sources": [
+      "examens/qroc_par_cours.md|p.21"
+    ]
+  },
+  {
+    "id": "Q04-005",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P1 2026",
+    "page": 22,
+    "enonce": "Citer les lésions scanographiques retrouvées en cas de pneumopathie interstitielle liée à la sclérodermie.",
+    "reponse": [
+      "À la radiographie standard : image normale ou opacités réticulées",
+      "Au scanner : image en verre dépoli en cas d'inflammation, image en rayon de miel en cas de fibrose"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.22"
+    ]
+  },
+  {
+    "id": "Q04-006",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P1 2025",
+    "page": 22,
+    "enonce": "Citer trois anomalies capillaroscopiques de la sclérodermie.",
+    "reponse": [
+      "Présence de mégacapillaires",
+      "Raréfaction des capillaires",
+      "Hémorragies sous-unguéales (spontanées)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": "Q04-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.22"
+    ]
+  },
+  {
+    "id": "Q04-007",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P3 2025",
+    "page": 22,
+    "enonce": "Citer les anomalies biologiques observées au cours de la crise rénale sclérodermique.",
+    "reponse": [
+      "Anémie hémolytique mécanique : schizocytes au frottis sanguin",
+      "Créatininémie rapidement élevée"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.22"
+    ]
+  },
+  {
+    "id": "Q04-008",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P3 2025",
+    "page": 22,
+    "enonce": "Quelles sont les anomalies retrouvées à la capillaroscopie au cours de la sclérodermie ?",
+    "reponse": [
+      "Présence de mégacapillaires",
+      "Raréfaction des capillaires",
+      "Hémorragies sous-unguéales (spontanées)"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q04-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.21"
+    ]
+  },
+  {
+    "id": "Q04-009",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P3 2025",
+    "page": 22,
+    "enonce": "Quels sont les éléments orientant vers le caractère secondaire d'un phénomène de Raynaud ?",
+    "reponse": [
+      "Perte du caractère saisonnier",
+      "Touche tous les doigts, y compris le pouce",
+      "Existence de manifestations systémiques",
+      "Absence de facteur déclenchant",
+      "Présence de troubles trophiques"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.22"
+    ]
+  },
+  {
+    "id": "Q04-010",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P2 2025",
+    "page": 23,
+    "enonce": "Citer les manifestations clinico-biologiques de la crise rénale sclérodermique.",
+    "reponse": [
+      "Clinique : HTA sévère, oligo-anurie (insuffisance rénale)",
+      "Biologie : anémie hémolytique mécanique, créatininémie élevée, DFG bas"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": "Q04-007",
+    "sources": [
+      "examens/qroc_par_cours.md|p.23"
+    ]
+  },
+  {
+    "id": "Q04-011",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P2 2025",
+    "page": 24,
+    "enonce": "Citer les trois manifestations digestives les plus fréquentes de la sclérodermie.",
+    "reponse": [
+      "Reflux gastro-œsophagien",
+      "Pyrosis",
+      "Gastroparésie"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.24"
+    ]
+  },
+  {
+    "id": "Q04-012",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P1 2024",
+    "page": 24,
+    "enonce": "Citer les manifestations cliniques du CREST syndrome.",
+    "reponse": [
+      "Calcinose, phénomène de Raynaud, dysfonctionnement œsophagien, télangiectasies, sclérodactylie"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.24"
+    ]
+  },
+  {
+    "id": "Q04-013",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P1 2024",
+    "page": 24,
+    "enonce": "Citer trois anomalies retrouvées à la capillaroscopie au cours de la sclérodermie.",
+    "reponse": [
+      "Présence de mégacapillaires",
+      "Raréfaction des capillaires",
+      "Hémorragies sous-unguéales (spontanées)"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q04-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.21"
+    ]
+  },
+  {
+    "id": "Q04-014",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P1 2024",
+    "page": 24,
+    "enonce": "Pourquoi la corticothérapie à forte dose est-elle à éviter au cours de la sclérodermie ?",
+    "reponse": [
+      "Parce qu'elle peut favoriser ou déclencher une crise rénale sclérodermique mettant le pronostic vital en jeu"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.24"
+    ]
+  },
+  {
+    "id": "Q04-015",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P2 2024",
+    "page": 24,
+    "enonce": "Quelles sont les deux principales étiologies de la dyspnée au cours de la sclérodermie ?",
+    "reponse": [
+      "Pneumopathie interstitielle diffuse",
+      "Hypertension artérielle pulmonaire"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.24"
+    ]
+  },
+  {
+    "id": "Q04-016",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P2 2024",
+    "page": 25,
+    "enonce": "Comment se manifeste cliniquement et biologiquement la crise rénale sclérodermique ?",
+    "reponse": [
+      "Clinique : HTA sévère, oligo-anurie (insuffisance rénale)",
+      "Biologie : anémie hémolytique mécanique, créatininémie élevée, DFG bas"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q04-010",
+    "sources": [
+      "examens/qroc_par_cours.md|p.23"
+    ]
+  },
+  {
+    "id": "Q04-017",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P3 2024",
+    "page": 25,
+    "enonce": "Citez deux signes pouvant être observés à la capillaroscopie au cours de la sclérodermie.",
+    "reponse": [
+      "Présence de mégacapillaires",
+      "Raréfaction des capillaires",
+      "Hémorragies sous-unguéales (spontanées)"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q04-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.21"
+    ]
+  },
+  {
+    "id": "Q04-018",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P3 2024",
+    "page": 25,
+    "enonce": "Donnez deux manifestations cliniques et/ou biologiques liées à une atteinte de l'intestin grêle au cours de la sclérodermie.",
+    "reponse": [
+      "Diarrhée",
+      "Syndrome pseudo-occlusif"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.25"
+    ]
+  },
+  {
+    "id": "Q04-019",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P3 2024",
+    "page": 25,
+    "enonce": "Citez deux facteurs exogènes incriminés dans la physiopathologie de la sclérodermie.",
+    "reponse": [
+      "Solvants organiques",
+      "Silice"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.25"
+    ]
+  },
+  {
+    "id": "Q04-020",
+    "chapitre": "cours/04_sclerodermie",
+    "session": "P3 2024",
+    "page": 25,
+    "enonce": "Citez trois anticorps retrouvés dans la sclérodermie.",
+    "reponse": [
+      "FAN",
+      "AC anti-Scl70",
+      "AC anti-centromère",
+      "AC anti-polymérase III"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.25"
+    ]
+  },
+  {
+    "id": "Q05-001",
+    "chapitre": "cours/05_granulomatoses",
+    "session": "P2 2025",
+    "page": 26,
+    "enonce": "Décrire les adénopathies médiastinales au cours de la sarcoïdose.",
+    "reponse": [
+      "Adénopathie hilaire",
+      "Symétrique, bilatérale",
+      "Polycyclique",
+      "Non compressive",
+      "Volumineuse"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.26"
+    ]
+  },
+  {
+    "id": "Q05-002",
+    "chapitre": "cours/05_granulomatoses",
+    "session": "P1 2024",
+    "page": 26,
+    "enonce": "Citer au moins quatre étiologies des granulomatoses systémiques.",
+    "reponse": [
+      "Tuberculose",
+      "Sarcoïdose",
+      "Maladie de Horton",
+      "Granulomatose avec polyangéite (vascularite à ANCA)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.26"
+    ]
+  },
+  {
+    "id": "Q05-003",
+    "chapitre": "cours/05_granulomatoses",
+    "session": "P1 2024",
+    "page": 26,
+    "enonce": "Citer au moins quatre manifestations cliniques pouvant évoquer une granulomatose.",
+    "reponse": [
+      "Dyspnée chronique",
+      "Uvéite antérieure avec précipités rétro-cornéens granulomateux",
+      "Atteinte hépatique (cytolyse)",
+      "Splénomégalie"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.26"
+    ]
+  },
+  {
+    "id": "Q05-004",
+    "chapitre": "cours/05_granulomatoses",
+    "session": "P2 2024",
+    "page": 26,
+    "enonce": "Citez au moins quatre manifestations cardiaques des granulomatoses systémiques.",
+    "reponse": [
+      "Troubles du rythme",
+      "Troubles de conduction",
+      "Myocardite",
+      "Atteinte coronaire (trouble ischémique)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.26"
+    ]
+  },
+  {
+    "id": "Q05-005",
+    "chapitre": "cours/05_granulomatoses",
+    "session": "P2 2024",
+    "page": 27,
+    "enonce": "Décrire les adénopathies de la sarcoïdose pulmonaire.",
+    "reponse": [
+      "Adénopathie hilaire",
+      "Symétrique, bilatérale",
+      "Polycyclique",
+      "Non compressive",
+      "Volumineuse"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q05-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.26"
+    ]
+  },
+  {
+    "id": "Q05-006",
+    "chapitre": "cours/05_granulomatoses",
+    "session": "P3 2024",
+    "page": 27,
+    "enonce": "Le syndrome de Heerfordt associe :",
+    "reponse": [
+      "Uvéite antérieure",
+      "Parotidomégalie",
+      "Paralysie faciale périphérique",
+      "Fièvre"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.27"
+    ]
+  },
+  {
+    "id": "Q05-007",
+    "chapitre": "cours/05_granulomatoses",
+    "session": "P3 2024",
+    "page": 27,
+    "enonce": "Caractérisez la lésion histologique de la sarcoïdose.",
+    "reponse": [
+      "Granulome épithélio-giganto-cellulaire, le plus souvent sans nécrose caséeuse"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.27"
+    ]
+  },
+  {
+    "id": "Q06-001",
+    "chapitre": "cours/06_gougerot_sjogren",
+    "session": "P2 2026",
+    "page": 28,
+    "enonce": "Quelles sont les paires crâniennes les plus touchées au cours du syndrome de Gougerot-Sjögren ?",
+    "reponse": [
+      "Le nerf trijumeau",
+      "Le nerf facial",
+      "Le nerf vestibulocochléaire"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.28"
+    ]
+  },
+  {
+    "id": "Q06-002",
+    "chapitre": "cours/06_gougerot_sjogren",
+    "session": "P2 2026",
+    "page": 28,
+    "enonce": "Quelles sont les complications à évoquer devant un pic monoclonal des gammaglobulines chez un patient suivi pour un syndrome de Gougerot-Sjögren ?",
+    "reponse": [
+      "Dégénérescence lymphomateuse B"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.28"
+    ]
+  },
+  {
+    "id": "Q06-003",
+    "chapitre": "cours/06_gougerot_sjogren",
+    "session": "P2 2026",
+    "page": 28,
+    "enonce": "Quel diagnostic est évoqué devant l'apparition d'un syndrome de glomérulonéphrite chez un patient suivi pour un syndrome de Gougerot-Sjögren ?",
+    "reponse": [
+      "Vascularite cryoglobulinémique"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.28"
+    ]
+  },
+  {
+    "id": "Q06-004",
+    "chapitre": "cours/06_gougerot_sjogren",
+    "session": "P1 2026",
+    "page": 28,
+    "enonce": "Citez deux diagnostics à évoquer devant un purpura vasculaire au cours du syndrome de Gougerot-Sjögren.",
+    "reponse": [
+      "Hypergammaglobulinémie",
+      "Vascularite cryoglobulinémique"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.28"
+    ]
+  },
+  {
+    "id": "Q06-005",
+    "chapitre": "cours/06_gougerot_sjogren",
+    "session": "P1 2026",
+    "page": 29,
+    "enonce": "Citez trois étiologies, autres qu'un syndrome de Gougerot-Sjögren, d'une parotidomégalie bilatérale.",
+    "reponse": [
+      "Sarcoïdose",
+      "Maladie à IgG4",
+      "Cirrhose éthylique",
+      "Lymphome",
+      "Diabète"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.29"
+    ]
+  },
+  {
+    "id": "Q06-006",
+    "chapitre": "cours/06_gougerot_sjogren",
+    "session": "P1 2025",
+    "page": 29,
+    "enonce": "Citer quatre marqueurs immunologiques du syndrome de Gougerot-Sjögren.",
+    "reponse": [
+      "Anticorps antinucléaires (FAN)",
+      "Anticorps anti-SSA (Ro52, Ro60 plus spécifique)",
+      "Anticorps anti-SSB (La)",
+      "Facteur rhumatoïde"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.29"
+    ]
+  },
+  {
+    "id": "Q06-007",
+    "chapitre": "cours/06_gougerot_sjogren",
+    "session": "P1 2025",
+    "page": 29,
+    "enonce": "Quelle est l'anomalie électrique habituelle du syndrome de Gougerot-Sjögren ?",
+    "reponse": [
+      "Bloc auriculo-ventriculaire (BAV) congénital"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.29"
+    ]
+  },
+  {
+    "id": "Q06-008",
+    "chapitre": "cours/06_gougerot_sjogren",
+    "session": "P3 2025",
+    "page": 29,
+    "enonce": "Citez les deux diagnostics à évoquer devant un purpura vasculaire au cours du syndrome de Gougerot-Sjögren.",
+    "reponse": [
+      "Hypergammaglobulinémie",
+      "Vascularite cryoglobulinémique"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q06-004",
+    "sources": [
+      "examens/qroc_par_cours.md|p.28"
+    ]
+  },
+  {
+    "id": "Q06-009",
+    "chapitre": "cours/06_gougerot_sjogren",
+    "session": "P1 2024",
+    "page": 29,
+    "enonce": "Citer au moins trois manifestations graves du syndrome de Gougerot-Sjögren.",
+    "reponse": [
+      "Manifestation pulmonaire : pneumopathies interstitielles diffuses",
+      "Manifestation neurologique, la plus grave : vascularite du système nerveux central",
+      "Manifestation rénale : néphropathie tubulo-interstitielle"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.29"
+    ]
+  },
+  {
+    "id": "Q06-010",
+    "chapitre": "cours/06_gougerot_sjogren",
+    "session": "P1 2024",
+    "page": 29,
+    "enonce": "Citer au moins quatre anomalies biologiques observées au cours du syndrome de Gougerot-Sjögren.",
+    "reponse": [
+      "Lymphopénie",
+      "Anémie auto-immune",
+      "Thrombopénie auto-immune",
+      "Hypergammaglobulinémie polyclonale"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.29"
+    ]
+  },
+  {
+    "id": "Q06-011",
+    "chapitre": "cours/06_gougerot_sjogren",
+    "session": "P2 2024",
+    "page": 30,
+    "enonce": "Citez au moins deux anomalies biologiques faisant suspecter une dégénérescence lymphomateuse au cours du syndrome de Gougerot-Sjögren.",
+    "reponse": [
+      "Hypergammaglobulinémie monoclonale",
+      "Cryoglobulinémie"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.30"
+    ]
+  },
+  {
+    "id": "Q06-012",
+    "chapitre": "cours/06_gougerot_sjogren",
+    "session": "P2 2024",
+    "page": 30,
+    "enonce": "Citez deux atteintes nerveuses les plus fréquentes au cours du syndrome de Gougerot-Sjögren.",
+    "reponse": [
+      "Atteinte des paires crâniennes : le plus souvent le trijumeau",
+      "Mononeuropathie multiple"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.30"
+    ]
+  },
+  {
+    "id": "Q06-013",
+    "chapitre": "cours/06_gougerot_sjogren",
+    "session": "P3 2024",
+    "page": 30,
+    "enonce": "Donnez trois manifestations cliniques évocatrices d'une dégénérescence lymphomateuse au cours du syndrome de Gougerot-Sjögren.",
+    "reponse": [
+      "Hypertrophie parotidienne persistante",
+      "Fièvre et altération de l'état général",
+      "Syndrome tumoral"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.30"
+    ]
+  },
+  {
+    "id": "Q06-014",
+    "chapitre": "cours/06_gougerot_sjogren",
+    "session": "P3 2024",
+    "page": 31,
+    "enonce": "Citez deux manifestations biologiques évocatrices d'une dégénérescence lymphomateuse au cours du syndrome de Gougerot-Sjögren.",
+    "reponse": [
+      "Hypergammaglobulinémie monoclonale",
+      "Cryoglobulinémie"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q06-011",
+    "sources": [
+      "examens/qroc_par_cours.md|p.30"
+    ]
+  },
+  {
+    "id": "Q06-015",
+    "chapitre": "cours/06_gougerot_sjogren",
+    "session": "P3 2024",
+    "page": 31,
+    "enonce": "Citez les deux atteintes neurologiques les plus fréquentes lors du syndrome de Gougerot-Sjögren.",
+    "reponse": [
+      "Atteinte des paires crâniennes : le plus souvent le trijumeau",
+      "Mononeuropathie multiple"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q06-012",
+    "sources": [
+      "examens/qroc_par_cours.md|p.30"
+    ]
+  },
+  {
+    "id": "Q06-016",
+    "chapitre": "cours/06_gougerot_sjogren",
+    "session": "P3 2024",
+    "page": 31,
+    "enonce": "Citez trois étiologies, en dehors du syndrome de Gougerot-Sjögren, de parotidomégalie bilatérale.",
+    "reponse": [
+      "Sarcoïdose",
+      "Maladie à IgG4",
+      "Cirrhose éthylique",
+      "Lymphome",
+      "Diabète"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q06-005",
+    "sources": [
+      "examens/qroc_par_cours.md|p.29"
+    ]
+  },
+  {
+    "id": "Q07-001",
+    "chapitre": "cours/07_still_auto_inflammatoires",
+    "session": "P1 2026",
+    "page": 32,
+    "enonce": "Décrire la manifestation dermatologique la plus caractéristique de la maladie de Still.",
+    "reponse": [
+      "Rash rose saumon, souvent discret",
+      "Évanescent : disparaît après les pics fébriles",
+      "Maculo-papuleux, non prurigineux",
+      "Prédomine au niveau du tronc et des racines des membres",
+      "Peut être induit par le grattage ou la pression (phénomène de Kœbner-like)",
+      "Apparaît pendant les pics fébriles"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.32"
+    ]
+  },
+  {
+    "id": "Q07-002",
+    "chapitre": "cours/07_still_auto_inflammatoires",
+    "session": "P1 2026",
+    "page": 32,
+    "enonce": "Quelle est la complication redoutable rattachée systématiquement à la maladie de Still ?",
+    "reponse": [
+      "Syndrome d'activation macrophagique (SAM)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.32"
+    ]
+  },
+  {
+    "id": "Q07-003",
+    "chapitre": "cours/07_still_auto_inflammatoires",
+    "session": "P2 2025",
+    "page": 32,
+    "enonce": "Citer au moins trois diagnostics différentiels du rash cutané retrouvé dans la maladie de Still.",
+    "reponse": [
+      "Mononucléose infectieuse",
+      "Toxidermie médicamenteuse",
+      "Syphilis secondaire",
+      "Pityriasis rosé de Gibert"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.32"
+    ]
+  },
+  {
+    "id": "Q07-004",
+    "chapitre": "cours/07_still_auto_inflammatoires",
+    "session": "P2 2025",
+    "page": 33,
+    "enonce": "Citer quatre manifestations biologiques du syndrome d'activation macrophagique.",
+    "reponse": [
+      "Cytopénie (anémie, thrombopénie, leucopénie)",
+      "Hyperferritinémie",
+      "Fibrinogène bas",
+      "Triglycérides très augmentés"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.33"
+    ]
+  },
+  {
+    "id": "Q07-005",
+    "chapitre": "cours/07_still_auto_inflammatoires",
+    "session": "P1 2024",
+    "page": 33,
+    "enonce": "Décrire la manifestation dermatologique la plus caractéristique de la maladie de Still.",
+    "reponse": [
+      "Rash rose saumon, souvent discret",
+      "Évanescent : disparaît après les pics fébriles",
+      "Maculo-papuleux, non prurigineux",
+      "Prédomine au niveau du tronc et des racines des membres",
+      "Peut être induit par le grattage ou la pression (phénomène de Kœbner-like)",
+      "Apparaît pendant les pics fébriles"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q07-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.32"
+    ]
+  },
+  {
+    "id": "Q07-006",
+    "chapitre": "cours/07_still_auto_inflammatoires",
+    "session": "P1 2024",
+    "page": 33,
+    "enonce": "Citer au moins trois diagnostics différentiels de la maladie de Still.",
+    "reponse": [
+      "Endocardite",
+      "Candidose systémique",
+      "Leucémie"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.33"
+    ]
+  },
+  {
+    "id": "Q07-007",
+    "chapitre": "cours/07_still_auto_inflammatoires",
+    "session": "P1 2024",
+    "page": 33,
+    "enonce": "Citer quatre étiologies d'hyperferritinémie.",
+    "reponse": [
+      "Maladie auto-inflammatoire, ex. maladie de Still",
+      "Syndrome d'activation macrophagique",
+      "Hépatites",
+      "Lymphomes",
+      "Hémochromatose",
+      "Rhumatisme inflammatoire"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.33"
+    ]
+  },
+  {
+    "id": "Q07-008",
+    "chapitre": "cours/07_still_auto_inflammatoires",
+    "session": "P1 2024",
+    "page": 33,
+    "enonce": "Dosage de la ferritine glycosylée : quel est son intérêt ?",
+    "reponse": [
+      "La ferritine glycosylée trouve son intérêt au cours de la maladie de Still : lorsqu'elle est < 20 %, elle est très évocatrice de cette dernière"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.33"
+    ]
+  },
+  {
+    "id": "Q07-009",
+    "chapitre": "cours/07_still_auto_inflammatoires",
+    "session": "P2 2024",
+    "page": 34,
+    "enonce": "Quels sont les diagnostics différentiels du rash cutané retrouvé dans la maladie de Still ?",
+    "reponse": [
+      "Mononucléose infectieuse",
+      "Toxidermie médicamenteuse",
+      "Syphilis secondaire",
+      "Pityriasis rosé de Gibert"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q07-003",
+    "sources": [
+      "examens/qroc_par_cours.md|p.32"
+    ]
+  },
+  {
+    "id": "Q07-010",
+    "chapitre": "cours/07_still_auto_inflammatoires",
+    "session": "P2 2024",
+    "page": 34,
+    "enonce": "Quelle est la caractéristique commune des maladies inflammatoires systémiques ?",
+    "reponse": [
+      "La fièvre"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.34"
+    ]
+  },
+  {
+    "id": "Q07-011",
+    "chapitre": "cours/07_still_auto_inflammatoires",
+    "session": "P3 2024",
+    "page": 34,
+    "enonce": "Donnez deux complications majeures pouvant engager le pronostic vital lors de la maladie de Still.",
+    "reponse": [
+      "Syndrome d'activation macrophagique",
+      "Atteinte cardiaque"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.34"
+    ]
+  },
+  {
+    "id": "Q07-012",
+    "chapitre": "cours/07_still_auto_inflammatoires",
+    "session": "P3 2024",
+    "page": 34,
+    "enonce": "Citez au moins deux anomalies biologiques et au moins une anomalie clinique du syndrome d'activation macrophagique.",
+    "reponse": [
+      "Clinique : fièvre, splénomégalie, hépatomégalie, adénopathies",
+      "Biologie : inflammation au plafond (VS, CRP, ferritine, triglycérides augmentés par blocage de la lipoprotéine lipase)",
+      "LDH augmentée",
+      "Fibrinogène bas",
+      "Cytolyse hépatique",
+      "Pancytopénie, CIVD"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.34"
+    ]
+  },
+  {
+    "id": "Q08-001",
+    "chapitre": "cours/08_myopathies",
+    "session": "P2 2026",
+    "page": 36,
+    "enonce": "Citer trois origines possibles de l'atteinte pulmonaire parenchymateuse au cours des myosites.",
+    "reponse": [
+      "Origine médicamenteuse (méthotrexate)",
+      "Origine inflammatoire (par le biais de la maladie)",
+      "Pneumopathie d'inhalation (fausse route par déficit des muscles laryngo-pharyngés)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.36"
+    ]
+  },
+  {
+    "id": "Q08-002",
+    "chapitre": "cours/08_myopathies",
+    "session": "P2 2026",
+    "page": 36,
+    "enonce": "Citer cinq manifestations dermatologiques de la dermatomyosite.",
+    "reponse": [
+      "Érythème en « V » (signe du décolleté / du châle)",
+      "Papules de Gottron (érythème ou macule violacée en face d'extension)",
+      "Signe de la manucure : érythème périunguéal",
+      "Érythème périorbitaire en lunettes",
+      "Érythro-œdème lilacé des paupières"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.36"
+    ]
+  },
+  {
+    "id": "Q08-003",
+    "chapitre": "cours/08_myopathies",
+    "session": "P2 2026",
+    "page": 36,
+    "enonce": "Quels sont les signes de gravité d'une myopathie inflammatoire ?",
+    "reponse": [
+      "Dysphagie (atteinte pharyngo-laryngée)",
+      "Dyspnée (atteinte pulmonaire)",
+      "Atteinte cardiaque",
+      "Perte d'autonomie"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.36"
+    ]
+  },
+  {
+    "id": "Q08-004",
+    "chapitre": "cours/08_myopathies",
+    "session": "P1 2026",
+    "page": 37,
+    "enonce": "Citez au moins quatre caractéristiques de l'atteinte articulaire au cours des myopathies inflammatoires.",
+    "reponse": [
+      "Polyarthralgies inflammatoires",
+      "Bilatérale et symétrique",
+      "Périphérique, prédominant sur les petites et moyennes articulations",
+      "Non déformante ni destructrice"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.37"
+    ]
+  },
+  {
+    "id": "Q08-005",
+    "chapitre": "cours/08_myopathies",
+    "session": "P1 2026",
+    "page": 37,
+    "enonce": "Que doit-on rechercher systématiquement au cours de la dermatomyosite, notamment chez le sujet âgé ?",
+    "reponse": [
+      "Un syndrome paranéoplasique"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.37"
+    ]
+  },
+  {
+    "id": "Q08-006",
+    "chapitre": "cours/08_myopathies",
+    "session": "P1 2026",
+    "page": 37,
+    "enonce": "Citez au moins quatre caractéristiques classiques de l'atteinte musculaire au cours des myosites.",
+    "reponse": [
+      "Déficit musculaire progressif",
+      "Bilatéral et symétrique",
+      "Prédominance proximale (ceintures scapulaire et pelvienne)",
+      "Myalgies spontanées ou provoquées"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.37"
+    ]
+  },
+  {
+    "id": "Q08-007",
+    "chapitre": "cours/08_myopathies",
+    "session": "P1 2026",
+    "page": 37,
+    "enonce": "Citez trois origines possibles de l'atteinte pulmonaire parenchymateuse au cours des myosites.",
+    "reponse": [
+      "Origine médicamenteuse (méthotrexate)",
+      "Origine inflammatoire (par le biais de la maladie)",
+      "Pneumopathie d'inhalation (fausse route par déficit des muscles laryngo-pharyngés)"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q08-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.36"
+    ]
+  },
+  {
+    "id": "Q08-008",
+    "chapitre": "cours/08_myopathies",
+    "session": "P1 2026",
+    "page": 38,
+    "enonce": "Citer cinq manifestations dermatologiques de la dermatomyosite.",
+    "reponse": [
+      "Érythème en « V » (signe du décolleté / du châle)",
+      "Papules de Gottron (érythème ou macule violacée en face d'extension)",
+      "Signe de la manucure : érythème périunguéal",
+      "Érythème périorbitaire en lunettes",
+      "Érythro-œdème lilacé des paupières"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q08-002",
+    "sources": [
+      "examens/qroc_par_cours.md|p.36"
+    ]
+  },
+  {
+    "id": "Q08-009",
+    "chapitre": "cours/08_myopathies",
+    "session": "P1 2026",
+    "page": 38,
+    "enonce": "Quels sont les signes de gravité d'une myopathie inflammatoire ?",
+    "reponse": [
+      "Dysphagie (atteinte pharyngo-laryngée)",
+      "Dyspnée (atteinte pulmonaire)",
+      "Atteinte cardiaque",
+      "Perte d'autonomie"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q08-003",
+    "sources": [
+      "examens/qroc_par_cours.md|p.36"
+    ]
+  },
+  {
+    "id": "Q08-010",
+    "chapitre": "cours/08_myopathies",
+    "session": "P1 2025",
+    "page": 38,
+    "enonce": "Citer quatre caractéristiques de l'atteinte musculaire de la myopathie inflammatoire.",
+    "reponse": [
+      "Déficit musculaire progressif",
+      "Bilatéral et symétrique",
+      "Prédominance proximale (ceintures scapulaire et pelvienne)",
+      "Myalgies spontanées ou provoquées"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q08-006",
+    "sources": [
+      "examens/qroc_par_cours.md|p.37"
+    ]
+  },
+  {
+    "id": "Q08-011",
+    "chapitre": "cours/08_myopathies",
+    "session": "P1 2025",
+    "page": 38,
+    "enonce": "Citer trois manifestations dermatologiques évocatrices de dermatomyosite.",
+    "reponse": [
+      "Érythème en « V » (signe du décolleté / du châle)",
+      "Papules de Gottron (érythème ou macule violacée en face d'extension)",
+      "Signe de la manucure : érythème périunguéal",
+      "Érythème périorbitaire en lunettes",
+      "Érythro-œdème lilacé des paupières"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q08-002",
+    "sources": [
+      "examens/qroc_par_cours.md|p.36"
+    ]
+  },
+  {
+    "id": "Q08-012",
+    "chapitre": "cours/08_myopathies",
+    "session": "P3 2025",
+    "page": 38,
+    "enonce": "Citez au moins cinq atteintes cutanées observées au cours de la dermatomyosite.",
+    "reponse": [
+      "Érythème en « V » (signe du décolleté / du châle)",
+      "Papules de Gottron (érythème ou macule violacée en face d'extension)",
+      "Signe de la manucure : érythème périunguéal",
+      "Érythème périorbitaire en lunettes",
+      "Érythro-œdème lilacé des paupières"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q08-002",
+    "sources": [
+      "examens/qroc_par_cours.md|p.36"
+    ]
+  },
+  {
+    "id": "Q08-013",
+    "chapitre": "cours/08_myopathies",
+    "session": "P3 2025",
+    "page": 38,
+    "enonce": "Quelles sont les atteintes pronostiques au cours des myopathies inflammatoires ?",
+    "reponse": [
+      "Dysphagie (atteinte pharyngo-laryngée)",
+      "Dyspnée (atteinte pulmonaire)",
+      "Atteinte cardiaque",
+      "Perte d'autonomie"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q08-003",
+    "sources": [
+      "examens/qroc_par_cours.md|p.36"
+    ]
+  },
+  {
+    "id": "Q08-014",
+    "chapitre": "cours/08_myopathies",
+    "session": "P2 2025",
+    "page": 38,
+    "enonce": "Quels traitements sont utilisés au cours des formes sévères des myopathies inflammatoires ?",
+    "reponse": [
+      "Corticothérapie à forte dose (bolus)",
+      "Immunosuppresseurs (cyclophosphamide)",
+      "Biothérapie (rituximab)",
+      "Immunoglobulines"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.38"
+    ]
+  },
+  {
+    "id": "Q08-015",
+    "chapitre": "cours/08_myopathies",
+    "session": "P2 2025",
+    "page": 38,
+    "enonce": "Citer au moins trois origines de l'atteinte respiratoire au cours des myopathies inflammatoires.",
+    "reponse": [
+      "Origine médicamenteuse (méthotrexate)",
+      "Origine inflammatoire (par le biais de la maladie)",
+      "Pneumopathie d'inhalation (fausse route par déficit des muscles laryngo-pharyngés)"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q08-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.36"
+    ]
+  },
+  {
+    "id": "Q08-016",
+    "chapitre": "cours/08_myopathies",
+    "session": "P2 2025",
+    "page": 38,
+    "enonce": "Citer au moins trois signes de gravité d'une myopathie inflammatoire.",
+    "reponse": [
+      "Dysphagie (atteinte pharyngo-laryngée)",
+      "Dyspnée (atteinte pulmonaire)",
+      "Atteinte cardiaque",
+      "Perte d'autonomie"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q08-003",
+    "sources": [
+      "examens/qroc_par_cours.md|p.36"
+    ]
+  },
+  {
+    "id": "Q08-017",
+    "chapitre": "cours/08_myopathies",
+    "session": "P2 2025",
+    "page": 39,
+    "enonce": "Au cours de la dermatomyosite chez le sujet âgé, quelle pathologie faut-il rechercher ?",
+    "reponse": [
+      "Un syndrome paranéoplasique"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q08-005",
+    "sources": [
+      "examens/qroc_par_cours.md|p.37"
+    ]
+  },
+  {
+    "id": "Q08-018",
+    "chapitre": "cours/08_myopathies",
+    "session": "P2 2025",
+    "page": 39,
+    "enonce": "Citer quatre myopathies d'origine inflammatoire.",
+    "reponse": [
+      "Polymyosite",
+      "Dermatomyosite",
+      "Myosite nécrosante auto-immune",
+      "Myopathie à inclusion"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.39"
+    ]
+  },
+  {
+    "id": "Q08-019",
+    "chapitre": "cours/08_myopathies",
+    "session": "P1 2024",
+    "page": 39,
+    "enonce": "Quelles sont les manifestations dermatologiques les plus évocatrices de la dermatomyosite ?",
+    "reponse": [
+      "Érythème en « V » (signe du décolleté / du châle)",
+      "Papules de Gottron (érythème ou macule violacée en face d'extension)",
+      "Signe de la manucure : érythème périunguéal",
+      "Érythème périorbitaire en lunettes",
+      "Érythro-œdème lilacé des paupières"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q08-002",
+    "sources": [
+      "examens/qroc_par_cours.md|p.36"
+    ]
+  },
+  {
+    "id": "Q08-020",
+    "chapitre": "cours/08_myopathies",
+    "session": "P1 2024",
+    "page": 39,
+    "enonce": "Citer les signes de gravité d'une myopathie inflammatoire.",
+    "reponse": [
+      "Dysphagie (atteinte pharyngo-laryngée)",
+      "Dyspnée (atteinte pulmonaire)",
+      "Atteinte cardiaque",
+      "Perte d'autonomie"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q08-003",
+    "sources": [
+      "examens/qroc_par_cours.md|p.36"
+    ]
+  },
+  {
+    "id": "Q08-021",
+    "chapitre": "cours/08_myopathies",
+    "session": "P2 2024",
+    "page": 39,
+    "enonce": "Quelles sont les caractéristiques en commun des différentes myopathies inflammatoires ?",
+    "reponse": [
+      "Déficit musculaire d'installation progressive, bilatéral et symétrique, touchant surtout les muscles proximaux (ceintures scapulaire et pelvienne), sauf pour les myosites à inclusions",
+      "Présence dans le muscle d'un infiltrat inflammatoire riche en cellules mononucléées"
+    ],
+    "origine_reponse": "claude",
+    "doublon_de": null,
+    "sources": [
+      "cours/08_myopathies.md|V. Diagnostic, 1. Caractères communs"
+    ]
+  },
+  {
+    "id": "Q09-001",
+    "chapitre": "cours/09_amyloses",
+    "session": "P2 2026",
+    "page": 40,
+    "enonce": "Citer deux maladies de surcharge dont les signes d'appel peuvent être cardiaques.",
+    "reponse": [
+      "Amylose TTR « sénile »",
+      "Amylose héréditaire « TTR mutée »"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.40"
+    ]
+  },
+  {
+    "id": "Q09-002",
+    "chapitre": "cours/09_amyloses",
+    "session": "P2 2026",
+    "page": 40,
+    "enonce": "Citer les caractéristiques (clinique, biologique, évolutive) de l'amylose rénale.",
+    "reponse": [
+      "Néphropathie glomérulaire",
+      "Clinique : syndrome néphrotique pur, œdèmes des membres inférieurs, HTA souvent absente",
+      "Biologie : protéinurie généralement massive, hypoalbuminémie, exceptionnellement hématurie microscopique",
+      "Évolution : vers une insuffisance rénale chronique"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.40"
+    ]
+  },
+  {
+    "id": "Q09-003",
+    "chapitre": "cours/09_amyloses",
+    "session": "P1 2026",
+    "page": 40,
+    "enonce": "Citez les trois sites de biopsie recommandés en cas de suspicion d'amylose.",
+    "reponse": [
+      "Glandes salivaires accessoires",
+      "Muqueuse rectale",
+      "Graisse abdominale péri-ombilicale"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.40"
+    ]
+  },
+  {
+    "id": "Q09-004",
+    "chapitre": "cours/09_amyloses",
+    "session": "P1 2026",
+    "page": 40,
+    "enonce": "Quelle est l'atteinte neurologique au cours de l'amylose ?",
+    "reponse": [
+      "Atteinte neurologique périphérique : polyneuropathie sensitive puis sensitivo-motrice ; possible neuropathie autonome associée"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.40"
+    ]
+  },
+  {
+    "id": "Q09-005",
+    "chapitre": "cours/09_amyloses",
+    "session": "P1 2025",
+    "page": 41,
+    "enonce": "Citer quatre présentations de l'amylose cardiaque.",
+    "reponse": [
+      "Amylose AA (substance amyloïde A)",
+      "Amylose AL (chaînes légères)",
+      "Amylose ATTR (transthyrétine sénile)",
+      "Amylose héréditaire (transthyrétine mutée)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.41"
+    ]
+  },
+  {
+    "id": "Q09-006",
+    "chapitre": "cours/09_amyloses",
+    "session": "P1 2024",
+    "page": 41,
+    "enonce": "Quelles amyloses sont associées à une plus grande fréquence de l'atteinte rénale ?",
+    "reponse": [
+      "Amylose AL",
+      "Amylose AA"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.41"
+    ]
+  },
+  {
+    "id": "Q09-007",
+    "chapitre": "cours/09_amyloses",
+    "session": "P1 2024",
+    "page": 41,
+    "enonce": "Quel est le type d'atteinte rénale observé au cours de l'amylose AL ?",
+    "reponse": [
+      "Néphropathie glomérulaire"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.41"
+    ]
+  },
+  {
+    "id": "Q09-008",
+    "chapitre": "cours/09_amyloses",
+    "session": "P1 2024",
+    "page": 41,
+    "enonce": "Citer un signe cutané caractéristique de l'amylose.",
+    "reponse": [
+      "Purpura périorbitaire ecchymotique violacé en lunettes"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.41"
+    ]
+  },
+  {
+    "id": "Q09-009",
+    "chapitre": "cours/09_amyloses",
+    "session": "P3 2024",
+    "page": 42,
+    "enonce": "Quelles amyloses sont associées à une grande fréquence de l'atteinte rénale ?",
+    "reponse": [
+      "Amylose AL",
+      "Amylose AA"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q09-006",
+    "sources": [
+      "examens/qroc_par_cours.md|p.41"
+    ]
+  },
+  {
+    "id": "Q09-010",
+    "chapitre": "cours/09_amyloses",
+    "session": "P3 2024",
+    "page": 42,
+    "enonce": "Citez une caractéristique clinique et une caractéristique évolutive de l'atteinte rénale au cours de l'amylose.",
+    "reponse": [
+      "Néphropathie glomérulaire se manifestant par un syndrome néphrotique pur, qui évolue à terme vers une insuffisance rénale chronique jusqu'au stade de dialyse"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": "Q09-002",
+    "sources": [
+      "examens/qroc_par_cours.md|p.42"
+    ]
+  },
+  {
+    "id": "Q10-001",
+    "chapitre": "cours/10_vascularites",
+    "session": "P2 2026",
+    "page": 43,
+    "enonce": "Citer cinq manifestations cliniques évocatrices de la maladie de Horton.",
+    "reponse": [
+      "Céphalées temporales",
+      "Claudication de la mâchoire",
+      "Hyperesthésie du cuir chevelu",
+      "Troubles visuels (diplopie, vision floue…)",
+      "Douleurs articulaires prédominant aux ceintures"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.43"
+    ]
+  },
+  {
+    "id": "Q10-002",
+    "chapitre": "cours/10_vascularites",
+    "session": "P2 2026",
+    "page": 43,
+    "enonce": "Une femme jeune qui présente une anisotension et des polyarthralgies inflammatoires doit faire évoquer quelle vascularite ?",
+    "reponse": [
+      "L'artérite de Takayasu"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.43"
+    ]
+  },
+  {
+    "id": "Q10-003",
+    "chapitre": "cours/10_vascularites",
+    "session": "P2 2026",
+    "page": 43,
+    "enonce": "Quel diagnostic est à évoquer en cas d'association d'uvéite, de nodules pulmonaires et d'ANCA positifs ?",
+    "reponse": [
+      "Granulomatose avec polyangéite (GPA, maladie de Wegener)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.43"
+    ]
+  },
+  {
+    "id": "Q10-004",
+    "chapitre": "cours/10_vascularites",
+    "session": "P2 2026",
+    "page": 43,
+    "enonce": "Citez les deux complications caractéristiques les plus redoutables au cours des vascularites à ANCA.",
+    "reponse": [
+      "Atteinte pulmonaire : hémorragie alvéolaire",
+      "Atteinte rénale : glomérulonéphrite rapidement progressive"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.43"
+    ]
+  },
+  {
+    "id": "Q10-005",
+    "chapitre": "cours/10_vascularites",
+    "session": "P1 2026",
+    "page": 44,
+    "enonce": "Quelle est la première complication à redouter en cas d'artérite à cellules géantes ?",
+    "reponse": [
+      "La cécité définitive"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.44"
+    ]
+  },
+  {
+    "id": "Q10-006",
+    "chapitre": "cours/10_vascularites",
+    "session": "P1 2026",
+    "page": 44,
+    "enonce": "Quels sont les buts et les principaux traitements des vascularites à ANCA ?",
+    "reponse": [
+      "Obtenir une rémission",
+      "Prévenir les récidives"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.44"
+    ]
+  },
+  {
+    "id": "Q10-007",
+    "chapitre": "cours/10_vascularites",
+    "session": "P1 2026",
+    "page": 44,
+    "enonce": "Citez les deux complications caractéristiques les plus redoutables au cours des vascularites à ANCA.",
+    "reponse": [
+      "Atteinte pulmonaire : hémorragie alvéolaire",
+      "Atteinte rénale : glomérulonéphrite rapidement progressive"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": "Q10-004",
+    "sources": [
+      "examens/qroc_par_cours.md|p.44"
+    ]
+  },
+  {
+    "id": "Q10-008",
+    "chapitre": "cours/10_vascularites",
+    "session": "P1 2026",
+    "page": 44,
+    "enonce": "Citer les vascularites de petit calibre liées aux ANCA.",
+    "reponse": [
+      "Granulomatose avec polyangéite (maladie de Wegener)",
+      "Granulomatose éosinophilique avec polyangéite (Churg et Strauss)",
+      "Polyangéite microscopique"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.44"
+    ]
+  },
+  {
+    "id": "Q10-009",
+    "chapitre": "cours/10_vascularites",
+    "session": "P1 2025",
+    "page": 44,
+    "enonce": "Citer deux complications redoutables des vascularites à ANCA.",
+    "reponse": [
+      "Atteinte pulmonaire : hémorragie alvéolaire",
+      "Atteinte rénale : glomérulonéphrite rapidement progressive"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q10-004",
+    "sources": [
+      "examens/qroc_par_cours.md|p.43"
+    ]
+  },
+  {
+    "id": "Q10-010",
+    "chapitre": "cours/10_vascularites",
+    "session": "P1 2025",
+    "page": 44,
+    "enonce": "Citer quatre manifestations cliniques de la maladie de Horton.",
+    "reponse": [
+      "Céphalées temporales, unilatérales ou bilatérales",
+      "Claudication de la mâchoire",
+      "Hyperesthésie du cuir chevelu",
+      "Troubles visuels (diplopie, vision floue…)",
+      "Douleurs articulaires prédominant aux ceintures",
+      "Altération de l'état général, fièvre"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": "Q10-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.44"
+    ]
+  },
+  {
+    "id": "Q10-011",
+    "chapitre": "cours/10_vascularites",
+    "session": "P3 2025",
+    "page": 45,
+    "enonce": "Quelles sont les vascularites à ANCA ?",
+    "reponse": [
+      "Granulomatose avec polyangéite (maladie de Wegener)",
+      "Granulomatose éosinophilique avec polyangéite (Churg et Strauss)",
+      "Polyangéite microscopique"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q10-008",
+    "sources": [
+      "examens/qroc_par_cours.md|p.44"
+    ]
+  },
+  {
+    "id": "Q10-012",
+    "chapitre": "cours/10_vascularites",
+    "session": "P3 2025",
+    "page": 45,
+    "enonce": "Citez les deux atteintes pronostiques les plus redoutables des vascularites à ANCA.",
+    "reponse": [
+      "Atteinte pulmonaire : hémorragie alvéolaire",
+      "Atteinte rénale : glomérulonéphrite rapidement progressive"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q10-004",
+    "sources": [
+      "examens/qroc_par_cours.md|p.43"
+    ]
+  },
+  {
+    "id": "Q10-013",
+    "chapitre": "cours/10_vascularites",
+    "session": "P3 2025",
+    "page": 45,
+    "enonce": "Citez au moins cinq manifestations cliniques de l'artérite à cellules géantes.",
+    "reponse": [
+      "Céphalées temporales",
+      "Claudication de la mâchoire",
+      "Hyperesthésie du cuir chevelu",
+      "Troubles visuels (diplopie, vision floue…)",
+      "Douleurs articulaires prédominant aux ceintures"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q10-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.43"
+    ]
+  },
+  {
+    "id": "Q10-014",
+    "chapitre": "cours/10_vascularites",
+    "session": "P2 2025",
+    "page": 45,
+    "enonce": "Citer trois lésions cutanées évoquant une vascularite.",
+    "reponse": [
+      "Livedo racemosa",
+      "Purpura vasculaire (pétéchial, déclive, infiltré)",
+      "Nécrose cutanée"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.45"
+    ]
+  },
+  {
+    "id": "Q10-015",
+    "chapitre": "cours/10_vascularites",
+    "session": "P1 2024",
+    "page": 45,
+    "enonce": "Citer les vascularites de petit calibre liées aux ANCA.",
+    "reponse": [
+      "Granulomatose avec polyangéite (maladie de Wegener)",
+      "Granulomatose éosinophilique avec polyangéite (Churg et Strauss)",
+      "Polyangéite microscopique"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q10-008",
+    "sources": [
+      "examens/qroc_par_cours.md|p.44"
+    ]
+  },
+  {
+    "id": "Q10-016",
+    "chapitre": "cours/10_vascularites",
+    "session": "P1 2024",
+    "page": 45,
+    "enonce": "Citer les deux complications caractéristiques les plus redoutables au cours des vascularites à ANCA.",
+    "reponse": [
+      "Atteinte pulmonaire : hémorragie alvéolaire",
+      "Atteinte rénale : glomérulonéphrite rapidement progressive"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q10-004",
+    "sources": [
+      "examens/qroc_par_cours.md|p.43"
+    ]
+  },
+  {
+    "id": "Q10-017",
+    "chapitre": "cours/10_vascularites",
+    "session": "P1 2024",
+    "page": 45,
+    "enonce": "Citer au moins quatre manifestations cliniques évocatrices d'une artérite à cellules géantes.",
+    "reponse": [
+      "Céphalées temporales",
+      "Claudication de la mâchoire",
+      "Hyperesthésie du cuir chevelu",
+      "Troubles visuels (diplopie, vision floue…)",
+      "Douleurs articulaires prédominant aux ceintures"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q10-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.43"
+    ]
+  },
+  {
+    "id": "Q10-018",
+    "chapitre": "cours/10_vascularites",
+    "session": "P2 2024",
+    "page": 46,
+    "enonce": "Citez au moins trois signes cliniques cutanés des vascularites.",
+    "reponse": [
+      "Livedo racemosa",
+      "Purpura vasculaire (pétéchial, déclive, infiltré)",
+      "Nécrose cutanée"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q10-014",
+    "sources": [
+      "examens/qroc_par_cours.md|p.45"
+    ]
+  },
+  {
+    "id": "Q11-001",
+    "chapitre": "cours/11_maladies_rares",
+    "session": "P2 2026",
+    "page": 47,
+    "enonce": "Un homme jeune qui présente un syndrome parkinsonien associé à une anémie hémolytique à test de Coombs négatif doit faire évoquer quelle maladie ?",
+    "reponse": [
+      "Maladie de Wilson"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.47"
+    ]
+  },
+  {
+    "id": "Q11-002",
+    "chapitre": "cours/11_maladies_rares",
+    "session": "P2 2026",
+    "page": 47,
+    "enonce": "La maladie de Fabry correspond à quel déficit ?",
+    "reponse": [
+      "Déficit en alpha-galactosidase A"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.47"
+    ]
+  },
+  {
+    "id": "Q11-003",
+    "chapitre": "cours/11_maladies_rares",
+    "session": "P2 2026",
+    "page": 47,
+    "enonce": "L'association d'acroparesthésies et d'hypoacousie chez un jeune homme doit faire évoquer ?",
+    "reponse": [
+      "Maladie de Fabry"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.47"
+    ]
+  },
+  {
+    "id": "Q11-004",
+    "chapitre": "cours/11_maladies_rares",
+    "session": "P2 2026",
+    "page": 47,
+    "enonce": "Un antécédent de chirurgie pour carcinome médullaire de la thyroïde dans la famille, chez un patient qui présente une hypercalcémie, doit faire évoquer ?",
+    "reponse": [
+      "Néoplasie endocrinienne multiple de type 2 (NEM2)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.47"
+    ]
+  },
+  {
+    "id": "Q11-005",
+    "chapitre": "cours/11_maladies_rares",
+    "session": "P2 2026",
+    "page": 47,
+    "enonce": "Un antécédent de chirurgie pour adénome hypophysaire dans la famille, chez un patient qui présente une hypercalcémie, doit faire évoquer ?",
+    "reponse": [
+      "Néoplasie endocrinienne multiple de type 1 (NEM1)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.47"
+    ]
+  },
+  {
+    "id": "Q11-006",
+    "chapitre": "cours/11_maladies_rares",
+    "session": "P1 2026",
+    "page": 48,
+    "enonce": "Citez deux manifestations révélatrices de l'hyperhomocystéinémie constitutionnelle.",
+    "reponse": [
+      "Thromboses récurrentes",
+      "Manifestation neurologique (ex. tremblement)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.48"
+    ]
+  },
+  {
+    "id": "Q11-007",
+    "chapitre": "cours/11_maladies_rares",
+    "session": "P1 2025",
+    "page": 48,
+    "enonce": "Trois maladies de surcharge pouvant être révélées par une cardiomyopathie.",
+    "reponse": [
+      "Maladie de Fabry",
+      "Maladie de Pompe",
+      "Hémochromatose"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.48"
+    ]
+  },
+  {
+    "id": "Q11-008",
+    "chapitre": "cours/11_maladies_rares",
+    "session": "P1 2025",
+    "page": 48,
+    "enonce": "Trois manifestations osseuses de la maladie de Gaucher.",
+    "reponse": [
+      "Ostéoporose, ostéopénie",
+      "Douleurs osseuses chroniques : crise osseuse",
+      "Ostéonécrose aseptique",
+      "Déformation en flacon d'Erlenmeyer"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.48"
+    ]
+  },
+  {
+    "id": "Q11-009",
+    "chapitre": "cours/11_maladies_rares",
+    "session": "P1 2024",
+    "page": 48,
+    "enonce": "L'association d'une anémie hémolytique et d'une hépatopathie chronique chez un sujet jeune doit faire évoquer ?",
+    "reponse": [
+      "Maladie de Wilson"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.48"
+    ]
+  },
+  {
+    "id": "Q11-010",
+    "chapitre": "cours/11_maladies_rares",
+    "session": "P1 2024",
+    "page": 49,
+    "enonce": "Citez au moins deux maladies de surcharge ayant une atteinte cardiaque.",
+    "reponse": [
+      "Maladie de Fabry",
+      "Maladie de Pompe",
+      "Hémochromatose"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q11-007",
+    "sources": [
+      "examens/qroc_par_cours.md|p.48"
+    ]
+  },
+  {
+    "id": "Q11-011",
+    "chapitre": "cours/11_maladies_rares",
+    "session": "P3 2024",
+    "page": 49,
+    "enonce": "Quelle est la sphingolipidose la plus fréquente ? Quelle est sa cause ?",
+    "reponse": [
+      "Maladie de Gaucher",
+      "Cause : mutation génétique du gène GBA1, entraînant un déficit en bêta-glucocérébrosidase"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.49"
+    ]
+  },
+  {
+    "id": "Q12-001",
+    "chapitre": "cours/12_deficits_immunitaires",
+    "session": "P3 2025",
+    "page": 50,
+    "enonce": "Citez au moins quatre causes de déficit immunitaire acquis.",
+    "reponse": [
+      "Diabète",
+      "VIH",
+      "Dénutrition",
+      "Grossesse"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.50"
+    ]
+  },
+  {
+    "id": "Q12-002",
+    "chapitre": "cours/12_deficits_immunitaires",
+    "session": "P2 2025",
+    "page": 50,
+    "enonce": "Citer au moins quatre causes de déficit immunitaire secondaire.",
+    "reponse": [
+      "Diabète",
+      "VIH",
+      "Dénutrition",
+      "Grossesse"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q12-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.50"
+    ]
+  },
+  {
+    "id": "Q12-003",
+    "chapitre": "cours/12_deficits_immunitaires",
+    "session": "P2 2025",
+    "page": 50,
+    "enonce": "Quelle anomalie du complément peut être à l'origine de l'angio-œdème bradykinique ?",
+    "reponse": [
+      "Déficit en inhibiteur de la C1 estérase (C1-INH)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.50"
+    ]
+  },
+  {
+    "id": "Q12-004",
+    "chapitre": "cours/12_deficits_immunitaires",
+    "session": "P1 2024",
+    "page": 50,
+    "enonce": "Citer trois manifestations pouvant révéler un déficit immunitaire primitif.",
+    "reponse": [
+      "Infections à répétition",
+      "Manifestation auto-immune",
+      "Syndrome lymphoprolifératif"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.50"
+    ]
+  },
+  {
+    "id": "Q12-005",
+    "chapitre": "cours/12_deficits_immunitaires",
+    "session": "P1 2024",
+    "page": 50,
+    "enonce": "Citer au moins trois causes de déficit immunitaire secondaire.",
+    "reponse": [
+      "Diabète",
+      "VIH",
+      "Dénutrition",
+      "Grossesse"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q12-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.50"
+    ]
+  },
+  {
+    "id": "Q12-006",
+    "chapitre": "cours/12_deficits_immunitaires",
+    "session": "P1 2024",
+    "page": 50,
+    "enonce": "Quel déficit en complément peut être à l'origine d'un angio-œdème bradykinique ?",
+    "reponse": [
+      "Déficit en inhibiteur de la C1 estérase (C1-INH)"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q12-003",
+    "sources": [
+      "examens/qroc_par_cours.md|p.50"
+    ]
+  },
+  {
+    "id": "Q12-007",
+    "chapitre": "cours/12_deficits_immunitaires",
+    "session": "P2 2024",
+    "page": 50,
+    "enonce": "Citez les différentes étiologies des déficits immunitaires secondaires.",
+    "reponse": [
+      "Diabète",
+      "VIH",
+      "Dénutrition",
+      "Grossesse"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q12-001",
+    "sources": [
+      "examens/qroc_par_cours.md|p.50"
+    ]
+  },
+  {
+    "id": "Q12-008",
+    "chapitre": "cours/12_deficits_immunitaires",
+    "session": "P3 2024",
+    "page": 51,
+    "enonce": "Citez deux manifestations auto-immunes pouvant s'associer au déficit en IgA.",
+    "reponse": [
+      "Lupus",
+      "Maladie cœliaque"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.51"
+    ]
+  },
+  {
+    "id": "Q13-001",
+    "chapitre": "cours/13_traitements",
+    "session": "P2 2026",
+    "page": 52,
+    "enonce": "Citer un immunosuppresseur pouvant être utilisé au cours de la grossesse.",
+    "reponse": [
+      "Azathioprine (Imurel)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.52"
+    ]
+  },
+  {
+    "id": "Q13-002",
+    "chapitre": "cours/13_traitements",
+    "session": "P1 2026",
+    "page": 52,
+    "enonce": "Quel est l'effet indésirable que l'on redoute lors de la prescription de l'hydroxychloroquine au long cours ?",
+    "reponse": [
+      "La toxicité rétinienne"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.52"
+    ]
+  },
+  {
+    "id": "Q13-003",
+    "chapitre": "cours/13_traitements",
+    "session": "P1 2026",
+    "page": 52,
+    "enonce": "Comment dépister l'effet indésirable le plus à craindre de la prescription au long cours de l'hydroxychloroquine ?",
+    "reponse": [
+      "Un examen ophtalmologique systématique annuel : FO + OCT maculaire, champ visuel, électrorétinogramme (2 examens sur 3 sont obligatoires)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.52"
+    ]
+  },
+  {
+    "id": "Q13-004",
+    "chapitre": "cours/13_traitements",
+    "session": "P3 2025",
+    "page": 52,
+    "enonce": "Quel est l'effet secondaire principal à rechercher chez un patient sous hydroxychloroquine ?",
+    "reponse": [
+      "La toxicité rétinienne"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q13-002",
+    "sources": [
+      "examens/qroc_par_cours.md|p.52"
+    ]
+  },
+  {
+    "id": "Q13-005",
+    "chapitre": "cours/13_traitements",
+    "session": "P2 2025",
+    "page": 52,
+    "enonce": "Citer quatre effets secondaires liés au cyclophosphamide.",
+    "reponse": [
+      "Effet tératogène",
+      "Alopécie",
+      "Toxicité médullaire (cytopénie)",
+      "Azoospermie et insuffisance ovarienne (stérilité)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.52"
+    ]
+  },
+  {
+    "id": "Q13-006",
+    "chapitre": "cours/13_traitements",
+    "session": "P2 2025",
+    "page": 53,
+    "enonce": "Citer les deux classes thérapeutiques utilisées au cours du traitement du phénomène de Raynaud.",
+    "reponse": [
+      "Inhibiteurs calciques",
+      "Antagonistes des récepteurs de l'endothéline",
+      "Analogues de la prostaglandine",
+      "Inhibiteurs de la PDE5 (sildénafil)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.53"
+    ]
+  },
+  {
+    "id": "Q13-007",
+    "chapitre": "cours/13_traitements",
+    "session": "P2 2025",
+    "page": 53,
+    "enonce": "Citer au moins cinq effets secondaires d'une corticothérapie au long cours.",
+    "reponse": [
+      "HTA",
+      "Diabète cortico-induit",
+      "Ostéoporose",
+      "Myopathie cortisonique",
+      "Infections",
+      "Glaucome, cataracte"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.53"
+    ]
+  },
+  {
+    "id": "Q13-008",
+    "chapitre": "cours/13_traitements",
+    "session": "P1 2024",
+    "page": 53,
+    "enonce": "Quel effet secondaire sur l'appareil urinaire est à craindre lors de l'utilisation du cyclophosphamide ?",
+    "reponse": [
+      "Cancer de la vessie"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.53"
+    ]
+  },
+  {
+    "id": "Q13-009",
+    "chapitre": "cours/13_traitements",
+    "session": "P2 2024",
+    "page": 53,
+    "enonce": "Quel est l'effet secondaire de l'hydroxychloroquine qu'on redoute le plus ?",
+    "reponse": [
+      "La toxicité rétinienne"
+    ],
+    "origine_reponse": "doublon",
+    "doublon_de": "Q13-002",
+    "sources": [
+      "examens/qroc_par_cours.md|p.52"
+    ]
+  },
+  {
+    "id": "Q13-010",
+    "chapitre": "cours/13_traitements",
+    "session": "P3 2024",
+    "page": 53,
+    "enonce": "Citez deux précautions à prendre lors de l'administration de l'endoxane pour diminuer le risque de cystite hémorragique.",
+    "reponse": [
+      "Bonne hydratation",
+      "Administration d'un protecteur de vessie (Mesna / Uromitexan)"
+    ],
+    "origine_reponse": "annales",
+    "doublon_de": null,
+    "sources": [
+      "examens/qroc_par_cours.md|p.53"
+    ]
+  }
+]

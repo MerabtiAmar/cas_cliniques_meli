@@ -1,0 +1,551 @@
+{
+  "id": "EXA-05",
+  "version": 1,
+  "statut": "annales",
+  "maladie_principale": "Syndrome de Gougerot-Sjögren",
+  "chapitres": [
+    "cours/06_gougerot_sjogren",
+    "referentiel_transversal",
+    "cours/13_traitements"
+  ],
+  "liens_transversaux": [
+    "Type d'atteinte rénale au cours du Gougerot-Sjögren",
+    "Dégénérescence lymphomateuse au cours du Gougerot-Sjögren"
+  ],
+  "difficulte": 2,
+  "duree_minutes": 25,
+  "points_total": 20,
+  "bareme_origine": "reparti",
+  "patient": {
+    "sexe": "F",
+    "age": 56
+  },
+  "etapes": [
+    {
+      "texte": "Une femme de 56 ans, sans antécédent, présente des douleurs articulaires depuis 5 mois, sans fièvre, sous gouttes oculaires prescrites pour une sensation de sable dans les yeux. Les douleurs la réveillent la nuit et touchent les poignets, les coudes, les MCP des deux mains et les genoux. Elle décrit une gêne lors de l'alimentation nécessitant de boire pour finir ses repas, et des fourmillements des plantes des pieds remontant jusqu'au tiers inférieur des jambes, survenant la nuit. Bandelette urinaire : protéines +, leucocytes +++.",
+      "examens": [],
+      "questions": [
+        {
+          "n": 1,
+          "enonce": "Décrivez les manifestations articulaires. Justifiez votre réponse.",
+          "competence": "caracteriser_articulaire",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Rhumatisme inflammatoire chronique",
+              "points": 0.5,
+              "justification": "Douleurs nocturnes depuis 5 mois",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q1"
+              ]
+            },
+            {
+              "texte": "Bilatéral et symétrique",
+              "points": 0.5,
+              "justification": "Atteinte symétrique rapportée",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q1"
+              ]
+            },
+            {
+              "texte": "Touche les petites, moyennes et grosses articulations (poignets, coudes, MCP, genoux)",
+              "points": 0.5,
+              "justification": "Topographie décrite par la patiente",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q1"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 2,
+          "enonce": "Quels éléments manquent pour mieux caractériser ces manifestations articulaires ?",
+          "competence": "semiologie",
+          "points": 1,
+          "elements_attendus": [
+            {
+              "texte": "Présence d'un dérouillage matinal et sa durée",
+              "points": 0.5,
+              "justification": "Non précisé dans l'observation",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q2"
+              ]
+            },
+            {
+              "texte": "Recherche de déformations et de signes de destruction à la radiographie",
+              "points": 0.5,
+              "justification": "Éléments non renseignés",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q2"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 3,
+          "enonce": "Quels tests demandez-vous à l'ophtalmologue ? Quelle anomalie vont-ils objectiver ?",
+          "competence": "examen_complementaire",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Test de Schirmer : humidification < 5 mm en 5 min, objectivant une xérophtalmie",
+              "points": 0.75,
+              "justification": "Sensation de sable dans les yeux",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q3"
+              ]
+            },
+            {
+              "texte": "Temps de rupture du film lacrymal (break-up time), pathologique si < 5 secondes",
+              "points": 0.75,
+              "justification": "Complète l'exploration du syndrome sec oculaire",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q3"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 4,
+          "enonce": "Dans ce contexte, quelle est l'origine des fourmillements ?",
+          "competence": "physiopathologie",
+          "points": 1,
+          "elements_attendus": [
+            {
+              "texte": "Neuropathie sensitive périphérique secondaire au syndrome de Gougerot-Sjögren",
+              "points": 1,
+              "justification": "Fourmillements des pieds remontant aux jambes, nocturnes",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q4"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Bilan biologique : hémoglobine 13,5 g/dL, VGM 86 fL, leucocytes 3 000/mm³, lymphocytes 780/mm³, plaquettes 178 000/mm³, test de Coombs négatif, VS 60 mm, CRP 6 mg/L, fibrinogène 3,8 g/L, albumine 32 g/L, gammaglobulines 21 g/L d'aspect polyclonal, protéinurie des 24h 1,2 g, ECBU négatif, créatinine 9 mg/L, DFG 71 mL/min. AAN 1/1000, anticorps anti-DNA et anti-Sm négatifs, anticorps anti-SSA/SSB positifs, facteur rhumatoïde positif, anti-CCP négatifs.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Hémoglobine",
+          "cle": "hemoglobine",
+          "valeur": 13.5,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "VGM",
+          "cle": "vgm",
+          "valeur": 86,
+          "unite": "fL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Leucocytes",
+          "cle": "leucocytes",
+          "valeur": 3000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Lymphocytes",
+          "cle": "lymphocytes",
+          "valeur": 780,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 178000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Test de Coombs",
+          "cle": null,
+          "valeur": "négatif",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "VS",
+          "cle": "vs",
+          "valeur": 60,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 6,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "Fibrinogène",
+          "cle": "fibrinogene",
+          "valeur": 3.8,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Électrophorèse des protides",
+          "parametre": "Albumine",
+          "cle": "albumine",
+          "valeur": 32,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Électrophorèse des protides",
+          "parametre": "Gammaglobulines",
+          "cle": "gammaglobulines",
+          "valeur": 21,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Protéinurie des 24h",
+          "cle": "proteinurie_24h",
+          "valeur": 1.2,
+          "unite": "g/24h"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "ECBU",
+          "cle": null,
+          "valeur": "négatif",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Créatininémie",
+          "cle": "creatinine",
+          "valeur": 9,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "DFG",
+          "cle": "dfg",
+          "valeur": 71,
+          "unite": "mL/min/1,73 m²"
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps antinucléaires",
+          "cle": null,
+          "valeur": "1/1000",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-DNA",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-Sm",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-SSA/SSB",
+          "cle": null,
+          "valeur": "positifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Facteur rhumatoïde",
+          "cle": null,
+          "valeur": "positif",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-CCP",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 5,
+          "enonce": "Interprétez l'hémogramme. Justifiez votre réponse.",
+          "competence": "interpreter_hemogramme",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Absence d'anémie",
+              "points": 0.5,
+              "justification": "Hb 13,5 g/dL (12-16)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q5"
+              ]
+            },
+            {
+              "texte": "Leucopénie avec lymphopénie",
+              "points": 0.75,
+              "justification": "Leucocytes 3 000/mm³ (<4000), lymphocytes 780/mm³ (<1000)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q5"
+              ]
+            },
+            {
+              "texte": "Absence de thrombopénie",
+              "points": 0.75,
+              "justification": "Plaquettes 178 000/mm³ (150 000-400 000)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q5"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Absence d'anémie",
+            "Absence de thrombopénie"
+          ],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 6,
+          "enonce": "Quel est le type de l'atteinte rénale ? Justifiez votre réponse.",
+          "competence": "interpreter_bilan",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Atteinte tubulo-interstitielle",
+              "points": 0.5,
+              "justification": "Type d'atteinte rénale au cours du Gougerot-Sjögren",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q6"
+              ]
+            },
+            {
+              "texte": "Protéinurie modérée (1 croix, <2 g)",
+              "points": 0.75,
+              "justification": "Protéinurie des 24h à 1,2 g",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q6"
+              ]
+            },
+            {
+              "texte": "Altération du DFG avec créatininémie normale",
+              "points": 0.75,
+              "justification": "DFG 71 mL/min (<90), créatinine 9 mg/L (normale)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q6"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 7,
+          "enonce": "Quel est votre diagnostic définitif ? Justifiez votre réponse.",
+          "competence": "diagnostic_positif",
+          "points": 3,
+          "elements_attendus": [
+            {
+              "texte": "Syndrome de Gougerot-Sjögren primitif",
+              "points": 0.6,
+              "justification": "Diagnostic retenu au terme du bilan",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q7"
+              ]
+            },
+            {
+              "texte": "Terrain : femme de 56 ans",
+              "points": 0.6,
+              "justification": "Âge et sexe typiques",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q7"
+              ]
+            },
+            {
+              "texte": "Atteinte glandulaire : xérophtalmie et xérostomie",
+              "points": 0.6,
+              "justification": "Sable dans les yeux, besoin d'eau pour avaler",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q7"
+              ]
+            },
+            {
+              "texte": "Atteintes extra-glandulaires : neuropathie sensitive, néphropathie tubulo-interstitielle, polyarthralgies",
+              "points": 0.6,
+              "justification": "Fourmillements, protéinurie/leucocyturie, arthralgies",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q7"
+              ]
+            },
+            {
+              "texte": "Bilan immunologique : AAN et anti-SSA/SSB positifs, FR positif, anti-DNA/Sm/CCP négatifs",
+              "points": 0.6,
+              "justification": "Absence de lupus ou de PR associés",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q7"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Anti-DNA, anti-Sm et anti-CCP négatifs"
+          ],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 8,
+          "enonce": "Quel traitement allez-vous instaurer ? Justifiez votre réponse.",
+          "competence": "traitement",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Traitement spécifique : corticothérapie systémique et immunosuppresseur",
+              "points": 0.75,
+              "justification": "Atteintes extra-glandulaires neurologique et rénale",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q8"
+              ]
+            },
+            {
+              "texte": "Traitement symptomatique : larmes artificielles, substituts salivaires, hygiène bucco-dentaire",
+              "points": 0.75,
+              "justification": "Syndrome sec oculaire et buccal",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q8"
+              ]
+            },
+            {
+              "texte": "Surveillance ophtalmologique (risque de papillite ou de vascularite rétinienne)",
+              "points": 0.5,
+              "justification": "Complication oculaire possible du Gougerot-Sjögren",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q8"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "La patiente reçoit le traitement prescrit et s'améliore. Trois ans plus tard, elle rapporte un amaigrissement de 14 kg en deux mois, une fièvre nocturne, une reprise des manifestations articulaires, une tuméfaction en regard de la mandibule droite, des adénopathies cervicales et un purpura infiltré des deux jambes.",
+      "examens": [],
+      "questions": [
+        {
+          "n": 9,
+          "enonce": "Quelle complication suspectez-vous compte tenu du diagnostic initial ? Justifiez votre réponse.",
+          "competence": "complication",
+          "points": 3,
+          "elements_attendus": [
+            {
+              "texte": "Dégénérescence lymphomateuse",
+              "points": 0.75,
+              "justification": "Complication classique du Gougerot-Sjögren évolué",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q9"
+              ]
+            },
+            {
+              "texte": "Altération de l'état général : amaigrissement, fièvre",
+              "points": 0.75,
+              "justification": "Amaigrissement de 14 kg, fièvre nocturne",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q9"
+              ]
+            },
+            {
+              "texte": "Syndrome tumoral : adénopathies cervicales",
+              "points": 0.75,
+              "justification": "Adénopathies cervicales palpées",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q9"
+              ]
+            },
+            {
+              "texte": "Purpura et hypertrophie parotidienne",
+              "points": 0.75,
+              "justification": "Purpura infiltré des jambes, tuméfaction mandibulaire",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q9"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 10,
+          "enonce": "Quels autres éléments cliniques et biologiques allez-vous rechercher pour étayer votre diagnostic ?",
+          "competence": "examen_complementaire",
+          "points": 3,
+          "elements_attendus": [
+            {
+              "texte": "Persistance d'une hypertrophie parotidienne",
+              "points": 0.75,
+              "justification": "Élément clinique à confirmer",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q10"
+              ]
+            },
+            {
+              "texte": "Syndrome tumoral",
+              "points": 0.75,
+              "justification": "Élément clinique à confirmer",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q10"
+              ]
+            },
+            {
+              "texte": "Hypergammaglobulinémie monoclonale (pic monoclonal)",
+              "points": 0.75,
+              "justification": "Élément biologique évocateur d'une dégénérescence lymphomateuse",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q10"
+              ]
+            },
+            {
+              "texte": "Cryoglobulinémie de type 1",
+              "points": 0.75,
+              "justification": "Élément biologique évocateur d'une dégénérescence lymphomateuse",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q10"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    }
+  ],
+  "synthese": [
+    "Le Gougerot-Sjögren associe syndrome sec (xérophtalmie, xérostomie) et atteintes extra-glandulaires (neurologique, rénale tubulo-interstitielle).",
+    "Le diagnostic repose sur la positivité des anticorps anti-SSA/SSB et l'élimination d'une autre connectivite associée.",
+    "L'apparition d'un syndrome tumoral et d'un pic monoclonal doit faire craindre une dégénérescence lymphomateuse."
+  ]
+}

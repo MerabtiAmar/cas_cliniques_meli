@@ -1,0 +1,1018 @@
+{
+  "id": "PIL-001",
+  "version": 1,
+  "statut": "valide_etudiant",
+  "maladie_principale": "Maladie de Still de l'adulte",
+  "chapitres": [
+    "fiches_complementaires/07_still",
+    "referentiel_transversal",
+    "cours/13_traitements",
+    "cours/01_lupus",
+    "cours/07_still_auto_inflammatoires"
+  ],
+  "liens_transversaux": [
+    "Démarche devant une fièvre prolongée : type de fièvre, urgences infectieuses, cadres nosologiques, contexte algérien",
+    "Interpréter l'hémogramme et le bilan inflammatoire",
+    "Caractériser une atteinte articulaire",
+    "Lupus érythémateux systémique comme diagnostic différentiel",
+    "Corticothérapie : mesures associées, bolus, risque infectieux"
+  ],
+  "difficulte": 2,
+  "duree_minutes": 30,
+  "points_total": 20,
+  "patient": {
+    "sexe": "M",
+    "age": 31
+  },
+  "etapes": [
+    {
+      "texte": "Mr S.A âgé de 31 ans, enseignant, sans antécédents pathologiques, est hospitalisé pour une fièvre évoluant depuis 6 semaines. La fièvre atteint 39,5 à 40 °C en fin d'après-midi, les pics sont précédés de frissons et la température revient à la normale chaque matin. Il s'y associe des douleurs de gorge avec une gêne à la déglutition, des myalgies diffuses et un amaigrissement de 5 kg. Depuis 5 semaines, il souffre de douleurs des poignets, des coudes et des genoux qui le réveillent la nuit, s'accompagnent d'une raideur matinale d'environ une heure et s'accentuent pendant les pics fébriles. Il n'a pris que du paracétamol. Il ne rapporte ni contage tuberculeux, ni consommation de lait cru ou de fromage artisanal, ni voyage récent, ni soins dentaires. Il ne tousse pas, n'a ni brûlures mictionnelles ni diarrhée.\nL'examen clinique, réalisé lors du pic fébrile vespéral, retrouve : TA 120/70 mmHg, FC 112/min, FR 20 cycles/min, T° 39,8 °C, poids 70 kg. Il existe une éruption maculeuse rose saumon, non prurigineuse, du tronc et de la racine des membres, qui a disparu le lendemain matin avec la fièvre. Les deux poignets, les deux coudes et les deux genoux sont gonflés, chauds et douloureux. Les métacarpo-phalangiennes et les interphalangiennes sont libres, les mains ne sont pas déformées, le rachis est indolore. La gorge est érythémateuse, sans exsudat ; il n'y a pas d'ulcération buccale. On note une splénomégalie type 1, sans hépatomégalie ni adénopathie périphérique. L'auscultation cardiaque ne retrouve ni souffle ni frottement, l'auscultation pulmonaire est normale. Il n'existe pas d'érythème du visage, pas de photosensibilité, pas de phénomène de Raynaud, pas de purpura. L'examen neurologique est normal, sans raideur méningée. La bandelette urinaire est négative.",
+      "examens": [],
+      "questions": [
+        {
+          "n": 1,
+          "enonce": "Caractérisez les manifestations articulaires. Justifiez votre réponse.",
+          "competence": "caracteriser_articulaire",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Rhumatisme inflammatoire",
+              "points": 0.5,
+              "justification": "Douleurs qui réveillent le patient la nuit, raideur (dérouillage) matinale d'environ une heure ; articulations gonflées, chaudes et douloureuses (arthrites)",
+              "sources": [
+                "referentiel_transversal.md|§4 Caractériser une atteinte articulaire",
+                "examens/cas_cliniques.md|Cas N°06 Q4"
+              ]
+            },
+            {
+              "texte": "Polyarthrite (6 articulations atteintes)",
+              "points": 0.5,
+              "justification": "Arthrites des deux poignets, des deux coudes et des deux genoux",
+              "sources": [
+                "referentiel_transversal.md|§4 Caractériser une atteinte articulaire",
+                "fiches_complementaires/07_still.md|Clinique (Articulations, PNDS p.12)"
+              ]
+            },
+            {
+              "texte": "Des grosses (genoux) et moyennes (poignets, coudes) articulations, bilatérale et symétrique",
+              "points": 0.5,
+              "justification": "Atteinte des deux côtés, aux mêmes articulations ; genoux = grosses articulations, poignets et coudes = moyennes articulations",
+              "sources": [
+                "referentiel_transversal.md|§4 Caractériser une atteinte articulaire",
+                "examens/cas_cliniques.md|Cas N°02 Q1"
+              ]
+            },
+            {
+              "texte": "Sans déformation, sans atteinte axiale, épargnant les petites articulations des doigts, majorée pendant les pics fébriles",
+              "points": 0.5,
+              "justification": "Mains non déformées, MCP et IPP libres, rachis indolore ; douleurs accentuées lors des pics de fièvre",
+              "sources": [
+                "referentiel_transversal.md|§4 Caractériser une atteinte articulaire",
+                "fiches_complementaires/07_still.md|Clinique (Articulations : arthrites majorées pendant les pics, atteinte des poignets sans atteinte des doigts, PNDS p.12)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Mains non déformées",
+            "MCP et IPP libres",
+            "Rachis indolore"
+          ],
+          "piege": "L'évolution est courte (5 semaines) : ne pas qualifier d'emblée le rhumatisme de « chronique », comme le font les corrigés pour des atteintes évoluant depuis 3 à 5 mois (Cas N°05, N°06, N°07).",
+          "a_verifier": false
+        },
+        {
+          "n": 2,
+          "enonce": "Quel type de fièvre présente le patient ? Citez les deux urgences infectieuses à éliminer en premier, en précisant pour chacune les examens clés.",
+          "competence": "semiologie",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Fièvre intermittente prolongée (fièvre au long cours)",
+              "points": 0.5,
+              "justification": "Pics à 39,5-40 °C en fin d'après-midi, précédés de frissons, avec retour à la normale chaque matin, depuis 6 semaines",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q1",
+                "fiches_complementaires/07_still.md|Clinique (Fièvre, PNDS p.11)",
+                "referentiel_transversal.md|§9 Fièvre prolongée"
+              ]
+            },
+            {
+              "texte": "Endocardite infectieuse : hémocultures répétées et échocardiographie à la recherche de végétations",
+              "points": 0.5,
+              "justification": "Fièvre prolongée avec frissons et tachycardie à 112/min ; l'absence de souffle ne suffit pas à l'éliminer",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q2",
+                "examens/cas_cliniques.md|Cas N°01 Q1",
+                "referentiel_transversal.md|§9 Fièvre prolongée"
+              ]
+            },
+            {
+              "texte": "Tuberculose : radiographie thoracique, Quantiféron (ou IDR à la tuberculine), recherche de BK",
+              "points": 0.5,
+              "justification": "Fièvre prolongée avec amaigrissement de 5 kg ; diagnostic à éliminer systématiquement en Algérie avant de retenir une maladie de système",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q2",
+                "fiches_complementaires/07_still.md|Diagnostic, bilan d'exclusion (BK/Quantiféron, PNDS p.17)",
+                "examens/cas_cliniques.md|Cas N°04 énoncé"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas de souffle cardiaque",
+            "Pas de toux, auscultation pulmonaire normale",
+            "Pas de contage tuberculeux"
+          ],
+          "piege": "Une auscultation cardiaque normale n'élimine pas une endocardite : les hémocultures et l'échocardiographie restent indispensables.",
+          "a_verifier": false
+        },
+        {
+          "n": 3,
+          "enonce": "Citez quatre cadres nosologiques pouvant expliquer ce tableau, avec au moins deux exemples pour chacun, en tenant compte du contexte algérien.",
+          "competence": "diagnostic_differentiel",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Maladies infectieuses : tuberculose, endocardite, brucellose, fièvre typhoïde, leishmaniose viscérale",
+              "points": 0.5,
+              "justification": "Fièvre prolongée avec splénomégalie ; brucellose (sérologie), typhoïde (sérodiagnostic de Widal et Félix) et leishmaniose (sérologie) sont à rechercher dans le contexte local",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q3",
+                "fiches_complementaires/07_still.md|Diagnostic, diagnostics différentiels (PNDS p.16)",
+                "examens/cas_cliniques.md|Cas N°01 énoncé"
+              ]
+            },
+            {
+              "texte": "Maladies auto-inflammatoires : maladie de Still de l'adulte, fièvre méditerranéenne familiale",
+              "points": 0.5,
+              "justification": "La fièvre est la caractéristique commune des maladies auto-inflammatoires ; fièvre avec arthrites et rash",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q3",
+                "examens/qroc_par_cours.md|Still Q10 (P2 2024)"
+              ]
+            },
+            {
+              "texte": "Maladies auto-immunes et systémiques : lupus érythémateux systémique, polyarthrite rhumatoïde, vascularites",
+              "points": 0.5,
+              "justification": "Polyarthrite fébrile chez un adulte jeune",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q3",
+                "fiches_complementaires/07_still.md|Diagnostic, diagnostics différentiels (PNDS p.16)"
+              ]
+            },
+            {
+              "texte": "Hémopathies malignes : lymphome, leucémie",
+              "points": 0.5,
+              "justification": "Fièvre prolongée, amaigrissement de 5 kg et splénomégalie",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q3",
+                "examens/qroc_par_cours.md|Still Q6 (P1 2024)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "La maladie de Still est un diagnostic d'exclusion : elle ne peut être retenue qu'après élimination des causes infectieuses, néoplasiques et auto-immunes.",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Le bilan réalisé au cours de l'hospitalisation est le suivant.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Hémoglobine",
+          "cle": "hemoglobine",
+          "valeur": 10.2,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "VGM",
+          "cle": "vgm",
+          "valeur": 76,
+          "unite": "fL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "CCMH",
+          "cle": "ccmh",
+          "valeur": 30,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Réticulocytes",
+          "cle": "reticulocytes",
+          "valeur": 18000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Leucocytes",
+          "cle": "leucocytes",
+          "valeur": 24500,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Polynucléaires neutrophiles",
+          "cle": "pnn",
+          "valeur": 21300,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Lymphocytes",
+          "cle": "lymphocytes",
+          "valeur": 2200,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 520000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Frottis sanguin",
+          "cle": null,
+          "valeur": "polynucléose neutrophile, absence de blastes et de cellules anormales",
+          "unite": ""
+        },
+        {
+          "groupe": "Hémolyse",
+          "parametre": "Test de Coombs direct",
+          "cle": null,
+          "valeur": "négatif",
+          "unite": ""
+        },
+        {
+          "groupe": "Hémolyse",
+          "parametre": "Haptoglobine",
+          "cle": "haptoglobine",
+          "valeur": 1.8,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "VS 1re heure",
+          "cle": "vs",
+          "valeur": 110,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 210,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "Fibrinogène",
+          "cle": "fibrinogene",
+          "valeur": 7.2,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "Albumine",
+          "cle": "albumine",
+          "valeur": 30,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "Gammaglobulines",
+          "cle": "gammaglobulines",
+          "valeur": 19,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan martial",
+          "parametre": "Ferritinémie",
+          "cle": "ferritine",
+          "valeur": 4800,
+          "unite": "µg/L"
+        },
+        {
+          "groupe": "Bilan martial",
+          "parametre": "Ferritine glycosylée",
+          "cle": "ferritine_glycosylee",
+          "valeur": 12,
+          "unite": "%"
+        },
+        {
+          "groupe": "Bilan martial",
+          "parametre": "Coefficient de saturation de la transferrine",
+          "cle": "saturation_transferrine",
+          "valeur": 24,
+          "unite": "%"
+        },
+        {
+          "groupe": "Bilan hépatique et musculaire",
+          "parametre": "ASAT",
+          "cle": "asat",
+          "valeur": 72,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan hépatique et musculaire",
+          "parametre": "ALAT",
+          "cle": "alat",
+          "valeur": 88,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan hépatique et musculaire",
+          "parametre": "Phosphatases alcalines",
+          "cle": "pal",
+          "valeur": 110,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan hépatique et musculaire",
+          "parametre": "Gamma-GT",
+          "cle": "ggt",
+          "valeur": 38,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan hépatique et musculaire",
+          "parametre": "Bilirubine totale",
+          "cle": "bilirubine_totale",
+          "valeur": 7,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan hépatique et musculaire",
+          "parametre": "LDH",
+          "cle": "ldh",
+          "valeur": 250,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan hépatique et musculaire",
+          "parametre": "CPK",
+          "cle": "cpk",
+          "valeur": 55,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan hépatique et musculaire",
+          "parametre": "Triglycérides",
+          "cle": "triglycerides",
+          "valeur": 1.2,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Créatininémie",
+          "cle": "creatinine",
+          "valeur": 9,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Protéinurie des 24 h",
+          "cle": "proteinurie_24h",
+          "valeur": 0.12,
+          "unite": "g/24h"
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps antinucléaires",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-ADN natif",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Facteur rhumatoïde",
+          "cle": null,
+          "valeur": "négatif",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-CCP",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "ANCA",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Fraction C3 du complément",
+          "cle": "c3",
+          "valeur": 1.2,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Fraction C4 du complément",
+          "cle": "c4",
+          "valeur": 0.28,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan infectieux",
+          "parametre": "Hémocultures (3 séries prélevées pendant les pics)",
+          "cle": null,
+          "valeur": "négatives",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan infectieux",
+          "parametre": "ECBU",
+          "cle": null,
+          "valeur": "stérile",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan infectieux",
+          "parametre": "Sérologie de la brucellose (Wright)",
+          "cle": null,
+          "valeur": "négative",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan infectieux",
+          "parametre": "Sérodiagnostic de Widal et Félix",
+          "cle": null,
+          "valeur": "négatif",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan infectieux",
+          "parametre": "Sérologie de la leishmaniose",
+          "cle": null,
+          "valeur": "négative",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan infectieux",
+          "parametre": "Sérologies VIH, VHB, VHC",
+          "cle": null,
+          "valeur": "négatives",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan infectieux",
+          "parametre": "Sérologies EBV et CMV (IgM)",
+          "cle": null,
+          "valeur": "négatives",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan infectieux",
+          "parametre": "Quantiféron",
+          "cle": null,
+          "valeur": "négatif",
+          "unite": ""
+        },
+        {
+          "groupe": "Imagerie",
+          "parametre": "Radiographie thoracique",
+          "cle": null,
+          "valeur": "normale",
+          "unite": ""
+        },
+        {
+          "groupe": "Imagerie",
+          "parametre": "Échocardiographie transthoracique",
+          "cle": null,
+          "valeur": "pas de végétation, pas d'épanchement péricardique, fonction ventriculaire normale",
+          "unite": ""
+        },
+        {
+          "groupe": "Imagerie",
+          "parametre": "TDM thoraco-abdomino-pelvienne",
+          "cle": null,
+          "valeur": "splénomégalie homogène de 14 cm ; pas d'adénopathie profonde, pas de masse",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 4,
+          "enonce": "Interprétez l'hémogramme et le bilan inflammatoire. Justifiez votre réponse.",
+          "competence": "interpreter_hemogramme",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Anémie microcytaire hypochrome arégénérative",
+              "points": 0.75,
+              "justification": "Hb 10,2 g/dL (< 13 chez l'homme, et < 14 selon les corrigés), VGM 76 fL (< 80), CCMH 30 g/dL (< 32), réticulocytes 18 000/mm³ (< 25 000)",
+              "sources": [
+                "referentiel_transversal.md|§2 Interpréter un hémogramme (Anémie)",
+                "examens/cas_cliniques.md|Cas N°06 Q5"
+              ]
+            },
+            {
+              "texte": "Non hémolytique, probablement inflammatoire",
+              "points": 0.25,
+              "justification": "Test de Coombs négatif, haptoglobine normale (1,8 g/L), coefficient de saturation normal (24 %), ferritine élevée, syndrome inflammatoire associé",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q2",
+                "referentiel_transversal.md|§2 Interpréter un hémogramme (Anémie inflammatoire)"
+              ]
+            },
+            {
+              "texte": "Hyperleucocytose à polynucléaires neutrophiles",
+              "points": 0.5,
+              "justification": "Leucocytes 24 500/mm³ (> 10 000), PNN 21 300/mm³ (> 7 000), soit 87 % des leucocytes ; frottis sans blastes",
+              "sources": [
+                "referentiel_transversal.md|§2 Interpréter un hémogramme (Leucocytes)",
+                "examens/cas_cliniques.md|Cas N°06 Q5"
+              ]
+            },
+            {
+              "texte": "Thrombocytose",
+              "points": 0.25,
+              "justification": "Plaquettes 520 000/mm³ (> 400 000), réactionnelle à l'inflammation",
+              "sources": [
+                "referentiel_transversal.md|§2 Interpréter un hémogramme (Plaquettes)",
+                "examens/cas_cliniques.md|Cas N°06 Q5"
+              ]
+            },
+            {
+              "texte": "Syndrome inflammatoire biologique intense",
+              "points": 0.5,
+              "justification": "VS 110 mm (> âge/2 = 15,5), CRP 210 mg/L (> 5), fibrinogène 7,2 g/L (> 4), hypoalbuminémie 30 g/L (< 35), hypergammaglobulinémie 19 g/L (> 15)",
+              "sources": [
+                "referentiel_transversal.md|§3 Syndrome inflammatoire biologique",
+                "examens/cas_cliniques.md|Cas N°06 Q6"
+              ]
+            },
+            {
+              "texte": "Hyperferritinémie majeure avec ferritine glycosylée effondrée",
+              "points": 0.25,
+              "justification": "Ferritine 4 800 µg/L (plus de 17 fois la normale de 280, au-delà du seuil de 4 000 µg/L proposé par le PNDS) ; ferritine glycosylée 12 % (< 20 %)",
+              "sources": [
+                "fiches_complementaires/07_still.md|Biologie (Ferritine, ferritine glycosylée, PNDS p.14)",
+                "examens/cas_cliniques.md|Cas N°01 Q5",
+                "examens/qroc_par_cours.md|Still Q8 (P1 2024)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Test de Coombs négatif",
+            "Haptoglobine normale",
+            "Frottis sanguin sans blastes"
+          ],
+          "piege": "Ne pas conclure à une carence martiale devant la microcytose : le coefficient de saturation est normal et la ferritine très élevée ; l'anémie est inflammatoire (Cas N°01 Q2).",
+          "a_verifier": false
+        },
+        {
+          "n": 5,
+          "enonce": "Quel diagnostic retenez-vous ? Justifiez votre réponse.",
+          "competence": "diagnostic_positif",
+          "points": 3,
+          "elements_attendus": [
+            {
+              "texte": "Maladie de Still de l'adulte",
+              "points": 0.5,
+              "justification": "Association fièvre hectique, arthrites, rash évanescent, odynophagie et hyperleucocytose à PNN, avec un bilan d'exclusion négatif",
+              "sources": [
+                "fiches_complementaires/07_still.md|Définition, intérêt, épidémiologie (PNDS p.7)",
+                "examens/cas_cliniques.md|Cas N°01 Q3",
+                "examens/cas_cliniques.md|Cas N°06 Q7"
+              ]
+            },
+            {
+              "texte": "Arguments cliniques : fièvre vespérale ≥ 39 °C avec apyrexie matinale, polyarthrite, rash rose saumon évanescent contemporain des pics, odynophagie avec gorge sans exsudat, myalgies, splénomégalie",
+              "points": 0.75,
+              "justification": "Pics à 39,5-40 °C ; éruption du tronc et de la racine des membres disparue le lendemain matin ; gorge érythémateuse sans exsudat ; splénomégalie type 1 (14 cm au scanner)",
+              "sources": [
+                "fiches_complementaires/07_still.md|Clinique (PNDS p.11-13)",
+                "cours/07_still_auto_inflammatoires.md|p.11 (infographie : triade clinique, odynophagie)",
+                "examens/cas_cliniques.md|Cas N°01 Q3"
+              ]
+            },
+            {
+              "texte": "Arguments biologiques : hyperleucocytose à PNN ≥ 80 %, syndrome inflammatoire intense, hyperferritinémie disproportionnée, ferritine glycosylée < 20 %, cytolyse modérée, CPK normales malgré les myalgies",
+              "points": 0.75,
+              "justification": "PNN 21 300/mm³ (87 %), CRP 210 mg/L, ferritine 4 800 µg/L, ferritine glycosylée 12 %, ASAT 72 et ALAT 88 UI/L, CPK 55 UI/L",
+              "sources": [
+                "fiches_complementaires/07_still.md|Biologie (PNDS p.12-14)",
+                "fiches_complementaires/07_still.md|Clinique (Myalgies : CK normales, PNDS p.12)",
+                "cours/07_still_auto_inflammatoires.md|p.11 (infographie : inflammation biologique)"
+              ]
+            },
+            {
+              "texte": "Diagnostic d'exclusion : enquête infectieuse, néoplasique et auto-immune négative",
+              "points": 0.75,
+              "justification": "Hémocultures, ECBU, sérologies de la brucellose, de Widal et Félix, de la leishmaniose, VIH, VHB, VHC, EBV et CMV négatives, Quantiféron négatif, pas de végétation ; pas d'adénopathie profonde ni de masse au scanner, frottis sans blastes ; FAN, anti-ADN, FR, anti-CCP et ANCA négatifs, complément non consommé",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q3",
+                "fiches_complementaires/07_still.md|Diagnostic, bilan d'exclusion (PNDS p.17-18)",
+                "referentiel_transversal.md|§11 Règles de rédaction des corrigés"
+              ]
+            },
+            {
+              "texte": "Critères de Yamaguchi remplis : 4 critères majeurs et 4 mineurs, sans critère d'exclusion",
+              "points": 0.25,
+              "justification": "Majeurs : fièvre ≥ 39 °C depuis plus d'une semaine, arthralgies depuis plus de 2 semaines, rash typique, leucocytes ≥ 10 000/mm³ avec PNN ≥ 80 % ; mineurs : pharyngite, splénomégalie, transaminases élevées, FR et AAN négatifs",
+              "sources": [
+                "fiches_complementaires/07_still.md|Diagnostic, critères de Yamaguchi (PNDS p.11)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Hémocultures et sérologies négatives",
+            "Pas de végétation à l'échocardiographie",
+            "Pas d'adénopathie profonde ni de masse au scanner",
+            "Frottis sans blastes",
+            "FAN, FR, anti-CCP et ANCA négatifs, complément non consommé",
+            "CPK normales"
+          ],
+          "piege": "Les critères de Yamaguchi sont des critères de classification : ils ne dispensent pas d'éliminer une infection, une néoplasie ou une autre maladie systémique.",
+          "a_verifier": false
+        },
+        {
+          "n": 6,
+          "enonce": "Un lupus érythémateux systémique avait été évoqué à l'admission. Quels éléments de l'observation permettent de l'écarter ? Justifiez votre réponse.",
+          "competence": "diagnostic_differentiel",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Anticorps antinucléaires négatifs",
+              "points": 0.5,
+              "justification": "FAN et anti-ADN négatifs, alors que la sensibilité des FAN dépasse 95 % dans le lupus",
+              "sources": [
+                "cours/01_lupus.md|p.4 (auto-anticorps)"
+              ]
+            },
+            {
+              "texte": "Complément non consommé",
+              "points": 0.25,
+              "justification": "C3 1,2 g/L et C4 0,28 g/L normaux, alors qu'ils sont abaissés en phase active du lupus",
+              "sources": [
+                "cours/01_lupus.md|p.4 (complément)"
+              ]
+            },
+            {
+              "texte": "Hémogramme non lupique : hyperleucocytose à PNN et thrombocytose, sans leucopénie, lymphopénie, thrombopénie ni anémie hémolytique",
+              "points": 0.25,
+              "justification": "Leucocytes 24 500/mm³, lymphocytes 2 200/mm³, plaquettes 520 000/mm³, Coombs négatif",
+              "sources": [
+                "cours/01_lupus.md|p.4 (atteinte hématologique)",
+                "referentiel_transversal.md|§2 Interpréter un hémogramme (Associations à reconnaître)"
+              ]
+            },
+            {
+              "texte": "CRP très élevée, alors que le lupus donne une VS élevée avec une CRP modérée",
+              "points": 0.25,
+              "justification": "CRP 210 mg/L",
+              "sources": [
+                "cours/01_lupus.md|p.4 (VS et CRP)"
+              ]
+            },
+            {
+              "texte": "Absence d'atteinte rénale et de lésion cutanée lupique",
+              "points": 0.25,
+              "justification": "Bandelette urinaire négative, protéinurie 0,12 g/24 h ; rash fugace des pics fébriles, sans érythème du visage ni photosensibilité",
+              "sources": [
+                "cours/01_lupus.md|p.2 (atteintes cutanée et rénale)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "FAN et anti-ADN négatifs",
+            "C3 et C4 normaux",
+            "Test de Coombs négatif",
+            "Bandelette urinaire négative",
+            "Pas d'érythème du visage ni de photosensibilité"
+          ],
+          "piege": "Le sexe masculin ne suffit pas à écarter un lupus (1 homme pour 9 femmes) : ce sont les arguments immunologiques et biologiques qui tranchent.",
+          "a_verifier": false
+        },
+        {
+          "n": 7,
+          "enonce": "Quel traitement de première intention proposez-vous ? Précisez les mesures associées. Justifiez votre réponse.",
+          "competence": "traitement",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Corticothérapie générale : prednisone 1 mg/kg/j, soit 70 mg/j",
+              "points": 0.75,
+              "justification": "Maladie de Still avec atteinte viscérale (cytolyse hépatique, splénomégalie), comme au Cas N°06",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q9",
+                "fiches_complementaires/07_still.md|Traitement (Corticoïdes, PNDS p.25)",
+                "cours/13_traitements.md|p.1 (corticothérapie générale)"
+              ]
+            },
+            {
+              "texte": "Dose maintenue jusqu'à normalisation de la CRP puis décroissance progressive, prise le matin, jamais d'arrêt brutal",
+              "points": 0.25,
+              "justification": "Objectif de 0,1 mg/kg/j à 6 semaines ; l'arrêt progressif prévient l'insuffisance surrénalienne et l'effet rebond",
+              "sources": [
+                "fiches_complementaires/07_still.md|Traitement (Corticoïdes, PNDS p.25)",
+                "cours/07_still_auto_inflammatoires.md|p.11 (infographie : glucocorticoïdes)",
+                "cours/13_traitements.md|p.2 (modalités de prescription)"
+              ]
+            },
+            {
+              "texte": "Régime hyposodé, pauvre en sucres, riche en protides",
+              "points": 0.25,
+              "justification": "Prévention de la rétention hydrosodée, de l'hyperglycémie et du catabolisme protidique induits par une forte dose prolongée",
+              "sources": [
+                "cours/13_traitements.md|p.2 (modalités de prescription)"
+              ]
+            },
+            {
+              "texte": "Supplémentation en potassium, calcium et vitamine D ; IPP en cas d'antécédent d'ulcère",
+              "points": 0.25,
+              "justification": "Prévention de l'hypokaliémie et de l'ostéoporose cortisonique",
+              "sources": [
+                "cours/13_traitements.md|p.2 (traitements adjuvants)"
+              ]
+            },
+            {
+              "texte": "Activité physique régulière ; surveillance de la TA, de la glycémie et de la kaliémie",
+              "points": 0.25,
+              "justification": "Dépistage d'une HTA, d'un diabète cortico-induit, d'une hypokaliémie",
+              "sources": [
+                "cours/13_traitements.md|p.2 (modalités de prescription)"
+              ]
+            },
+            {
+              "texte": "En cas de corticodépendance ou de corticorésistance : anakinra (anti-IL-1), tocilizumab (anti-récepteur de l'IL-6) ou méthotrexate",
+              "points": 0.25,
+              "justification": "Traitements d'épargne cortisonique de la maladie de Still",
+              "sources": [
+                "fiches_complementaires/07_still.md|Traitement (Anakinra, tocilizumab, MTX, PNDS p.25-27)",
+                "cours/07_still_auto_inflammatoires.md|p.11 (infographie : traitement)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "Point divergent. Selon le corrigé du Cas N°06 Q9, on prescrit une corticothérapie à 1 mg/kg/j en cas d'atteinte viscérale, sinon des anti-inflammatoires (AINS). Selon le PNDS (p.6 et 22), les corticoïdes sont d'emblée le traitement de 1re intention, les AINS étant réservés à la phase diagnostique. Ici les deux concordent, car il existe une atteinte viscérale (hépatique). [examens/cas_cliniques.md|Cas N°06 Q9 ; fiches_complementaires/07_still.md|Divergences avec les corrigés d'examen, point 2]",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Le patient reçoit la prednisone à 70 mg/j. L'apyrexie est obtenue en 48 heures et les arthrites régressent. Au 12e jour, la fièvre réapparaît à 40 °C, en plateau, avec une altération marquée de l'état général. L'examen retrouve : TA 100/60 mmHg, FC 120/min, FR 22 cycles/min, T° 40,1 °C, une hépatomégalie indolore (flèche hépatique à 15 cm), une splénomégalie type 2 et des adénopathies cervicales bilatérales mobiles d'environ 1 cm. Le patient est conscient et orienté. Il n'y a pas de rash, pas de purpura ni de saignement. Il ne tousse pas, l'auscultation pulmonaire est normale, il n'a pas de signes urinaires et le point de ponction veineuse est propre. Le bilan de contrôle est le suivant.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Hémoglobine",
+          "cle": "hemoglobine",
+          "valeur": 7.4,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Réticulocytes",
+          "cle": "reticulocytes",
+          "valeur": 12000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Leucocytes",
+          "cle": "leucocytes",
+          "valeur": 2600,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Polynucléaires neutrophiles",
+          "cle": "pnn",
+          "valeur": 1200,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 58000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Biochimie",
+          "parametre": "Ferritinémie",
+          "cle": "ferritine",
+          "valeur": 42000,
+          "unite": "µg/L"
+        },
+        {
+          "groupe": "Biochimie",
+          "parametre": "Triglycérides",
+          "cle": "triglycerides",
+          "valeur": 4.3,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Biochimie",
+          "parametre": "ASAT",
+          "cle": "asat",
+          "valeur": 460,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Biochimie",
+          "parametre": "ALAT",
+          "cle": "alat",
+          "valeur": 480,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Biochimie",
+          "parametre": "LDH",
+          "cle": "ldh",
+          "valeur": 1250,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Biochimie",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 165,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Biochimie",
+          "parametre": "Créatininémie",
+          "cle": "creatinine",
+          "valeur": 10,
+          "unite": "mg/L"
+        }
+      ],
+      "questions": [
+        {
+          "n": 8,
+          "enonce": "Quelle complication de sa maladie suspectez-vous ? Justifiez votre réponse.",
+          "competence": "complication",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Syndrome d'activation macrophagique (SAM)",
+              "points": 0.5,
+              "justification": "Rebond fébrile sous corticoïdes avec cytopénies, hyperferritinémie majeure, hypertriglycéridémie et cytolyse",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q10",
+                "examens/qroc_par_cours.md|Still Q2 (P1 2026)",
+                "fiches_complementaires/07_still.md|Complications (SAM, PNDS p.34)"
+              ]
+            },
+            {
+              "texte": "Arguments cliniques : récidive de la fièvre, altération de l'état général, hépatomégalie, augmentation de la splénomégalie, adénopathies",
+              "points": 0.5,
+              "justification": "Fièvre à 40,1 °C au 12e jour, flèche hépatique 15 cm, splénomégalie passée du type 1 au type 2, adénopathies cervicales apparues",
+              "sources": [
+                "examens/qroc_par_cours.md|Still Q12 (P3 2024)",
+                "fiches_complementaires/07_still.md|Complications (SAM : clinique, PNDS p.34)"
+              ]
+            },
+            {
+              "texte": "Cytopénies : apparition d'une pancytopénie (anémie, leucopénie, thrombopénie), alors qu'il existait initialement une hyperleucocytose et une thrombocytose",
+              "points": 0.5,
+              "justification": "Anémie arégénérative (Hb 7,4 g/dL, réticulocytes 12 000/mm³), leucopénie (2 600/mm³) avec neutropénie (1 200/mm³), thrombopénie (58 000/mm³), alors qu'il existait au départ une hyperleucocytose et une thrombocytose",
+              "sources": [
+                "examens/qroc_par_cours.md|Still Q4 (P2 2025)",
+                "referentiel_transversal.md|§2 Interpréter un hémogramme (Associations à reconnaître)"
+              ]
+            },
+            {
+              "texte": "Hyperferritinémie majeure",
+              "points": 0.25,
+              "justification": "Ferritine 42 000 µg/L, près de 9 fois la valeur initiale ; au-delà de 10 000 µg/L, le PNDS fait penser à une hémophagocytose",
+              "sources": [
+                "examens/qroc_par_cours.md|Still Q4 (P2 2025)",
+                "fiches_complementaires/07_still.md|Biologie (Ferritine ≥ 10 000 µg/L, PNDS p.14)"
+              ]
+            },
+            {
+              "texte": "Hypertriglycéridémie",
+              "points": 0.25,
+              "justification": "Triglycérides 4,3 g/L (> 1,5), normaux (1,2 g/L) au bilan initial",
+              "sources": [
+                "examens/qroc_par_cours.md|Still Q4 (P2 2025)",
+                "examens/qroc_par_cours.md|Still Q12 (P3 2024)"
+              ]
+            },
+            {
+              "texte": "Cytolyse hépatique marquée et LDH élevées",
+              "points": 0.5,
+              "justification": "ASAT 460 et ALAT 480 UI/L (environ 11 fois la normale ; au-delà de 10 N, le PNDS fait penser au SAM) ; LDH 1 250 UI/L (> 280), normales au bilan initial",
+              "sources": [
+                "examens/qroc_par_cours.md|Still Q12 (P3 2024)",
+                "fiches_complementaires/07_still.md|Biologie (Foie : transaminases > 10 N, PNDS p.13)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas de toux, auscultation pulmonaire normale",
+            "Pas de signes urinaires",
+            "Point de ponction veineuse propre",
+            "Patient conscient et orienté"
+          ],
+          "piege": "Le fibrinogène et la VS n'ont volontairement pas été fournis, car leur interprétation diverge. Les QROC Still Q4 et Q12, le Cas N°01 Q8 et le PNDS (p.15 et 34) retiennent un fibrinogène bas, et le PNDS une baisse de la VS, comme signes d'alerte ; le corrigé du Cas N°06 Q10 cite au contraire la hausse du fibrinogène, et la QROC Still Q12 une « VS augmentée ». À l'examen, un fibrinogène bas ou qui chute reste l'argument le plus solide ; appuyez-vous d'abord sur les cytopénies, la ferritine, les triglycérides, la cytolyse et les LDH. [fiches_complementaires/07_still.md|Divergences avec les corrigés d'examen, points 3 et 4 ; referentiel_transversal.md|§1 Contradictions]",
+          "a_verifier": false
+        },
+        {
+          "n": 9,
+          "enonce": "Quel examen permet d'étayer ce diagnostic et quel résultat attendez-vous ? Quel autre diagnostic devez-vous éliminer en parallèle chez ce patient sous corticoïdes, et par quels examens ?",
+          "competence": "examen_complementaire",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Myélogramme",
+              "points": 0.5,
+              "justification": "Examen recommandé devant une suspicion de SAM au cours d'une maladie de Still",
+              "sources": [
+                "fiches_complementaires/07_still.md|Diagnostic, bilan d'exclusion (Gestes : myélogramme si SAM, PNDS p.18)"
+              ]
+            },
+            {
+              "texte": "Images d'hémophagocytose ; examen non indispensable au diagnostic",
+              "points": 0.5,
+              "justification": "Des macrophages ayant phagocyté des cellules sanguines confirment le SAM ; leur absence ne l'élimine pas",
+              "sources": [
+                "fiches_complementaires/07_still.md|Complications (SAM : diagnostic, PNDS p.15)"
+              ]
+            },
+            {
+              "texte": "Infection favorisée par la corticothérapie : hémocultures, ECBU, radiographie thoracique",
+              "points": 0.5,
+              "justification": "Fièvre à 40 °C avec CRP 165 mg/L chez un patient sous 70 mg/j de prednisone depuis 12 jours ; les infections sont un effet secondaire de la corticothérapie",
+              "sources": [
+                "examens/qroc_par_cours.md|Traitements Q7 (P2 2025 : infections)",
+                "fiches_complementaires/07_still.md|Diagnostic, bilan d'exclusion (hémocultures, ECBU, PNDS p.17)",
+                "referentiel_transversal.md|§9 Fièvre prolongée"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas de foyer infectieux clinique (poumons, urines, point de ponction)"
+          ],
+          "piege": "Prélever les hémocultures avant de majorer l'immunosuppression : une infection sous corticoïdes peut simuler une rechute ou un SAM.",
+          "a_verifier": false
+        },
+        {
+          "n": 10,
+          "enonce": "Quel traitement urgent proposez-vous ? Précisez ses modalités d'administration et les recours en cas d'échec.",
+          "competence": "traitement",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Hospitalisation et bolus de méthylprednisolone par voie IV (15 mg/kg/j, soit environ 1 g/j, pendant 1 à 3 jours), relayé par la prednisone",
+              "points": 0.5,
+              "justification": "SAM compliquant une maladie de Still chez un patient de 70 kg",
+              "sources": [
+                "fiches_complementaires/07_still.md|Traitement (Traitement du SAM, PNDS p.27)",
+                "cours/13_traitements.md|p.1 (bolus de méthylprednisolone)"
+              ]
+            },
+            {
+              "texte": "Bolus dilué, perfusé en 30 minutes à 3 heures, sous surveillance de la TA, de la glycémie et de la kaliémie",
+              "points": 0.5,
+              "justification": "Un passage en moins de 30 minutes expose à des troubles du rythme et à un arrêt cardiaque",
+              "sources": [
+                "cours/13_traitements.md|p.1 (bolus : perfusion de 30 min à 3 h ; troubles du rythme)",
+                "cours/13_traitements.md|p.2 (surveillance)"
+              ]
+            },
+            {
+              "texte": "En cas de réponse insuffisante : anakinra (anti-IL-1) ; étoposide en présence de signes de gravité",
+              "points": 0.5,
+              "justification": "Signes de gravité : confusion, défaillance d'organe, fibrinogène < 0,8 g/L, plaquettes < 20 000/mm³",
+              "sources": [
+                "fiches_complementaires/07_still.md|Traitement (Traitement du SAM, PNDS p.27)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "La durée du bolus varie selon les sources : 3 jours selon l'infographie du cours, 1 à 3 jours selon le PNDS, 3 à 5 jours dans le cours de traitement. [fiches_complementaires/07_still.md|Divergences avec les corrigés d'examen, point 7 ; cours/13_traitements.md|p.1]",
+          "a_verifier": false
+        }
+      ]
+    }
+  ],
+  "synthese": [
+    "Maladie de Still : diagnostic d'exclusion associant fièvre vespérale hectique, arthrites, rash rose saumon évanescent, odynophagie, hyperleucocytose à PNN, ferritine très élevée et ferritine glycosylée < 20 %.",
+    "Devant une fièvre prolongée : éliminer d'abord l'endocardite et la tuberculose, puis, en Algérie, la brucellose, la typhoïde et la leishmaniose.",
+    "Le lupus est écarté par des FAN négatifs, un complément normal, une hyperleucocytose à PNN (et non une leucopénie) et une CRP très élevée.",
+    "Rebond fébrile sous corticoïdes avec cytopénies, ferritine majeure, hypertriglycéridémie, cytolyse et LDH élevées : SAM jusqu'à preuve du contraire ; éliminer une infection en parallèle.",
+    "Fibrinogène et VS au cours du SAM : les corrigés et le PNDS divergent ; un fibrinogène bas ou qui chute reste l'argument le plus solide."
+  ]
+}

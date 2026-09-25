@@ -1,0 +1,940 @@
+{
+  "id": "PIL-002",
+  "version": 1,
+  "statut": "valide_etudiant",
+  "maladie_principale": "Lupus érythémateux systémique",
+  "chapitres": [
+    "cours/01_lupus",
+    "cours/02_sapl",
+    "cours/13_traitements",
+    "referentiel_transversal",
+    "cours/06_gougerot_sjogren"
+  ],
+  "liens_transversaux": [
+    "Caractériser une atteinte articulaire",
+    "Interpréter un hémogramme : anémie hémolytique auto-immune",
+    "Type d'atteinte rénale : syndrome néphrotique impur",
+    "Anticorps antiphospholipides isolés puis SAPL secondaire obstétrical",
+    "Cyclophosphamide, hydroxychloroquine, immunosuppresseurs et grossesse",
+    "Anticorps anti-SSA et lupus néonatal"
+  ],
+  "difficulte": 2,
+  "duree_minutes": 30,
+  "points_total": 20,
+  "patient": {
+    "sexe": "F",
+    "age": 23
+  },
+  "etapes": [
+    {
+      "texte": "Mlle N.H âgée de 23 ans, étudiante, nulligeste, sans antécédents, sous contraception œstroprogestative depuis un an, consulte au mois de juin pour des douleurs articulaires évoluant depuis 2 mois. Les douleurs touchent les métacarpo-phalangiennes, les interphalangiennes proximales et les poignets des deux mains ainsi que les deux genoux ; elles la réveillent la nuit et elle a du mal à fermer les mains le matin pendant une trentaine de minutes. Elle signale une asthénie, une fébricule et, depuis un séjour à la plage il y a 3 semaines, une rougeur du visage. Depuis 5 jours, elle ressent une douleur basithoracique droite aggravée par l'inspiration profonde et la toux. Elle n'a jamais présenté de thrombose.\nL'examen clinique retrouve : TA 150/95 mmHg (contrôlée à 148/94), FC 96/min, FR 22 cycles/min, T° 38,1 °C. Il existe un érythème maculo-papuleux finement squameux des pommettes et du dos du nez, en aile de papillon, des ulcérations douloureuses du palais sans enduit blanchâtre et une alopécie diffuse. Les IPP et les poignets sont gonflés et douloureux, sans déformation ; le rachis est libre. Les radiographies des mains réalisées par son médecin traitant ne montrent ni érosion ni pincement articulaire. On note une matité de la base droite avec abolition du murmure vésiculaire et des vibrations vocales ; la radiographie thoracique montre un comblement du cul-de-sac costo-diaphragmatique droit. Il existe des œdèmes des deux chevilles, blancs, mous, indolores, prenant le godet. Il n'y a pas de phénomène de Raynaud, pas de sécheresse oculaire ni buccale, pas d'adénopathie, pas de splénomégalie, pas de livedo, pas de frottement péricardique ; l'examen neurologique est normal.\nBandelette urinaire : protéines +++, sang ++, leucocytes et nitrites négatifs.",
+      "examens": [],
+      "questions": [
+        {
+          "n": 1,
+          "enonce": "Caractérisez les manifestations articulaires. Justifiez votre réponse.",
+          "competence": "caracteriser_articulaire",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Rhumatisme inflammatoire",
+              "points": 0.5,
+              "justification": "Douleurs qui réveillent la patiente la nuit, dérouillage matinal d'une trentaine de minutes, arthrites (IPP et poignets gonflés et douloureux)",
+              "sources": [
+                "referentiel_transversal.md|§4 Caractériser une atteinte articulaire",
+                "examens/cas_cliniques.md|Cas N°07 Q1"
+              ]
+            },
+            {
+              "texte": "Polyarthrite des petites (MCP, IPP), moyennes (poignets) et grosses (genoux) articulations, à prédominance distale",
+              "points": 0.5,
+              "justification": "MCP, IPP et poignets des deux mains, deux genoux",
+              "sources": [
+                "cours/01_lupus.md|p.2 (atteinte rhumatologique : topographie)",
+                "referentiel_transversal.md|§4 Caractériser une atteinte articulaire"
+              ]
+            },
+            {
+              "texte": "Bilatérale et symétrique, a priori sans atteinte axiale",
+              "points": 0.5,
+              "justification": "Atteinte des deux mains et des deux genoux ; rachis libre",
+              "sources": [
+                "examens/qroc_par_cours.md|Lupus Q9 (P3 2025)",
+                "cours/01_lupus.md|p.2 (rachis épargné)"
+              ]
+            },
+            {
+              "texte": "Non déformante et non destructrice",
+              "points": 0.5,
+              "justification": "Pas de déformation à l'examen ; radiographies des mains sans érosion ni pincement",
+              "sources": [
+                "cours/01_lupus.md|p.2 (radiographies : pas de destruction articulaire)",
+                "examens/qroc_par_cours.md|Lupus Q9 (P3 2025)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas de déformation",
+            "Radiographies sans érosion ni pincement",
+            "Rachis libre"
+          ],
+          "piege": "La seule déformation possible au cours du lupus est la main de Jaccoud, liée à une hyperlaxité capsulo-ligamentaire ; elle ne s'accompagne d'aucune destruction radiologique.",
+          "a_verifier": false
+        },
+        {
+          "n": 2,
+          "enonce": "À quoi correspond la douleur thoracique ? Quelles sont les caractéristiques biochimiques et cytologiques attendues du liquide de ponction ? Justifiez votre réponse.",
+          "competence": "semiologie",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Pleurésie droite",
+              "points": 0.5,
+              "justification": "Douleur basithoracique aggravée par l'inspiration et la toux, matité, abolition du murmure vésiculaire et des vibrations vocales, comblement du cul-de-sac costo-diaphragmatique",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°07 Q8",
+                "referentiel_transversal.md|§8 Épanchements des séreuses"
+              ]
+            },
+            {
+              "texte": "Liquide exsudatif (riche en protéines), donc d'origine inflammatoire",
+              "points": 0.5,
+              "justification": "Pleurésie lupique : sérite inflammatoire, contexte fébrile",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°07 Q4",
+                "examens/qroc_par_cours.md|Lupus Q11 (P3 2025)",
+                "cours/01_lupus.md|p.4 (pleurésies exsudatives, lymphocytaires)"
+              ]
+            },
+            {
+              "texte": "À prédominance lymphocytaire",
+              "points": 0.5,
+              "justification": "Cytologie habituelle de la pleurésie lupique",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°07 Q4",
+                "cours/01_lupus.md|p.4 (pleurésies exsudatives, lymphocytaires)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "Les œdèmes font suspecter un syndrome néphrotique, qui peut donner un épanchement transsudatif ; mais la douleur pleurale fébrile oriente vers une sérite lupique, et le corrigé du Cas N°07 attend un exsudat lymphocytaire dans la même situation.",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Les examens biologiques prescrits sont les suivants.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Hémoglobine",
+          "cle": "hemoglobine",
+          "valeur": 8.1,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "VGM",
+          "cle": "vgm",
+          "valeur": 106,
+          "unite": "fL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "CCMH",
+          "cle": "ccmh",
+          "valeur": 33,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Réticulocytes",
+          "cle": "reticulocytes",
+          "valeur": 260000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Leucocytes",
+          "cle": "leucocytes",
+          "valeur": 3200,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Polynucléaires neutrophiles",
+          "cle": "pnn",
+          "valeur": 2100,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Lymphocytes",
+          "cle": "lymphocytes",
+          "valeur": 700,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 112000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Frottis sanguin",
+          "cle": null,
+          "valeur": "absence de schizocytes",
+          "unite": ""
+        },
+        {
+          "groupe": "Hémolyse",
+          "parametre": "Test de Coombs direct",
+          "cle": null,
+          "valeur": "positif",
+          "unite": ""
+        },
+        {
+          "groupe": "Hémolyse",
+          "parametre": "Haptoglobine",
+          "cle": "haptoglobine",
+          "valeur": 0.08,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Hémolyse",
+          "parametre": "LDH",
+          "cle": "ldh",
+          "valeur": 640,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Hémolyse",
+          "parametre": "Bilirubine totale",
+          "cle": "bilirubine_totale",
+          "valeur": 26,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Hémolyse",
+          "parametre": "Bilirubine libre",
+          "cle": null,
+          "valeur": 21,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "VS 1re heure",
+          "cle": "vs",
+          "valeur": 92,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 11,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Protides totaux",
+          "cle": "protides",
+          "valeur": 51,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Albumine",
+          "cle": "albumine",
+          "valeur": 21,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Protéinurie des 24 h",
+          "cle": "proteinurie_24h",
+          "valeur": 5.2,
+          "unite": "g/24h"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Créatininémie",
+          "cle": "creatinine",
+          "valeur": 17,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Urée",
+          "cle": "uree",
+          "valeur": 0.62,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Débit de filtration glomérulaire",
+          "cle": "dfg",
+          "valeur": 45,
+          "unite": "mL/min/1,73 m²"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Sédiment urinaire",
+          "cle": null,
+          "valeur": "hématurie microscopique, pas de leucocyturie",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "ECBU",
+          "cle": null,
+          "valeur": "stérile",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps antinucléaires",
+          "cle": null,
+          "valeur": "positifs à 1/1280",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-ADN natif",
+          "cle": null,
+          "valeur": "positifs, à taux élevé",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-Sm",
+          "cle": null,
+          "valeur": "positifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-SSA",
+          "cle": null,
+          "valeur": "positifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-SSB",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Fraction C3 du complément",
+          "cle": "c3",
+          "valeur": 0.42,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Fraction C4 du complément",
+          "cle": "c4",
+          "valeur": 0.04,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Hémostase",
+          "parametre": "Taux de prothrombine",
+          "cle": "tp",
+          "valeur": 94,
+          "unite": "%"
+        },
+        {
+          "groupe": "Hémostase",
+          "parametre": "TCA (ratio malade/témoin)",
+          "cle": "tca_ratio",
+          "valeur": 1.65,
+          "unite": "ratio"
+        },
+        {
+          "groupe": "Hémostase",
+          "parametre": "TCA après ajout de plasma témoin",
+          "cle": null,
+          "valeur": "non corrigé",
+          "unite": ""
+        },
+        {
+          "groupe": "Hémostase",
+          "parametre": "Anticoagulant circulant de type lupique",
+          "cle": null,
+          "valeur": "positif",
+          "unite": ""
+        },
+        {
+          "groupe": "Hémostase",
+          "parametre": "Anticorps anti-cardiolipine (IgG)",
+          "cle": null,
+          "valeur": "positifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Hémostase",
+          "parametre": "Anticorps anti-β2-glycoprotéine 1 (IgG)",
+          "cle": null,
+          "valeur": "positifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Sérologies",
+          "parametre": "Sérologie syphilitique",
+          "cle": null,
+          "valeur": "VDRL positif, TPHA négatif",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 3,
+          "enonce": "Caractérisez les anomalies de l'hémogramme. Justifiez votre réponse.",
+          "competence": "interpreter_hemogramme",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Anémie macrocytaire normochrome régénérative",
+              "points": 0.75,
+              "justification": "Hb 8,1 g/dL (< 12), VGM 106 fL (> 100), CCMH 33 g/dL (≥ 32), réticulocytes 260 000/mm³ (> 120 000)",
+              "sources": [
+                "referentiel_transversal.md|§2 Interpréter un hémogramme (Anémie)",
+                "examens/cas_cliniques.md|Cas N°07 Q6"
+              ]
+            },
+            {
+              "texte": "Hémolytique",
+              "points": 0.5,
+              "justification": "Haptoglobine effondrée (0,08 g/L), LDH 640 UI/L (> 280), bilirubine libre augmentée (21 mg/L)",
+              "sources": [
+                "referentiel_transversal.md|§2 Interpréter un hémogramme (Anémie : signes d'hémolyse)",
+                "examens/cas_cliniques.md|Cas N°01 Q2"
+              ]
+            },
+            {
+              "texte": "Auto-immune (anémie hémolytique auto-immune), non mécanique",
+              "points": 0.5,
+              "justification": "Test de Coombs direct positif ; absence de schizocytes au frottis (pas de microangiopathie thrombotique)",
+              "sources": [
+                "cours/01_lupus.md|p.4 (atteinte hématologique : AHAI à Coombs direct positif)",
+                "examens/cas_cliniques.md|Cas N°07 Q6",
+                "examens/qroc_par_cours.md|SAPL Q8 (P1 2025)"
+              ]
+            },
+            {
+              "texte": "Leucopénie par lymphopénie",
+              "points": 0.5,
+              "justification": "Leucocytes 3 200/mm³ (< 4 000), lymphocytes 700/mm³ (< 1 000), PNN normaux (2 100/mm³)",
+              "sources": [
+                "cours/01_lupus.md|p.4 (leucopénie modérée par lymphopénie ou neutropénie)",
+                "referentiel_transversal.md|§2 Interpréter un hémogramme (Leucocytes)"
+              ]
+            },
+            {
+              "texte": "Thrombopénie",
+              "points": 0.25,
+              "justification": "Plaquettes 112 000/mm³ (< 150 000), probablement périphérique immunologique",
+              "sources": [
+                "cours/01_lupus.md|p.4 (thrombopénie périphérique immunologique)",
+                "referentiel_transversal.md|§2 Interpréter un hémogramme (Plaquettes)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Absence de schizocytes",
+            "PNN normaux"
+          ],
+          "piege": "Ne pas conclure à une macrocytose carentielle : la réticulocytose > 120 000/mm³ et les signes d'hémolyse orientent vers une anémie régénérative périphérique ; le corrigé du Cas N°07 parle d'anémie hémolytique « à tendance macrocytaire ».",
+          "a_verifier": false
+        },
+        {
+          "n": 4,
+          "enonce": "Quel est le type de l'atteinte rénale ? Quel examen est indispensable pour la caractériser ? Justifiez votre réponse.",
+          "competence": "interpreter_bilan",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Atteinte glomérulaire",
+              "points": 0.5,
+              "justification": "Protéinurie abondante (+++ à la bandelette), hématurie microscopique, HTA, œdèmes ; pas de leucocyturie, ECBU stérile",
+              "sources": [
+                "cours/01_lupus.md|p.2 (atteinte rénale surtout glomérulaire)",
+                "referentiel_transversal.md|§7 Atteinte rénale",
+                "examens/cas_cliniques.md|Cas N°07 Q7"
+              ]
+            },
+            {
+              "texte": "Syndrome néphrotique",
+              "points": 0.5,
+              "justification": "Protéinurie 5,2 g/24 h (> 3), albuminémie 21 g/L (< 30), protidémie 51 g/L (< 60)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°07 Q7",
+                "examens/qroc_par_cours.md|Lupus Q4 (P1 2025)"
+              ]
+            },
+            {
+              "texte": "Impur",
+              "points": 0.5,
+              "justification": "HTA à 150/95 mmHg, hématurie, insuffisance rénale (créatinine 17 mg/L, DFG 45 mL/min/1,73 m², urée 0,62 g/L)",
+              "sources": [
+                "examens/qroc_par_cours.md|Lupus Q4 (P1 2025)",
+                "examens/cas_cliniques.md|Cas N°07 Q7"
+              ]
+            },
+            {
+              "texte": "Biopsie rénale (microscopie optique et immunofluorescence)",
+              "points": 0.5,
+              "justification": "Indispensable en cas de néphropathie lupique pour caractériser l'atteinte glomérulaire et guider le traitement",
+              "sources": [
+                "cours/01_lupus.md|p.5 (biopsie rénale indispensable)",
+                "cours/01_lupus.md|p.2 (étude histologique)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas de leucocyturie",
+            "ECBU stérile"
+          ],
+          "piege": "L'allongement du TCA lié à l'anticoagulant circulant lupique est un artefact in vitro : il expose aux thromboses, pas au saignement (cours SAPL p.2).",
+          "a_verifier": false
+        },
+        {
+          "n": 5,
+          "enonce": "Quel est votre diagnostic ? Justifiez votre réponse.",
+          "competence": "diagnostic_positif",
+          "points": 3,
+          "elements_attendus": [
+            {
+              "texte": "Lupus érythémateux systémique",
+              "points": 0.5,
+              "justification": "Atteinte multisystémique d'une femme jeune avec anticorps antinucléaires, anti-ADN natif et anti-Sm",
+              "sources": [
+                "cours/01_lupus.md|p.1 (définition)",
+                "examens/cas_cliniques.md|Cas N°07 Q8"
+              ]
+            },
+            {
+              "texte": "Terrain : femme jeune",
+              "points": 0.25,
+              "justification": "23 ans ; sex-ratio de 9 femmes pour 1 homme, début entre 15 et 45 ans",
+              "sources": [
+                "cours/01_lupus.md|p.1 (épidémiologie)"
+              ]
+            },
+            {
+              "texte": "Atteinte cutanéo-muqueuse : lupus cutané aigu photosensible, ulcérations buccales, alopécie",
+              "points": 0.25,
+              "justification": "Érythème maculo-papuleux finement squameux en aile de papillon après exposition solaire, ulcérations douloureuses du palais sans enduit, alopécie diffuse",
+              "sources": [
+                "cours/01_lupus.md|p.2 (lupus cutané aigu)",
+                "examens/qroc_par_cours.md|Lupus Q2 (P1 2025)"
+              ]
+            },
+            {
+              "texte": "Atteinte articulaire : polyarthrite non déformante, non destructrice",
+              "points": 0.25,
+              "justification": "Voir Q1",
+              "sources": [
+                "cours/01_lupus.md|p.2 (atteinte rhumatologique)"
+              ]
+            },
+            {
+              "texte": "Sérite : pleurésie",
+              "points": 0.25,
+              "justification": "Pleurésie droite",
+              "sources": [
+                "cours/01_lupus.md|p.4 (pleurésies)",
+                "examens/qroc_par_cours.md|Lupus Q10 (P3 2025)"
+              ]
+            },
+            {
+              "texte": "Atteinte rénale : néphropathie glomérulaire avec syndrome néphrotique impur",
+              "points": 0.25,
+              "justification": "Voir Q4",
+              "sources": [
+                "cours/01_lupus.md|p.2 (atteinte rénale)"
+              ]
+            },
+            {
+              "texte": "Atteinte hématologique : AHAI, lymphopénie, thrombopénie ; VS élevée avec CRP modérée",
+              "points": 0.25,
+              "justification": "Coombs direct positif, lymphocytes 700/mm³, plaquettes 112 000/mm³ ; VS 92 mm (> (23 + 10)/2 = 16,5), CRP 11 mg/L",
+              "sources": [
+                "cours/01_lupus.md|p.4 (atteinte hématologique ; VS souvent élevée, CRP modérée)"
+              ]
+            },
+            {
+              "texte": "Immunologie : FAN à titre élevé, anti-ADN natif et anti-Sm positifs",
+              "points": 0.5,
+              "justification": "FAN 1/1280 (sensibilité > 95 %), anti-ADN natif (spécificité élevée), anti-Sm",
+              "sources": [
+                "cours/01_lupus.md|p.4 (auto-anticorps)",
+                "examens/cas_cliniques.md|Cas N°07 Q8"
+              ]
+            },
+            {
+              "texte": "Lupus en poussée sévère : complément consommé, anti-ADN élevés, atteinte rénale",
+              "points": 0.5,
+              "justification": "C3 0,42 g/L et C4 0,04 g/L abaissés ; anti-ADN à taux élevé, corrélés à l'activité rénale",
+              "sources": [
+                "cours/01_lupus.md|p.4 (complément abaissé en phase active ; anti-dsDNA corrélés à l'activité rénale)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "ECBU stérile (pas d'infection urinaire)",
+            "Pas de schizocytes"
+          ],
+          "piege": "Sous contraception œstroprogestative, penser que les œstrogènes peuvent induire des poussées lupiques : ils devront être arrêtés.",
+          "a_verifier": false
+        },
+        {
+          "n": 6,
+          "enonce": "Interprétez le bilan d'hémostase et la sérologie syphilitique. Peut-on retenir un syndrome des anti-phospholipides ? Justifiez votre réponse.",
+          "competence": "interpreter_bilan",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "TCA allongé isolé, non corrigé par le plasma témoin : anticoagulant circulant de type lupique",
+              "points": 0.5,
+              "justification": "TCA ratio 1,65 (> 1,2) avec TP normal (94 %), non corrigé par l'ajout de plasma témoin (élimine un déficit en facteur)",
+              "sources": [
+                "cours/02_sapl.md|p.2 (TCA allongé non corrigé par un plasma témoin)",
+                "examens/qroc_par_cours.md|SAPL Q6 (P1 2025)"
+              ]
+            },
+            {
+              "texte": "Sérologie syphilitique faussement positive (VDRL positif, TPHA négatif)",
+              "points": 0.25,
+              "justification": "Réaction croisée des anticorps antiphospholipides avec les antigènes cardiolipiniques du VDRL",
+              "sources": [
+                "cours/02_sapl.md|p.2 (sérologie syphilitique faussement positive)"
+              ]
+            },
+            {
+              "texte": "Présence d'anticorps antiphospholipides : ACC, anti-cardiolipine et anti-β2GP1",
+              "points": 0.25,
+              "justification": "Les trois marqueurs biologiques du SAPL sont positifs",
+              "sources": [
+                "cours/02_sapl.md|p.2 (critères biologiques)",
+                "examens/qroc_par_cours.md|SAPL Q10 (P3 2025)"
+              ]
+            },
+            {
+              "texte": "SAPL non retenu à ce stade : pas de critère clinique ; anticorps à contrôler à 12 semaines",
+              "points": 0.5,
+              "justification": "Ni thrombose ni événement obstétrical (nulligeste) ; le diagnostic exige un critère clinique et un critère biologique persistant à 12 semaines d'intervalle",
+              "sources": [
+                "cours/02_sapl.md|p.2 (critères diagnostiques)",
+                "cours/02_sapl.md|p.3 (ne pas conclure à un SAPL sur la seule base d'un bilan immunologique positif)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Aucune thrombose",
+            "Nulligeste",
+            "TP normal"
+          ],
+          "piege": "Ne pas conclure à un SAPL sur un bilan immunologique isolé : il faut au moins un critère clinique et un critère biologique confirmé à 12 semaines.",
+          "a_verifier": false
+        },
+        {
+          "n": 7,
+          "enonce": "Quels sont les principes du traitement ? Précisez les précautions liées au traitement immunosuppresseur, les mesures associées et la surveillance spécifique de l'antipaludéen de synthèse.",
+          "competence": "traitement",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Hydroxychloroquine 400 mg/j, pierre angulaire du traitement",
+              "points": 0.5,
+              "justification": "Traitement de fond du lupus, à effet immunomodulateur et antithrombotique (anticorps antiphospholipides présents)",
+              "sources": [
+                "cours/01_lupus.md|p.5 (hydroxychloroquine)",
+                "cours/13_traitements.md|p.1 (hydroxychloroquine)",
+                "cours/02_sapl.md|p.4 (hydroxychloroquine)"
+              ]
+            },
+            {
+              "texte": "Corticothérapie : bolus de méthylprednisolone (500 mg à 1 g/j pendant 3 à 5 jours) puis prednisone 1 mg/kg/j pendant 4 à 6 semaines, puis décroissance progressive",
+              "points": 0.5,
+              "justification": "Poussée sévère avec atteinte viscérale (rénale, hématologique, séreuse)",
+              "sources": [
+                "cours/13_traitements.md|p.1 (corticothérapie : posologie, bolus)",
+                "cours/01_lupus.md|p.5 (corticoïdes + immunosuppresseurs)"
+              ]
+            },
+            {
+              "texte": "Immunosuppresseur d'induction de la néphropathie lupique : cyclophosphamide IV (0,5 à 0,8 g/m²/mois) ou mycophénolate mofétil, selon la biopsie rénale",
+              "points": 0.5,
+              "justification": "Néphropathie glomérulaire avec syndrome néphrotique impur et insuffisance rénale",
+              "sources": [
+                "cours/01_lupus.md|p.5 (immunosuppresseurs selon l'organe atteint)",
+                "cours/13_traitements.md|p.2 (cyclophosphamide, mycophénolate mofétil)"
+              ]
+            },
+            {
+              "texte": "Précautions sous cyclophosphamide : hydratation abondante, protecteur vésical (Mesna), conservation des ovocytes, contraception efficace",
+              "points": 0.5,
+              "justification": "Risques de cystite hémorragique et de cancer de la vessie, d'insuffisance ovarienne, d'effet tératogène chez une femme de 23 ans",
+              "sources": [
+                "cours/13_traitements.md|p.2 (cyclophosphamide : effets indésirables, précautions)",
+                "examens/qroc_par_cours.md|Traitements Q5 (P2 2025)",
+                "examens/qroc_par_cours.md|Traitements Q10 (P3 2024)"
+              ]
+            },
+            {
+              "texte": "Photoprotection stricte ; arrêt de la pilule œstroprogestative au profit d'une contraception progestative",
+              "points": 0.25,
+              "justification": "Lupus photosensible ; les œstrogènes sont contre-indiqués (ils peuvent induire des poussées)",
+              "sources": [
+                "cours/01_lupus.md|p.5 (mesures associées)",
+                "examens/qroc_par_cours.md|Lupus Q7 (P2 2025)"
+              ]
+            },
+            {
+              "texte": "Surveillance ophtalmologique de l'hydroxychloroquine : fond d'œil, champ visuel, électrorétinogramme, OCT maculaire",
+              "points": 0.25,
+              "justification": "L'effet secondaire principal est la toxicité rétinienne, qui impose l'arrêt du traitement",
+              "sources": [
+                "cours/13_traitements.md|p.1 (hydroxychloroquine : surveillance)",
+                "examens/qroc_par_cours.md|Traitements Q3 (P1 2026)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "Le cyclophosphamide expose à une insuffisance ovarienne : chez une femme jeune, la conservation des ovocytes doit être proposée avant la première cure.",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "La biopsie rénale confirme une néphropathie glomérulaire lupique. La patiente est traitée ; le traitement d'entretien associe hydroxychloroquine, azathioprine, prednisone à faible dose et aspirine à faible dose, avec une contraception progestative. La rémission clinique et biologique est obtenue. Les anticorps antiphospholipides, contrôlés 12 semaines après le premier dosage, restent positifs.\nDeux ans plus tard, elle revient vous voir. Elle a interrompu sa contraception sans avis médical et a présenté, il y a 6 semaines, une mort fœtale in utero à 22 semaines d'aménorrhée. L'obstétricien n'a retrouvé ni malformation, ni anomalie chromosomique, ni infection, ni anomalie utérine. Elle n'a présenté aucune thrombose. L'examen clinique est normal, TA 122/76 mmHg. Le bilan actuel est le suivant.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 95000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Créatininémie",
+          "cle": "creatinine",
+          "valeur": 8,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Protéinurie des 24 h",
+          "cle": "proteinurie_24h",
+          "valeur": 0.15,
+          "unite": "g/24h"
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-ADN natif",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Fraction C3 du complément",
+          "cle": "c3",
+          "valeur": 1.0,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Fraction C4 du complément",
+          "cle": "c4",
+          "valeur": 0.2,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-SSA",
+          "cle": null,
+          "valeur": "positifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Hémostase",
+          "parametre": "TCA (ratio malade/témoin)",
+          "cle": "tca_ratio",
+          "valeur": 1.58,
+          "unite": "ratio"
+        },
+        {
+          "groupe": "Hémostase",
+          "parametre": "Anticoagulant circulant de type lupique",
+          "cle": null,
+          "valeur": "positif",
+          "unite": ""
+        },
+        {
+          "groupe": "Hémostase",
+          "parametre": "Anticorps anti-cardiolipine (IgG)",
+          "cle": null,
+          "valeur": "positifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Hémostase",
+          "parametre": "Anticorps anti-β2-glycoprotéine 1 (IgG)",
+          "cle": null,
+          "valeur": "positifs",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 8,
+          "enonce": "Quel diagnostic retenez-vous pour expliquer la perte fœtale ? Justifiez votre réponse.",
+          "competence": "complication",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Syndrome des anti-phospholipides (SAPL) secondaire, associé au lupus, de forme obstétricale",
+              "points": 0.5,
+              "justification": "Critère clinique obstétrical et critère biologique persistant chez une patiente lupique ; le lupus est l'association la plus fréquente",
+              "sources": [
+                "cours/02_sapl.md|p.1 (SAPL secondaire)",
+                "cours/02_sapl.md|p.3 (associations pathologiques)",
+                "examens/cas_cliniques.md|Cas N°07 Q9"
+              ]
+            },
+            {
+              "texte": "Critère clinique : mort fœtale in utero après 10 SA, inexpliquée",
+              "points": 0.5,
+              "justification": "Mort fœtale à 22 SA, sans malformation, anomalie chromosomique, infection ni anomalie utérine",
+              "sources": [
+                "cours/02_sapl.md|p.2 (critères cliniques obstétricaux)",
+                "examens/qroc_par_cours.md|SAPL Q3 (P2 2026)"
+              ]
+            },
+            {
+              "texte": "Critère biologique : ACC, anti-cardiolipine et anti-β2GP1 positifs de façon persistante à plus de 12 semaines d'intervalle",
+              "points": 0.5,
+              "justification": "Anticorps présents au diagnostic du lupus, au contrôle à 12 semaines et encore aujourd'hui, deux ans plus tard",
+              "sources": [
+                "cours/02_sapl.md|p.2 (critères biologiques)"
+              ]
+            },
+            {
+              "texte": "Arguments associés : thrombopénie modérée, TCA allongé, lupus quiescent",
+              "points": 0.5,
+              "justification": "Plaquettes 95 000/mm³ (thrombopénie typique du SAPL, entre 80 000 et 100 000) ; TCA ratio 1,58 ; complément normal, anti-ADN négatifs, protéinurie 0,15 g/24 h : la perte fœtale n'est pas expliquée par une poussée lupique",
+              "sources": [
+                "cours/02_sapl.md|p.2 (thrombopénie modérée, TCA allongé)",
+                "cours/01_lupus.md|p.4 (complément abaissé en phase active)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas de malformation ni d'anomalie chromosomique",
+            "Pas d'infection",
+            "Pas d'anomalie utérine",
+            "Complément normal, anti-ADN négatifs",
+            "Aucune thrombose"
+          ],
+          "piege": "Ne pas attribuer d'emblée la perte fœtale aux anti-SSA, dont la complication spécifique est le bloc auriculo-ventriculaire congénital : ici, une mort fœtale inexpliquée après 10 SA avec des aPL persistants remplit les critères du SAPL, par insuffisance placentaire d'origine thrombotique.",
+          "a_verifier": false
+        },
+        {
+          "n": 9,
+          "enonce": "La patiente souhaite une nouvelle grossesse. Quelles mesures thérapeutiques et quels conseils lui proposez-vous ?",
+          "competence": "traitement",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Planifier la grossesse ; contraception progestative jusque-là, œstrogènes contre-indiqués",
+              "points": 0.5,
+              "justification": "La grossesse précédente, non planifiée, s'est compliquée ; les œstrogènes peuvent induire des poussées lupiques et la contraception œstroprogestative favorise les thromboses chez une patiente porteuse d'aPL",
+              "sources": [
+                "examens/qroc_par_cours.md|Lupus Q7 (P2 2025)",
+                "examens/cas_cliniques.md|Cas N°07 Q11",
+                "cours/02_sapl.md|p.1 (contraception parmi les contextes favorisant les thromboses)"
+              ]
+            },
+            {
+              "texte": "Aspirine à faible dose avant la conception, puis HBPM à dose préventive dès le début et pendant toute la grossesse ; dose curative dès le début de la grossesse suivante en cas de nouvel échec",
+              "points": 0.75,
+              "justification": "SAPL obstétrical ; la mort fœtale est survenue sous aspirine seule",
+              "sources": [
+                "cours/02_sapl.md|p.4 (en cas de grossesse ou de désir de grossesse)"
+              ]
+            },
+            {
+              "texte": "Azathioprine utilisable pendant la grossesse ; cyclophosphamide contre-indiqué (tératogène)",
+              "points": 0.5,
+              "justification": "Maintien de l'immunosuppresseur d'entretien compatible avec la grossesse",
+              "sources": [
+                "examens/qroc_par_cours.md|Traitements Q1 (P2 2026)",
+                "cours/13_traitements.md|p.2 (cyclophosphamide : effet tératogène)"
+              ]
+            },
+            {
+              "texte": "Poursuivre l'hydroxychloroquine pendant la grossesse",
+              "points": 0.25,
+              "justification": "Pierre angulaire du traitement du lupus, effet antithrombotique, bien tolérée à long terme",
+              "sources": [
+                "cours/02_sapl.md|p.4 (hydroxychloroquine)",
+                "cours/01_lupus.md|p.5 (hydroxychloroquine)",
+                "hors_sources|La compatibilité de l'hydroxychloroquine avec la grossesse n'est pas explicitée dans le corpus (recommandation usuelle : ne pas l'interrompre)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "Pas de contraception œstroprogestative, même après la grossesse : elle expose aux poussées lupiques et aux thromboses chez une patiente porteuse d'aPL.",
+          "a_verifier": true
+        },
+        {
+          "n": 10,
+          "enonce": "Un autre anticorps de son bilan expose le futur nouveau-né à un risque particulier. Lequel, et quelle complication redoutez-vous ?",
+          "competence": "complication",
+          "points": 1,
+          "elements_attendus": [
+            {
+              "texte": "Anticorps anti-SSA",
+              "points": 0.5,
+              "justification": "Anti-SSA positifs au diagnostic et au bilan actuel",
+              "sources": [
+                "examens/qroc_par_cours.md|Lupus Q1 (P2 2026)",
+                "cours/06_gougerot_sjogren.md|p.15 (grossesse : anti-SSA, anti-SSB)"
+              ]
+            },
+            {
+              "texte": "Lupus néonatal, dont la complication redoutée est le bloc auriculo-ventriculaire congénital",
+              "points": 0.5,
+              "justification": "Passage transplacentaire des anti-SSA",
+              "sources": [
+                "examens/qroc_par_cours.md|Lupus Q1 (P2 2026)",
+                "cours/06_gougerot_sjogren.md|p.15 (BAV congénital, lupus néonatal)",
+                "cours/01_lupus.md|p.2 (lupus néonatal)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "Les anti-SSA sont communs au lupus et au Gougerot-Sjögren ; l'absence de syndrome sec ne supprime pas le risque de lupus néonatal.",
+          "a_verifier": false
+        }
+      ],
+      "age": 25
+    }
+  ],
+  "synthese": [
+    "Polyarthrite inflammatoire bilatérale et symétrique, non déformante et non destructrice, avec lupus cutané aigu photosensible et pleurésie exsudative lymphocytaire : tableau lupique typique.",
+    "Anémie hémolytique auto-immune : Hb basse, réticulocytes > 120 000/mm³, haptoglobine effondrée, LDH et bilirubine libre élevées, Coombs direct positif, pas de schizocytes.",
+    "Syndrome néphrotique impur (HTA, hématurie, insuffisance rénale) : biopsie rénale indispensable ; complément consommé et anti-ADN élevés signent l'activité.",
+    "Des aPL isolés (TCA non corrigé, VDRL+/TPHA−) ne suffisent pas : le SAPL exige un critère clinique et des anticorps persistants à 12 semaines.",
+    "Grossesse chez une lupique avec SAPL : planification, aspirine puis HBPM, azathioprine autorisée, cyclophosphamide contre-indiqué ; les anti-SSA exposent au BAV congénital."
+  ]
+}

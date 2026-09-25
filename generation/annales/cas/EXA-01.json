@@ -1,0 +1,567 @@
+{
+  "id": "EXA-01",
+  "version": 1,
+  "statut": "annales",
+  "maladie_principale": "Maladie de Still de l'adulte",
+  "chapitres": [
+    "fiches_complementaires/07_still",
+    "referentiel_transversal",
+    "cours/13_traitements"
+  ],
+  "liens_transversaux": [
+    "Fièvre prolongée : démarche diagnostique",
+    "Diagnostic d'exclusion en pathologie auto-inflammatoire"
+  ],
+  "difficulte": 2,
+  "duree_minutes": 25,
+  "points_total": 20,
+  "bareme_origine": "reparti",
+  "patient": {
+    "sexe": "M",
+    "age": 24
+  },
+  "etapes": [
+    {
+      "texte": "Mr M.R, 24 ans, aux antécédents d'hospitalisation pour fièvre au long cours à l'âge de 13 ans, est reçu aux urgences pour des douleurs thoraciques rétrosternales soulagées par la position penchée en avant, évoluant depuis 3 jours. Il rapporte une fièvre à 39-40 °C vespérale avec apyrexie matinale, apparue 15 jours auparavant, associée à des douleurs pharyngées, des gonalgies inflammatoires, des myalgies et une toux sèche. Il signale une dyspnée d'effort stade 2 d'installation récente sans hémoptysie. Examen : PA 135/80 mmHg, FC 120/min, FR 22 cycles/min, T° 39,4 °C, lésions cutanées érythémateuses disparaissant avec la fièvre, gorge érythémateuse, auscultation pulmonaire normale, articulations libres, pas de souffle cardiaque, pas d'adénopathie périphérique, pas de signe de Homans, splénomégalie type 1 sans hépatomégalie ni circulation veineuse collatérale. BU sans anomalie.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Leucocytes",
+          "cle": "leucocytes",
+          "valeur": 23000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Polynucléaires neutrophiles",
+          "cle": "pnn",
+          "valeur": 9000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Lymphocytes",
+          "cle": "lymphocytes",
+          "valeur": 1200,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Hémoglobine",
+          "cle": "hemoglobine",
+          "valeur": 11,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "VGM",
+          "cle": "vgm",
+          "valeur": 75,
+          "unite": "fL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "CCMH",
+          "cle": "ccmh",
+          "valeur": 30,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 350000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 150,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "VS",
+          "cle": "vs",
+          "valeur": 120,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "Fibrinogène",
+          "cle": "fibrinogene",
+          "valeur": 6,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan martial",
+          "parametre": "Haptoglobine",
+          "cle": null,
+          "valeur": "normale",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan martial",
+          "parametre": "Coefficient de saturation de la transferrine",
+          "cle": "saturation_transferrine",
+          "valeur": 22,
+          "unite": "%"
+        },
+        {
+          "groupe": "Bilan martial",
+          "parametre": "Ferritinémie",
+          "cle": null,
+          "valeur": "10 x la normale",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan lipidique",
+          "parametre": "Cholestérol total et triglycérides",
+          "cle": null,
+          "valeur": "normaux",
+          "unite": ""
+        },
+        {
+          "groupe": "Sérologies",
+          "parametre": "VHB, VHC, CMV, VIH, Widal-Félix, leishmaniose",
+          "cle": null,
+          "valeur": "négatives",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Complément C3, C4",
+          "cle": null,
+          "valeur": "non consommés",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "FAN, ANCA, anti-CCP",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Microbiologie",
+          "parametre": "Hémocultures",
+          "cle": null,
+          "valeur": "négatives",
+          "unite": ""
+        },
+        {
+          "groupe": "Cardiologie",
+          "parametre": "ECG",
+          "cle": null,
+          "valeur": "micro-voltage, sans aspect S1Q3 ni anomalie de repolarisation",
+          "unite": ""
+        },
+        {
+          "groupe": "Imagerie",
+          "parametre": "Télé-thorax",
+          "cle": null,
+          "valeur": "rectitude du bord gauche du cœur",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan viscéral",
+          "parametre": "Bilan rénal, hépatique, enzymes musculaires (CPK, LDH), troponines, protéinurie des 24h",
+          "cle": null,
+          "valeur": "normaux",
+          "unite": ""
+        },
+        {
+          "groupe": "Imagerie",
+          "parametre": "Échographie-doppler cardiaque",
+          "cle": null,
+          "valeur": "épanchement péricardique, absence de végétations, PAPS normale, cinétique normale",
+          "unite": ""
+        },
+        {
+          "groupe": "Imagerie",
+          "parametre": "TDM thoraco-abdomino-pelvienne",
+          "cle": null,
+          "valeur": "splénomégalie à 19 cm",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 1,
+          "enonce": "Devant les douleurs thoraciques, quel diagnostic retenez-vous ? Justifiez votre réponse.",
+          "competence": "diagnostic_positif",
+          "points": 3,
+          "elements_attendus": [
+            {
+              "texte": "Péricardite",
+              "points": 0.75,
+              "justification": "Douleur rétrosternale soulagée par l'antéflexion, dyspnée stade 2 sans hémoptysie",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q1"
+              ]
+            },
+            {
+              "texte": "Absence d'argument pour une origine pulmonaire",
+              "points": 0.75,
+              "justification": "Auscultation pulmonaire normale, télé-thorax et TDM thoraciques normaux",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q1"
+              ]
+            },
+            {
+              "texte": "Absence d'argument pour un syndrome coronarien ou une endocardite",
+              "points": 0.75,
+              "justification": "Pas de souffle cardiaque, micro-voltage ECG sans anomalie de repolarisation, hémocultures négatives",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q1"
+              ]
+            },
+            {
+              "texte": "Épanchement péricardique confirmé, sans végétations",
+              "points": 0.75,
+              "justification": "Échodoppler cardiaque : épanchement péricardique, absence de végétations",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q1"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Absence de souffle cardiaque",
+            "Hémocultures négatives",
+            "Absence de végétations à l'échodoppler"
+          ],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 2,
+          "enonce": "Caractérisez l'anémie.",
+          "competence": "interpreter_hemogramme",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Anémie microcytaire hypochrome",
+              "points": 0.75,
+              "justification": "Hb 11 g/dL (<14), VGM 75 fL (<80), CCMH 30 g/dL (<32)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q2"
+              ]
+            },
+            {
+              "texte": "D'origine probablement inflammatoire",
+              "points": 0.75,
+              "justification": "Fibrinogène élevé à 6 g/L, syndrome inflammatoire biologique franc (VS 120, CRP 150)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q2"
+              ]
+            },
+            {
+              "texte": "Coefficient de saturation de la transferrine et haptoglobine normaux, écartant une carence martiale",
+              "points": 0.5,
+              "justification": "Coefficient de saturation à 22 % (normal), haptoglobine normale",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q2"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 3,
+          "enonce": "Quel diagnostic retenez-vous ? Justifiez votre réponse.",
+          "competence": "diagnostic_positif",
+          "points": 3,
+          "elements_attendus": [
+            {
+              "texte": "Maladie de Still de l'adulte",
+              "points": 0.5,
+              "justification": "Fièvre vespérale, rash évanescent, arthromyalgies, splénomégalie",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q3"
+              ]
+            },
+            {
+              "texte": "Fièvre vespérale à 39-40 °C avec apyrexie matinale, évoluant depuis 15 jours",
+              "points": 0.5,
+              "justification": "Description rapportée par le patient",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q3"
+              ]
+            },
+            {
+              "texte": "Rash cutané évanescent disparaissant avec la défervescence",
+              "points": 0.5,
+              "justification": "Lésions érythémateuses régressant avec la fièvre",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q3"
+              ]
+            },
+            {
+              "texte": "Arthromyalgies (gonalgies inflammatoires, myalgies) et odynophagie sans lésion pharyngée objectivée",
+              "points": 0.5,
+              "justification": "Gorge érythémateuse mais examen articulaire libre",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q3"
+              ]
+            },
+            {
+              "texte": "Atteinte cardiaque (péricardite) et syndrome inflammatoire biologique majeur avec hyperleucocytose à PNN",
+              "points": 0.5,
+              "justification": "GB 23 000/mm³, PNN 9 000/mm³, CRP 150, VS 120",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q3"
+              ]
+            },
+            {
+              "texte": "Diagnostic d'exclusion : sérologies négatives, pas de masse tumorale, bilan auto-immun négatif",
+              "points": 0.5,
+              "justification": "Sérologies virales/bactériennes négatives, FAN/ANCA/anti-CCP normaux, complément non consommé",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q3"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "FAN, ANCA et anti-CCP normaux",
+            "Complément non consommé",
+            "Hémocultures négatives"
+          ],
+          "piege": "Le rapport PNN/leucocytes n'est que de 39 % (9 000/23 000) : le critère « PNN ≥ 80 % » de certaines classifications n'est pas rempli, mais le diagnostic reste retenu sur le faisceau d'arguments — voir fiches_complementaires/07_still.md, divergence n°11.",
+          "a_verifier": false
+        },
+        {
+          "n": 4,
+          "enonce": "Donnez les caractéristiques de l'atteinte dermatologique.",
+          "competence": "semiologie",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Rash rose saumon, souvent discret, maculo-papuleux non prurigineux",
+              "points": 0.5,
+              "justification": "Lésions érythémateuses décrites par le patient",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q4"
+              ]
+            },
+            {
+              "texte": "Évanescent : apparaît pendant les pics fébriles et disparaît avec la défervescence",
+              "points": 0.5,
+              "justification": "Lésions disparaissant une fois la fièvre régressée",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q4"
+              ]
+            },
+            {
+              "texte": "Prédomine au tronc et aux racines des membres, favorisé par le grattage/la pression (Kœbner-like)",
+              "points": 0.5,
+              "justification": "Topographie typique de la maladie de Still",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q4"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 5,
+          "enonce": "Quel paramètre biologique demandez-vous pour renforcer votre diagnostic ? Quelle valeur allez-vous retrouver ?",
+          "competence": "examen_complementaire",
+          "points": 1,
+          "elements_attendus": [
+            {
+              "texte": "Ferritine glycosylée, attendue basse (< 20 %)",
+              "points": 1,
+              "justification": "Marqueur très évocateur de la maladie de Still lorsqu'il est effondré",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q5"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 6,
+          "enonce": "Le patient présente une complication, laquelle ?",
+          "competence": "complication",
+          "points": 1,
+          "elements_attendus": [
+            {
+              "texte": "Atteinte cardiaque : péricardite",
+              "points": 1,
+              "justification": "Douleur thoracique typique et épanchement péricardique à l'échodoppler",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q6"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 7,
+          "enonce": "Devant cette maladie, il existe une complication redoutable que le patient ne présente pas. Laquelle ?",
+          "competence": "complication",
+          "points": 1,
+          "elements_attendus": [
+            {
+              "texte": "Syndrome d'activation macrophagique (SAM)",
+              "points": 1,
+              "justification": "Complication classique de la maladie de Still, absente chez ce patient",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q7"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 8,
+          "enonce": "Quels sont les éléments de l'observation qui permettent d'écarter cette complication ?",
+          "competence": "interpreter_bilan",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Absence d'hépatomégalie et d'adénopathies",
+              "points": 0.5,
+              "justification": "Examen clinique : pas d'hépatomégalie, pas d'adénopathie périphérique",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q8"
+              ]
+            },
+            {
+              "texte": "Triglycérides et LDH normaux, pas de cytolyse hépatique",
+              "points": 0.5,
+              "justification": "Bilan lipidique et hépatique corrects",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q8"
+              ]
+            },
+            {
+              "texte": "Absence de cytopénie : hyperleucocytose à PNN et non pancytopénie",
+              "points": 0.5,
+              "justification": "GB 23 000 (>10 000), PNN 9 000 (>7 000)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q8"
+              ]
+            },
+            {
+              "texte": "Fibrinogène élevé et non abaissé",
+              "points": 0.5,
+              "justification": "Fibrinogène à 6 g/L (>4), non effondré",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q8"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Absence d'hépatomégalie",
+            "Absence d'adénopathies"
+          ],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 9,
+          "enonce": "Quels sont les modes d'évolution de cette maladie ? Quel mode présente le patient ?",
+          "competence": "semiologie",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Forme mono-poussée (1/3 des cas) : épisode unique",
+              "points": 0.5,
+              "justification": "Un seul épisode dans la vie du patient",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q9"
+              ]
+            },
+            {
+              "texte": "Forme récurrente, en poussées-rémissions (1/3 des cas)",
+              "points": 0.75,
+              "justification": "Antécédent d'hospitalisation pour fièvre au long cours à 13 ans",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q9"
+              ]
+            },
+            {
+              "texte": "Forme chronique (1/3 des cas)",
+              "points": 0.5,
+              "justification": "Évolution prolongée sans rémission",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q9"
+              ]
+            },
+            {
+              "texte": "Le patient présente probablement une forme récurrente",
+              "points": 0.75,
+              "justification": "Épisode fébrile documenté à 13 ans puis épisode actuel",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q9"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "Le corrigé retient 1/3-1/3-1/3 pour les formes évolutives et une forme récurrente pour l'épisode à 13 ans ; d'autres sources donnent des proportions différentes et classeraient un épisode avant 16 ans comme une forme systémique d'AJI plutôt qu'une récidive de Still de l'adulte — fiches_complementaires/07_still.md, divergences n°1 et n°9.",
+          "a_verifier": false
+        },
+        {
+          "n": 10,
+          "enonce": "Donnez les armes thérapeutiques de cette maladie.",
+          "competence": "traitement",
+          "points": 3,
+          "elements_attendus": [
+            {
+              "texte": "Anti-inflammatoires (colchicine, AINS)",
+              "points": 0.75,
+              "justification": "Traitement de première intention des formes non sévères",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q10"
+              ]
+            },
+            {
+              "texte": "Corticothérapie",
+              "points": 0.75,
+              "justification": "Traitement de référence en cas d'atteinte viscérale",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q10"
+              ]
+            },
+            {
+              "texte": "Immunosuppresseurs",
+              "points": 0.75,
+              "justification": "Formes cortico-dépendantes ou sévères",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q10"
+              ]
+            },
+            {
+              "texte": "Biothérapie",
+              "points": 0.75,
+              "justification": "Formes réfractaires",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°01 Q10"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    }
+  ],
+  "synthese": [
+    "Fièvre vespérale + rash évanescent + arthromyalgies + syndrome inflammatoire biologique majeur évoquent une maladie de Still de l'adulte.",
+    "Le diagnostic est un diagnostic d'exclusion : bilan infectieux, néoplasique et auto-immun négatif.",
+    "Le syndrome d'activation macrophagique doit être systématiquement recherché à chaque poussée."
+  ]
+}

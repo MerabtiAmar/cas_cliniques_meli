@@ -1,0 +1,711 @@
+{
+  "id": "EXA-06",
+  "version": 1,
+  "statut": "annales",
+  "maladie_principale": "Maladie de Still de l'adulte",
+  "chapitres": [
+    "fiches_complementaires/07_still",
+    "referentiel_transversal",
+    "cours/13_traitements"
+  ],
+  "liens_transversaux": [
+    "Fièvre prolongée : cadres nosologiques",
+    "Syndrome d'activation macrophagique sous traitement"
+  ],
+  "difficulte": 3,
+  "duree_minutes": 30,
+  "points_total": 20,
+  "bareme_origine": "reparti",
+  "patient": {
+    "sexe": "F",
+    "age": 22
+  },
+  "etapes": [
+    {
+      "texte": "Une jeune femme de 22 ans est hospitalisée pour une fièvre associée à des douleurs articulaires depuis 4 mois. Pas d'antécédent, hormis une amoxicilline prescrite une dizaine de jours plus tôt pour une dysphagie. Les douleurs ont débuté aux genoux puis touchent les coudes, les poignets et les MCP des deux mains, la réveillant la nuit avec les mains « soudées » le matin. Examen : pâleur cutanéo-muqueuse, gonflement articulaire chaud, adénopathies jugulo-carotidiennes bilatérales non douloureuses et mobiles (jusqu'à 2 cm), gorge propre sans lésion buccale, splénomégalie de type 1. Bandelette urinaire négative.",
+      "examens": [],
+      "questions": [
+        {
+          "n": 1,
+          "enonce": "Quel type de fièvre présente la patiente ?",
+          "competence": "semiologie",
+          "points": 1,
+          "elements_attendus": [
+            {
+              "texte": "Fièvre intermittente prolongée",
+              "points": 1,
+              "justification": "Pics fébriles alternant avec des phases d'apyrexie, évoluant depuis 4 mois",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q1"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 2,
+          "enonce": "Devant ce contexte, citez les deux urgences infectieuses à rechercher en premier.",
+          "competence": "diagnostic_differentiel",
+          "points": 1,
+          "elements_attendus": [
+            {
+              "texte": "Endocardite",
+              "points": 0.5,
+              "justification": "Fièvre prolongée à éliminer en urgence",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q2"
+              ]
+            },
+            {
+              "texte": "Tuberculose",
+              "points": 0.5,
+              "justification": "Fièvre prolongée à éliminer en urgence",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q2"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 3,
+          "enonce": "Citez au moins quatre cadres nosologiques pouvant expliquer ce tableau, avec au moins deux exemples pour chacun.",
+          "competence": "diagnostic_differentiel",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Maladies infectieuses : tuberculose, endocardite",
+              "points": 0.5,
+              "justification": "Cadre à éliminer en priorité",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q3"
+              ]
+            },
+            {
+              "texte": "Maladies auto-inflammatoires : fièvre méditerranéenne familiale, maladie de Still",
+              "points": 0.5,
+              "justification": "Fièvre récurrente prolongée",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q3"
+              ]
+            },
+            {
+              "texte": "Maladies auto-immunes : lupus érythémateux systémique, polyarthrite rhumatoïde",
+              "points": 0.5,
+              "justification": "Fièvre et polyarthrite chez une femme jeune",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q3"
+              ]
+            },
+            {
+              "texte": "Maladies hématologiques : lymphome, leucémie",
+              "points": 0.5,
+              "justification": "Fièvre, adénopathies, splénomégalie",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q3"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 4,
+          "enonce": "Décrivez les manifestations articulaires. Justifiez votre réponse.",
+          "competence": "caracteriser_articulaire",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Rhumatisme inflammatoire chronique",
+              "points": 0.5,
+              "justification": "Douleurs nocturnes avec dérouillage matinal (mains soudées)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q4"
+              ]
+            },
+            {
+              "texte": "Bilatérales et symétriques",
+              "points": 0.5,
+              "justification": "Atteinte symétrique rapportée",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q4"
+              ]
+            },
+            {
+              "texte": "Migratrices, touchant grosses, moyennes et petites articulations",
+              "points": 0.5,
+              "justification": "Genoux puis coudes, poignets, MCP",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q4"
+              ]
+            },
+            {
+              "texte": "Sans déformation",
+              "points": 0.5,
+              "justification": "Gonflement articulaire chaud sans déformation à l'examen",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q4"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Bilan biologique : hémoglobine 9,5 g/dL, VGM 78 fL, CCMH 30 g/dL, réticulocytes 8 000/mm³, leucocytes 26 600/mm³, PNN 20 000/mm³, plaquettes 490 000/mm³, ASAT 84 UI/L, ALAT 97 UI/L, test de Coombs négatif, VS 113 mm, CRP 78 mg/L, fibrinogène 4,8 g/L, albuminémie 29 g/L, gammaglobulines 19 g/L, protéinurie des 24h 280 mg, FAN négatifs, triglycérides 1,2 g/L, cholestérol total 1,3 g/L, ferritinémie 2 fois la normale. L'enquête étiologique est négative.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Hémoglobine",
+          "cle": "hemoglobine",
+          "valeur": 9.5,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "VGM",
+          "cle": "vgm",
+          "valeur": 78,
+          "unite": "fL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "CCMH",
+          "cle": "ccmh",
+          "valeur": 30,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Réticulocytes",
+          "cle": "reticulocytes",
+          "valeur": 8000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Leucocytes",
+          "cle": "leucocytes",
+          "valeur": 26600,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Polynucléaires neutrophiles",
+          "cle": "pnn",
+          "valeur": 20000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 490000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Bilan hépatique",
+          "parametre": "ASAT",
+          "cle": "asat",
+          "valeur": 84,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan hépatique",
+          "parametre": "ALAT",
+          "cle": "alat",
+          "valeur": 97,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Test de Coombs",
+          "cle": null,
+          "valeur": "négatif",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "VS",
+          "cle": "vs",
+          "valeur": 113,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 78,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "Fibrinogène",
+          "cle": "fibrinogene",
+          "valeur": 4.8,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Électrophorèse des protides",
+          "parametre": "Albuminémie",
+          "cle": "albumine",
+          "valeur": 29,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Électrophorèse des protides",
+          "parametre": "Gammaglobulines",
+          "cle": "gammaglobulines",
+          "valeur": 19,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Protéinurie des 24h",
+          "cle": "proteinurie_24h",
+          "valeur": 0.28,
+          "unite": "g/24h"
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "FAN",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan lipidique",
+          "parametre": "Triglycérides",
+          "cle": "triglycerides",
+          "valeur": 1.2,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan lipidique",
+          "parametre": "Cholestérol total",
+          "cle": "cholesterol_total",
+          "valeur": 1.3,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan martial",
+          "parametre": "Ferritinémie",
+          "cle": null,
+          "valeur": "2 x la normale",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 5,
+          "enonce": "Caractérisez les anomalies retrouvées à l'hémogramme. Justifiez votre réponse.",
+          "competence": "interpreter_hemogramme",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Anémie microcytaire hypochrome arégénérative",
+              "points": 0.5,
+              "justification": "Hb 9,5 (<14), VGM 78 (<80), CCMH 30 (<32), réticulocytes 8 000 (<25 000)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q5"
+              ]
+            },
+            {
+              "texte": "Non hémolytique",
+              "points": 0.5,
+              "justification": "Test de Coombs négatif",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q5"
+              ]
+            },
+            {
+              "texte": "Hyperleucocytose à PNN",
+              "points": 0.5,
+              "justification": "Leucocytes 26 600 (>10 000), PNN 20 000 (>7 000)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q5"
+              ]
+            },
+            {
+              "texte": "Thrombocytose",
+              "points": 0.5,
+              "justification": "Plaquettes 490 000/mm³ (>400 000)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q5"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 6,
+          "enonce": "Interprétez le bilan inflammatoire. Justifiez votre réponse.",
+          "competence": "interpreter_bilan_inflammatoire",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "VS augmentée",
+              "points": 0.4,
+              "justification": "113 mm (> (âge+10)/2 = 16)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q6"
+              ]
+            },
+            {
+              "texte": "CRP augmentée",
+              "points": 0.4,
+              "justification": "78 mg/L (>5)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q6"
+              ]
+            },
+            {
+              "texte": "Fibrinogène élevé",
+              "points": 0.4,
+              "justification": "4,8 g/L (>4)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q6"
+              ]
+            },
+            {
+              "texte": "Hypoalbuminémie",
+              "points": 0.4,
+              "justification": "29 g/L (<35)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q6"
+              ]
+            },
+            {
+              "texte": "Hypergammaglobulinémie",
+              "points": 0.4,
+              "justification": "19 g/L (>15)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q6"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 7,
+          "enonce": "Quel diagnostic suspectez-vous ? Justifiez votre réponse.",
+          "competence": "diagnostic_positif",
+          "points": 3,
+          "elements_attendus": [
+            {
+              "texte": "Maladie de Still",
+              "points": 0.5,
+              "justification": "Fièvre, arthrites, syndrome inflammatoire majeur chez une femme jeune",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q7"
+              ]
+            },
+            {
+              "texte": "Fièvre, arthralgies inflammatoires, dysphagie sans lésion à l'examen clinique",
+              "points": 0.5,
+              "justification": "Odynophagie sans foyer ORL objectivé",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q7"
+              ]
+            },
+            {
+              "texte": "Adénopathies non douloureuses mobiles, splénomégalie type 1",
+              "points": 0.5,
+              "justification": "Examen clinique",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q7"
+              ]
+            },
+            {
+              "texte": "Syndrome inflammatoire biologique avec hyperleucocytose neutrophile",
+              "points": 0.5,
+              "justification": "VS 113, CRP 78, fibrinogène 4,8, leucocytes 26 600",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q7"
+              ]
+            },
+            {
+              "texte": "Hyperferritinémie, cholestase anictérique (élévation ASAT/ALAT), anticorps négatifs",
+              "points": 0.5,
+              "justification": "Ferritine 2x N, ASAT 84, ALAT 97, FAN négatifs",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q7"
+              ]
+            },
+            {
+              "texte": "Diagnostic d'exclusion : enquête étiologique exhaustive négative",
+              "points": 0.5,
+              "justification": "Absence de cause infectieuse, néoplasique ou auto-immune retrouvée",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q7"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Gorge propre, pas de lésion buccale",
+            "Bandelette urinaire négative",
+            "FAN négatifs"
+          ],
+          "piege": "Le corrigé qualifie l'élévation des ASAT/ALAT de « cholestase anictérique » ; il s'agit en réalité d'une cytolyse hépatique (la cholestase se marque par la PAL, la GGT et la bilirubine) — voir fiches_complementaires/07_still.md, divergence n°5.",
+          "a_verifier": false
+        },
+        {
+          "n": 8,
+          "enonce": "Quel élément de l'examen clinique, très spécifique, pourrait aider à étayer votre diagnostic ? Décrivez ses caractéristiques.",
+          "competence": "semiologie",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Rash maculo-papuleux rose saumon, souvent discret et non prurigineux",
+              "points": 0.5,
+              "justification": "Éruption caractéristique de la maladie de Still",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q8"
+              ]
+            },
+            {
+              "texte": "Évanescent : apparaît pendant les pics fébriles, disparaît en quelques heures",
+              "points": 0.5,
+              "justification": "Corrélation avec les accès fébriles",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q8"
+              ]
+            },
+            {
+              "texte": "Peut être induit par la pression ou le grattage (phénomène de Kœbner-like)",
+              "points": 0.5,
+              "justification": "Caractéristique provoquée",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q8"
+              ]
+            },
+            {
+              "texte": "Retrouvé par le médecin de garde, rendant le diagnostic très probable",
+              "points": 0.5,
+              "justification": "Confirmation clinique différée",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q8"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 9,
+          "enonce": "Quel traitement de première intention indiquez-vous chez la patiente ?",
+          "competence": "traitement",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Corticothérapie à 1 mg/kg/j (atteinte viscérale), sinon anti-inflammatoires",
+              "points": 1.5,
+              "justification": "Présence d'une atteinte viscérale (hépatique)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q9"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "La patiente débute le traitement et l'apyrexie est obtenue en 48h. Au 3e jour, la fièvre réapparaît et l'état général s'altère. Bilan : hémoglobine 7,2 g/dL, VGM 78 fL, CCMH 30 g/dL, leucocytes 15 600/mm³, plaquettes 90 000/mm³, test de Coombs négatif, ASAT 132 UI/L, ALAT 146 UI/L, VS 132 mm, CRP 192 mg/L, fibrinogène 6,9 g/L, albuminémie 22 g/L, gammaglobulines 19 g/L, protéinurie des 24h 280 mg, triglycérides 3,8 g/L, cholestérol total 1,3 g/L, ferritinémie 18 fois la normale.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Hémoglobine",
+          "cle": "hemoglobine",
+          "valeur": 7.2,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "VGM",
+          "cle": "vgm",
+          "valeur": 78,
+          "unite": "fL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "CCMH",
+          "cle": "ccmh",
+          "valeur": 30,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Leucocytes",
+          "cle": "leucocytes",
+          "valeur": 15600,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 90000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Test de Coombs",
+          "cle": null,
+          "valeur": "négatif",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan hépatique",
+          "parametre": "ASAT",
+          "cle": "asat",
+          "valeur": 132,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan hépatique",
+          "parametre": "ALAT",
+          "cle": "alat",
+          "valeur": 146,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "VS",
+          "cle": "vs",
+          "valeur": 132,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 192,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "Fibrinogène",
+          "cle": "fibrinogene",
+          "valeur": 6.9,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Électrophorèse des protides",
+          "parametre": "Albuminémie",
+          "cle": "albumine",
+          "valeur": 22,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Électrophorèse des protides",
+          "parametre": "Gammaglobulines",
+          "cle": "gammaglobulines",
+          "valeur": 19,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Protéinurie des 24h",
+          "cle": "proteinurie_24h",
+          "valeur": 0.28,
+          "unite": "g/24h"
+        },
+        {
+          "groupe": "Bilan lipidique",
+          "parametre": "Triglycérides",
+          "cle": "triglycerides",
+          "valeur": 3.8,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan lipidique",
+          "parametre": "Cholestérol total",
+          "cle": "cholesterol_total",
+          "valeur": 1.3,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan martial",
+          "parametre": "Ferritinémie",
+          "cle": null,
+          "valeur": "18 x la normale",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 10,
+          "enonce": "Quelle complication de sa pathologie craignez-vous ? Justifiez votre réponse.",
+          "competence": "complication",
+          "points": 3.5,
+          "elements_attendus": [
+            {
+              "texte": "Syndrome d'activation macrophagique",
+              "points": 0.7,
+              "justification": "Réapparition de la fièvre à J3, altération de l'état général sous traitement",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q10"
+              ]
+            },
+            {
+              "texte": "Cytopénie : baisse de l'hémoglobine, des plaquettes et des leucocytes",
+              "points": 0.7,
+              "justification": "Hb 9,5→7,2 ; plaquettes 490 000→90 000 ; leucocytes 26 600→15 600",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q10"
+              ]
+            },
+            {
+              "texte": "Aggravation du syndrome inflammatoire (VS, CRP, fibrinogène)",
+              "points": 0.7,
+              "justification": "VS 132, CRP 192, fibrinogène 6,9 g/L",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q10"
+              ]
+            },
+            {
+              "texte": "Hypertriglycéridémie",
+              "points": 0.7,
+              "justification": "TG 3,8 g/L (>1,5)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q10"
+              ]
+            },
+            {
+              "texte": "Cytolyse hépatique et hyperferritinémie majeures",
+              "points": 0.7,
+              "justification": "ASAT 132, ALAT 146 (≈3N) ; ferritine 18x la normale",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°06 Q10"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "Le SAM abaisse classiquement le fibrinogène et fait chuter les leucocytes en dessous des seuils normaux ; ici le fibrinogène augmente (4,8→6,9 g/L) et les leucocytes restent à 15 600/mm³, ce qui reste une hyperleucocytose (>10 000) et non une cytopénie — voir fiches_complementaires/07_still.md, divergences n°3, n°4 et n°10.",
+          "a_verifier": false
+        }
+      ]
+    }
+  ],
+  "synthese": [
+    "Une fièvre prolongée avec polyarthrite chez une femme jeune impose d'éliminer en urgence l'endocardite et la tuberculose.",
+    "La maladie de Still est un diagnostic d'exclusion, porté sur un faisceau clinico-biologique (rash évanescent, hyperleucocytose, hyperferritinémie).",
+    "Toute réascension fébrile sous traitement doit faire rechercher un syndrome d'activation macrophagique, même si certains marqueurs (fibrinogène, leucocytes) ne sont pas franchement abaissés."
+  ]
+}

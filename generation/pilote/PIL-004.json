@@ -1,0 +1,928 @@
+{
+  "id": "PIL-004",
+  "version": 1,
+  "statut": "valide_etudiant",
+  "maladie_principale": "Syndrome de Gougerot-Sjögren",
+  "chapitres": [
+    "cours/06_gougerot_sjogren",
+    "cours/05_granulomatoses",
+    "cours/09_amyloses",
+    "cours/10_vascularites",
+    "referentiel_transversal"
+  ],
+  "liens_transversaux": [
+    "Parotidomégalie bilatérale : sarcoïdose et amylose en diagnostic différentiel",
+    "Sites de biopsie et coloration de l'amylose",
+    "Polyneuropathie sensitive",
+    "Type d'atteinte rénale : tubulo-interstitielle puis glomérulaire",
+    "Purpura vasculaire : vascularite cryoglobulinémique",
+    "Dégénérescence lymphomateuse B"
+  ],
+  "difficulte": 3,
+  "duree_minutes": 30,
+  "points_total": 20,
+  "patient": {
+    "sexe": "F",
+    "age": 54
+  },
+  "etapes": [
+    {
+      "texte": "Mme D.L âgée de 54 ans, ménopausée, sans antécédents, consulte pour un gonflement des deux régions parotidiennes évoluant depuis 6 mois, indolore, avec des épisodes de majoration. Elle se plaint d'une sensation de sable dans les yeux, d'une bouche sèche qui l'oblige à boire pour avaler les aliments secs et de caries dentaires multiples apparues depuis un an. Elle rapporte aussi, depuis 4 mois, des brûlures et des fourmillements des deux pieds, prédominant la nuit, et une fatigue importante. Elle ne prend aucun médicament. Elle n'a ni fièvre ni amaigrissement, ne consomme pas d'alcool et n'est pas diabétique.\nL'examen clinique retrouve : TA 118/72 mmHg, FC 76/min, FR 16 cycles/min, T° 37 °C. Les deux parotides sont augmentées de volume, fermes et indolores ; la salive est claire à l'orifice du canal de Sténon. La langue est sèche et dépapillée. Il n'y a ni adénopathie, ni hépatomégalie, ni splénomégalie, ni macroglossie, ni purpura, ni ecchymose périorbitaire, ni syndrome du canal carpien. L'examen neurologique retrouve une hypoesthésie tactile et thermique des deux pieds « en chaussettes » et des réflexes achilléens abolis, avec une force musculaire normale et des réflexes rotuliens présents ; il n'y a pas de paralysie faciale. L'examen ophtalmologique ne retrouve pas d'uvéite. Il n'y a ni phénomène de Raynaud, ni arthrite, ni sclérose cutanée. L'auscultation cardio-pulmonaire est normale.\nBandelette urinaire : protéines +, leucocytes ++, nitrites négatifs, sang négatif.",
+      "examens": [],
+      "questions": [
+        {
+          "n": 1,
+          "enonce": "Quels examens demandez-vous pour objectiver le syndrome sec ? Quels résultats attendez-vous ?",
+          "competence": "examen_complementaire",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Test de Schirmer : humidification inférieure à 5 mm en 5 minutes",
+              "points": 0.5,
+              "justification": "Objective la xérophtalmie (sensation de sable dans les yeux)",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.11 (test de Schirmer)",
+                "examens/cas_cliniques.md|Cas N°05 Q3"
+              ]
+            },
+            {
+              "texte": "Temps de rupture du film lacrymal après instillation de fluorescéine : inférieur à 5 secondes ; recherche d'une kératoconjonctivite",
+              "points": 0.5,
+              "justification": "Deuxième test de la xérophtalmie",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.11 (temps de rupture du film lacrymal)",
+                "examens/cas_cliniques.md|Cas N°05 Q3"
+              ]
+            },
+            {
+              "texte": "Biopsie des glandes salivaires accessoires : sialadénite lymphocytaire chronique",
+              "points": 0.5,
+              "justification": "Objective l'atteinte salivaire (xérostomie, parotidomégalie)",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.12 (biopsie des glandes salivaires accessoires)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "Le test au sucre (le morceau doit fondre en moins de 3 minutes) est un simple test clinique de la xérostomie : il ne remplace pas la biopsie.",
+          "a_verifier": false
+        },
+        {
+          "n": 2,
+          "enonce": "Citez trois étiologies, autres qu'un syndrome de Gougerot-Sjögren, d'une parotidomégalie bilatérale. Quels éléments de l'observation vont contre une sarcoïdose, et contre une amylose ?",
+          "competence": "diagnostic_differentiel",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Sarcoïdose, maladie à IgG4, lymphome, diabète, cirrhose éthylique ; causes ORL (parotidites virales ou lithiasiques, tumeurs)",
+              "points": 0.5,
+              "justification": "Au moins trois étiologies attendues",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.13 (devant une parotidomégalie)",
+                "examens/qroc_par_cours.md|Gougerot-Sjögren Q5 (P1 2026)"
+              ]
+            },
+            {
+              "texte": "Contre une sarcoïdose (syndrome de Heerfordt) : pas d'uvéite, pas de paralysie faciale, pas de fièvre ; pas d'adénopathie, auscultation pulmonaire normale",
+              "points": 0.5,
+              "justification": "Le syndrome de Heerfordt associe uvéite antérieure, parotidomégalie, paralysie faciale périphérique et fièvre",
+              "sources": [
+                "examens/qroc_par_cours.md|Sarcoïdose Q6 (P3 2024)",
+                "cours/05_granulomatoses.md|p.21 (sarcoïdose, granulomatose systémique)"
+              ]
+            },
+            {
+              "texte": "Contre une amylose : pas de macroglossie, pas de purpura périorbitaire, pas d'hépatosplénomégalie, pas de syndrome du canal carpien ; mais la polyneuropathie sensitive reste compatible",
+              "points": 0.5,
+              "justification": "Signes évocateurs d'amylose AL absents ; la neuropathie périphérique n'écarte pas l'amylose",
+              "sources": [
+                "cours/09_amyloses.md|p.1-2 (amylose AL : atteintes digestive, neurologique, cutanée, articulaire)",
+                "examens/qroc_par_cours.md|Amyloses Q8 (P1 2024)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas d'uvéite",
+            "Pas de paralysie faciale",
+            "Apyrexie",
+            "Pas d'adénopathie",
+            "Pas de macroglossie",
+            "Pas de purpura périorbitaire",
+            "Pas d'hépatosplénomégalie",
+            "Pas d'alcoolisme ni de diabète"
+          ],
+          "piege": "La polyneuropathie sensitive ne permet pas d'écarter une amylose (atteinte neurologique périphérique fréquente dans l'amylose AL) : seule l'histologie tranche.",
+          "a_verifier": false
+        },
+        {
+          "n": 3,
+          "enonce": "Si une amylose devait être recherchée, quels sites de biopsie proposeriez-vous en première intention ? Quelle coloration demanderiez-vous, et quel aspect confirmerait le diagnostic ?",
+          "competence": "examen_complementaire",
+          "points": 1,
+          "elements_attendus": [
+            {
+              "texte": "Glandes salivaires accessoires, graisse abdominale péri-ombilicale, muqueuse rectale",
+              "points": 0.5,
+              "justification": "Les trois sites de biopsie recommandés ; la biopsie des glandes salivaires accessoires sert aussi au diagnostic de Gougerot-Sjögren",
+              "sources": [
+                "examens/qroc_par_cours.md|Amyloses Q3 (P1 2026)"
+              ]
+            },
+            {
+              "texte": "Coloration au rouge Congo : dépôts extracellulaires avec biréfringence jaune-vert en lumière polarisée",
+              "points": 0.5,
+              "justification": "Coloration la plus sensible et la plus spécifique de la substance amyloïde",
+              "sources": [
+                "cours/09_amyloses.md|p.1 (caractéristiques de la substance amyloïde)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 4,
+          "enonce": "Quelle est l'origine des troubles des pieds ? Justifiez votre réponse.",
+          "competence": "semiologie",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Atteinte du système nerveux périphérique : polyneuropathie sensitive",
+              "points": 0.5,
+              "justification": "Manifestation neurologique périphérique du Gougerot-Sjögren",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.9 (atteinte neurologique)",
+                "examens/cas_cliniques.md|Cas N°05 Q4"
+              ]
+            },
+            {
+              "texte": "Arguments : troubles sensitifs distaux, bilatéraux et symétriques, à prédominance nocturne, hypoesthésie en chaussettes, réflexes achilléens abolis",
+              "points": 0.5,
+              "justification": "Brûlures et fourmillements des deux pieds, hypoesthésie tactile et thermique en chaussettes, achilléens abolis",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q4",
+                "cours/06_gougerot_sjogren.md|p.9 (polyneuropathie sensitive)"
+              ]
+            },
+            {
+              "texte": "Signes négatifs et autres causes à discuter : force normale (pas d'atteinte motrice), pas de diabète ni d'alcoolisme ; l'amylose et une vascularite cryoglobulinémique (multinévrite) restent à éliminer",
+              "points": 0.5,
+              "justification": "Réflexes rotuliens présents, force musculaire normale ; patiente non diabétique, sans alcoolisme",
+              "sources": [
+                "cours/09_amyloses.md|p.1 (polyneuropathie sensitive puis sensitivo-motrice)",
+                "cours/06_gougerot_sjogren.md|p.14 (vascularite cryoglobulinémique : multinévrite sensitive)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Force musculaire normale",
+            "Réflexes rotuliens présents",
+            "Pas de diabète",
+            "Pas d'alcoolisme"
+          ],
+          "piege": "Aux annales, les atteintes nerveuses attendues sont la neuropathie sensitive (Cas N°05 Q4), l'atteinte des paires crâniennes, surtout du trijumeau, et la mononeuropathie multiple (QROC Gougerot-Sjögren Q1 et Q12).",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Les examens réalisés sont les suivants.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Hémoglobine",
+          "cle": "hemoglobine",
+          "valeur": 14.4,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Leucocytes",
+          "cle": "leucocytes",
+          "valeur": 3400,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Polynucléaires neutrophiles",
+          "cle": "pnn",
+          "valeur": 2100,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Lymphocytes",
+          "cle": "lymphocytes",
+          "valeur": 750,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 168000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Bilan inflammatoire et protéines",
+          "parametre": "VS 1re heure",
+          "cle": "vs",
+          "valeur": 72,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire et protéines",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 4,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire et protéines",
+          "parametre": "Protides totaux",
+          "cle": "protides",
+          "valeur": 88,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire et protéines",
+          "parametre": "Albumine",
+          "cle": "albumine",
+          "valeur": 38,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire et protéines",
+          "parametre": "Gammaglobulines",
+          "cle": "gammaglobulines",
+          "valeur": 26,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire et protéines",
+          "parametre": "Électrophorèse des protéines",
+          "cle": null,
+          "valeur": "hypergammaglobulinémie d'aspect polyclonal, pas de pic monoclonal",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan rénal et ionogramme",
+          "parametre": "Créatininémie",
+          "cle": "creatinine",
+          "valeur": 11.5,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan rénal et ionogramme",
+          "parametre": "Débit de filtration glomérulaire",
+          "cle": "dfg",
+          "valeur": 52,
+          "unite": "mL/min/1,73 m²"
+        },
+        {
+          "groupe": "Bilan rénal et ionogramme",
+          "parametre": "Urée",
+          "cle": "uree",
+          "valeur": 0.4,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan rénal et ionogramme",
+          "parametre": "Protéinurie des 24 h",
+          "cle": "proteinurie_24h",
+          "valeur": 0.7,
+          "unite": "g/24h"
+        },
+        {
+          "groupe": "Bilan rénal et ionogramme",
+          "parametre": "Sédiment urinaire",
+          "cle": null,
+          "valeur": "leucocyturie, pas d'hématurie",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan rénal et ionogramme",
+          "parametre": "ECBU",
+          "cle": null,
+          "valeur": "stérile",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan rénal et ionogramme",
+          "parametre": "Kaliémie",
+          "cle": "kaliemie",
+          "valeur": 2.9,
+          "unite": "mmol/L"
+        },
+        {
+          "groupe": "Bilan rénal et ionogramme",
+          "parametre": "Natrémie",
+          "cle": "natremie",
+          "valeur": 139,
+          "unite": "mmol/L"
+        },
+        {
+          "groupe": "Bilan rénal et ionogramme",
+          "parametre": "Chlorémie (N : 98-107)",
+          "cle": null,
+          "valeur": 114,
+          "unite": "mmol/L"
+        },
+        {
+          "groupe": "Bilan rénal et ionogramme",
+          "parametre": "Bicarbonates plasmatiques (N : 22-26)",
+          "cle": null,
+          "valeur": 15,
+          "unite": "mmol/L"
+        },
+        {
+          "groupe": "Bilan rénal et ionogramme",
+          "parametre": "Glycémie à jeun",
+          "cle": "glycemie",
+          "valeur": 0.92,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps antinucléaires",
+          "cle": null,
+          "valeur": "positifs à 1/1280, aspect moucheté",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-SSA",
+          "cle": null,
+          "valeur": "positifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-SSB",
+          "cle": null,
+          "valeur": "positifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Facteur rhumatoïde",
+          "cle": null,
+          "valeur": "positif",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Anticorps anti-ADN natif, anti-Sm, anti-CCP",
+          "cle": null,
+          "valeur": "négatifs",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Fraction C3 du complément",
+          "cle": "c3",
+          "valeur": 1.1,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Fraction C4 du complément",
+          "cle": "c4",
+          "valeur": 0.22,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Cryoglobulinémie",
+          "cle": null,
+          "valeur": "négative",
+          "unite": ""
+        },
+        {
+          "groupe": "Sérologies",
+          "parametre": "Sérologies VHC, VHB, VIH",
+          "cle": null,
+          "valeur": "négatives",
+          "unite": ""
+        },
+        {
+          "groupe": "Recherche d'une sarcoïdose",
+          "parametre": "Enzyme de conversion de l'angiotensine",
+          "cle": "eca",
+          "valeur": 45,
+          "unite": "UI/L"
+        },
+        {
+          "groupe": "Recherche d'une sarcoïdose",
+          "parametre": "Calcémie",
+          "cle": "calcemie",
+          "valeur": 94,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Recherche d'une sarcoïdose",
+          "parametre": "Radiographie thoracique",
+          "cle": null,
+          "valeur": "normale, pas d'adénopathie hilaire",
+          "unite": ""
+        },
+        {
+          "groupe": "Explorations du syndrome sec",
+          "parametre": "Test de Schirmer",
+          "cle": null,
+          "valeur": "2 mm en 5 minutes aux deux yeux",
+          "unite": ""
+        },
+        {
+          "groupe": "Explorations du syndrome sec",
+          "parametre": "Temps de rupture du film lacrymal",
+          "cle": null,
+          "valeur": "3 secondes",
+          "unite": ""
+        },
+        {
+          "groupe": "Explorations du syndrome sec",
+          "parametre": "Biopsie des glandes salivaires accessoires",
+          "cle": null,
+          "valeur": "sialadénite lymphocytaire chronique ; pas de granulome ; coloration au rouge Congo négative",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 5,
+          "enonce": "Quel est le type de l'atteinte rénale ? Interprétez l'ionogramme. Justifiez votre réponse.",
+          "competence": "interpreter_bilan",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Néphropathie tubulo-interstitielle",
+              "points": 0.5,
+              "justification": "Leucocyturie aseptique et protéinurie modérée, sans syndrome glomérulaire",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.10 (atteinte rénale)",
+                "examens/cas_cliniques.md|Cas N°05 Q6"
+              ]
+            },
+            {
+              "texte": "Leucocyturie aseptique et protéinurie modérée",
+              "points": 0.5,
+              "justification": "Leucocytes ++ à la bandelette, leucocyturie au sédiment avec ECBU stérile ; protéinurie 0,7 g/24 h (< 1 g, et < 2 g selon le corrigé)",
+              "sources": [
+                "referentiel_transversal.md|§7 Atteinte rénale (glomérulaire ou tubulo-interstitielle)",
+                "examens/cas_cliniques.md|Cas N°05 Q6"
+              ]
+            },
+            {
+              "texte": "Signes négatifs : pas d'hématurie, pas d'HTA, pas d'œdèmes",
+              "points": 0.5,
+              "justification": "Sang négatif à la bandelette, sédiment sans hématurie, TA 118/72 mmHg",
+              "sources": [
+                "referentiel_transversal.md|§7 Atteinte rénale (glomérulaire ou tubulo-interstitielle)"
+              ]
+            },
+            {
+              "texte": "Insuffisance rénale modérée",
+              "points": 0.25,
+              "justification": "DFG 52 mL/min/1,73 m² (< 90), créatinine 11,5 mg/L (> 10)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q6",
+                "referentiel_transversal.md|§1 Valeurs normales et seuils (créatinine, DFG)"
+              ]
+            },
+            {
+              "texte": "Tubulopathie : acidose métabolique hyperchlorémique et hypokaliémie",
+              "points": 0.5,
+              "justification": "Bicarbonates 15 mmol/L (N 22-26), chlorémie 114 mmol/L (N 98-107), kaliémie 2,9 mmol/L (< 3,5)",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.10 (acidose métabolique hyperchlorémique, hypokaliémie, hypercalciurie)"
+              ]
+            },
+            {
+              "texte": "À compléter par la recherche d'une hypercalciurie",
+              "points": 0.25,
+              "justification": "Troisième anomalie de la tubulopathie du Gougerot-Sjögren",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.10 (hypercalciurie)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas d'hématurie",
+            "Pas d'HTA",
+            "Pas d'œdèmes",
+            "ECBU stérile"
+          ],
+          "piege": "La néphropathie tubulo-interstitielle est une manifestation grave du Gougerot-Sjögren (QROC Gougerot-Sjögren Q9) : elle expose à l'insuffisance rénale chronique.",
+          "a_verifier": false
+        },
+        {
+          "n": 6,
+          "enonce": "Interprétez l'hémogramme, l'électrophorèse des protéines et le bilan inflammatoire. Justifiez votre réponse.",
+          "competence": "interpreter_hemogramme",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Leucopénie par lymphopénie, sans anémie ni thrombopénie",
+              "points": 0.5,
+              "justification": "Leucocytes 3 400/mm³ (< 4 000), lymphocytes 750/mm³ (< 1 000), PNN normaux (2 100/mm³) ; Hb 14,4 g/dL et plaquettes 168 000/mm³ normales ; la lymphopénie est un signe d'activité",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q5",
+                "cours/06_gougerot_sjogren.md|p.10 (lymphopénie, signe d'activité)"
+              ]
+            },
+            {
+              "texte": "Hypergammaglobulinémie polyclonale avec hyperprotidémie",
+              "points": 0.5,
+              "justification": "Gammaglobulines 26 g/L (> 15), d'aspect polyclonal, sans pic monoclonal ; protides 88 g/L (> 80)",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.12 (autres signes biologiques)",
+                "referentiel_transversal.md|§3 Syndrome inflammatoire biologique"
+              ]
+            },
+            {
+              "texte": "VS accélérée avec CRP normale : liée à l'hypergammaglobulinémie, sans véritable syndrome inflammatoire",
+              "points": 0.5,
+              "justification": "VS 72 mm (> (54 + 10)/2 = 32), CRP 4 mg/L (≤ 5), albumine 38 g/L normale",
+              "sources": [
+                "referentiel_transversal.md|§3 Syndrome inflammatoire biologique (VS élevée avec CRP normale)",
+                "examens/cas_cliniques.md|Cas N°05 énoncé"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas d'anémie",
+            "Pas de thrombopénie",
+            "CRP normale",
+            "Pas de pic monoclonal"
+          ],
+          "piege": "Ne pas conclure à un syndrome inflammatoire sur une VS isolée : la CRP est normale et la VS est accélérée par l'excès de gammaglobulines.",
+          "a_verifier": false
+        },
+        {
+          "n": 7,
+          "enonce": "Quel est votre diagnostic ? Justifiez votre réponse.",
+          "competence": "diagnostic_positif",
+          "points": 3,
+          "elements_attendus": [
+            {
+              "texte": "Syndrome de Gougerot-Sjögren primitif",
+              "points": 0.5,
+              "justification": "Syndrome sec objectivé, sialadénite lymphocytaire, anti-SSA et anti-SSB, sans autre connectivite",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.4 (définition)",
+                "examens/cas_cliniques.md|Cas N°05 Q7"
+              ]
+            },
+            {
+              "texte": "Terrain : femme de 54 ans",
+              "points": 0.25,
+              "justification": "Nette prédominance féminine, âge moyen de 50 ans",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.5 (épidémiologie)"
+              ]
+            },
+            {
+              "texte": "Atteinte glandulaire objectivée : xérophtalmie, xérostomie, parotidomégalie bilatérale",
+              "points": 0.5,
+              "justification": "Schirmer 2 mm en 5 min (< 5), temps de rupture du film lacrymal 3 s (< 5) ; bouche sèche, caries, langue dépapillée ; parotides augmentées de volume",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.6 (manifestations glandulaires)",
+                "cours/06_gougerot_sjogren.md|p.11 (tests)"
+              ]
+            },
+            {
+              "texte": "Preuve histologique : sialadénite lymphocytaire chronique à la biopsie des glandes salivaires accessoires",
+              "points": 0.5,
+              "justification": "Infiltration lymphocytaire des glandes exocrines",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.12 (biopsie des glandes salivaires accessoires)"
+              ]
+            },
+            {
+              "texte": "Immunologie : FAN, anti-SSA, anti-SSB, facteur rhumatoïde positifs",
+              "points": 0.5,
+              "justification": "FAN 1/1280, anti-SSA et anti-SSB positifs, FR positif",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.12 (diagnostic immunologique)",
+                "examens/qroc_par_cours.md|Gougerot-Sjögren Q6 (P1 2015)"
+              ]
+            },
+            {
+              "texte": "Atteintes extra-glandulaires et biologie : polyneuropathie sensitive, néphropathie tubulo-interstitielle ; lymphopénie, hypergammaglobulinémie polyclonale",
+              "points": 0.25,
+              "justification": "Voir Q4, Q5 et Q6",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.9-10 (manifestations extra-glandulaires)"
+              ]
+            },
+            {
+              "texte": "Primitif et diagnostics différentiels éliminés",
+              "points": 0.5,
+              "justification": "Anti-ADN, anti-Sm et anti-CCP négatifs, complément normal, ni Raynaud ni sclérose cutanée (pas de connectivite associée) ; pas de granulome, ECA et calcémie normales, radiographie thoracique normale (pas de sarcoïdose) ; rouge Congo négatif (pas d'amylose) ; VHC négative, aucun médicament asséchant, glycémie normale",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°05 Q7",
+                "cours/06_gougerot_sjogren.md|p.13 (diagnostic différentiel du syndrome sec)",
+                "cours/05_granulomatoses.md|p.6-8 (anapath du granulome ; sans nécrose : sarcoïdose)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Anti-ADN, anti-Sm et anti-CCP négatifs",
+            "Pas de granulome",
+            "ECA normale",
+            "Rouge Congo négatif",
+            "VHC négative",
+            "Aucun médicament",
+            "Glycémie normale"
+          ],
+          "piege": "Un syndrome sec n'est pas synonyme de Gougerot-Sjögren : éliminer les causes médicamenteuses, le VHC, la sarcoïdose, l'amylose et le diabète.",
+          "a_verifier": false
+        },
+        {
+          "n": 8,
+          "enonce": "Quels sont les principes du traitement et du suivi ?",
+          "competence": "traitement",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Traitement symptomatique de la sécheresse : larmes artificielles et gels ; substituts salivaires, bonbons et chewing-gums sans sucre, pilocarpine",
+              "points": 0.5,
+              "justification": "Xérophtalmie et xérostomie invalidantes",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.17 (modalités thérapeutiques)"
+              ]
+            },
+            {
+              "texte": "Hygiène bucco-dentaire (brossage fluoré, soins dentaires) ; éviction du tabac, de l'alcool et de la caféine",
+              "points": 0.25,
+              "justification": "Caries dentaires multiples",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.17 (mesures hygiéniques)"
+              ]
+            },
+            {
+              "texte": "Traitement spécifique des atteintes systémiques (neurologique et rénale) : corticothérapie systémique, immunosuppresseurs",
+              "points": 0.25,
+              "justification": "Atteintes extra-glandulaires neurologique et rénale",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.16 (traitement spécifique)",
+                "examens/cas_cliniques.md|Cas N°05 Q8"
+              ]
+            },
+            {
+              "texte": "Suivi : examen des parotides et recherche d'un syndrome tumoral, hémogramme, électrophorèse des protéines (composant monoclonal), ionogramme, fonction rénale, protéinurie, contrôle ophtalmologique",
+              "points": 0.5,
+              "justification": "Dépistage des atteintes viscérales et du lymphome",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.18-19 (modalités du suivi)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "La fièvre au cours d'un Gougerot-Sjögren oriente plutôt vers une complication : elle doit être recherchée à chaque consultation.",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "La patiente est traitée et suivie. Quatre ans plus tard, elle consulte pour une altération de l'état général avec un amaigrissement de 9 kg en 3 mois, des sueurs nocturnes et une fièvre à 38,3 °C prédominant le soir. Elle signale l'apparition, depuis 3 semaines, de taches violacées des deux jambes. L'examen retrouve : TA 155/95 mmHg, FC 92/min, T° 38,3 °C ; une parotidomégalie droite dure, qui augmente de volume et persiste depuis un an ; des adénopathies cervicales et axillaires bilatérales, fermes et indolores, de 2 à 3 cm ; une splénomégalie type 2 ; un purpura infiltré, palpable, déclive, des deux jambes ; des œdèmes des chevilles.\nBandelette urinaire : protéines ++, sang +++.",
+      "examens": [
+        {
+          "groupe": "Bilan inflammatoire et protéines",
+          "parametre": "VS 1re heure",
+          "cle": "vs",
+          "valeur": 58,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire et protéines",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 36,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire et protéines",
+          "parametre": "Gammaglobulines",
+          "cle": "gammaglobulines",
+          "valeur": 9,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire et protéines",
+          "parametre": "Électrophorèse des protéines",
+          "cle": null,
+          "valeur": "pic monoclonal étroit dans la zone des gammaglobulines",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Cryoglobulinémie",
+          "cle": null,
+          "valeur": "positive",
+          "unite": ""
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Facteur rhumatoïde",
+          "cle": null,
+          "valeur": "positif",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Créatininémie",
+          "cle": "creatinine",
+          "valeur": 17,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Protéinurie des 24 h",
+          "cle": "proteinurie_24h",
+          "valeur": 2.6,
+          "unite": "g/24h"
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "Sédiment urinaire",
+          "cle": null,
+          "valeur": "hématurie microscopique",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan rénal",
+          "parametre": "ECBU",
+          "cle": null,
+          "valeur": "stérile",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 9,
+          "enonce": "Citez les deux diagnostics à évoquer devant un purpura vasculaire au cours d'un syndrome de Gougerot-Sjögren. Lequel retenez-vous ici ? Justifiez votre réponse.",
+          "competence": "diagnostic_differentiel",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Purpura hypergammaglobulinémique",
+              "points": 0.25,
+              "justification": "Premier diagnostic à évoquer devant un purpura au cours du Gougerot-Sjögren",
+              "sources": [
+                "examens/qroc_par_cours.md|Gougerot-Sjögren Q4 (P1 2026)",
+                "cours/06_gougerot_sjogren.md|p.8 (purpura hypergammaglobulinémique)"
+              ]
+            },
+            {
+              "texte": "Vascularite cryoglobulinémique",
+              "points": 0.25,
+              "justification": "Second diagnostic à évoquer",
+              "sources": [
+                "examens/qroc_par_cours.md|Gougerot-Sjögren Q4 (P1 2026)",
+                "cours/06_gougerot_sjogren.md|p.14 (vascularite cryoglobulinémique)"
+              ]
+            },
+            {
+              "texte": "Retenue ici : vascularite cryoglobulinémique",
+              "points": 0.5,
+              "justification": "Purpura infiltré, palpable, déclive (purpura vasculaire) ; cryoglobulinémie positive ; gammaglobulines revenues à 9 g/L (normo-gammaglobulinémie), alors que le purpura hypergammaglobulinémique suppose une hypergammaglobulinémie",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.14 (vascularite cryoglobulinémique : normo- ou hypo-gammaglobulinémie)",
+                "examens/qroc_par_cours.md|Vascularites Q14 (P2 2025)"
+              ]
+            },
+            {
+              "texte": "Glomérulonéphrite : l'atteinte rénale est devenue glomérulaire",
+              "points": 0.5,
+              "justification": "Protéinurie 2,6 g/24 h, hématurie (sang +++ et hématurie microscopique), HTA à 155/95 mmHg, œdèmes, créatinine 17 mg/L (> 10), ECBU stérile ; au diagnostic, l'atteinte était tubulo-interstitielle",
+              "sources": [
+                "examens/qroc_par_cours.md|Gougerot-Sjögren Q3 (P2i 2026)",
+                "cours/06_gougerot_sjogren.md|p.14 (vascularite cryoglobulinémique : glomérulonéphrite)",
+                "referentiel_transversal.md|§7 Atteinte rénale"
+              ]
+            },
+            {
+              "texte": "Vascularite des petits vaisseaux secondaire à une maladie auto-immune (Gougerot-Sjögren) et à une probable hémopathie (lymphome)",
+              "points": 0.5,
+              "justification": "Les vascularites secondaires relèvent des maladies auto-immunes, dont le Gougerot-Sjögren, et des néoplasies, dont les lymphomes",
+              "sources": [
+                "cours/10_vascularites.md|p.4 (diagnostic différentiel : vascularites secondaires)",
+                "cours/10_vascularites.md|p.1 (signes cliniques : purpura vasculaire)"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Gammaglobulines normales (9 g/L)",
+            "ECBU stérile"
+          ],
+          "piege": "La normalisation des gammaglobulines (26 puis 9 g/L) n'est pas forcément une amélioration : le cours associe la vascularite cryoglobulinémique à une normo- ou hypogammaglobulinémie.",
+          "a_verifier": false
+        },
+        {
+          "n": 10,
+          "enonce": "Quelle autre complication redoutez-vous ? Justifiez votre réponse.",
+          "competence": "complication",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Dégénérescence lymphomateuse B",
+              "points": 0.5,
+              "justification": "Complication systémique majeure du Gougerot-Sjögren",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.14 (dégénérescence lymphomateuse B)",
+                "examens/cas_cliniques.md|Cas N°05 Q9"
+              ]
+            },
+            {
+              "texte": "Signes généraux : altération de l'état général, fièvre",
+              "points": 0.5,
+              "justification": "Amaigrissement de 9 kg en 3 mois, fièvre vespérale à 38,3 °C, sueurs nocturnes ; syndrome inflammatoire (VS 58 mm, CRP 36 mg/L) alors que la CRP était normale au diagnostic",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.14 (altération de l'état général, fièvre)",
+                "cours/06_gougerot_sjogren.md|p.9 (la fièvre oriente plutôt vers une complication)",
+                "examens/qroc_par_cours.md|Gougerot-Sjögren Q13 (P3 2024)"
+              ]
+            },
+            {
+              "texte": "Parotidomégalie persistante",
+              "points": 0.5,
+              "justification": "Parotide droite dure, qui augmente de volume depuis un an",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.14 (parotidomégalie persistante)",
+                "examens/qroc_par_cours.md|Gougerot-Sjögren Q13 (P3 2024)"
+              ]
+            },
+            {
+              "texte": "Syndrome tumoral",
+              "points": 0.5,
+              "justification": "Adénopathies cervicales et axillaires bilatérales de 2 à 3 cm, splénomégalie type 2",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.14 (syndrome tumoral)",
+                "examens/cas_cliniques.md|Cas N°05 Q9"
+              ]
+            },
+            {
+              "texte": "Pic monoclonal des gammaglobulines et cryoglobulinémie (de type 1 selon le cours)",
+              "points": 0.5,
+              "justification": "Pic monoclonal étroit à l'électrophorèse, cryoglobulinémie positive",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.14 (pic monoclonal, cryoglobulinémie de type 1)",
+                "examens/qroc_par_cours.md|Gougerot-Sjögren Q11 (P2 2024)",
+                "examens/qroc_par_cours.md|Gougerot-Sjögren Q2 (P2i 2026)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "Le cours et le corrigé associent le lymphome à une cryoglobulinémie « de type 1 » : c'est la réponse attendue à l'examen. Hors corpus, la cryoglobulinémie du Gougerot-Sjögren est le plus souvent mixte (type II, IgM monoclonale à activité facteur rhumatoïde) ; seul le typage de la cryoglobuline tranche (à vérifier).",
+          "a_verifier": false
+        },
+        {
+          "n": 11,
+          "enonce": "Quels examens demandez-vous pour confirmer ces complications ?",
+          "competence": "examen_complementaire",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Biopsie d'une adénopathie ou de la parotide (ou nouvelle biopsie des glandes salivaires accessoires) avec étude histologique",
+              "points": 0.75,
+              "justification": "Seule l'histologie affirme le lymphome",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.19 (en cas de suspicion d'un lymphome)"
+              ]
+            },
+            {
+              "texte": "Immunofixation des protéines plasmatiques, dosage des chaînes légères libres plasmatiques, typage de la cryoglobuline",
+              "points": 0.5,
+              "justification": "Caractériser le composant monoclonal et la cryoglobulinémie",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.19 (en cas de suspicion d'un lymphome)"
+              ]
+            },
+            {
+              "texte": "Échographie parotidienne",
+              "points": 0.25,
+              "justification": "Parotidomégalie droite persistante et dure",
+              "sources": [
+                "cours/06_gougerot_sjogren.md|p.19 (en cas de suspicion d'un lymphome)"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ],
+      "age": 58
+    }
+  ],
+  "synthese": [
+    "Syndrome sec : Schirmer < 5 mm en 5 min, temps de rupture du film lacrymal < 5 s, biopsie des glandes salivaires accessoires (sialadénite lymphocytaire) ; FAN, anti-SSA, anti-SSB, FR.",
+    "Parotidomégalie bilatérale : penser aussi à la sarcoïdose (Heerfordt), à la maladie à IgG4, au lymphome, au diabète, à la cirrhose éthylique ; amylose : biopsie des glandes salivaires accessoires, de la graisse abdominale ou du rectum, rouge Congo.",
+    "Néphropathie tubulo-interstitielle du Gougerot-Sjögren : leucocyturie aseptique, protéinurie modérée, pas d'hématurie ni d'HTA, acidose hyperchlorémique et hypokaliémie.",
+    "Purpura au cours du Gougerot-Sjögren : purpura hypergammaglobulinémique ou vascularite cryoglobulinémique (cryoglobuline, glomérulonéphrite, gammaglobulines normales ou basses).",
+    "Lymphome B : altération de l'état général, fièvre, parotidomégalie persistante, syndrome tumoral, pic monoclonal, cryoglobulinémie ; preuve histologique indispensable."
+  ]
+}

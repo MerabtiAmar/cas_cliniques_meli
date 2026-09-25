@@ -1,0 +1,540 @@
+{
+  "id": "EXA-03",
+  "version": 1,
+  "statut": "annales",
+  "maladie_principale": "Artérite à cellules géantes (maladie de Horton)",
+  "chapitres": [
+    "cours/10_vascularites",
+    "referentiel_transversal",
+    "cours/13_traitements"
+  ],
+  "liens_transversaux": [
+    "Pseudopolyarthrite rhizomélique évoluant vers une maladie de Horton",
+    "Diagnostic différentiel des douleurs ischémiques du membre supérieur"
+  ],
+  "difficulte": 2,
+  "duree_minutes": 25,
+  "points_total": 20,
+  "bareme_origine": "reparti",
+  "patient": {
+    "sexe": "M",
+    "age": 76
+  },
+  "etapes": [
+    {
+      "texte": "Un homme de 76 ans, aux antécédents d'obésité, de diabète de type 2 et d'HTA, consulte pour une asthénie inhabituelle évoluant depuis 4 mois, associée à une anorexie et une sensation fébrile. Il se plaint de douleurs articulaires des épaules et des hanches, le réveillant tôt le matin et l'empêchant de se lever, avec l'impression que ses articulations sont « soudées ». Examen : limitation des mouvements des articulations douloureuses, sans autre atteinte articulaire. TA 158/59 mmHg, T° 38 °C. Un traitement est prescrit et soulage les symptômes.",
+      "examens": [],
+      "questions": [
+        {
+          "n": 1,
+          "enonce": "Caractérisez l'atteinte articulaire et justifiez.",
+          "competence": "caracteriser_articulaire",
+          "points": 1.5,
+          "elements_attendus": [
+            {
+              "texte": "Rhumatisme inflammatoire chronique",
+              "points": 0.5,
+              "justification": "Réveil matinal précoce, dérouillage matinal, sensation d'articulations soudées",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q1"
+              ]
+            },
+            {
+              "texte": "Bilatérale, sans autre atteinte articulaire, sans déformation",
+              "points": 0.5,
+              "justification": "Limitation des mouvements des seules articulations douloureuses",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q1"
+              ]
+            },
+            {
+              "texte": "Atteinte des ceintures scapulaire et pelvienne, sans atteinte axiale",
+              "points": 0.5,
+              "justification": "Douleurs des épaules et des hanches",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q1"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Pas d'autre atteinte articulaire"
+          ],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 2,
+          "enonce": "Quel diagnostic rhumatologique évoquez-vous en premier ? Justifiez.",
+          "competence": "diagnostic_positif",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Pseudopolyarthrite rhizomélique",
+              "points": 0.5,
+              "justification": "Diagnostic évoqué en première intention devant ce tableau",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q2"
+              ]
+            },
+            {
+              "texte": "Terrain : sujet âgé (76 ans)",
+              "points": 0.5,
+              "justification": "Âge du patient",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q2"
+              ]
+            },
+            {
+              "texte": "Rhumatisme inflammatoire rhizomélique (épaules, hanches)",
+              "points": 0.5,
+              "justification": "Topographie typique de la PPR",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q2"
+              ]
+            },
+            {
+              "texte": "Signes généraux associés : asthénie, fébricule, anorexie",
+              "points": 0.5,
+              "justification": "T° 38 °C, asthénie et anorexie rapportées",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q2"
+              ]
+            },
+            {
+              "texte": "Présence d'un dérouillage matinal",
+              "points": 0.5,
+              "justification": "Sensation d'articulations soudées le matin",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q2"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    },
+    {
+      "texte": "Le patient revient six mois plus tard rapportant des douleurs à la mastication ainsi que des douleurs du membre supérieur droit apparaissant à l'effort et cédant au repos.",
+      "examens": [
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Hémoglobine",
+          "cle": "hemoglobine",
+          "valeur": 10.2,
+          "unite": "g/dL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "VGM",
+          "cle": "vgm",
+          "valeur": 76,
+          "unite": "fL"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Leucocytes",
+          "cle": "leucocytes",
+          "valeur": 8900,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Plaquettes",
+          "cle": "plaquettes",
+          "valeur": 520000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Réticulocytes",
+          "cle": "reticulocytes",
+          "valeur": 46000,
+          "unite": "/mm³"
+        },
+        {
+          "groupe": "Hémogramme",
+          "parametre": "Test de Coombs",
+          "cle": null,
+          "valeur": "négatif",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan métabolique",
+          "parametre": "Glycémie",
+          "cle": "glycemie",
+          "valeur": 2.83,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan métabolique",
+          "parametre": "HbA1c",
+          "cle": "hba1c",
+          "valeur": 9,
+          "unite": "%"
+        },
+        {
+          "groupe": "Bilan lipidique",
+          "parametre": "Cholestérol total",
+          "cle": "cholesterol_total",
+          "valeur": 2.6,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan lipidique",
+          "parametre": "Triglycérides",
+          "cle": "triglycerides",
+          "valeur": 2.1,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan lipidique",
+          "parametre": "HDL-cholestérol",
+          "cle": "hdl",
+          "valeur": 0.3,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "VS",
+          "cle": "vs",
+          "valeur": 170,
+          "unite": "mm"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "CRP",
+          "cle": "crp",
+          "valeur": 200,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "Fibrinogène",
+          "cle": "fibrinogene",
+          "valeur": 6,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Immunologie",
+          "parametre": "Facteur rhumatoïde",
+          "cle": null,
+          "valeur": "négatif",
+          "unite": ""
+        },
+        {
+          "groupe": "Bilan phosphocalcique",
+          "parametre": "Calcémie",
+          "cle": "calcemie",
+          "valeur": 82,
+          "unite": "mg/L"
+        },
+        {
+          "groupe": "Bilan inflammatoire",
+          "parametre": "Gammaglobulines",
+          "cle": "gammaglobulines",
+          "valeur": 17.2,
+          "unite": "g/L"
+        },
+        {
+          "groupe": "Bilan vitaminique",
+          "parametre": "Vitamine D",
+          "cle": null,
+          "valeur": "basse",
+          "unite": ""
+        }
+      ],
+      "questions": [
+        {
+          "n": 3,
+          "enonce": "À quoi correspondent les nouvelles manifestations présentées par le patient ? Justifiez.",
+          "competence": "semiologie",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Manifestations ischémiques du territoire du tronc brachio-céphalique",
+              "points": 1,
+              "justification": "Claudication de la mâchoire et du membre supérieur droit",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q3"
+              ]
+            },
+            {
+              "texte": "Ischémie musculaire responsable des douleurs à l'effort cédant au repos",
+              "points": 1,
+              "justification": "Douleur masticatoire et claudication du membre supérieur",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q3"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 4,
+          "enonce": "Quelles sont les deux causes pouvant expliquer ces nouvelles manifestations ?",
+          "competence": "diagnostic_differentiel",
+          "points": 1,
+          "elements_attendus": [
+            {
+              "texte": "Maladie de Horton",
+              "points": 0.5,
+              "justification": "Terrain évocateur (PPR connue, sujet âgé)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q4"
+              ]
+            },
+            {
+              "texte": "Athérosclérose",
+              "points": 0.5,
+              "justification": "Terrain vasculaire : diabète, HTA, obésité",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q4"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 5,
+          "enonce": "Qu'est-ce qui différencie ces deux causes cliniquement et biologiquement ? Justifiez.",
+          "competence": "diagnostic_differentiel",
+          "points": 3,
+          "elements_attendus": [
+            {
+              "texte": "Horton — clinique : terrain évocateur, céphalées, claudication de la mâchoire, altération de l'état général, arthralgies inflammatoires",
+              "points": 0.75,
+              "justification": "Éléments cliniques du dossier compatibles",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q5"
+              ]
+            },
+            {
+              "texte": "Horton — biologie : CRP, VS et fibrinogène élevés",
+              "points": 0.75,
+              "justification": "VS 170 mm, CRP 200 mg/L, fibrinogène 6 g/L",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q5"
+              ]
+            },
+            {
+              "texte": "Athérosclérose — clinique : claudication du membre supérieur, syndrome métabolique, absence de fièvre et d'AEG",
+              "points": 0.75,
+              "justification": "Diabète, dyslipidémie, obésité connus",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q5"
+              ]
+            },
+            {
+              "texte": "Athérosclérose — biologie : absence de syndrome inflammatoire",
+              "points": 0.75,
+              "justification": "Un syndrome inflammatoire isolé ne s'explique pas par l'athérosclérose",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q5"
+              ]
+            }
+          ],
+          "signes_negatifs": [
+            "Absence de fièvre et d'altération de l'état général pour l'athérosclérose",
+            "Absence de syndrome inflammatoire biologique pour l'athérosclérose"
+          ],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 6,
+          "enonce": "Interprétez le bilan inflammatoire et justifiez.",
+          "competence": "interpreter_bilan_inflammatoire",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Syndrome inflammatoire biologique franc",
+              "points": 0.5,
+              "justification": "VS 170 mm (> âge/2 = 38), CRP 200 mg/L (>5)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q6"
+              ]
+            },
+            {
+              "texte": "Fibrinogène élevé",
+              "points": 0.5,
+              "justification": "Fibrinogène 6 g/L (>4)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q6"
+              ]
+            },
+            {
+              "texte": "Hypergammaglobulinémie",
+              "points": 0.5,
+              "justification": "Gammaglobulines 17,2 g/L (>15)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q6"
+              ]
+            },
+            {
+              "texte": "Hyperferritinémie",
+              "points": 0.5,
+              "justification": "Décrite dans le corrigé comme argument associé",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q6"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 7,
+          "enonce": "Interprétez le bilan métabolique et justifiez.",
+          "competence": "interpreter_bilan",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Diabète mal équilibré",
+              "points": 0.75,
+              "justification": "Glycémie 2,83 g/L, HbA1c 9 %",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q7"
+              ]
+            },
+            {
+              "texte": "Dyslipidémie",
+              "points": 0.75,
+              "justification": "Cholestérol total 2,6 g/L (>2), TG 2,1 g/L (>1,5), HDL 0,3 g/L (<0,4)",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q7"
+              ]
+            },
+            {
+              "texte": "Obésité",
+              "points": 0.5,
+              "justification": "Antécédent connu",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q7"
+              ]
+            },
+            {
+              "texte": "Hypertension artérielle",
+              "points": 0.5,
+              "justification": "TA 158/59 mmHg",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q7"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 8,
+          "enonce": "Quel diagnostic retenez-vous à présent ? Justifiez.",
+          "competence": "diagnostic_positif",
+          "points": 1,
+          "elements_attendus": [
+            {
+              "texte": "Maladie de Horton",
+              "points": 1,
+              "justification": "Association PPR, signes ischémiques crânio-brachiaux et syndrome inflammatoire majeur",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q8"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 9,
+          "enonce": "Quel traitement curatif donnez-vous ? Quelle est sa durée habituelle ?",
+          "competence": "traitement",
+          "points": 2,
+          "elements_attendus": [
+            {
+              "texte": "Corticothérapie à forte dose (0,7 mg/kg/j)",
+              "points": 1,
+              "justification": "Traitement de référence de la maladie de Horton",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q9"
+              ]
+            },
+            {
+              "texte": "Durée de 18 à 24 mois avec décroissance progressive",
+              "points": 1,
+              "justification": "Schéma habituel de décroissance",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q9"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        },
+        {
+          "n": 10,
+          "enonce": "Quelles mesures associez-vous compte tenu du terrain du patient ? Justifiez.",
+          "competence": "surveillance",
+          "points": 2.5,
+          "elements_attendus": [
+            {
+              "texte": "Contrôle du diabète",
+              "points": 0.5,
+              "justification": "Diabète mal équilibré (HbA1c 9 %) aggravé par la corticothérapie",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q10"
+              ]
+            },
+            {
+              "texte": "Régime hyposodé avec contrôle des apports glucidiques",
+              "points": 0.5,
+              "justification": "Prévention des effets métaboliques de la corticothérapie",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q10"
+              ]
+            },
+            {
+              "texte": "Supplémentation en vitamine D et en calcium",
+              "points": 0.5,
+              "justification": "Vitamine D basse à l'entrée",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q10"
+              ]
+            },
+            {
+              "texte": "Activité physique régulière adaptée",
+              "points": 0.5,
+              "justification": "Prévention de la myopathie cortisonique et de l'ostéoporose",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q10"
+              ]
+            },
+            {
+              "texte": "Surveillance de la glycémie, de la TA et correction des carences",
+              "points": 0.5,
+              "justification": "Terrain diabétique et hypertendu sous corticothérapie au long cours",
+              "sources": [
+                "examens/cas_cliniques.md|Cas N°03 Q10"
+              ]
+            }
+          ],
+          "signes_negatifs": [],
+          "piege": "",
+          "a_verifier": false
+        }
+      ]
+    }
+  ],
+  "synthese": [
+    "La pseudopolyarthrite rhizomélique et la maladie de Horton forment un même spectre chez le sujet âgé.",
+    "L'apparition de signes ischémiques crânio-brachiaux sous PPR doit faire reconsidérer le diagnostic vers Horton.",
+    "Le terrain vasculaire (diabète, HTA, obésité) impose une surveillance renforcée sous corticothérapie prolongée."
+  ]
+}
