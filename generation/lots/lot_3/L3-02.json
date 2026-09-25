@@ -1,7 +1,7 @@
 {
 "id": "L3-02",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Syndrome des antiphospholipides obstétrical primitif",
 "chapitres": ["cours/02_sapl", "cours/01_lupus", "referentiel_transversal"],
 "liens_transversaux": ["Fausses couches à répétition : démarche étiologique", "Interpréter l'hémostase et la sérologie syphilitique", "Situations associées aux antiphospholipides en dehors du SAPL", "Grossesse, héparine et contraception dans le SAPL"],

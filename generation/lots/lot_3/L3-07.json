@@ -1,7 +1,7 @@
 {
 "id": "L3-07",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Périartérite noueuse compliquée d'une atteinte digestive",
 "chapitres": ["cours/10_vascularites", "cours/13_traitements", "cours/06_gougerot_sjogren", "cours/01_lupus", "fiches_complementaires/10_horton", "referentiel_transversal"],
 "liens_transversaux": ["Sémiologie d'une multinévrite (mononeuropathie multiple)", "Interpréter l'hémogramme et le bilan inflammatoire", "Vascularites secondaires : infections, connectivites, néoplasies", "Indications des immunosuppresseurs ; effets de la corticothérapie"],

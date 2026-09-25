@@ -1,7 +1,7 @@
 {
 "id": "L3-01",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Syndrome des antiphospholipides primitif thrombotique veineux",
 "chapitres": ["cours/02_sapl", "cours/01_lupus", "cours/03_behcet", "cours/11_maladies_rares", "referentiel_transversal"],
 "liens_transversaux": ["Thrombose veineuse récidivante du sujet jeune : SAPL, angio-Behçet, hyperhomocystéinémie", "Interpréter l'hémostase : TCA allongé non corrigé, VDRL dissocié", "Critères du SAPL et confirmation à 12 semaines", "AVK au long cours, place des AOD"],

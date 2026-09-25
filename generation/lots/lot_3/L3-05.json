@@ -1,7 +1,7 @@
 {
 "id": "L3-05",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Sclérodermie systémique cutanée limitée (CREST) avec ulcérations digitales",
 "chapitres": ["cours/04_sclerodermie", "cours/06_gougerot_sjogren", "cours/08_myopathies", "cours/01_lupus", "referentiel_transversal"],
 "liens_transversaux": ["Phénomène de Raynaud : arguments pour une origine secondaire", "Diagnostics différentiels : lupus, myosite de chevauchement, syndromes sclérodermiformes", "Traitement du Raynaud et des ulcères digitaux", "Gougerot-Sjögren associé à une connectivite"],

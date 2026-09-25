@@ -1,7 +1,7 @@
 {
 "id": "L3-03",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Syndrome catastrophique des antiphospholipides",
 "chapitres": ["cours/02_sapl", "cours/13_traitements", "fiches_complementaires/07_still", "cours/12_deficits_immunitaires", "cours/01_lupus", "referentiel_transversal"],
 "liens_transversaux": ["Défaillance multiviscérale fébrile : SCAPL, sepsis, CIVD, autres microangiopathies thrombotiques", "Interpréter un hémogramme : anémie hémolytique mécanique, thrombopénie de consommation", "Hémostase : TCA allongé isolé contre CIVD", "Gestion des anticoagulants autour d'un geste invasif"],

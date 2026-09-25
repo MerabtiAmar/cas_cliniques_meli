@@ -1,7 +1,7 @@
 {
 "id": "L3-09",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Lupus érythémateux systémique révélé par une pleuro-péricardite",
 "chapitres": ["cours/01_lupus", "fiches_complementaires/07_still", "cours/13_traitements", "cours/05_granulomatoses", "fiches_complementaires/05_sarcoidose", "fiches_complementaires/10_horton", "referentiel_transversal"],
 "liens_transversaux": ["Péricardite : diagnostic et signes négatifs", "Pleuro-péricardite fébrile : tuberculose, lupus, Still, lymphome", "Interpréter un hémogramme : cytopénies du lupus", "Fièvre sous corticoïdes : poussée ou infection ?"],

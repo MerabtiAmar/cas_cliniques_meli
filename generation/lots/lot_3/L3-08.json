@@ -1,7 +1,7 @@
 {
 "id": "L3-08",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Lupus induit par l'hydralazine",
 "chapitres": ["cours/01_lupus", "cours/02_sapl", "cours/13_traitements", "fiches_complementaires/05_sarcoidose", "referentiel_transversal"],
 "liens_transversaux": ["Caractériser une atteinte articulaire", "Pleurésie exsudative lymphocytaire : tuberculose, néoplasie, lupus", "Antiphospholipides induits par un médicament sans SAPL", "Effets de la corticothérapie chez un hypertendu"],

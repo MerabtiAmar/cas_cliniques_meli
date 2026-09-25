@@ -1,7 +1,7 @@
 {
 "id": "L3-10",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Maladie de Still de l'adulte, diagnostic d'exclusion, compliquée de corticodépendance",
 "chapitres": ["fiches_complementaires/07_still", "cours/07_still_auto_inflammatoires", "cours/13_traitements", "cours/01_lupus", "cours/10_vascularites", "referentiel_transversal"],
 "liens_transversaux": ["Fièvre prolongée : bilan d'exclusion hiérarchisé (endocardite, tuberculose, brucellose, leishmaniose, lymphome, lupus, vascularite)", "Interpréter l'hémogramme et le bilan inflammatoire", "Critères de Yamaguchi et critères d'exclusion", "Effets de la corticothérapie ; biothérapies"],

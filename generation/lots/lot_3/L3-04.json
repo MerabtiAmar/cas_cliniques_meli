@@ -1,7 +1,7 @@
 {
 "id": "L3-04",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Sclérodermie systémique cutanée limitée compliquée d'hypertension artérielle pulmonaire",
 "chapitres": ["cours/04_sclerodermie", "cours/01_lupus", "cours/02_sapl", "referentiel_transversal"],
 "liens_transversaux": ["Dyspnée au cours de la sclérodermie : PID, HTAP, atteinte cardiaque, maladie thromboembolique", "HTAP du lupus et du SAPL en diagnostic différentiel", "Dépistage échographique annuel de l'HTAP", "Atteinte digestive de la sclérodermie : intestin grêle"],
