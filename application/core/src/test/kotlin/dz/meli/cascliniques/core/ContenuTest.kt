@@ -44,6 +44,16 @@ class ContenuTest {
     }
 
     @Test
+    fun `le paquet embarqué dans l'application se lit`() {
+        val fichier = File(generation.parentFile, "application/app/src/main/assets/contenu.json")
+        val paquet = Lecteur.lirePaquet(fichier.readText())
+        assertTrue(paquet.cas.isNotEmpty())
+        assertEquals(190, paquet.qroc.size)
+        assertTrue("vs" in paquet.normes)
+        for (cas in paquet.cas) assertEquals(emptyList(), cas.problemes(), cas.id)
+    }
+
+    @Test
     fun `les normes du dépôt se lisent`() {
         val racine = Lecteur.json.parseToJsonElement(File(generation, "normes.json").readText()).jsonObject
         val normes = Lecteur.json.decodeFromJsonElement(MapSerializer(String.serializer(), Norme.serializer()), racine.getValue("parametres"))
