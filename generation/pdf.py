@@ -1,14 +1,18 @@
-"""Convertit le rendu Markdown d'un lot en PDF lisible (corrigés dépliés dans un encadré), via Edge headless.
+"""Convertit le rendu Markdown d'un lot en PDF lisible (corrigés dépliés dans un encadré), via Edge ou Chromium headless.
 
 Usage : python generation/pdf.py <fichier.md>   → produit <fichier>.html et <fichier>.pdf à côté
 """
+import shutil
 import subprocess
 import sys
 from pathlib import Path
 
 import markdown
 
-EDGE = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+# Edge sous Windows ; Chromium ailleurs (celui de Playwright dans l'environnement cloud).
+NAVIGATEURS = [r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
+               "/opt/pw-browsers/chromium", shutil.which("chromium"), shutil.which("chromium-browser")]
+NAVIGATEUR = next((n for n in NAVIGATEURS if n and Path(n).is_file()), None)
 CSS = """
 @page { size: A4; margin: 14mm 13mm; }
 body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 10.5pt; line-height: 1.45; color: #1a1a1a; }
@@ -32,7 +36,9 @@ def main(source):
     html.write_text(f'<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>{source.stem}</title>'
                     f"<style>{CSS}</style></head><body>{corps}</body></html>", encoding="utf-8")
     pdf = source.with_suffix(".pdf")
-    subprocess.run([EDGE, "--headless", "--disable-gpu", "--no-pdf-header-footer",
+    if NAVIGATEUR is None:
+        sys.exit("Aucun navigateur trouvé (Edge ou Chromium) pour produire le PDF.")
+    subprocess.run([NAVIGATEUR, "--headless", "--disable-gpu", "--no-sandbox", "--no-pdf-header-footer",
                     f"--print-to-pdf={pdf}", html.as_uri()], check=True, capture_output=True)
     print(f"{pdf} ({pdf.stat().st_size // 1024} Ko)")
 
