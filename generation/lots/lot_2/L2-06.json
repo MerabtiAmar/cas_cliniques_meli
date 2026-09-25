@@ -1,7 +1,7 @@
 {
 "id": "L2-06",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Sarcoïdose avec hypercalcémie et atteinte rénale",
 "chapitres": ["fiches_complementaires/05_sarcoidose", "cours/05_granulomatoses", "cours/13_traitements", "cours/11_maladies_rares", "referentiel_transversal"],
 "liens_transversaux": ["Démarche devant une hypercalcémie (hyperparathyroïdie, NEM, néoplasie, vitamine D)", "Type d'atteinte rénale : tubulo-interstitielle", "Corticothérapie et supplémentation vitamino-calcique ; hydroxychloroquine"],

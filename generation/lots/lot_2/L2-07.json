@@ -1,7 +1,7 @@
 {
 "id": "L2-07",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Syndrome des anti-synthétases (anti-Jo1) avec pneumopathie interstitielle",
 "chapitres": ["cours/08_myopathies", "cours/04_sclerodermie", "cours/13_traitements", "cours/12_deficits_immunitaires", "referentiel_transversal"],
 "liens_transversaux": ["Syndrome myogène", "Phénomène de Raynaud secondaire", "Diagnostic différentiel avec la sclérodermie systémique", "Méthotrexate : pneumopathie médicamenteuse"],

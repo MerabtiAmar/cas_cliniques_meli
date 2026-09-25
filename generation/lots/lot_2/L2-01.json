@@ -1,7 +1,7 @@
 {
 "id": "L2-01",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Maladie de Behçet à forme digestive (entéro-Behçet)",
 "chapitres": ["cours/03_behcet", "cours/05_granulomatoses", "cours/13_traitements", "fiches_complementaires/05_sarcoidose", "referentiel_transversal"],
 "liens_transversaux": ["Diagnostics différentiels : tuberculose intestinale et maladie de Crohn (granulomatoses)", "Interpréter l'hémogramme et le bilan inflammatoire", "Corticoïdes, azathioprine, anti-TNF-α : précautions et surveillance"],

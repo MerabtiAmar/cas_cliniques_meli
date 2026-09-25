@@ -1,7 +1,7 @@
 {
 "id": "L2-03",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Maladie de Behçet à forme oculaire (uvéite postérieure avec vascularite rétinienne)",
 "chapitres": ["cours/03_behcet", "fiches_complementaires/05_sarcoidose", "cours/13_traitements", "cours/05_granulomatoses", "cours/10_vascularites", "referentiel_transversal"],
 "liens_transversaux": ["Diagnostics différentiels d'une uvéite : sarcoïdose, tuberculose, GPA", "Bilan inflammatoire négatif au cours du Behçet", "Glaucome cortisonique ; azathioprine et grossesse"],

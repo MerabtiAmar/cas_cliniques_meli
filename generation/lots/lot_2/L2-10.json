@@ -1,7 +1,7 @@
 {
 "id": "L2-10",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Syndrome de Gougerot-Sjögren avec pneumopathie interstitielle puis atteinte neurologique centrale",
 "chapitres": ["cours/06_gougerot_sjogren", "fiches_complementaires/05_sarcoidose", "cours/13_traitements", "cours/01_lupus", "cours/04_sclerodermie", "referentiel_transversal"],
 "liens_transversaux": ["Diagnostics différentiels du syndrome sec : médicaments, VHC, sarcoïdose, amylose", "Pneumopathie interstitielle : imagerie et EFR", "Atteinte médullaire : pseudo-SEP du Gougerot-Sjögren ou du lupus", "Bolus de corticoïdes et cyclophosphamide"],

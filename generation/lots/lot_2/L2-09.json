@@ -1,7 +1,7 @@
 {
 "id": "L2-09",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Syndrome de Gougerot-Sjögren primitif et grossesse (BAV congénital, lupus néonatal)",
 "chapitres": ["cours/06_gougerot_sjogren", "cours/01_lupus", "cours/13_traitements", "cours/02_sapl", "referentiel_transversal"],
 "liens_transversaux": ["Interpréter l'hémogramme et une VS élevée avec CRP normale", "Diagnostic différentiel avec un lupus ; anti-SSA et lupus néonatal", "Traitements compatibles avec la grossesse ; anticorps antiphospholipides"],

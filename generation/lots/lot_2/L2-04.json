@@ -1,7 +1,7 @@
 {
 "id": "L2-04",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Sarcoïdose aiguë : syndrome de Löfgren",
 "chapitres": ["fiches_complementaires/05_sarcoidose", "cours/05_granulomatoses", "cours/03_behcet", "cours/10_vascularites", "cours/13_traitements", "referentiel_transversal"],
 "liens_transversaux": ["Caractériser une atteinte articulaire", "Érythème noueux : sarcoïdose, tuberculose, Behçet, vascularites", "Interpréter le bilan d'une sarcoïdose", "Indication des AINS ; abstention thérapeutique"],

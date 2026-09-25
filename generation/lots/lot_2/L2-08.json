@@ -1,7 +1,7 @@
 {
 "id": "L2-08",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Myopathie nécrosante auto-immune à anti-HMGCR associée aux statines",
 "chapitres": ["cours/08_myopathies", "cours/13_traitements", "cours/11_maladies_rares", "fiches_complementaires/10_ppr", "referentiel_transversal"],
 "liens_transversaux": ["Syndrome myogène et interprétation des enzymes musculaires", "Diagnostics différentiels : myopathies toxique, métaboliques, à inclusions, myasthénie", "Myopathie cortisonique et bilan métabolique sous corticoïdes"],
