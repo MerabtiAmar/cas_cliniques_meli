@@ -1,7 +1,7 @@
 {
 "id": "L2-01",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Maladie de Behçet à forme digestive (entéro-Behçet)",
 "chapitres": ["cours/03_behcet", "cours/05_granulomatoses", "cours/13_traitements", "fiches_complementaires/05_sarcoidose", "referentiel_transversal"],
 "liens_transversaux": ["Diagnostics différentiels : tuberculose intestinale et maladie de Crohn (granulomatoses)", "Interpréter l'hémogramme et le bilan inflammatoire", "Corticoïdes, azathioprine, anti-TNF-α : précautions et surveillance"],
@@ -22,8 +22,7 @@
 {"texte": "Critères ICBD remplis : 6 points (seuil ≥ 4)", "points": 1, "justification": "Aphtose buccale récidivante (2), ulcération scrotale cicatricielle (2), pseudo-folliculite sans corticoïdes (1), papule de 3 mm à 48 h au test pathergique (1)", "sources": ["cours/03_behcet.md|p.4 (critères ICBD 2014, transcription)"]},
 {"texte": "Critères ISG 1990 remplis : aphtose buccale obligatoire et au moins 2 items facultatifs", "points": 0.25, "justification": "Aphtose génitale, atteinte cutanée, test pathergique positif", "sources": ["cours/03_behcet.md|p.4 (critères ISG 1990)"]},
 {"texte": "Diagnostic clinique, sans test biologique ; l'atteinte digestive ne figure pas dans les critères", "points": 0.5, "justification": "Le diagnostic repose ici sur les signes extradigestifs ; l'atteinte iléo-cæcale reste à rattacher après élimination des autres causes", "sources": ["cours/03_behcet.md|p.4 (biologie et diagnostic positif)"]}],
-"signes_negatifs": ["Examen ophtalmologique normal", "Examen neurologique normal", "Pouls perçus, mollets souples"],
-"piege": "N'ajoutez aucun point pour l'atteinte digestive : elle ne fait pas partie des items ICBD. Des aphtes plus fréquents depuis l'arrêt du tabac sont typiques du Behçet (QROC Behçet Q1), ce n'est pas un argument contre.", "a_verifier": false},
+"signes_negatifs": ["Examen ophtalmologique normal", "Examen neurologique normal", "Pouls perçus, mollets souples"], "piege": "N'ajoutez aucun point pour l'atteinte digestive : elle ne fait pas partie des items ICBD. Des aphtes plus fréquents depuis l'arrêt du tabac sont typiques du Behçet (QROC Behçet Q1), ce n'est pas un argument contre.", "a_verifier": false},
 {"n": 2, "enonce": "Quelles sont les caractéristiques de l'atteinte digestive de la maladie de Behçet ? Précisez celles que présente ce patient.", "competence": "semiologie", "points": 2.5,
 "elements_attendus": [
 {"texte": "Tout le tube digestif peut être atteint, avec une prédominance iléo-cæcale ; fréquence de 5 à 30 %", "points": 0.75, "justification": "Douleurs de la fosse iliaque droite et diarrhée", "sources": ["cours/03_behcet.md|p.3 (atteinte digestive)"]},
@@ -73,8 +72,7 @@
 {"texte": "Absence de nécrose caséeuse et de cellules géantes de Langhans", "points": 0.25, "justification": "Granulome nécrosant à cellules de Langhans : tuberculose", "sources": ["cours/05_granulomatoses.md|p.7-8 (cellules géantes ; nécrose)", "fiches_complementaires/05_sarcoidose.md|Histologie : le granulome"]},
 {"texte": "Recherche de BK sur les biopsies : examen direct et culture négatifs", "points": 0.5, "justification": "La culture des prélèvements est systématique ; une PCR négative n'élimine pas la tuberculose", "sources": ["fiches_complementaires/05_sarcoidose.md|Diagnostics différentiels (tuberculose)"]},
 {"texte": "Quantiféron négatif et radiographie thoracique normale", "points": 0.5, "justification": "Pas d'argument pour une tuberculose latente ou pulmonaire ; bilan aussi exigé avant une biothérapie", "sources": ["examens/cas_cliniques.md|Cas N°04 Q3", "fiches_complementaires/05_sarcoidose.md|Traitement : autres molécules (infliximab)"]}],
-"signes_negatifs": [],
-"piege": "Divergence : le corrigé du Cas N°04 écarte la tuberculose sur une IDR anergique et un Quantiféron négatif ; le PNDS sarcoïdose juge ces tests peu fiables et impose la culture des prélèvements. Pour l'examen, citez le Quantiféron comme le corrigé et ajoutez la culture des biopsies. [fiches_complementaires/05_sarcoidose.md|Diagnostic positif (⚠️ Divergence)]", "a_verifier": false}]},
+"signes_negatifs": [], "piege": "Divergence : le corrigé du Cas N°04 écarte la tuberculose sur une IDR anergique et un Quantiféron négatif ; le PNDS sarcoïdose juge ces tests peu fiables et impose la culture des prélèvements. Pour l'examen, citez le Quantiféron comme le corrigé et ajoutez la culture des biopsies. [fiches_complementaires/05_sarcoidose.md|Diagnostic positif (⚠️ Divergence)]", "a_verifier": false}]},
 {"texte": "Les résultats sont les suivants. Le diagnostic d'entéro-Behçet est retenu.",
 "examens": [
 {"groupe": "Histologie", "parametre": "Biopsies iléo-cæcales", "cle": null, "valeur": "ulcérations avec vascularite lymphocytaire, sans granulome ni nécrose caséeuse", "unite": ""},

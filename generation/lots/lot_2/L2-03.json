@@ -1,7 +1,7 @@
 {
 "id": "L2-03",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Maladie de Behçet à forme oculaire (uvéite postérieure avec vascularite rétinienne)",
 "chapitres": ["cours/03_behcet", "fiches_complementaires/05_sarcoidose", "cours/13_traitements", "cours/05_granulomatoses", "cours/10_vascularites", "referentiel_transversal"],
 "liens_transversaux": ["Diagnostics différentiels d'une uvéite : sarcoïdose, tuberculose, GPA", "Bilan inflammatoire négatif au cours du Behçet", "Glaucome cortisonique ; azathioprine et grossesse"],
@@ -10,7 +10,7 @@
 "points_total": 20,
 "patient": {"sexe": "F", "age": 28},
 "etapes": [
-{"texte": "Mme L.A âgée de 28 ans, mariée, sans enfant, sans antécédents, consulte pour une baisse progressive de la vision des deux yeux depuis 3 semaines, avec une vision trouble et des « mouches volantes », sans douleur oculaire. Elle rapporte des aphtes buccaux douloureux récidivant 4 à 5 fois par an depuis 5 ans, une ulcération vulvaire douloureuse il y a 6 mois et des « boutons » du dos. Elle n'a ni fièvre, ni toux, ni dyspnée, ni arthralgies, ni céphalées, ni troubles digestifs. Sa seule contraception est un dispositif intra-utérin.\nExamen : TA 115/70 mmHg, FC 76/min, FR 16 cycles/min, T° 37 °C, poids 60 kg. Un aphte du sillon gingivo-labial à fond « beurre frais » ; cicatrice dépigmentée de la grande lèvre droite ; lésions papulo-pustuleuses du dos (pseudo-folliculite). Pas d'érythème noueux, pas de nodule ni de plaque cutanée infiltrée, pas d'adénopathie, pas d'hépatosplénomégalie, pas de parotidomégalie. Auscultation cardio-pulmonaire normale, pouls perçus, examen neurologique normal. La bandelette urinaire est négative.",
+{"texte": "Mme L.A âgée de 28 ans, mariée, sans enfant, sans antécédents, consulte pour une baisse progressive de la vision des deux yeux depuis 3 semaines, avec une vision trouble et des « mouches volantes », sans douleur oculaire. Elle rapporte des aphtes buccaux douloureux récidivant 4 à 5 fois par an depuis 5 ans, une ulcération vulvaire douloureuse il y a 6 mois et des « boutons » du dos. Elle n'a ni fièvre, ni toux, ni dyspnée, ni rhinite croûteuse ou sinusite, ni arthralgies, ni céphalées, ni troubles digestifs. Sa seule contraception est un dispositif intra-utérin.\nExamen : TA 115/70 mmHg, FC 76/min, FR 16 cycles/min, T° 37 °C, poids 60 kg. Un aphte du sillon gingivo-labial à fond « beurre frais » ; cicatrice dépigmentée de la grande lèvre droite ; lésions papulo-pustuleuses du dos (pseudo-folliculite). Pas d'érythème noueux, pas de nodule ni de plaque cutanée infiltrée, pas d'adénopathie, pas d'hépatosplénomégalie, pas de parotidomégalie. Auscultation cardio-pulmonaire normale, pouls perçus, examen neurologique normal. La bandelette urinaire est négative.",
 "examens": [
 {"groupe": "Ophtalmologie", "parametre": "Examen ophtalmologique", "cle": null, "valeur": "acuité visuelle 4/10 à droite et 6/10 à gauche ; hyalite bilatérale ; vascularite rétinienne occlusive bilatérale avec hémorragies et exsudats ; pas de précipités rétro-cornéens granulomateux ; pression intraoculaire normale", "unite": ""},
 {"groupe": "Tests", "parametre": "Test pathergique (lecture à 48 h)", "cle": null, "valeur": "négatif", "unite": ""}],
@@ -25,14 +25,10 @@
 "signes_negatifs": ["Pas de précipités rétro-cornéens granulomateux", "Pas de douleur oculaire", "Pression intraoculaire normale"], "piege": "", "a_verifier": false},
 {"n": 2, "enonce": "Citez les manifestations cutanéo-muqueuses de la maladie de Behçet. Lesquelles présente cette patiente ?", "competence": "semiologie", "points": 2,
 "elements_attendus": [
-{"texte": "Aphtose buccale récidivante", "points": 0.25, "justification": "Présente : 4 à 5 poussées par an, aphte à fond « beurre frais »", "sources": ["cours/03_behcet.md|p.1 (aphtes buccaux)"]},
-{"texte": "Aphtose génitale, laissant des cicatrices dépigmentées", "points": 0.25, "justification": "Présente : cicatrice de la grande lèvre droite", "sources": ["cours/03_behcet.md|p.2 (aphtes génitaux)"]},
-{"texte": "Pseudo-folliculite, lésions papulo-pustuleuses", "points": 0.25, "justification": "Présente : lésions du dos", "sources": ["cours/03_behcet.md|p.2 (autres lésions cutanées)", "examens/cas_cliniques.md|Cas N°09 Q2"]},
-{"texte": "Érythème noueux", "points": 0.25, "justification": "Absent", "sources": ["cours/03_behcet.md|p.2 (autres lésions cutanées)", "examens/cas_cliniques.md|Cas N°09 Q2"]},
-{"texte": "Ulcérations cutanées, véritables aphtes cutanés", "points": 0.25, "justification": "Absentes", "sources": ["cours/03_behcet.md|p.2 (autres lésions cutanées)"]},
-{"texte": "Hyperréactivité cutanée aux agressions (test pathergique)", "points": 0.25, "justification": "Test pathergique négatif chez elle", "sources": ["cours/03_behcet.md|p.2 (hyperréactivité cutanée aspécifique)"]},
-{"texte": "Phlébites superficielles", "points": 0.25, "justification": "Absentes", "sources": ["cours/03_behcet.md|p.2 (autres lésions cutanées)"]},
-{"texte": "Dermatoses neutrophiliques : syndrome de Sweet, pyoderma gangrenosum", "points": 0.25, "justification": "Absentes", "sources": ["cours/03_behcet.md|p.4 (lésions cutanées, transcription)"]}],
+{"texte": "Aphtose buccale récidivante et aphtose génitale laissant des cicatrices dépigmentées", "points": 0.5, "justification": "Présentes : 4 à 5 poussées buccales par an, cicatrice de la grande lèvre droite", "sources": ["cours/03_behcet.md|p.1-2 (aphtes buccaux et génitaux)"]},
+{"texte": "Pseudo-folliculite (lésions papulo-pustuleuses) et érythème noueux", "points": 0.5, "justification": "Pseudo-folliculite du dos présente ; pas d'érythème noueux", "sources": ["examens/cas_cliniques.md|Cas N°09 Q2", "cours/03_behcet.md|p.2 (autres lésions cutanées)"]},
+{"texte": "Hyperréactivité cutanée aux agressions (test pathergique) ; ulcérations cutanées, véritables aphtes cutanés", "points": 0.5, "justification": "Test pathergique négatif ; pas d'ulcération cutanée", "sources": ["cours/03_behcet.md|p.2 (autres lésions cutanées)"]},
+{"texte": "Phlébites superficielles ; dermatoses neutrophiliques (syndrome de Sweet, pyoderma gangrenosum)", "points": 0.5, "justification": "Absentes", "sources": ["cours/03_behcet.md|p.4 (lésions cutanées, transcription)"]}],
 "signes_negatifs": ["Pas d'érythème noueux", "Test pathergique négatif"], "piege": "", "a_verifier": false},
 {"n": 3, "enonce": "Quel diagnostic retenez-vous ? Justifiez votre réponse en appliquant les critères de classification.", "competence": "diagnostic_positif", "points": 2.5,
 "elements_attendus": [
@@ -105,7 +101,6 @@
 {"texte": "Poursuivre l'azathioprine, immunosuppresseur utilisable pendant la grossesse", "points": 0.75, "justification": "Azathioprine 150 mg/j efficace", "sources": ["examens/qroc_par_cours.md|Traitements Q1 (P2 2026)"]},
 {"texte": "Corticoïdes maintenus à la dose minimale efficace", "points": 0.25, "justification": "Prednisone 5 mg/j", "sources": ["cours/13_traitements.md|p.2 (dose minimale efficace)"]},
 {"texte": "Le cyclophosphamide, tératogène, serait contre-indiqué si une intensification devenait nécessaire", "points": 0.25, "justification": "Effet tératogène", "sources": ["cours/13_traitements.md|p.2 (cyclophosphamide)"]}],
-"signes_negatifs": [],
-"piege": "Le corpus ne traite pas la compatibilité de la colchicine ni des anti-TNF-α avec la grossesse (à vérifier) : seule l'azathioprine y est explicitement citée comme utilisable.", "a_verifier": false}]}],
+"signes_negatifs": [], "piege": "Le corpus ne traite pas la compatibilité de la colchicine ni des anti-TNF-α avec la grossesse (à vérifier) : seule l'azathioprine y est explicitement citée comme utilisable.", "a_verifier": false}]}],
 "synthese": ["Behçet oculaire : uvéite postérieure bilatérale avec hyalite et vascularite rétinienne, évolution par poussées vers la cécité ; un test pathergique négatif et l'absence de syndrome inflammatoire n'éliminent pas le diagnostic.", "Uvéite : éliminer sarcoïdose (radiographie, ECA, lymphocytes, calcémie), tuberculose (Quantiféron) et GPA (ANCA) ; traitement par corticoïdes + azathioprine, anti-TNF-α ou interféron α si réfractaire.", "Hypertonie oculaire : glaucome cortisonique ou par séclusion pupillaire ; grossesse programmée en rémission, azathioprine poursuivie, jamais d'arrêt brutal du traitement."]
 }

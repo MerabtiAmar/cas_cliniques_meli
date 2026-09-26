@@ -1,7 +1,7 @@
 {
 "id": "L2-04",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Sarcoïdose aiguë : syndrome de Löfgren",
 "chapitres": ["fiches_complementaires/05_sarcoidose", "cours/05_granulomatoses", "cours/03_behcet", "cours/10_vascularites", "cours/13_traitements", "referentiel_transversal"],
 "liens_transversaux": ["Caractériser une atteinte articulaire", "Érythème noueux : sarcoïdose, tuberculose, Behçet, vascularites", "Interpréter le bilan d'une sarcoïdose", "Indication des AINS ; abstention thérapeutique"],
@@ -31,7 +31,7 @@
 "elements_attendus": [
 {"texte": "Syndrome de Löfgren, forme aiguë de sarcoïdose", "points": 0.75, "justification": "Femme jeune, tableau aigu fébrile", "sources": ["fiches_complementaires/05_sarcoidose.md|Syndrome de Löfgren"]},
 {"texte": "Association adénopathies hilaires bilatérales, érythème noueux et bi-arthrite des chevilles", "points": 0.75, "justification": "Les trois éléments sont présents", "sources": ["fiches_complementaires/05_sarcoidose.md|Syndrome de Löfgren"]},
-{"texte": "Fièvre, habituelle dans le Löfgren", "points": 0.25, "justification": "38,3 °C ; la fièvre est rare dans les autres formes de sarcoïdose", "sources": ["fiches_complementaires/05_sarcoidose.md|Circonstances de découverte"]},
+{"texte": "Fièvre, habituelle dans le Löfgren", "points": 0.25, "justification": "38,3 °C ; fièvre rare dans la sarcoïdose hors Löfgren, Heerfordt, atteinte hépatique ou rénale", "sources": ["fiches_complementaires/05_sarcoidose.md|Circonstances de découverte"]},
 {"texte": "Pas de biopsie nécessaire ; biopsier l'érythème noueux est inutile (pas de granulome)", "points": 0.5, "justification": "Le Löfgren fait partie des formes diagnostiquées sans histologie", "sources": ["fiches_complementaires/05_sarcoidose.md|Syndrome de Löfgren", "fiches_complementaires/05_sarcoidose.md|Diagnostic positif"]},
 {"texte": "Diagnostic retenu après exclusion des autres causes, d'abord la tuberculose", "points": 0.25, "justification": "Critère d'exclusion des autres granulomatoses", "sources": ["fiches_complementaires/05_sarcoidose.md|Diagnostic positif"]}],
 "signes_negatifs": [], "piege": "", "a_verifier": false},
@@ -49,7 +49,7 @@
 {"texte": "Calcémie, calciurie des 24 h, créatinine, bilan hépatique", "points": 0.5, "justification": "Hypercalcémie ou hypercalciurie, atteinte rénale ou hépatique", "sources": ["fiches_complementaires/05_sarcoidose.md|Bilan initial"]},
 {"texte": "ECG", "points": 0.5, "justification": "Dépister un trouble de conduction, urgence de la sarcoïdose", "sources": ["fiches_complementaires/05_sarcoidose.md|Bilan initial", "fiches_complementaires/05_sarcoidose.md|Atteinte cardiaque"]},
 {"texte": "Examen ophtalmologique", "points": 0.25, "justification": "Uvéite, parfois latente", "sources": ["fiches_complementaires/05_sarcoidose.md|Atteintes extra-thoraciques (œil)"]},
-{"texte": "EFR et scanner thoracique", "points": 0.25, "justification": "Retentissement fonctionnel ; atteinte parenchymateuse infraradiologique", "sources": ["fiches_complementaires/05_sarcoidose.md|Bilan initial"]},
+{"texte": "EFR et scanner thoracique", "points": 0.25, "justification": "Bilan systématique de l'atteinte médiastino-pulmonaire", "sources": ["fiches_complementaires/05_sarcoidose.md|Bilan initial"]},
 {"texte": "IDR à la tuberculine et Quantiféron", "points": 0.5, "justification": "Éliminer une tuberculose ; anergie tuberculinique attendue dans la sarcoïdose", "sources": ["fiches_complementaires/05_sarcoidose.md|Biologie (anergie tuberculinique)", "examens/cas_cliniques.md|Cas N°04 Q3"]}],
 "signes_negatifs": [], "piege": "", "a_verifier": false}]},
 {"texte": "Le bilan revient.",
@@ -80,8 +80,7 @@
 {"texte": "ECA élevée, marqueur non spécifique", "points": 0.5, "justification": "96 UI/L (> 70) ; sensibilité et spécificité imparfaites", "sources": ["fiches_complementaires/05_sarcoidose.md|Biologie"]},
 {"texte": "Anergie tuberculinique et Quantiféron négatif : pas d'argument pour une tuberculose", "points": 0.5, "justification": "IDR 2 mm, Quantiféron négatif", "sources": ["examens/cas_cliniques.md|Cas N°04 Q3", "fiches_complementaires/05_sarcoidose.md|Biologie (anergie tuberculinique)"]},
 {"texte": "Pas d'atteinte extra-thoracique sévère", "points": 0.25, "justification": "Calcémie, créatinine, PAL, ECG et examen ophtalmologique normaux", "sources": ["fiches_complementaires/05_sarcoidose.md|Bilan initial"]}],
-"signes_negatifs": ["Calcémie normale", "ECG normal", "Examen ophtalmologique normal"],
-"piege": "Une IDR positive serait atypique dans la sarcoïdose et ferait reconsidérer une tuberculose. Divergence : le corrigé (Cas N°04 Q3) écarte la tuberculose sur l'IDR anergique et le Quantiféron négatif ; le PNDS juge ces tests faussement négatifs possibles. Pour l'examen, suivez le corrigé. [fiches_complementaires/05_sarcoidose.md|Diagnostic positif (⚠️ Divergence)]", "a_verifier": false},
+"signes_negatifs": ["Calcémie normale", "ECG normal", "Examen ophtalmologique normal"], "piege": "Une IDR positive serait atypique dans la sarcoïdose et ferait reconsidérer une tuberculose. Divergence : le corrigé (Cas N°04 Q3) écarte la tuberculose sur l'IDR anergique et le Quantiféron négatif ; le PNDS juge ces tests faussement négatifs possibles. Pour l'examen, suivez le corrigé. [fiches_complementaires/05_sarcoidose.md|Diagnostic positif (⚠️ Divergence)]", "a_verifier": false},
 {"n": 7, "enonce": "Quelle prise en charge proposez-vous ? Quel est le pronostic ?", "competence": "traitement", "points": 2,
 "elements_attendus": [
 {"texte": "Pas de corticothérapie : abstention du traitement de fond", "points": 0.75, "justification": "Forme bénigne sans atteinte menaçante ; la moitié des sarcoïdoses ne nécessite aucun traitement", "sources": ["fiches_complementaires/05_sarcoidose.md|Traitement : indications"]},

@@ -1,7 +1,7 @@
 {
 "id": "L2-06",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Sarcoïdose avec hypercalcémie et atteinte rénale",
 "chapitres": ["fiches_complementaires/05_sarcoidose", "cours/05_granulomatoses", "cours/13_traitements", "cours/11_maladies_rares", "referentiel_transversal"],
 "liens_transversaux": ["Démarche devant une hypercalcémie (hyperparathyroïdie, NEM, néoplasie, vitamine D)", "Type d'atteinte rénale : tubulo-interstitielle", "Corticothérapie et supplémentation vitamino-calcique ; hydroxychloroquine"],
@@ -10,7 +10,7 @@
 "points_total": 20,
 "patient": {"sexe": "M", "age": 53},
 "etapes": [
-{"texte": "Mr A.O âgé de 53 ans, ouvrier dans une cimenterie, hypertendu traité par amlodipine, consulte pour une asthénie intense depuis 3 mois, une soif permanente (il boit près de 4 litres par jour), des mictions fréquentes y compris la nuit, des nausées, une constipation et un amaigrissement de 4 kg. Il tousse (toux sèche) depuis 6 mois. Il n'a ni fièvre, ni douleurs osseuses, ni colique néphrétique, et ne prend ni vitamine D, ni calcium, ni diurétique. Il n'a pas d'antécédent familial de chirurgie thyroïdienne, parathyroïdienne ou hypophysaire.\nExamen : TA 150/85 mmHg, FC 90/min, T° 37 °C, poids 78 kg ; muqueuses sèches. Papules violacées infiltrées sur une ancienne cicatrice de l'avant-bras gauche. Pas d'adénopathie périphérique, pas d'hépatosplénomégalie, pas d'œdème. Auscultation pulmonaire normale, examen neurologique normal. Bandelette urinaire : leucocytes ++, protéines +, sang et nitrites négatifs.\nSon médecin traitant a demandé le bilan suivant.",
+{"texte": "Mr A.O âgé de 53 ans, ouvrier dans une cimenterie, hypertendu traité par amlodipine, consulte pour une asthénie intense depuis 3 mois, une soif permanente (il boit près de 4 litres par jour), des mictions fréquentes y compris la nuit, des nausées, une constipation et un amaigrissement de 4 kg. Il tousse (toux sèche) depuis 6 mois. Il n'a ni fièvre, ni douleurs osseuses, ni colique néphrétique, ni palpitations, ni malaise, ni trouble visuel, et ne prend ni vitamine D, ni calcium, ni diurétique. Il n'a pas d'antécédent familial de chirurgie thyroïdienne, parathyroïdienne ou hypophysaire.\nExamen : TA 150/85 mmHg, FC 90/min, T° 37 °C, poids 78 kg ; muqueuses sèches. Papules violacées infiltrées sur une ancienne cicatrice de l'avant-bras gauche. Pas d'adénopathie périphérique, pas d'hépatosplénomégalie, pas d'œdème. Auscultation pulmonaire normale, examen neurologique normal. Bandelette urinaire : leucocytes ++, protéines +, sang et nitrites négatifs.\nSon médecin traitant a demandé le bilan suivant.",
 "examens": [
 {"groupe": "Biochimie", "parametre": "Calcémie", "cle": "calcemie", "valeur": 122, "unite": "mg/L"},
 {"groupe": "Biochimie", "parametre": "Créatininémie", "cle": "creatinine", "valeur": 21, "unite": "mg/L"},
@@ -80,8 +80,7 @@
 {"texte": "Mesures associées : prise le matin, régime hyposodé, pauvre en sucres, riche en protides ; potassium ; surveillance de la TA", "points": 0.5, "justification": "Corticothérapie prolongée chez un hypertendu", "sources": ["cours/13_traitements.md|p.2 (modalités de prescription)"]},
 {"texte": "Pas de calcium ni de vitamine D tant que dure l'hypercalcémie ; les discuter ensuite après dosage des 25-OH et 1,25-(OH)2 vitamine D", "points": 0.5, "justification": "Le granulome transforme la vitamine D en calcitriol", "sources": ["fiches_complementaires/05_sarcoidose.md|Hypercalcémie et hypercalciurie", "fiches_complementaires/05_sarcoidose.md|Traitement : corticothérapie"]},
 {"texte": "Avant les corticoïdes : tuberculose latente et anguillulose", "points": 0.25, "justification": "Corticothérapie prolongée", "sources": ["fiches_complementaires/05_sarcoidose.md|Traitement : corticothérapie (avant traitement)"]}],
-"signes_negatifs": [],
-"piege": "Divergence : le cours prescrit calcium et vitamine D sous corticoïdes ; le PNDS les encadre dans la sarcoïdose (risque d'hypercalcémie) et fait doser la vitamine D avant toute supplémentation. À l'examen, citez la supplémentation du cours, mais précisez qu'elle est différée tant que dure l'hypercalcémie. [fiches_complementaires/05_sarcoidose.md|Traitement : corticothérapie (⚠️ Divergence)]", "a_verifier": false}]},
+"signes_negatifs": [], "piege": "Divergence : le cours prescrit calcium et vitamine D sous corticoïdes ; le PNDS les encadre dans la sarcoïdose (risque d'hypercalcémie) et fait doser la vitamine D avant toute supplémentation. À l'examen, citez la supplémentation du cours, mais précisez qu'elle est différée tant que dure l'hypercalcémie. [fiches_complementaires/05_sarcoidose.md|Traitement : corticothérapie (⚠️ Divergence)]", "a_verifier": false}]},
 {"texte": "Deux ans plus tard, la corticothérapie est arrêtée depuis 4 mois, après normalisation de la calcémie et amélioration de la fonction rénale. En septembre, il consulte de nouveau pour asthénie, soif et nausées. En juin, son médecin traitant lui a prescrit du calcium et de la vitamine D « pour protéger ses os », et il a passé l'été au bord de la mer.",
 "age": 55,
 "examens": [
@@ -106,8 +105,7 @@
 {"texte": "Épargne cortisonique : hydroxychloroquine 400 mg/j, efficace sur l'hypercalcémie modérée", "points": 0.75, "justification": "Rechute à l'arrêt des corticoïdes", "sources": ["fiches_complementaires/05_sarcoidose.md|Traitement : autres molécules", "cours/13_traitements.md|p.1 (hydroxychloroquine)"]},
 {"texte": "Avant et sous hydroxychloroquine : ECG initial, examen ophtalmologique (fond d'œil, OCT, champ visuel, électrorétinogramme)", "points": 0.5, "justification": "Surveillance de la tolérance", "sources": ["fiches_complementaires/05_sarcoidose.md|Traitement : autres molécules (ECG avant)", "examens/qroc_par_cours.md|Traitements Q3 (P1 2026)"]},
 {"texte": "Toxicité rétinienne : effet secondaire principal, qui impose l'arrêt", "points": 0.25, "justification": "Traitement prolongé", "sources": ["cours/13_traitements.md|p.1 (hydroxychloroquine)", "examens/qroc_par_cours.md|Traitements Q2 (P1 2026)"]}],
-"signes_negatifs": [],
-"piege": "Divergence : hydroxychloroquine à 400 mg/j selon le cours, 200 à 400 mg/j sans dépasser 5 mg/kg selon le PNDS. Pour l'examen, suivez le cours. [fiches_complementaires/05_sarcoidose.md|Traitement : autres molécules (⚠️ Divergence)]", "a_verifier": false},
+"signes_negatifs": [], "piege": "Divergence : hydroxychloroquine à 400 mg/j selon le cours, 200 à 400 mg/j sans dépasser 5 mg/kg selon le PNDS. Pour l'examen, suivez le cours. [fiches_complementaires/05_sarcoidose.md|Traitement : autres molécules (⚠️ Divergence)]", "a_verifier": false},
 {"n": 8, "enonce": "Quelle surveillance au long cours proposez-vous ? Quel est le pronostic ?", "competence": "surveillance", "points": 2.5,
 "elements_attendus": [
 {"texte": "Au moins chaque année : calcémie, créatinine, PAL, ECG ; ECA, élevée au départ", "points": 0.5, "justification": "Atteinte rénale et hypercalcémie récidivante", "sources": ["fiches_complementaires/05_sarcoidose.md|Surveillance"]},
