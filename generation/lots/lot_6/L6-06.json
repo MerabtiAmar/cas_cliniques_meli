@@ -1,7 +1,7 @@
 {
 "id": "L6-06",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Lupus érythémateux systémique compliqué d'une hémorragie intra-alvéolaire avec néphropathie lupique",
 "chapitres": ["cours/01_lupus", "cours/10_vascularites", "cours/13_traitements", "cours/02_sapl", "referentiel_transversal"],
 "liens_transversaux": ["Interpréter un hémogramme : déglobulisation non hémolytique, cytopénies lupiques", "Syndrome pneumo-rénal : lupus ou vascularite à ANCA", "Type d'atteinte rénale : syndrome néphrotique impur", "Cyclophosphamide : insuffisance ovarienne ; lupus et projet de grossesse"],

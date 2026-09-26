@@ -2,6 +2,10 @@
 
 Validé par l'utilisateur le 25/09/2026. **Validation autonome** : pas de relecture humaine lot par lot, on enchaîne les lots dès qu'ils sont vérifiés. Examen dans moins d'un mois : on génère par ordre de fréquence à l'examen, pour que les premiers lots soient les plus utiles.
 
+## État au 26/09/2026
+
+Les 60 cas sont produits : 5 cas pilotes (`valide_etudiant`) et 55 cas des lots 1 à 6 (`verifie_ia`), chacun avec son rapport `verification.md` et son rendu `lot_N.pdf`. Les 60 cas passent `valider.py` sans erreur. 38 questions sur 543 contiennent un élément hors corpus (`a_verifier`), signalé dans l'application. Coût réel : `generation/lots/consommation.md`. L'application Android (`application/`) embarque ces cas, les 9 cas d'annales et les 190 QROC.
+
 ## Avant le lot 1
 
 1. Rédiger les fiches manquantes, sur le modèle de `corpus/fiches_complementaires/07_still.md` (validée par l'étudiant) :

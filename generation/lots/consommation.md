@@ -9,5 +9,7 @@ Objectif : environ 1,2 $ par cas au format compact (PLAN_60.md). Calibrage de l'
 | 3 | 12,67 $ (Opus, 10 cas) | 3,26 $ (Sonnet) | 15,93 $ | 1,59 $ | |
 | 4 | 9,81 $ (Opus, 9 cas) | 3,34 $ (Sonnet) | 13,15 $ | 1,46 $ | |
 | 5 | 8,32 $ (Opus, 8 cas) | 1,81 $ (Sonnet) | 10,13 $ | 1,27 $ | |
+| 6 | 9,73 $ (Opus, 8 cas) | 2,45 $ (Sonnet) | 12,18 $ | 1,52 $ | |
+| **2 à 6** | **54,72 $** (45 cas) | **12,95 $** | **67,67 $** | **1,50 $** | |
 
-Session cloud du 25/09/2026 : la session principale (plans des lots 3 à 6, application Android, corrections) a coûté 10,7 $ en plus.
+Session cloud des 25 et 26/09/2026 : la session principale (plans des lots 3 à 6, application Android, application des corrections, rendus) a coûté 15,7 $ en plus, soit 86,3 $ au total pour les lots 2 à 6, la vérification du lot 1 et l'application.

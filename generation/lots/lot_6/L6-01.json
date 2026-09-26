@@ -1,7 +1,7 @@
 {
 "id": "L6-01",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Granulomatose éosinophilique avec polyangéite (Churg-Strauss) compliquée d'une myocardite",
 "chapitres": ["cours/10_vascularites", "cours/13_traitements", "cours/05_granulomatoses", "cours/06_gougerot_sjogren", "fiches_complementaires/10_horton", "referentiel_transversal"],
 "liens_transversaux": ["Interpréter un hémogramme : hyperéosinophilie", "Multinévrite : manifestation neurologique des vascularites", "Diagnostic différentiel des vascularites à ANCA et de la PAN", "Bolus de corticoïdes et cyclophosphamide : posologie et précautions"],

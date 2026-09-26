@@ -1,7 +1,7 @@
 {
 "id": "L6-02",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Vascularite à IgA (purpura rhumatoïde) de l'adulte avec atteinte digestive et rénale",
 "chapitres": ["cours/10_vascularites", "cours/06_gougerot_sjogren", "cours/01_lupus", "cours/13_traitements", "cours/09_amyloses", "referentiel_transversal"],
 "liens_transversaux": ["Purpura vasculaire : vascularite à IgA, cryoglobulinémie, vascularites à ANCA, lupus, endocardite", "Caractériser une atteinte articulaire", "Type d'atteinte rénale : syndrome glomérulaire, syndrome néphrotique impur", "AINS : toxicité digestive et rénale"],

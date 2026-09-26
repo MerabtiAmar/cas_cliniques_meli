@@ -1,7 +1,7 @@
 {
 "id": "L6-08",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Syndrome de Gougerot-Sjögren primitif révélé par une paralysie hypokaliémique (acidose tubulaire distale)",
 "chapitres": ["cours/06_gougerot_sjogren", "fiches_complementaires/05_sarcoidose", "cours/13_traitements", "cours/09_amyloses", "referentiel_transversal"],
 "liens_transversaux": ["Néphropathie tubulo-interstitielle", "Lymphopénie ; VS élevée et CRP normale", "Différentiels : sarcoïdose, médicaments, hépatite C, amylose", "Purpura : hypergammaglobulinémie ou cryoglobulinémie"],

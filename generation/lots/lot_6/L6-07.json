@@ -1,7 +1,7 @@
 {
 "id": "L6-07",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Maladie de Still de l'adulte, forme systémique corticodépendante traitée par biothérapie, compliquée d'une perforation digestive sous tocilizumab",
 "chapitres": ["fiches_complementaires/07_still", "cours/07_still_auto_inflammatoires", "cours/13_traitements", "fiches_complementaires/05_sarcoidose", "fiches_complementaires/10_horton", "fiches_complementaires/10_ppr", "referentiel_transversal"],
 "liens_transversaux": ["Douleur mécanique de hanche : ostéonécrose cortisonique", "Effets indésirables de la corticothérapie", "Bilan avant biothérapie : tuberculose latente, hépatites, vaccins", "Anti-IL-6 : CRP faussement rassurante, perforation digestive"],

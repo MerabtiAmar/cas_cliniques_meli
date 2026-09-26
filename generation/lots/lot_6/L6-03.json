@@ -1,7 +1,7 @@
 {
 "id": "L6-03",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Sclérodermie systémique cutanée limitée à atteinte digestive (œsophage, grêle, pseudo-obstruction)",
 "chapitres": ["cours/04_sclerodermie", "cours/09_amyloses", "cours/12_deficits_immunitaires", "cours/10_vascularites", "referentiel_transversal"],
 "liens_transversaux": ["Interpréter un hémogramme : anémie ferriprive", "Hypoalbuminémie : dénutrition ou syndrome néphrotique", "Malabsorption : sclérodermie, amylose, diarrhée infectieuse du déficit immunitaire commun variable", "Dépistage systématique de l'HTAP, de la PID et de la crise rénale"],

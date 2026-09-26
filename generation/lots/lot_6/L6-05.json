@@ -1,7 +1,7 @@
 {
 "id": "L6-05",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Dermatomyosite amyopathique à anti-MDA5 avec pneumopathie interstitielle d'aggravation rapide",
 "chapitres": ["cours/08_myopathies", "cours/01_lupus", "cours/04_sclerodermie", "cours/13_traitements", "cours/12_deficits_immunitaires", "cours/06_gougerot_sjogren", "referentiel_transversal"],
 "liens_transversaux": ["Lésions cutanées des mains : dermatomyosite ou lupus cutané aigu", "Caractériser une atteinte articulaire", "Origines de l'atteinte pulmonaire au cours des myosites ; infections opportunistes sous immunosuppresseurs", "Bolus de corticoïdes, cyclophosphamide, immunoglobulines intraveineuses"],

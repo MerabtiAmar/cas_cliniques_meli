@@ -1,7 +1,7 @@
 {
 "id": "L6-04",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Sclérodermie systémique diffuse avec pneumopathie interstitielle, puis atteinte cardiaque",
 "chapitres": ["cours/04_sclerodermie", "cours/08_myopathies", "cours/13_traitements", "cours/06_gougerot_sjogren", "fiches_complementaires/05_sarcoidose", "referentiel_transversal"],
 "liens_transversaux": ["Phénomène de Raynaud secondaire et capillaroscopie", "Pneumopathie interstitielle : sclérodermie, syndrome des anti-synthétases, sarcoïdose, Gougerot-Sjögren, méthotrexate", "Cyclophosphamide : posologie, précautions ; corticoïdes à forte dose et crise rénale", "Troubles du rythme et de la conduction : atteinte cardiaque sclérodermique"],
