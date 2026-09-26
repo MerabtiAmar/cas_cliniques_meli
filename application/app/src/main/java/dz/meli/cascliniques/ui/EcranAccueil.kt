@@ -48,7 +48,7 @@ fun EcranAccueil(ouvrir: (String) -> Unit) {
                     )
                 }
             }
-            Tuile("Cas cliniques", "${casFaits.size} faits sur ${paquet.cas.size}, étape par étape avec corrigé") { ouvrir(Routes.LISTE_CAS) }
+            Tuile("Cas cliniques", "${casFaits.size} fait${if (casFaits.size > 1) "s" else ""} sur ${paquet.cas.size}, étape par étape avec corrigé") { ouvrir(Routes.LISTE_CAS) }
             Tuile(
                 "Révision des QROC",
                 aReviser?.let { "$it carte${if (it > 1) "s" else ""} à revoir aujourd'hui · ${cartes.size} questions d'annales" } ?: "…",

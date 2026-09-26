@@ -9,6 +9,8 @@ import androidx.room.Query
 import androidx.room.RoomDatabase
 import androidx.room.Update
 import androidx.room.Upsert
+import androidx.room.migration.Migration
+import androidx.sqlite.db.SupportSQLiteDatabase
 import kotlinx.coroutines.flow.Flow
 
 /** Un passage sur un cas, en entraînement ou dans un examen blanc. */
@@ -54,6 +56,7 @@ data class RevisionQroc(
     val echeance: Long,
     val derniereRevision: Long?,
     val echecs: Int,
+    val premiereRevision: Long?,
 )
 
 @Entity(tableName = "signalements")
@@ -162,9 +165,16 @@ interface Acces {
 
 @Database(
     entities = [Tentative::class, Reponse::class, RevisionQroc::class, SignalementLocal::class, ExamenBlanc::class],
-    version = 1,
+    version = 2,
     exportSchema = false,
 )
 abstract class Base : RoomDatabase() {
     abstract fun acces(): Acces
+}
+
+/** Version 2 : date de première révision des QROC, pour le quota de cartes nouvelles par jour. */
+val MIGRATION_1_2 = object : Migration(1, 2) {
+    override fun migrate(db: SupportSQLiteDatabase) {
+        db.execSQL("ALTER TABLE revisions ADD COLUMN premiereRevision INTEGER")
+    }
 }
