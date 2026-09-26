@@ -1,7 +1,7 @@
 {
 "id": "L5-03",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Maladie de Gaucher de l'adulte (splénomégalie, cytopénies, ostéonécrose), compliquée d'une gammapathie monoclonale",
 "chapitres": ["cours/11_maladies_rares", "cours/09_amyloses", "cours/05_granulomatoses", "fiches_complementaires/07_still", "cours/12_deficits_immunitaires", "cours/13_traitements", "cours/06_gougerot_sjogren", "referentiel_transversal"],
 "liens_transversaux": ["Splénomégalie avec cytopénies : démarche étiologique", "Hyperferritinémie sans inflammation", "Ostéonécrose aseptique : Gaucher ou corticoïdes", "Gammapathie monoclonale et amylose AL", "Interpréter l'hémogramme et le bilan inflammatoire"],
@@ -53,7 +53,7 @@
 "signes_negatifs": ["CRP et fibrinogène normaux", "Pas de mélanodermie", "Bilan hépatique normal"], "piege": "", "a_verifier": false},
 {"n": 3, "enonce": "Quels diagnostics discutez-vous devant cette splénomégalie avec cytopénies ? Sur quels arguments les écartez-vous ?", "competence": "diagnostic_differentiel", "points": 2.5,
 "elements_attendus": [
-{"texte": "Granulomatose infectieuse : leishmaniose viscérale, tuberculose (contexte algérien)", "points": 0.5, "justification": "Pas de fièvre, CRP normale, sérologie de la leishmaniose négative", "sources": ["cours/05_granulomatoses.md|p.22 (étiologies infectieuses)", "examens/qroc_par_cours.md|Granulomatoses Q3 (P1 2024)"]},
+{"texte": "Granulomatose infectieuse : leishmaniose viscérale, tuberculose (contexte algérien)", "points": 0.5, "justification": "Pas de fièvre, CRP normale, sérologie de la leishmaniose négative", "sources": ["cours/05_granulomatoses.md|p.22 (étiologies infectieuses)", "examens/qroc_par_cours.md|Granulomatoses Q2 (P1 2024)"]},
 {"texte": "Hémopathie : lymphome, leucémie", "points": 0.75, "justification": "Ni fièvre, ni sueurs, ni amaigrissement ; pas d'adénopathie superficielle ni profonde ; frottis sans blastes", "sources": ["fiches_complementaires/05_sarcoidose.md|Diagnostics différentiels (lymphome : signes B, splénomégalie)", "cours/12_deficits_immunitaires.md|p.2 (syndrome lymphoprolifératif : splénomégalie)"]},
 {"texte": "Hypertension portale sur cirrhose", "points": 0.5, "justification": "Ni ascite ni circulation collatérale ; bilan hépatique et TP normaux ; tronc porte normal", "sources": ["cours/05_granulomatoses.md|p.13 (atteinte hépatique : cirrhose, HTP)"]},
 {"texte": "Amylose (hépatosplénomégalie)", "points": 0.5, "justification": "Bandelette négative, pas de macroglossie, pas de maladie inflammatoire chronique", "sources": ["cours/09_amyloses.md|p.1 (amylose AL : atteinte digestive)", "cours/09_amyloses.md|p.2 (amylose AA : hépatosplénomégalie)"]},

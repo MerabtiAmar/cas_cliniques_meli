@@ -1,7 +1,7 @@
 {
 "id": "L5-01",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Maladie de Fabry révélée par une protéinurie, compliquée d'un AVC ischémique",
 "chapitres": ["cours/11_maladies_rares", "cours/09_amyloses", "cours/02_sapl", "cours/01_lupus", "cours/13_traitements", "referentiel_transversal"],
 "liens_transversaux": ["Maladies de surcharge lysosomale", "Cardiomyopathie hypertrophique : Fabry ou amylose", "AVC du sujet jeune : rechercher un SAPL et un lupus", "AINS et toxicité rénale", "Interpréter un bilan rénal"],

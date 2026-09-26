@@ -1,7 +1,7 @@
 {
 "id": "L5-07",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Amylose AA rénale compliquant une polyarthrite rhumatoïde ancienne mal contrôlée, puis insuffisance surrénalienne aiguë",
 "chapitres": ["cours/09_amyloses", "referentiel_transversal", "cours/13_traitements", "cours/01_lupus", "cours/05_granulomatoses", "fiches_complementaires/05_sarcoidose"],
 "liens_transversaux": ["Caractériser une polyarthrite déformante et érosive", "Syndrome inflammatoire et anémie inflammatoire", "Syndrome néphrotique : amylose AA, AINS, lupus, amylose AL", "Biothérapie et dépistage de la tuberculose", "Arrêt brutal des corticoïdes : insuffisance surrénalienne"],

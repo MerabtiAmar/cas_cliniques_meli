@@ -1,7 +1,7 @@
 {
 "id": "L5-06",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Amylose AL multiviscérale (rein, cœur, langue, dysautonomie), décompensée sous corticothérapie",
 "chapitres": ["cours/09_amyloses", "cours/06_gougerot_sjogren", "cours/13_traitements", "referentiel_transversal"],
 "liens_transversaux": ["Syndrome néphrotique pur de l'adulte âgé", "Sécheresse buccale : Gougerot-Sjögren ou amylose", "Biopsie des glandes salivaires accessoires", "Rétention hydrosodée des corticoïdes et insuffisance cardiaque"],

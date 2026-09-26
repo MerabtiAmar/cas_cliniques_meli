@@ -1,7 +1,7 @@
 {
 "id": "L5-05",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Angio-œdème bradykinique héréditaire par déficit en C1-inhibiteur",
 "chapitres": ["cours/12_deficits_immunitaires", "cours/01_lupus", "cours/07_still_auto_inflammatoires", "cours/11_maladies_rares", "cours/10_vascularites", "cours/06_gougerot_sjogren", "referentiel_transversal"],
 "liens_transversaux": ["Crises abdominales récurrentes : auto-inflammatoire, porphyrie, vascularite", "Interpréter le complément : lupus ou déficit en C1-inhibiteur", "Déficits immunitaires primitifs du complément", "Forme acquise : hémopathie avec gammapathie monoclonale", "Maladie rare : errance diagnostique, conseil génétique"],
@@ -40,7 +40,7 @@
 "questions": [
 {"n": 3, "enonce": "Interprétez ce bilan. Justifiez votre réponse.", "competence": "interpreter_bilan", "points": 2.5,
 "elements_attendus": [
-{"texte": "Déficit en C1-inhibiteur, pondéral et fonctionnel", "points": 0.75, "justification": "Taux et activité du C1-inhibiteur abaissés", "sources": ["cours/12_deficits_immunitaires.md|p.3 (déficit en C1-inhibiteur)", "examens/qroc_par_cours.md|Déficits immunitaires Q3 (P2 2025)"]},
+{"texte": "Déficit en C1-inhibiteur, pondéral et fonctionnel", "points": 0.75, "justification": "Taux et activité du C1-inhibiteur abaissés", "sources": ["cours/12_deficits_immunitaires.md|p.3 (déficit en C1-inhibiteur)"]},
 {"texte": "C4 abaissé, consommé par l'activation de la voie classique du complément", "points": 0.75, "justification": "C4 0,04 g/L (< 0,1)", "sources": ["cours/12_deficits_immunitaires.md|p.3 (activation de la voie classique ; C4 fraction de la voie classique)", "hors_sources|Le corpus décrit l'activation de la voie classique dans le déficit en C1-inhibiteur mais n'écrit pas que le C4 y est abaissé ni qu'il sert au dépistage"]},
 {"texte": "Pas d'argument pour un lupus", "points": 0.5, "justification": "FAN négatifs, C3 normal (1,05 g/L) ; le lupus actif abaisse C3 et C4", "sources": ["cours/01_lupus.md|p.4 (explorations biologiques : complément, ANA)"]},
 {"texte": "Pas de syndrome inflammatoire", "points": 0.25, "justification": "CRP 2 mg/L (≤ 5)", "sources": ["referentiel_transversal.md|§3 Syndrome inflammatoire biologique"]},

@@ -1,7 +1,7 @@
 {
 "id": "L5-08",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Amylose héréditaire à transthyrétine mutée : polyneuropathie amyloïde familiale avec atteinte cardiaque",
 "chapitres": ["cours/09_amyloses", "cours/11_maladies_rares", "cours/06_gougerot_sjogren", "cours/10_vascularites", "fiches_complementaires/05_sarcoidose", "referentiel_transversal"],
 "liens_transversaux": ["Polyneuropathie et dysautonomie : amylose, Fabry, Gougerot-Sjögren, vascularites", "Cardiopathie infiltrative : amylose, sarcoïdose, Fabry", "Amylose AL ou à transthyrétine : typage", "Maladie héréditaire rare : conseil génétique et dépistage familial"],

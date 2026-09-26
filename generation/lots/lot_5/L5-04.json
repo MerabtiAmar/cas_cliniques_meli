@@ -1,7 +1,7 @@
 {
 "id": "L5-04",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Déficit immunitaire commun variable compliqué d'une granulomatose « sarcoïdose-like »",
 "chapitres": ["cours/12_deficits_immunitaires", "fiches_complementaires/05_sarcoidose", "cours/05_granulomatoses", "referentiel_transversal"],
 "liens_transversaux": ["Infections à répétition : quand suspecter un déficit immunitaire", "Hypogammaglobulinémie : causes secondaires à éliminer", "Granulomatose : sarcoïdose ou DICV (gammaglobulines)", "Interpréter l'électrophorèse des protéines"],

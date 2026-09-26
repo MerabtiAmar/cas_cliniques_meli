@@ -1,7 +1,7 @@
 {
 "id": "L5-02",
 "version": 1,
-"statut": "genere",
+"statut": "verifie_ia",
 "maladie_principale": "Maladie de Wilson à forme hépatique, hémolytique et neuropsychiatrique",
 "chapitres": ["cours/11_maladies_rares", "cours/01_lupus", "cours/02_sapl", "cours/03_behcet", "cours/13_traitements", "referentiel_transversal"],
 "liens_transversaux": ["Anémie hémolytique à Coombs négatif", "Hépatopathie et hémolyse du sujet jeune", "Troubles neuropsychiatriques : lupus, neuro-Behçet", "Maladie autosomique récessive : dépistage de la fratrie"],
@@ -44,7 +44,7 @@
 {"n": 2, "enonce": "Interprétez le bilan hépatique. Justifiez votre réponse.", "competence": "interpreter_bilan", "points": 2,
 "elements_attendus": [
 {"texte": "Cytolyse hépatique", "points": 0.75, "justification": "ASAT 186 UI/L (> 40, environ 4,5 N), ALAT 154 UI/L (> 45, environ 3,5 N)", "sources": ["referentiel_transversal.md|§1 Valeurs normales et seuils (ASAT, ALAT)"]},
-{"texte": "Cholestase", "points": 0.5, "justification": "GGT 88 UI/L (≥ 45)", "sources": ["referentiel_transversal.md|§1 Valeurs normales et seuils (GGT)"]},
+{"texte": "Cholestase probable (Gamma-GT 88 UI/L, ≥ 45), à confirmer par un dosage des phosphatases alcalines non réalisé ici", "points": 0.5, "justification": "GGT 88 UI/L (≥ 45)", "sources": ["referentiel_transversal.md|§1 Valeurs normales et seuils (GGT)"]},
 {"texte": "Baisse du TP : altération de la fonction hépatique", "points": 0.5, "justification": "TP 61 % (< 70), sans CIVD (plaquettes normales)", "sources": ["referentiel_transversal.md|§1 Valeurs normales et seuils (TP)"]},
 {"texte": "Hépatopathie inexpliquée associée à une hémolyse chez un sujet jeune : évoque une maladie de Wilson", "points": 0.25, "justification": "Sérologies A, B, C négatives, pas d'alcool, aucun médicament", "sources": ["examens/qroc_par_cours.md|Maladies rares Q9 (P1 2024)"]}],
 "signes_negatifs": ["Sérologies des hépatites négatives", "Pas d'alcool ni de médicament", "Pas d'ascite ni de circulation veineuse collatérale"], "piege": "", "a_verifier": false},
