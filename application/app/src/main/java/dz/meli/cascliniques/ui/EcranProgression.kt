@@ -56,7 +56,7 @@ fun EcranProgression(retour: () -> Unit) {
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             Text("Cas cliniques", style = MaterialTheme.typography.titleMedium)
-            Text("${dernieres.size} cas faits sur ${paquet.cas.size}")
+            Text("${dernieres.size} cas fait${if (dernieres.size > 1) "s" else ""} sur ${paquet.cas.size}")
             if (parTheme.isNotEmpty()) {
                 for ((theme, notes) in parTheme.toSortedMap()) {
                     Ligne(theme, "${formaterNombre(notes.average().times(4).roundToInt() / 4.0)}/20 (${notes.size} cas)")

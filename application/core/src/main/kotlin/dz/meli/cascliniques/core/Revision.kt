@@ -48,6 +48,8 @@ data class EtatRevision(
     val echeance: Long,
     val derniereRevision: Long? = null,
     val echecs: Int = 0,
+    /** Jour où la carte a été vue pour la première fois : sert au quota de cartes nouvelles par jour. */
+    val premiereRevision: Long? = null,
 )
 
 /**
@@ -106,13 +108,15 @@ class Planificateur(private val intervalleMax: Int = 30, private val dateExamen:
             echeance = aujourdhui + borne,
             derniereRevision = aujourdhui,
             echecs = echecs,
+            premiereRevision = precedent.premiereRevision ?: aujourdhui,
         )
     }
 }
 
 /**
  * Cartes à réviser aujourd'hui : d'abord celles qui sont dues (les plus en retard en premier),
- * puis des cartes nouvelles, les plus souvent posées à l'examen en premier.
+ * puis des cartes nouvelles, les plus souvent posées à l'examen en premier. Les cartes nouvelles
+ * déjà vues aujourd'hui sont décomptées du quota `nouvellesMax`.
  */
 fun fileDuJour(
     cartes: List<CarteQroc>,
@@ -123,9 +127,10 @@ fun fileDuJour(
     val dues = cartes
         .filter { etats[it.id]?.let { e -> e.echeance <= aujourdhui } == true }
         .sortedBy { etats.getValue(it.id).echeance }
+    val introduitesAujourdhui = etats.values.count { it.premiereRevision == aujourdhui }
     val nouvelles = cartes
         .filter { it.id !in etats }
         .sortedByDescending { it.occurrences.size }
-        .take(nouvellesMax)
+        .take((nouvellesMax - introduitesAujourdhui).coerceAtLeast(0))
     return dues + nouvelles
 }

@@ -9,5 +9,5 @@ annotation class Query(val value: String)
 annotation class Insert
 annotation class Update
 annotation class Upsert
-abstract class RoomDatabase { class Builder<T : RoomDatabase> { fun build(): T = TODO() } }
+abstract class RoomDatabase { class Builder<T : RoomDatabase> { fun addMigrations(vararg migrations: androidx.room.migration.Migration): Builder<T> = this; fun build(): T = TODO() } }
 object Room { fun <T : RoomDatabase> databaseBuilder(context: android.content.Context, klass: Class<T>, name: String): RoomDatabase.Builder<T> = TODO() }

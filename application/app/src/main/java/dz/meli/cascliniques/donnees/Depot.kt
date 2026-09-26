@@ -42,7 +42,9 @@ import java.time.format.DateTimeFormatter
  */
 class Depot(private val context: Context, private val scope: CoroutineScope) {
 
-    private val base = Room.databaseBuilder(context, Base::class.java, "cas_cliniques.db").build()
+    private val base = Room.databaseBuilder(context, Base::class.java, "cas_cliniques.db")
+        .addMigrations(MIGRATION_1_2)
+        .build()
     val acces: Acces = base.acces()
 
     private val _contenu = MutableStateFlow(Paquet())
@@ -250,6 +252,6 @@ class Depot(private val context: Context, private val scope: CoroutineScope) {
     }
 }
 
-private fun RevisionQroc.versEtat() = EtatRevision(id, repetitions, intervalle, facilite, echeance, derniereRevision, echecs)
+private fun RevisionQroc.versEtat() = EtatRevision(id, repetitions, intervalle, facilite, echeance, derniereRevision, echecs, premiereRevision)
 
-private fun EtatRevision.versEntite() = RevisionQroc(id, repetitions, intervalle, facilite, echeance, derniereRevision, echecs)
+private fun EtatRevision.versEntite() = RevisionQroc(id, repetitions, intervalle, facilite, echeance, derniereRevision, echecs, premiereRevision)

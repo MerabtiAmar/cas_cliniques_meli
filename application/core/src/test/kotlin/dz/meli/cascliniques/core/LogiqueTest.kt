@@ -121,6 +121,20 @@ class RevisionTest {
         val etats = mapOf("C" to EtatRevision("C", echeance = jour - 2), "A" to EtatRevision("A", echeance = jour + 3))
         assertEquals(listOf("C", "B", "D"), fileDuJour(cartes, etats, jour, nouvellesMax = 2).map { it.id })
     }
+
+    @Test
+    fun `les cartes nouvelles vues aujourd'hui sont décomptées du quota du jour`() {
+        fun carte(id: String) = CarteQroc(Qroc(id, "c", enonce = id), listOf(Qroc(id, "c", enonce = id)))
+        val cartes = listOf("A", "B", "C", "D").map(::carte)
+        // A a été vue pour la première fois aujourd'hui et notée « Bien » : elle n'est plus due, mais elle compte.
+        val a = Planificateur().reviser(null, "A", Note.BIEN, jour)
+        assertEquals(jour, a.premiereRevision)
+        assertEquals(listOf("B"), fileDuJour(cartes, mapOf("A" to a), jour, nouvellesMax = 2).map { it.id })
+        // Le lendemain, le quota est de nouveau entier.
+        assertEquals(2, fileDuJour(cartes, mapOf("A" to a), jour + 1, nouvellesMax = 2).count { it.id != "A" })
+        // Une carte déjà connue garde sa date de première révision.
+        assertEquals(jour, Planificateur().reviser(a, "A", Note.BIEN, jour + 1).premiereRevision)
+    }
 }
 
 class ImportTest {

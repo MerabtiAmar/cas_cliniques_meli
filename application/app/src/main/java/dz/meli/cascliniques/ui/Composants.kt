@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.selection.toggleable
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -35,6 +36,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -189,11 +191,14 @@ private fun Corrige(question: Question, coches: Set<Int>, onCoche: ((Int, Boolea
             )
         }
         question.elementsAttendus.forEachIndexed { i, element ->
-            Row(verticalAlignment = Alignment.Top) {
-                Checkbox(
-                    checked = i in coches,
-                    onCheckedChange = onCoche?.let { rappel -> { coche: Boolean -> rappel(i, coche) } },
-                )
+            // Toute la ligne coche l'élément, pas seulement la case : plus simple au doigt.
+            val ligne = if (onCoche != null) {
+                Modifier.toggleable(value = i in coches, role = Role.Checkbox) { coche -> onCoche(i, coche) }
+            } else {
+                Modifier
+            }
+            Row(ligne, verticalAlignment = Alignment.Top) {
+                Checkbox(checked = i in coches, onCheckedChange = null)
                 Column(Modifier.weight(1f).padding(top = 12.dp)) {
                     Text(
                         "${element.texte} (${points(element.points)})",
