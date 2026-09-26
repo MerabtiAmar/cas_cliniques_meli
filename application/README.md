@@ -21,6 +21,8 @@ Aucune donnée ne quitte le téléphone, sauf l'export des signalements, que l'�
 
 Versions : Kotlin 2.2.21, AGP 8.13, Compose BOM 2025.09, Room 2.7 (fichier `gradle/libs.versions.toml`). Si Android Studio propose de mettre à jour AGP, on peut accepter.
 
+Procédure complète (prérequis, tests, test sur appareil, livraison de l'APK) pour Claude Code en local : `COMPILER_EN_LOCAL.md`.
+
 ## Mettre à jour le contenu
 
 Le contenu embarqué est `app/src/main/assets/contenu.json`, produit par :
